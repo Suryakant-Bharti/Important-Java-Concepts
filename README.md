@@ -18,6 +18,6 @@
 
 ## Breadth-first Search
 
-## Math
-
 ## Bit Manipulation
+
+## Math
