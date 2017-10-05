@@ -12,4 +12,12 @@
 
 ## Binary Search
 
+## Tree
+
+## Depth-first Search
+
+## Breadth-first Search
+
 ## Math
+
+## Bit Manipulation
