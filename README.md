@@ -8,6 +8,8 @@
 
 ## Linked Lists
 
+## Stack
+
 ## Two Pointers
 
 ## Binary Search
