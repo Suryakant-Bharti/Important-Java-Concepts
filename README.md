@@ -1,4 +1,4 @@
-# List of programs:
+# List of LeetCode Programs:
 
 ## Arrays
 
