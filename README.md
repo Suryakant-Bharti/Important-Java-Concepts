@@ -1,25 +1,27 @@
-# List of LeetCode Programs:
+# Learn Programming
 
-## Arrays
+## List of LeetCode Programs:
 
-## Strings
+### Arrays
 
-## Hash Table
+### Strings
 
-## Linked Lists
+### Hash Table
 
-## Stack
+### Linked Lists
 
-## Two Pointers
+### Stack
 
-## Binary Search
+### Two Pointers
 
-## Tree
+### Binary Search
 
-## Depth-first Search
+### Tree
 
-## Breadth-first Search
+### Depth-first Search
 
-## Bit Manipulation
+### Breadth-first Search
 
-## Math
+### Bit Manipulation
+
+### Math
