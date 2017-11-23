@@ -1,6 +1,6 @@
 # Learn Programming
 
-Programs of important Java Concepts, Data Structures and Algorithms. Java + GeekforGeeks + LeetCode
+Programs of Java Concepts, Data Structures, Algorithms & Design Patterns. GeekforGeeks + LeetCode
 
 ## List of LeetCode Programs:
 
