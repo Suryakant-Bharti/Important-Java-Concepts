@@ -2,11 +2,11 @@
 
 Programs of Java Concepts, Data Structures, Algorithms & Design Patterns.
 
-## Java Topics:
+## 1. Java Topics:
 
-## GeeksForGeeks Topics:
+## 2. GeeksForGeeks Topics:
 
-## LeetCode Topics:
+## 3. LeetCode Topics:
 
 ### Arrays
 
@@ -32,4 +32,4 @@ Programs of Java Concepts, Data Structures, Algorithms & Design Patterns.
 
 ### Math
 
-## Design Patterns Topics:
+## 4. Design Patterns Topics:
