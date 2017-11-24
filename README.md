@@ -2,7 +2,9 @@
 
 Programs of Java Concepts, Data Structures, Algorithms & Design Patterns.
 
-## 1. Java Topics:
+## 1. Java Concepts:
+
+Website Reference - TutorialsPoint, JavaPoint
 
 ### Generics
 
@@ -10,9 +12,67 @@ Programs of Java Concepts, Data Structures, Algorithms & Design Patterns.
 
 ### Multithreading
 
-## 2. GeeksForGeeks Topics:
+### Serialization
 
-## 3. LeetCode Topics:
+## 2. Object-Oriented Programming:
+
+Website Reference - TutorialsPoint, JavaPoint
+
+### Inheritance
+
+### Overriding
+
+### Polymorphism
+
+### Abstraction
+
+### Encapsulation
+
+### Interfaces
+
+## 3. Data Structures:
+
+Website Reference - GeekForGeeks
+
+### Arrays
+
+### Linked Lists
+
+### Stacks
+
+### Queues
+
+### Binary Trees
+
+### Binary Search Trees
+
+### Heaps
+
+### Hashing
+
+### Graph
+
+### Matrix
+
+### Strings
+
+## 3. Algorithms:
+
+Website Reference - GeekForGeeks
+
+### Searching
+
+### Sorting
+
+### Tree Traversal
+
+### BFS - DFS
+
+### Common Graph Algos
+
+## 5. Coding Interview:
+
+Website Reference - LeetCode
 
 ### Arrays
 
@@ -38,4 +98,4 @@ Programs of Java Concepts, Data Structures, Algorithms & Design Patterns.
 
 ### Math
 
-## 4. Design Patterns Topics:
+## 6. Design Patterns:
