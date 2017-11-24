@@ -31,3 +31,5 @@ Programs of Java Concepts, Data Structures, Algorithms & Design Patterns.
 ### Bit Manipulation
 
 ### Math
+
+## Design Patterns Topics:
