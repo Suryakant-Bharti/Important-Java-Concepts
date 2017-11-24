@@ -1,6 +1,6 @@
 # Learn Programming
 
-Programs of Java Concepts, Data Structures, Algorithms & Design Patterns.
+Programs of Java Concepts, Object-Oriented Programming, Data Structures, Algorithms, Design Patterns and Technical Coding Interview. 
 
 ## 1. Java Concepts:
 
