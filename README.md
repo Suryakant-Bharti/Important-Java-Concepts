@@ -1,10 +1,12 @@
 # Learn Programming
 
-Programs of Java Concepts, Data Structures, Algorithms & Design Patterns. GeekforGeeks + LeetCode
+Programs of Java Concepts, Data Structures, Algorithms & Design Patterns.
 
-## List of Java Topics:
+## Java Topics:
 
-## List of LeetCode Topics:
+## GeeksForGeeks Topics:
+
+## LeetCode Topics:
 
 ### Arrays
 
