@@ -4,6 +4,12 @@ Programs of Java Concepts, Data Structures, Algorithms & Design Patterns.
 
 ## 1. Java Topics:
 
+### Generics
+
+### Collections
+
+### Multithreading
+
 ## 2. GeeksForGeeks Topics:
 
 ## 3. LeetCode Topics:
