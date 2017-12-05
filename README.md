@@ -42,7 +42,7 @@ Website Reference - TutorialsPoint, JavaPoint
 
 Website Reference - TutorialsPoint, JavaPoint
 
-### Inheritance
+### [Inheritance](Object-Oriented-Programming/inheritance)
 
 ### Overriding
 
