@@ -2,7 +2,7 @@
 
 Programs of Java Concepts, Object-Oriented Programming, Data Structures, Algorithms, Design Patterns and Technical Coding Interview. 
 
-Reference websites - TutorialsPoint, JavaPoint, GeekForGeeks, LeetCode
+Reference websites - TutorialsPoint, javaTpoint, GeeksforGeeks, LeetCode
 
 ## 1. Java Beginner:
 
