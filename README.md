@@ -22,8 +22,6 @@ Website Reference - TutorialsPoint, JavaPoint
 
 ### Exceptions
 
-### Inner Classes
-
 ### Generics
 
 ### Collections
@@ -41,6 +39,8 @@ Website Reference - TutorialsPoint, JavaPoint
 ## 2. Object-Oriented Programming:
 
 Website Reference - TutorialsPoint, JavaPoint
+
+### [Inner Classes](Object-Oriented-Programming/inner_class)
 
 ### [Inheritance](Object-Oriented-Programming/inheritance)
 
