@@ -2,7 +2,7 @@
 
 Programs of Java Concepts, Object-Oriented Programming, Data Structures, Algorithms, Design Patterns and Technical Coding Interview. 
 
-## 1. Java Concepts:
+## 1. Java - Beginner Concepts:
 
 Website Reference - TutorialsPoint, JavaPoint
 
@@ -14,29 +14,13 @@ Website Reference - TutorialsPoint, JavaPoint
 
 ### Date & Time
 
-### Regular Expressions
-
 ### Methods
 
 ### Files & I/O
 
 ### Exceptions
 
-### Generics
-
-### Collections
-
-### Serialization
-
-### Networking
-
-### Multithreading
-
-### Concurrency Programs
-
-### Java 8 Features
-
-## 2. Object-Oriented Programming:
+## 2. Java - Object-Oriented Programming:
 
 Website Reference - TutorialsPoint, JavaPoint
 
@@ -54,7 +38,33 @@ Website Reference - TutorialsPoint, JavaPoint
 
 ### Interfaces
 
-## 3. Data Structures:
+## 3. Java - Advanced Concepts:
+
+### Regular Expressions
+
+### Generics
+
+### Collections
+
+### Serialization
+
+### Networking
+
+### [Multithreading](Java-Advanced-Concepts/multithreading)
+
+### Concurrency Programs
+
+### Java 8 Features
+
+## 4. Java - Design Patterns:
+
+### Creational Patterns
+
+### Structural Patterns
+
+### Behavioral Patterns
+
+## 5. Data Structures:
 
 Website Reference - GeekForGeeks
 
@@ -80,7 +90,7 @@ Website Reference - GeekForGeeks
 
 ### Strings
 
-## 3. Algorithms:
+## 6. Algorithms:
 
 Website Reference - GeekForGeeks
 
@@ -94,7 +104,7 @@ Website Reference - GeekForGeeks
 
 ### Common Graph Algos
 
-## 5. Coding Interview:
+## 7. Coding Interview:
 
 Website Reference - LeetCode
 
@@ -121,11 +131,3 @@ Website Reference - LeetCode
 ### Bit Manipulation
 
 ### Math
-
-## 6. Design Patterns:
-
-### Creational Patterns
-
-### Structural Patterns
-
-### Behavioral Patterns
