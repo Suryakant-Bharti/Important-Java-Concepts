@@ -44,7 +44,7 @@ Website Reference - TutorialsPoint, JavaPoint
 
 ### [Inheritance](Object-Oriented-Programming/inheritance)
 
-### Overriding
+### [Overriding](Object-Oriented-Programming/overriding)
 
 ### Polymorphism
 
