@@ -40,7 +40,7 @@ Reference websites - TutorialsPoint, javaTpoint, GeeksforGeeks, LeetCode
 
 ### Regular Expressions
 
-### Generics
+### [Generics](Java-Advanced-Concepts/generics)
 
 ### Collections
 
