@@ -14,8 +14,6 @@ Reference books - Java The Complete reference, Java Concurrency in Practice
 
 ### Exceptions
 
-### Regular Expressions
-
 ### [Generics](Java-Concepts/generics)
 
 ### Collections
@@ -23,6 +21,8 @@ Reference books - Java The Complete reference, Java Concurrency in Practice
 ### Serialization
 
 ### Networking
+
+### Regular Expressions
 
 ### Java 8 Features
 
