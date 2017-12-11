@@ -10,8 +10,6 @@ Reference books - Java The Complete reference, Java Concurrency in Practice
 
 ### Basics
 
-### Methods
-
 ### Files & I/O
 
 ### Exceptions
