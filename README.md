@@ -1,24 +1,32 @@
 # Learn Programming
 
-Programs of Java Concepts, Object-Oriented Programming, Data Structures, Algorithms, Design Patterns and Technical Coding Interview. 
+Programs of Java Concepts, Object-Oriented Programming, Concurrency, Data Structures, Algorithms, Design Patterns and Technical Coding Interview. 
 
 Reference websites - TutorialsPoint, javaTpoint, GeeksforGeeks, LeetCode
 
-## 1. Java Beginner:
+Reference books - Java The Complete reference, Java Concurrency in Practice
+
+## 1. Java Concepts:
 
 ### Basics
-
-### Strings
-
-### Arrays
-
-### Date & Time
 
 ### Methods
 
 ### Files & I/O
 
 ### Exceptions
+
+### Regular Expressions
+
+### [Generics](Java-Advanced-Concepts/generics)
+
+### Collections
+
+### Serialization
+
+### Networking
+
+### Java 8 Features
 
 ## 2. Object-Oriented Programming:
 
@@ -36,23 +44,13 @@ Reference websites - TutorialsPoint, javaTpoint, GeeksforGeeks, LeetCode
 
 ### Interfaces
 
-## 3. Java Advanced Concepts:
-
-### Regular Expressions
-
-### [Generics](Java-Advanced-Concepts/generics)
-
-### Collections
-
-### Serialization
-
-### Networking
+## 3. Concurrency:
 
 ### [Multithreading](Java-Advanced-Concepts/multithreading)
 
-### Concurrency Programs
+### Sleep vs Wait
 
-### Java 8 Features
+### Classic Problems
 
 ## 4. Data Structures:
 
@@ -88,9 +86,21 @@ Reference websites - TutorialsPoint, javaTpoint, GeeksforGeeks, LeetCode
 
 ### BFS - DFS
 
-### Common Graph Algos
+### Graph
 
-## 6. Coding Interview:
+### Divide & Conquer
+
+### Dynamic Programming
+
+## 6. Design Patterns:
+
+### Creational Patterns
+
+### Structural Patterns
+
+### Behavioral Patterns
+
+## 7. Coding Interview Problems:
 
 ### Arrays
 
@@ -115,11 +125,3 @@ Reference websites - TutorialsPoint, javaTpoint, GeeksforGeeks, LeetCode
 ### Bit Manipulation
 
 ### Math
-
-## 7. Design Patterns:
-
-### Creational Patterns
-
-### Structural Patterns
-
-### Behavioral Patterns
