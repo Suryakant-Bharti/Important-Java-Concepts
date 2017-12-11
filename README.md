@@ -2,11 +2,9 @@
 
 # Learn Programming
 
-Programs of Java Concepts, Object-Oriented Programming, Concurrency, Data Structures, Algorithms, Design Patterns and Technical Coding Interview. 
+Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, Data Structures, Algorithms, Design Patterns and Technical Coding Interview. 
 
-Reference websites - 
-
-Reference books - 
+Every Programmer must know these Concepts.
 
 ## 1. Java Concepts:
 
