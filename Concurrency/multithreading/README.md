@@ -2,4 +2,5 @@
 
 ## Life Cycle of a Thread :
 
-![thread_life_cycle](https://user-images.githubusercontent.com/2780145/33794777-92732bba-dcf8-11e7-9308-3a4fff1440a3.jpg)
+![Java Thread Life Cycle](https://user-images.githubusercontent.com/2780145/33823420-15edbc42-de81-11e7-9785-79e99b7b3a11.png)
+
