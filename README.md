@@ -1,10 +1,12 @@
+![Great City Skyline Vector](https://user-images.githubusercontent.com/2780145/33828904-f4f9db84-de93-11e7-87bb-82fe8734ebc2.png)
+
 # Learn Programming
 
 Programs of Java Concepts, Object-Oriented Programming, Concurrency, Data Structures, Algorithms, Design Patterns and Technical Coding Interview. 
 
-Reference websites - TutorialsPoint, javaTpoint, GeeksforGeeks, LeetCode
+Reference websites - 
 
-Reference books - Java The Complete reference, Java Concurrency in Practice
+Reference books - 
 
 ## 1. Java Concepts:
 
@@ -125,3 +127,16 @@ Reference books - Java The Complete reference, Java Concurrency in Practice
 ### Bit Manipulation
 
 ### Math
+
+--- References ---
+--------
+
+    This repository contains some codes and images which were not created by me.
+    I hope using others' work for "Nonprofit Educational Purpose" comes under "Fair Use".
+    Thank you :)
+    
+    WEBSITES - javaTpoint, TutorialsPoint, StackOverflow, GeeksforGeeks, LeetCode
+
+    BOOKS - Java The Complete reference, Java Concurrency in Practice
+    
+    IMAGES - Google Images ^_^
