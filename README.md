@@ -82,7 +82,7 @@ Every Programmer must know these Concepts.
 
 ### [Searching](Algorithms/searching)
 
-### Sorting
+### [Sorting](Algorithms/sorting)
 
 ### Tree Traversal
 
