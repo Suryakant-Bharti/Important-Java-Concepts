@@ -132,7 +132,7 @@ Every Programmer must know these Concepts.
 --------
 
     This repository contains some codes and images which were not created by me.
-    I hope using others' work for "Nonprofit Educational Purpose" comes under "Fair Use".
+    I think using others' work for "Nonprofit Educational Purpose" is "Fair Use".
     Thank you :)
     
     WEBSITES - javaTpoint, TutorialsPoint, StackOverflow, GeeksforGeeks, LeetCode
