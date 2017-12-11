@@ -16,7 +16,7 @@ Reference books - Java The Complete reference, Java Concurrency in Practice
 
 ### Regular Expressions
 
-### [Generics](Java-Advanced-Concepts/generics)
+### [Generics](Java-Concepts/generics)
 
 ### Collections
 
@@ -44,7 +44,7 @@ Reference books - Java The Complete reference, Java Concurrency in Practice
 
 ## 3. Concurrency:
 
-### [Multithreading](Java-Advanced-Concepts/multithreading)
+### [Multithreading](Concurrency/multithreading)
 
 ### Sleep vs Wait
 
