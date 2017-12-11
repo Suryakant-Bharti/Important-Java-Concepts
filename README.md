@@ -10,13 +10,15 @@ Every Programmer must know these Concepts.
 
 ### Basics
 
+### Exceptions
+
 ### Strings
 
 ### [Regular Expressions](Java-Concepts/regex)
 
-### Files & I/O
+### Lambda Expressions
 
-### Exceptions
+### Files & I/O
 
 ### [Generics](Java-Concepts/generics)
 
@@ -26,7 +28,7 @@ Every Programmer must know these Concepts.
 
 ### Networking
 
-### Java 8 Features
+### Java 8/9 Features
 
 ## 2. Object-Oriented Programming:
 
