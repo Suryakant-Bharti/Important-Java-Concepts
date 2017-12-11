@@ -80,7 +80,7 @@ Every Programmer must know these Concepts.
 
 ## 5. Algorithms:
 
-### Searching
+### [Searching](Algorithms/searching)
 
 ### Sorting
 
