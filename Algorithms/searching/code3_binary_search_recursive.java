@@ -41,4 +41,3 @@ class BinarySearch
 			System.out.println("Element found at index "+result);
 	}
 }
-/* This code is contributed by Rajat Mishra */
