@@ -10,6 +10,10 @@ Reference books - Java The Complete reference, Java Concurrency in Practice
 
 ### Basics
 
+### Strings
+
+### [Regular Expressions](Java-Concepts/regex)
+
 ### Files & I/O
 
 ### Exceptions
@@ -21,8 +25,6 @@ Reference books - Java The Complete reference, Java Concurrency in Practice
 ### Serialization
 
 ### Networking
-
-### Regular Expressions
 
 ### Java 8 Features
 
