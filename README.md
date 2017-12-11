@@ -54,7 +54,7 @@ Every Programmer must know these Concepts.
 
 ### Sleep vs Wait
 
-### Classic Problems
+### [Classic Problems](Concurrency/classic_problems)
 
 ## 4. Data Structures:
 
