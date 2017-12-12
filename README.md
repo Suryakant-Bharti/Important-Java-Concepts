@@ -86,7 +86,7 @@ Every Programmer must know these Concepts.
 
 ### [Sorting](Algorithms/sorting)
 
-### Tree Traversal
+### [Tree Traversal](Algorithms/tree_traversal)
 
 ### BFS - DFS
 
@@ -134,7 +134,7 @@ Every Programmer must know these Concepts.
 --------
 
     This repository contains some codes and images which were not created by me.
-    I think using others' work for "Nonprofit Educational Purpose" is "Fair Use".
+    Only using for "Nonprofit Educational Purpose".
     Thank you :)
     
     WEBSITES - javaTpoint, TutorialsPoint, StackOverflow, GeeksforGeeks, LeetCode
