@@ -88,7 +88,7 @@ Every Programmer must know these Concepts.
 
 ### [Tree Traversal](Algorithms/tree_traversal)
 
-### BFS - DFS
+### [Graph Traversal](Algorithms/graph_traversal)
 
 ### Graph
 
