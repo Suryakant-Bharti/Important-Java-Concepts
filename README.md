@@ -4,10 +4,6 @@
 
 Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, Data Structures, Algorithms and Design Patterns. 
 
-Every Programmer must know these Concepts.
-
-![Inspiring Quote](https://user-images.githubusercontent.com/2780145/33845470-989ae82a-dec9-11e7-8739-aeaa3b753101.png)
-
 ## 1. Java Concepts:
 
 ### Basics
