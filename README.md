@@ -2,7 +2,7 @@
 
 # Learn Programming
 
-Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, Data Structures, Algorithms, Design Patterns and Technical Coding Interview. 
+Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, Data Structures, Algorithms and Design Patterns. 
 
 Every Programmer must know these Concepts.
 
@@ -90,7 +90,7 @@ Every Programmer must know these Concepts.
 
 ### [Graph Traversal](Algorithms/graph_traversal)
 
-### [Important Graph Algorithms](Algorithms/graph_classic_algos)
+### [Graph Algorithms](Algorithms/graph_classic_algos)
 
 ### Dynamic Programming
 
@@ -102,32 +102,6 @@ Every Programmer must know these Concepts.
 
 ### Behavioral Patterns
 
-## 7. Coding Interview Problems:
-
-### Arrays
-
-### Strings
-
-### Hash Table
-
-### Linked Lists
-
-### Stack
-
-### Two Pointers
-
-### Binary Search
-
-### Tree
-
-### Depth-first Search
-
-### Breadth-first Search
-
-### Bit Manipulation
-
-### Math
-
 --- References ---
 --------
 
@@ -135,7 +109,7 @@ Every Programmer must know these Concepts.
     Only using for "Nonprofit Educational Purpose".
     Thank you :)
     
-    WEBSITES - javaTpoint, TutorialsPoint, StackOverflow, GeeksforGeeks, LeetCode
+    WEBSITES - javaTpoint, TutorialsPoint, StackOverflow, GeeksforGeeks
 
     BOOKS - Java The Complete reference, Java Concurrency in Practice
     
