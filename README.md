@@ -8,13 +8,9 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
 
 ### Basics
 
-### Exceptions
-
 ### Strings
 
-### [Regular Expressions](Java-Concepts/regex)
-
-### Lambda Expressions
+### Exceptions
 
 ### Files & I/O
 
@@ -25,6 +21,10 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
 ### Serialization
 
 ### Networking
+
+### [Regular Expressions](Java-Concepts/regex)
+
+### Lambda Expressions
 
 ### Java 8/9 Features
 
@@ -56,6 +56,10 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
 
 ### Arrays
 
+### Matrix
+
+### Strings
+
 ### Linked Lists
 
 ### Stacks
@@ -71,10 +75,6 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
 ### Hashing
 
 ### Graph
-
-### Matrix
-
-### Strings
 
 ## 5. Algorithms:
 
