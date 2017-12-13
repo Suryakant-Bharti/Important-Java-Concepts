@@ -90,7 +90,7 @@ Every Programmer must know these Concepts.
 
 ### [Graph Traversal](Algorithms/graph_traversal)
 
-### Graph
+### [Important Graph Algorithms](Algorithms/graph_classic_algos)
 
 ### Divide & Conquer
 
