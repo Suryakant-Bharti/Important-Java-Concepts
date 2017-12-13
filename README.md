@@ -92,8 +92,6 @@ Every Programmer must know these Concepts.
 
 ### [Important Graph Algorithms](Algorithms/graph_classic_algos)
 
-### Divide & Conquer
-
 ### Dynamic Programming
 
 ## 6. Design Patterns:
