@@ -44,13 +44,17 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
 
 ### Interfaces
 
-## 3. Concurrency:
+## 3. Operating Systems Concepts:
 
 ### [Multithreading](Concurrency/multithreading)
 
-### Sleep vs Wait
+### Threads - Sleep vs Wait
 
-### [Classic Problems](Concurrency/classic_problems)
+### [Classic Concurrency Problems](Concurrency/classic_problems)
+
+### Scheduling
+
+### Memory Management
 
 ## 4. Data Structures:
 
@@ -62,11 +66,7 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
 
 ### Linked Lists
 
-### Stacks
-
-### Queues
-
-### Binary Trees
+### Stacks & Queues
 
 ### Binary Search Trees
 
@@ -105,7 +105,7 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
     Only using for "Nonprofit Educational Purpose".
     Thank you :)
     
-    WEBSITES - javaTpoint, TutorialsPoint, StackOverflow, GeeksforGeeks
+    WEBSITES - javaTpoint, TutorialsPoint, StackOverflow, GeeksforGeeks, SourceMaking
 
     BOOKS - Java The Complete reference, Java Concurrency in Practice
     
