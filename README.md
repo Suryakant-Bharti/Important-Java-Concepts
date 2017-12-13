@@ -24,7 +24,7 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
 
 ### [Regular Expressions](Java-Concepts/regex)
 
-### Lambda Expressions
+### [Lambda Expressions](Java-Concepts/lambda)
 
 ### Java 8/9 Features
 
