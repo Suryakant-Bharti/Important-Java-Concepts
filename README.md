@@ -88,7 +88,7 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
 
 ### [Graph Algorithms](Algorithms/graph_classic_algos)
 
-### Dynamic Programming
+### [Dynamic Programming](Algorithms/dynamic_programming)
 
 ## 6. Design Patterns:
 
