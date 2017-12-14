@@ -8,6 +8,8 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
 
 ### Basics
 
+### Arrays
+
 ### Strings
 
 ### Exceptions
@@ -24,7 +26,7 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
 
 ### [Regular Expressions](Java-Concepts/regex)
 
-### Lambda Expressions
+### [Lambda Expressions](Java-Concepts/lambda)
 
 ### Java 8/9 Features
 
@@ -44,29 +46,23 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
 
 ### Interfaces
 
-## 3. Concurrency:
+## 3. Operating Systems Concepts:
 
 ### [Multithreading](Concurrency/multithreading)
 
-### Sleep vs Wait
+### Threads - Sleep vs Wait
 
-### [Classic Problems](Concurrency/classic_problems)
+### [Classic Concurrency Problems](Concurrency/classic_problems)
+
+### Scheduling
+
+### Memory Management
 
 ## 4. Data Structures:
 
-### Arrays
-
-### Matrix
-
-### Strings
-
 ### Linked Lists
 
-### Stacks
-
-### Queues
-
-### Binary Trees
+### Stacks & Queues
 
 ### Binary Search Trees
 
@@ -75,6 +71,8 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
 ### Hashing
 
 ### Graph
+
+### Matrix
 
 ## 5. Algorithms:
 
@@ -90,7 +88,7 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
 
 ### [Dynamic Programming](Algorithms/dynamic_programming)
 
-## 6. Design Patterns:
+## 6. Software Design Patterns:
 
 ### Creational Patterns
 
@@ -105,7 +103,7 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
     Only using for "Nonprofit Educational Purpose".
     Thank you :)
     
-    WEBSITES - javaTpoint, TutorialsPoint, StackOverflow, GeeksforGeeks
+    WEBSITES - javaTpoint, TutorialsPoint, StackOverflow, GeeksforGeeks, SourceMaking
 
     BOOKS - Java The Complete reference, Java Concurrency in Practice
     
