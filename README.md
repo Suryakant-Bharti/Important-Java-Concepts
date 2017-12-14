@@ -60,7 +60,7 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
 
 ## 4. Data Structures:
 
-### Linked Lists
+### [Linked Lists](Data-Structures/linked_lists)
 
 ### Stacks & Queues
 
