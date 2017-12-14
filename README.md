@@ -103,7 +103,7 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
 ### Behavioral Patterns
 
 --- References ---
---------
+------------------
 
     This repository contains some codes and images which were not created by me.
     Only using for "Nonprofit Educational Purpose".
