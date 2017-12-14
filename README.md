@@ -1,8 +1,16 @@
 ![Great City Skyline Vector](https://user-images.githubusercontent.com/2780145/33828904-f4f9db84-de93-11e7-87bb-82fe8734ebc2.png)
 
-# Learn Programming
+# Learn Java Programming
 
-Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, Data Structures, Algorithms and Design Patterns. 
+Some Java Programs related to Concepts of:
+- The Java Language
+- Object-Oriented Programming
+- Operating Systems
+- Databases
+- Networking
+- Data Structures
+- Algorithms
+- Software Design Patterns
 
 ## 1. Java Concepts:
 
@@ -105,8 +113,8 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
     Only using for "Nonprofit Educational Purpose".
     Thank you :)
     
-    WEBSITES - javaTpoint, TutorialsPoint, StackOverflow, GeeksforGeeks, SourceMaking
+    WEBSITES - javaTpoint, TutorialsPoint, GeeksforGeeks, StackOverflow, SourceMaking
 
-    BOOKS - Java The Complete reference, Java Concurrency in Practice
+    BOOKS - Java The Complete reference
     
     IMAGES - Google Images ^_^
