@@ -10,7 +10,7 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
 
 ### Arrays
 
-### Strings
+### Strings(Java-Concepts/strings)
 
 ### Exceptions
 
@@ -21,8 +21,6 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
 ### Collections
 
 ### Serialization
-
-### Networking
 
 ### [Regular Expressions](Java-Concepts/regex)
 
@@ -58,7 +56,15 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
 
 ### Memory Management
 
-## 4. Data Structures:
+## 4. Databases & Networking:
+
+### Java DB Connectivity (JDBC)
+
+### SQL Examples
+
+### Networking in Java
+
+## 5. Data Structures:
 
 ### [Linked Lists](Data-Structures/linked_lists)
 
@@ -74,7 +80,7 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
 
 ### Matrix
 
-## 5. Algorithms:
+## 6. Algorithms:
 
 ### [Searching](Algorithms/searching)
 
@@ -88,7 +94,7 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
 
 ### [Dynamic Programming](Algorithms/dynamic_programming)
 
-## 6. Software Design Patterns:
+## 7. Software Design Patterns:
 
 ### Creational Patterns
 
