@@ -8,25 +8,21 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
 
 ### Basics
 
-### Arrays
-
-### [Strings](Java-Concepts/strings)
+### Arrays & [Strings](Java-Concepts/strings)
 
 ### Exceptions
-
-### Files & I/O
 
 ### [Generics](Java-Concepts/generics)
 
 ### Collections
 
-### Serialization
+### Files, I/O, Serialization
 
 ### [Regular Expressions](Java-Concepts/regex)
 
 ### [Lambda Expressions](Java-Concepts/lambda)
 
-### Java 8/9 Features
+### Java New Features
 
 ## 2. Object-Oriented Programming:
 
