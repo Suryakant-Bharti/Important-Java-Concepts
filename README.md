@@ -8,6 +8,8 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
 
 ### Basics
 
+### Arrays
+
 ### Strings
 
 ### Exceptions
@@ -58,12 +60,6 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
 
 ## 4. Data Structures:
 
-### Arrays
-
-### Matrix
-
-### Strings
-
 ### Linked Lists
 
 ### Stacks & Queues
@@ -75,6 +71,8 @@ Important Programs of Java Concepts, Object-Oriented Programming, Concurrency, D
 ### Hashing
 
 ### Graph
+
+### Matrix
 
 ## 5. Algorithms:
 
