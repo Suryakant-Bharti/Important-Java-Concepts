@@ -90,7 +90,7 @@ Some Java Programs related to Concepts of:
 
 ### Graph
 
-[MORE Data Structures and Algorithms Programs...](https://github.com/Suryakant-Bharti/coding-interview-questions)
+[Repo dedicated to "Coding Interview Questions" for more DS-Algo Codes...](https://github.com/Suryakant-Bharti/coding-interview-questions)
 
 ## 7. Algorithms:
 
@@ -106,7 +106,7 @@ Some Java Programs related to Concepts of:
 
 ### [Dynamic Programming](Algorithms/dynamic_programming)
 
-[MORE Data Structures and Algorithms Programs...](https://github.com/Suryakant-Bharti/coding-interview-questions)
+[Repo dedicated to "Coding Interview Questions" for more DS-Algo Codes...](https://github.com/Suryakant-Bharti/coding-interview-questions)
 
 ## 8. Software Design Patterns:
 
