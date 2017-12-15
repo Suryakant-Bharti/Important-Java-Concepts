@@ -12,7 +12,7 @@ Some Java Programs related to Concepts of:
 - Algorithms
 - Software Design Patterns
 
-## 1. Java Concepts:
+## 1. Fundamentals of Java:
 
 ### [Basics](Java-Concepts/basics)
 
@@ -29,8 +29,6 @@ Some Java Programs related to Concepts of:
 ### [Regular Expressions](Java-Concepts/regex)
 
 ### [Lambda Expressions](Java-Concepts/lambda)
-
-### Collections
 
 ### Java New Features
 
@@ -50,7 +48,17 @@ Some Java Programs related to Concepts of:
 
 ### Interfaces
 
-## 3. Operating Systems Concepts:
+## 3. Java Collections Framework:
+
+### ArrayList
+
+### HashSet
+
+### HashMap
+
+### Others
+
+## 4. Operating Systems Concepts:
 
 ### [Multithreading](Concurrency/multithreading)
 
@@ -62,7 +70,7 @@ Some Java Programs related to Concepts of:
 
 ### Memory Management
 
-## 4. Databases & Networking:
+## 5. Databases & Networking:
 
 ### Java DB Connectivity (JDBC)
 
@@ -70,7 +78,7 @@ Some Java Programs related to Concepts of:
 
 ### Networking in Java
 
-## 5. Data Structures:
+## 6. Data Structures:
 
 ### [Linked Lists](Data-Structures/linked_lists)
 
@@ -86,7 +94,7 @@ Some Java Programs related to Concepts of:
 
 ### Matrix
 
-## 6. Algorithms:
+## 7. Algorithms:
 
 ### [Searching](Algorithms/searching)
 
@@ -100,7 +108,7 @@ Some Java Programs related to Concepts of:
 
 ### [Dynamic Programming](Algorithms/dynamic_programming)
 
-## 7. Software Design Patterns:
+## 8. Software Design Patterns:
 
 To Do in Spring 2018...
 
