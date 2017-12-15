@@ -92,8 +92,6 @@ Some Java Programs related to Concepts of:
 
 ### Graph
 
-### Matrix
-
 ## 7. Algorithms:
 
 ### [Searching](Algorithms/searching)
