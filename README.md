@@ -14,7 +14,7 @@ Some Java Programs related to Concepts of:
 
 ## 1. Java Concepts:
 
-### Basics
+### [Basics](Java-Concepts/basics)
 
 ### [Arrays](Java-Concepts/arrays)
 
