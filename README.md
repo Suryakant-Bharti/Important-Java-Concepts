@@ -20,17 +20,17 @@ Some Java Programs related to Concepts of:
 
 ### [Strings](Java-Concepts/strings)
 
-### Exceptions
+### [Exceptions](Java-Concepts/exceptions)
 
 ### [Generics](Java-Concepts/generics)
-
-### Collections
 
 ### Files, I/O, Serialization
 
 ### [Regular Expressions](Java-Concepts/regex)
 
 ### [Lambda Expressions](Java-Concepts/lambda)
+
+### Collections
 
 ### Java New Features
 
