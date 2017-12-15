@@ -84,13 +84,13 @@ Some Java Programs related to Concepts of:
 
 ### Stacks & Queues
 
-### Binary Search Trees
-
-### Heaps
+### BST & Heaps
 
 ### Hashing
 
 ### Graph
+
+[MORE Data Structures and Algorithms Programs...](https://github.com/Suryakant-Bharti/coding-interview-questions)
 
 ## 7. Algorithms:
 
@@ -105,6 +105,8 @@ Some Java Programs related to Concepts of:
 ### [Graph Algorithms](Algorithms/graph_classic_algos)
 
 ### [Dynamic Programming](Algorithms/dynamic_programming)
+
+[MORE Data Structures and Algorithms Programs...](https://github.com/Suryakant-Bharti/coding-interview-questions)
 
 ## 8. Software Design Patterns:
 
