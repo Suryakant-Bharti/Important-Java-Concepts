@@ -16,7 +16,9 @@ Some Java Programs related to Concepts of:
 
 ### Basics
 
-### Arrays & [Strings](Java-Concepts/strings)
+### [Arrays](Java-Concepts/arrays)
+
+### [Strings](Java-Concepts/strings)
 
 ### Exceptions
 
