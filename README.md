@@ -102,6 +102,8 @@ Some Java Programs related to Concepts of:
 
 ## 7. Software Design Patterns:
 
+To Do in Spring 2018...
+
 ### Creational Patterns
 
 ### Structural Patterns
