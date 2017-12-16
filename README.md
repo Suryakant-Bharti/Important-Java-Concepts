@@ -5,6 +5,7 @@
 Some Java Programs related to Concepts of:
 - The Java Language
 - Object-Oriented Programming
+- Java Collections Framework
 - Operating Systems
 - Databases
 - Networking
@@ -78,21 +79,13 @@ Some Java Programs related to Concepts of:
 
 ### Networking in Java
 
-## 6. Data Structures:
+## 6. Data Structures & Algorithms:
 
-### [Linked Lists](Data-Structures/linked_lists)
-
-### Stacks & Queues
+### [Linked Lists](Data-Structures/linked_lists), Stacks & Queues
 
 ### BST & Heaps
 
-### Hashing
-
-### Graph
-
-[Repo dedicated to "Coding Interview Questions" for more DS-Algo Codes...](https://github.com/Suryakant-Bharti/coding-interview-questions)
-
-## 7. Algorithms:
+### Hashing & Graph
 
 ### [Searching](Algorithms/searching)
 
@@ -106,9 +99,9 @@ Some Java Programs related to Concepts of:
 
 ### [Dynamic Programming](Algorithms/dynamic_programming)
 
-[Repo dedicated to "Coding Interview Questions" for more DS-Algo Codes...](https://github.com/Suryakant-Bharti/coding-interview-questions)
+[Repository dedicated to "Coding Interview Questions" for more DS-Algo Codes...](https://github.com/Suryakant-Bharti/coding-interview-questions)
 
-## 8. Software Design Patterns:
+## 7. Software Design Patterns:
 
 To Do in Spring 2018...
 
