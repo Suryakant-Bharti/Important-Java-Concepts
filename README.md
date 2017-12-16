@@ -53,11 +53,13 @@ Some Java Programs related to Concepts of:
 ## 3. Java Collections Framework
 [[INFO - flowcharts, tables, diagrams, etc]](Java-Collections)
 
-### [ArrayList](Java-Collections/arraylist)
+### [List](Java-Collections/arraylist)
 
-### HashSet
+### Set
 
-### HashMap
+### Queue
+
+### Map
 
 ### Others
 
@@ -84,11 +86,9 @@ Some Java Programs related to Concepts of:
 
 ## 6. Data Structures & Algorithms
 
-### [Linked Lists](Data-Structures/linked_lists), Stacks & Queues
+### Implement - [Linked Lists](Data-Structures/linked_lists), Stacks, Queues
 
-### BST & Heaps
-
-### Hashing & Graph
+### Implement - BST, Heaps, Graph, Hashing
 
 ### [Searching](Algorithms/searching)
 
