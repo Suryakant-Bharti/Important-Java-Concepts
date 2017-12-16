@@ -6,6 +6,7 @@ Some Java Programs related to Concepts of:
 - The Java Language
 - Object-Oriented Programming
 - Java Collections Framework
+- Concurrency
 - Operating Systems
 - Databases
 - Networking
@@ -13,7 +14,7 @@ Some Java Programs related to Concepts of:
 - Algorithms
 - Software Design Patterns
 
-## 1. Fundamentals of Java:
+## 1. Fundamentals of Java
 
 ### [Basics](Java-Concepts/basics)
 
@@ -33,7 +34,7 @@ Some Java Programs related to Concepts of:
 
 ### Java New Features
 
-## 2. Object-Oriented Programming:
+## 2. Object-Oriented Programming
 
 ### [Inner Classes](Object-Oriented-Programming/inner_class)
 
@@ -49,7 +50,8 @@ Some Java Programs related to Concepts of:
 
 ### Interfaces
 
-## 3. Java Collections Framework:
+## 3. Java Collections Framework
+[[INFO - flowcharts, tables, diagrams, etc]](Java-Collections)
 
 ### [ArrayList](Java-Collections/arraylist)
 
@@ -59,13 +61,14 @@ Some Java Programs related to Concepts of:
 
 ### Others
 
-## 4. Operating Systems Concepts:
+## 4. Concurrency & OS Concepts
+[[INFO - flowcharts, tables, diagrams, etc]](Concurrency)
 
 ### [Multithreading](Concurrency/multithreading)
 
 ### Threads - Sleep vs Wait
 
-### [Classic Concurrency Problems](Concurrency/classic_problems)
+### [Classic Conc. Problems](Concurrency/classic_problems)
 
 ### Scheduling
 
@@ -79,7 +82,7 @@ Some Java Programs related to Concepts of:
 
 ### Networking in Java
 
-## 6. Data Structures & Algorithms:
+## 6. Data Structures & Algorithms
 
 ### [Linked Lists](Data-Structures/linked_lists), Stacks & Queues
 
@@ -101,7 +104,7 @@ Some Java Programs related to Concepts of:
 
 Repository for more DS-Algo programs - ["Coding Interview Questions"](https://github.com/Suryakant-Bharti/coding-interview-questions)
 
-## 7. Software Design Patterns:
+## 7. Software Design Patterns
 
 To Do in Spring 2018...
 
@@ -113,13 +116,10 @@ To Do in Spring 2018...
 
 --- References ---
 ------------------
-
     This repository contains some codes and images which were not created by me.
-    Only using for "Nonprofit Educational Purpose".
-    Thank you :)
+    Used for "Nonprofit Educational Purpose".
+    Million Thanks to the original authors :)
     
     WEBSITES - javaTpoint, TutorialsPoint, GeeksforGeeks, StackOverflow, SourceMaking
-
-    BOOKS - Java The Complete reference
-    
+    BOOKS - Java The Complete reference    
     IMAGES - Google Images ^_^
