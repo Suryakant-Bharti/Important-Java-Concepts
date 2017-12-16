@@ -50,7 +50,8 @@ Some Java Programs related to Concepts of:
 
 ### Interfaces
 
-## 3. [Java Collections](Java-Collections)
+## 3. Java Collections Framework
+[[INFO - flowcharts, tables, diagrams, etc]](Java-Collections)
 
 ### [ArrayList](Java-Collections/arraylist)
 
@@ -60,13 +61,14 @@ Some Java Programs related to Concepts of:
 
 ### Others
 
-## 4. [Concurrency & OS Concepts](Concurrency)
+## 4. Concurrency & OS Concepts
+[[INFO - flowcharts, tables, diagrams, etc]](Concurrency)
 
 ### [Multithreading](Concurrency/multithreading)
 
 ### Threads - Sleep vs Wait
 
-### [Classic Concurrency Problems](Concurrency/classic_problems)
+### [Classic Conc. Problems](Concurrency/classic_problems)
 
 ### Scheduling
 
