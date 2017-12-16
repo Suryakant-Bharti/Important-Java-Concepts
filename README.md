@@ -99,7 +99,7 @@ Some Java Programs related to Concepts of:
 
 ### [Dynamic Programming](Algorithms/dynamic_programming)
 
-[Repository dedicated to "Coding Interview Questions" for more DS-Algo Codes...](https://github.com/Suryakant-Bharti/coding-interview-questions)
+Repository for more DS-Algo programs - ["Coding Interview Questions"](https://github.com/Suryakant-Bharti/coding-interview-questions)
 
 ## 7. Software Design Patterns:
 
