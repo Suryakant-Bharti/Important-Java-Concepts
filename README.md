@@ -53,7 +53,7 @@ Some Java Programs related to Concepts of:
 ## 3. Java Collections Framework
 [[INFO - flowcharts, tables, diagrams, etc]](Java-Collections)
 
-### [List](Java-Collections/arraylist)
+### [List](Java-Collections/list)
 
 ### Set
 
