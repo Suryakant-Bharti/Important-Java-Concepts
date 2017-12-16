@@ -1,6 +1,6 @@
-# Multithreading
+# Collections in Java
 
-## Life Cycle of a Thread :
+## Hierarchy of Collection Framework :
 
-![Java Thread Life Cycle](https://user-images.githubusercontent.com/2780145/33823420-15edbc42-de81-11e7-9785-79e99b7b3a11.png)
+![collection-hierarchy](https://user-images.githubusercontent.com/2780145/34073817-62945de4-e2c8-11e7-820b-84f9dad32af3.png)
 
