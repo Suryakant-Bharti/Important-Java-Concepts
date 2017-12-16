@@ -1,4 +1,4 @@
-# Multithreading
+# Concurrency
 
 ## Life Cycle of a Thread :
 
