@@ -14,7 +14,7 @@ Some Java Programs related to Concepts of:
 - Algorithms
 - Software Design Patterns
 
-## 1. Fundamentals of Java
+## 1. Java Fundamentals
 
 ### [Basics](Java-Concepts/basics) | [Arrays](Java-Concepts/arrays) | [Strings](Java-Concepts/strings)
 
@@ -26,9 +26,10 @@ Some Java Programs related to Concepts of:
 
 ### [Lambda Expressions](Java-Concepts/lambda)
 
-### Java New Features
+### Some New Features
 
-## 2. Object-Oriented Programming
+## 2. Java Object-Oriented Programming
+[[USEFUL INFO - flowcharts, tables, diagrams, etc]](Object-Oriented-Programming)
 
 ### [Inner Classes](Object-Oriented-Programming/inner_class)
 
