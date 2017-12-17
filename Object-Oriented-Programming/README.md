@@ -4,4 +4,4 @@ Object-Oriented Programming is a methodology or paradigm to design a program usi
 
 ## Java Naming Conventions :
 
-![collection-hierarchy](https://user-images.githubusercontent.com/2780145/34073817-62945de4-e2c8-11e7-820b-84f9dad32af3.png)
+![java naming conventions](https://user-images.githubusercontent.com/2780145/34084497-913ac9a0-e3a7-11e7-8eb9-5a733a330ea6.png)
