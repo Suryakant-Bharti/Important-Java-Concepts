@@ -8,7 +8,7 @@ The java.util package contains all the classes and interfaces for Collection fra
 
 ## Methods of Collection Interface :
 
-![methods of collection interface](https://user-images.githubusercontent.com/2780145/34084345-69f0eaee-e3a4-11e7-85d8-92cc3c64b203.png)
+![methods of collection interface](https://user-images.githubusercontent.com/2780145/34073898-80e77a54-e2ca-11e7-80bc-af34096d5bc6.png)
 
 ## Methods of Iterator Interface :
 
