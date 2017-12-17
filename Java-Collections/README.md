@@ -14,6 +14,10 @@ The java.util package contains all the classes and interfaces for Collection fra
 
 ![methods of iterator interface](https://user-images.githubusercontent.com/2780145/34073901-8970bf28-e2ca-11e7-9130-ee270884472c.png)
 
+## ArrayList vs LinkedList :
+
+![arraylist vs linkedlist](https://user-images.githubusercontent.com/2780145/34082710-276805c4-e389-11e7-83bc-565adb886101.png)
+
 ## Hierarchy of Map Interface :
 
 ![hierarchy-of-maps-in-java](https://user-images.githubusercontent.com/2780145/34075635-1a5bba52-e2f2-11e7-8962-384b5bc24ae5.png)
@@ -25,6 +29,10 @@ The java.util package contains all the classes and interfaces for Collection fra
 ## Methods of Map.Entry Interface :
 
 ![methods of mapentry interface](https://user-images.githubusercontent.com/2780145/34082177-903b82f6-e37f-11e7-92ce-1ff686e005a1.png)
+
+## HashMap vs HashTable :
+
+![hashmap vs hashtable](https://user-images.githubusercontent.com/2780145/34082716-4b1e1918-e389-11e7-81f4-f92c2363fb25.png)
 
 ## Collections Framework Implementation Classes Summary :
 
