@@ -16,15 +16,9 @@ Some Java Programs related to Concepts of:
 
 ## 1. Fundamentals of Java
 
-### [Basics](Java-Concepts/basics)
+### [Basics](Java-Concepts/basics) | [Arrays](Java-Concepts/arrays) | [Strings](Java-Concepts/strings)
 
-### [Arrays](Java-Concepts/arrays)
-
-### [Strings](Java-Concepts/strings)
-
-### [Exceptions](Java-Concepts/exceptions)
-
-### [Generics](Java-Concepts/generics)
+### [Exceptions](Java-Concepts/exceptions) | [Generics](Java-Concepts/generics)
 
 ### [Files, I/O, Serialization](Java-Concepts/input_output)
 
@@ -55,9 +49,9 @@ Some Java Programs related to Concepts of:
 
 ### Collection Interface - [List](Java-Collections/list) | [Set](Java-Collections/set) | [Queue](Java-Collections/queue)
 
-### Map Interface
+### Map Interface - [Map](Java-Collections/map)
 
-### Others
+### Something more...
 
 ## 4. Concurrency & OS Concepts
 [[INFO - flowcharts, tables, diagrams, etc]](Concurrency)
