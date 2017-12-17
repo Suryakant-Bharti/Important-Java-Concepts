@@ -18,6 +18,10 @@ The java.util package contains all the classes and interfaces for Collection fra
 
 ![arraylist vs linkedlist](https://user-images.githubusercontent.com/2780145/34082710-276805c4-e389-11e7-83bc-565adb886101.png)
 
+## ArrayList vs Vector :
+
+![arraylist vs vector](https://user-images.githubusercontent.com/2780145/34083553-b3f9353a-e398-11e7-93e6-e7e9b7076c52.png)
+
 ## Hierarchy of Map Interface :
 
 ![hierarchy-of-maps-in-java](https://user-images.githubusercontent.com/2780145/34075635-1a5bba52-e2f2-11e7-8962-384b5bc24ae5.png)
