@@ -45,7 +45,7 @@ Some Java Programs related to Concepts of:
 ### Interfaces
 
 ## 3. Java Collections Framework
-[[INFO - flowcharts, tables, diagrams, etc]](Java-Collections)
+[[USEFUL INFO - flowcharts, tables, diagrams, etc]](Java-Collections)
 
 ### Collection Interface - [List](Java-Collections/list) | [Set](Java-Collections/set) | [Queue](Java-Collections/queue)
 
@@ -54,7 +54,7 @@ Some Java Programs related to Concepts of:
 ### Something more...
 
 ## 4. Concurrency & OS Concepts
-[[INFO - flowcharts, tables, diagrams, etc]](Concurrency)
+[[USEFUL INFO - flowcharts, tables, diagrams, etc]](Concurrency)
 
 ### [Multithreading](Concurrency/multithreading)
 
