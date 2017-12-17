@@ -53,7 +53,7 @@ Some Java Programs related to Concepts of:
 
 ### Miscellaneous - [Enum](Java-Collections/enum) | [Vector](Java-Collections/vector)
 
-### More - [Collection Class](Java-Collections/collection_class)
+### More - [Collections Class](Java-Collections/collection_class)
 
 ## 4. Concurrency & OS Concepts
 [[USEFUL INFO - flowcharts, tables, diagrams, etc]](Concurrency)
