@@ -41,3 +41,7 @@ The java.util package contains all the classes and interfaces for Collection fra
 ## Collections Framework Implementation Classes Summary :
 
 ![collectionjava](https://user-images.githubusercontent.com/2780145/34075655-a59a8a1c-e2f2-11e7-94d7-a49c03df0fa8.png)
+
+## Comparable vs Comparator Interfaces :
+
+![comparable vs comparator](https://user-images.githubusercontent.com/2780145/34083892-a79cdf44-e39d-11e7-93af-04bc8f9f404b.png)
