@@ -55,7 +55,7 @@ Some Java Programs related to Concepts of:
 
 ### [List](Java-Collections/list)
 
-### Set
+### [Set](Java-Collections/set)
 
 ### Queue
 
