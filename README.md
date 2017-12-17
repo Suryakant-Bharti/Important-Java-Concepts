@@ -53,13 +53,9 @@ Some Java Programs related to Concepts of:
 ## 3. Java Collections Framework
 [[INFO - flowcharts, tables, diagrams, etc]](Java-Collections)
 
-### [List](Java-Collections/list)
+### Collection Interface - [List](Java-Collections/list) | [Set](Java-Collections/set) | [Queue](Java-Collections/queue)
 
-### [Set](Java-Collections/set)
-
-### Queue
-
-### Map
+### Map Interface
 
 ### Others
 
