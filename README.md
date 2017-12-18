@@ -37,7 +37,7 @@ Some Java Programs related to Concepts of:
 ## 2. Java Object-Oriented Programming
 [[USEFUL INFO - flowcharts, tables, diagrams, etc]](Object-Oriented-Programming)
 
-### [Classes & Objects](Object-Oriented-Programming/class_and_object) | [Inner Classes](Object-Oriented-Programming/inner_class)
+### [Classes & Objects](Object-Oriented-Programming/class_and_object) | static & this | [Inner Classes](Object-Oriented-Programming/inner_class)
 
 ### [Inheritance](Object-Oriented-Programming/inheritance) | [Overriding](Object-Oriented-Programming/overriding) | Polymorphism
 
