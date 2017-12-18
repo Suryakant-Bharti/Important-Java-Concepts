@@ -13,6 +13,10 @@ Some Java Programs related to Concepts of:
 - Data Structures
 - Algorithms
 - Software Design Patterns
+- StackOverflow Questions
+- Interview Questions
+
+.
 
 ## 1. Java Fundamentals
 
@@ -28,6 +32,8 @@ Some Java Programs related to Concepts of:
 
 ### Some New Features
 
+.
+
 ## 2. Java Object-Oriented Programming
 [[USEFUL INFO - flowcharts, tables, diagrams, etc]](Object-Oriented-Programming)
 
@@ -38,6 +44,8 @@ Some Java Programs related to Concepts of:
 ### Abstraction | Interfaces
 
 ### Encapsulation
+
+.
 
 ## 3. Java Collections Framework
 [[USEFUL INFO - flowcharts, tables, diagrams, etc]](Java-Collections)
@@ -50,7 +58,9 @@ Some Java Programs related to Concepts of:
 
 ### More - [Collections Class](Java-Collections/collections_class)
 
-## 4. Operating Systems, Databases & Networking
+.
+
+## 4. OS, DB, N/W & GUI Concepts
 [[USEFUL INFO - flowcharts, tables, diagrams, etc]](Concurrency)
 
 ### Concurrency - [Multithreading](Concurrency/multithreading) | Sleep vs Wait | [Classic Problems](Concurrency/classic_problems)
@@ -60,6 +70,10 @@ Some Java Programs related to Concepts of:
 ### Databases - Java DB Connectivity (JDBC) | SQL Examples
 
 ### Networking - Socket, URL & HHTP
+
+### GUI (Swing) - Components | LayoutManagers | Sample Apps
+
+.
 
 ## 5. Data Structures & Algorithms
 
@@ -77,6 +91,8 @@ Some Java Programs related to Concepts of:
 
 Repository for more DS-Algo programs - ["Coding Interview Questions"](https://github.com/Suryakant-Bharti/coding-interview-questions)
 
+.
+
 ## 6. Software Design Patterns
 
 To Do in Spring 2018...
@@ -86,6 +102,8 @@ To Do in Spring 2018...
 ### Structural Patterns
 
 ### Behavioral Patterns
+
+.
 
 --- References ---
 ------------------
