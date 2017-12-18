@@ -31,19 +31,13 @@ Some Java Programs related to Concepts of:
 ## 2. Java Object-Oriented Programming
 [[USEFUL INFO - flowcharts, tables, diagrams, etc]](Object-Oriented-Programming)
 
-### [Inner Classes](Object-Oriented-Programming/inner_class)
+### [Classes & Objects](Object-Oriented-Programming/class_and_object) | [Inner Classes](Object-Oriented-Programming/inner_class)
 
-### [Inheritance](Object-Oriented-Programming/inheritance)
+### [Inheritance](Object-Oriented-Programming/inheritance) | [Overriding](Object-Oriented-Programming/overriding) | Polymorphism
 
-### [Overriding](Object-Oriented-Programming/overriding)
-
-### Polymorphism
-
-### Abstraction
+### Abstraction | Interfaces
 
 ### Encapsulation
-
-### Interfaces
 
 ## 3. Java Collections Framework
 [[USEFUL INFO - flowcharts, tables, diagrams, etc]](Java-Collections)
@@ -56,40 +50,26 @@ Some Java Programs related to Concepts of:
 
 ### More - [Collections Class](Java-Collections/collections_class)
 
-## 4. Concurrency & OS Concepts
+## 4. Operating Systems, Databases & Networking
 [[USEFUL INFO - flowcharts, tables, diagrams, etc]](Concurrency)
 
-### [Multithreading](Concurrency/multithreading)
+### Concurrency - [Multithreading](Concurrency/multithreading) | Sleep vs Wait | [Classic Problems](Concurrency/classic_problems)
 
-### Threads - Sleep vs Wait
+### OS Concepts - CPU Scheduling | Memory Management
 
-### [Classic Conc. Problems](Concurrency/classic_problems)
+### Databases - Java DB Connectivity (JDBC) | SQL Examples
 
-### Scheduling
+### Networking - Socket, URL & HHTP
 
-### Memory Management
+## 5. Data Structures & Algorithms
 
-## 5. Databases & Networking:
+### DS - [Linked Lists](Data-Structures/linked_lists) | Stacks | Queues
 
-### Java DB Connectivity (JDBC)
+### DS - BST | Heaps | Graph | Hashing
 
-### SQL Examples
+### [Searching](Algorithms/searching) | [Sorting](Algorithms/sorting)
 
-### Networking in Java
-
-## 6. Data Structures & Algorithms
-
-### Implement - [Linked Lists](Data-Structures/linked_lists), Stacks, Queues
-
-### Implement - BST, Heaps, Graph, Hashing
-
-### [Searching](Algorithms/searching)
-
-### [Sorting](Algorithms/sorting)
-
-### [Tree Traversal](Algorithms/tree_traversal)
-
-### [Graph Traversal](Algorithms/graph_traversal)
+### [Tree Traversal](Algorithms/tree_traversal) | [Graph Traversal](Algorithms/graph_traversal)
 
 ### [Graph Algorithms](Algorithms/graph_classic_algos)
 
@@ -97,7 +77,7 @@ Some Java Programs related to Concepts of:
 
 Repository for more DS-Algo programs - ["Coding Interview Questions"](https://github.com/Suryakant-Bharti/coding-interview-questions)
 
-## 7. Software Design Patterns
+## 6. Software Design Patterns
 
 To Do in Spring 2018...
 
