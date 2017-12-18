@@ -13,6 +13,10 @@ Some Java Programs related to Concepts of:
 - Data Structures
 - Algorithms
 - Software Design Patterns
+- StackOverflow Questions
+- Interview Questions
+
+.
 
 ## 1. Java Fundamentals
 
@@ -28,22 +32,20 @@ Some Java Programs related to Concepts of:
 
 ### Some New Features
 
+.
+
 ## 2. Java Object-Oriented Programming
 [[USEFUL INFO - flowcharts, tables, diagrams, etc]](Object-Oriented-Programming)
 
-### [Inner Classes](Object-Oriented-Programming/inner_class)
+### [Classes & Objects](Object-Oriented-Programming/class_and_object) | static & this | [Inner Classes](Object-Oriented-Programming/inner_class)
 
-### [Inheritance](Object-Oriented-Programming/inheritance)
+### [Inheritance](Object-Oriented-Programming/inheritance) | [Overriding](Object-Oriented-Programming/overriding) | Polymorphism
 
-### [Overriding](Object-Oriented-Programming/overriding)
-
-### Polymorphism
-
-### Abstraction
+### Abstraction | Interfaces
 
 ### Encapsulation
 
-### Interfaces
+.
 
 ## 3. Java Collections Framework
 [[USEFUL INFO - flowcharts, tables, diagrams, etc]](Java-Collections)
@@ -56,40 +58,32 @@ Some Java Programs related to Concepts of:
 
 ### More - [Collections Class](Java-Collections/collections_class)
 
-## 4. Concurrency & OS Concepts
+.
+
+## 4. OS, DB, N/W & GUI Concepts
 [[USEFUL INFO - flowcharts, tables, diagrams, etc]](Concurrency)
 
-### [Multithreading](Concurrency/multithreading)
+### Concurrency - [Multithreading](Concurrency/multithreading) | Sleep vs Wait | [Classic Problems](Concurrency/classic_problems)
 
-### Threads - Sleep vs Wait
+### OS Concepts - CPU Scheduling | Memory Management
 
-### [Classic Conc. Problems](Concurrency/classic_problems)
+### Databases - Java DB Connectivity (JDBC) | SQL Examples
 
-### Scheduling
+### Networking - Socket, URL & HHTP
 
-### Memory Management
+### GUI (Swing) - Components | LayoutManagers | Sample Apps
 
-## 5. Databases & Networking:
+.
 
-### Java DB Connectivity (JDBC)
+## 5. Data Structures & Algorithms
 
-### SQL Examples
+### DS - [Linked Lists](Data-Structures/linked_lists) | Stacks | Queues
 
-### Networking in Java
+### DS - BST | Heaps | Graph | Hashing
 
-## 6. Data Structures & Algorithms
+### [Searching](Algorithms/searching) | [Sorting](Algorithms/sorting)
 
-### Implement - [Linked Lists](Data-Structures/linked_lists), Stacks, Queues
-
-### Implement - BST, Heaps, Graph, Hashing
-
-### [Searching](Algorithms/searching)
-
-### [Sorting](Algorithms/sorting)
-
-### [Tree Traversal](Algorithms/tree_traversal)
-
-### [Graph Traversal](Algorithms/graph_traversal)
+### [Tree Traversal](Algorithms/tree_traversal) | [Graph Traversal](Algorithms/graph_traversal)
 
 ### [Graph Algorithms](Algorithms/graph_classic_algos)
 
@@ -97,7 +91,9 @@ Some Java Programs related to Concepts of:
 
 Repository for more DS-Algo programs - ["Coding Interview Questions"](https://github.com/Suryakant-Bharti/coding-interview-questions)
 
-## 7. Software Design Patterns
+.
+
+## 6. Software Design Patterns
 
 To Do in Spring 2018...
 
@@ -106,6 +102,8 @@ To Do in Spring 2018...
 ### Structural Patterns
 
 ### Behavioral Patterns
+
+.
 
 --- References ---
 ------------------
