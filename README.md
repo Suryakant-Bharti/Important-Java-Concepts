@@ -22,7 +22,9 @@ Some Java Programs related to Concepts of:
 ## 1. Java Fundamentals & OOPS
 [[USEFUL INFO - flowcharts, tables, diagrams, etc]](Java-OOPS)
 
-### [Classes & Objects](Java-OOPS/class_and_object) | [static & this](Java-OOPS/static_and_this) | [Inner Classes](Java-OOPS/inner_class)
+### [Programming Basics] | [Classes & Objects](Java-OOPS/class_and_object)
+
+### [static & this](Java-OOPS/static_and_this) | [Inner Classes](Java-OOPS/inner_class)
 
 ### [Inheritance](Java-OOPS/inheritance) | [Overriding](Java-OOPS/overriding) | Polymorphism
 
@@ -34,7 +36,9 @@ Some Java Programs related to Concepts of:
 
 ## 2. Java Concepts
 
-### [Miscellaneous](Java-Concepts/basics) | [Arrays](Java-Concepts/arrays) | [Strings](Java-Concepts/strings)
+### [Miscellaneous Basics](Java-Concepts/basics_misc)
+
+### [Arrays](Java-Concepts/arrays) | [Strings](Java-Concepts/strings)
 
 ### [Exceptions](Java-Concepts/exceptions) | [Generics](Java-Concepts/generics)
 
