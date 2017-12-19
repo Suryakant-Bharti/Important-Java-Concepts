@@ -3,13 +3,14 @@
 # Learn Java Programming
 
 Some Java Programs related to Concepts of:
-- The Java Language
-- Object-Oriented Programming
+- Java Object-Oriented Programming
+- Java Concepts
 - Java Collections Framework
 - Concurrency
 - Operating Systems
 - Databases
 - Networking
+- Graphical User Interface
 - Data Structures
 - Algorithms
 - Software Design Patterns
@@ -18,9 +19,22 @@ Some Java Programs related to Concepts of:
 
 .
 
-## 1. Java Fundamentals
+## 1. Java Fundamentals & OOPS
+[[USEFUL INFO - flowcharts, tables, diagrams, etc]](Java-OOPS)
 
-### [Basics](Java-Concepts/basics) | [Arrays](Java-Concepts/arrays) | [Strings](Java-Concepts/strings)
+### [Classes & Objects](Java-OOPS/class_and_object) | [static & this](Java-OOPS/static_and_this) | [Inner Classes](Java-OOPS/inner_class)
+
+### [Inheritance](Java-OOPS/inheritance) | [Overriding](Java-OOPS/overriding) | Polymorphism
+
+### Abstraction | Interfaces
+
+### Encapsulation
+
+.
+
+## 2. Java Concepts
+
+### [Miscellaneous](Java-Concepts/basics) | [Arrays](Java-Concepts/arrays) | [Strings](Java-Concepts/strings)
 
 ### [Exceptions](Java-Concepts/exceptions) | [Generics](Java-Concepts/generics)
 
@@ -31,19 +45,6 @@ Some Java Programs related to Concepts of:
 ### [Lambda Expressions](Java-Concepts/lambda)
 
 ### Some New Features
-
-.
-
-## 2. Java Object-Oriented Programming
-[[USEFUL INFO - flowcharts, tables, diagrams, etc]](Object-Oriented-Programming)
-
-### [Classes & Objects](Object-Oriented-Programming/class_and_object) | static & this | [Inner Classes](Object-Oriented-Programming/inner_class)
-
-### [Inheritance](Object-Oriented-Programming/inheritance) | [Overriding](Object-Oriented-Programming/overriding) | Polymorphism
-
-### Abstraction | Interfaces
-
-### Encapsulation
 
 .
 
