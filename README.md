@@ -22,7 +22,7 @@ Some Java Programs related to Concepts of:
 ## 1. Java Fundamentals & OOPS
 [[USEFUL INFO - flowcharts, tables, diagrams, etc]](Java-OOPS)
 
-### [Programming Basics] | [Classes & Objects](Java-OOPS/class_and_object)
+### Basics | [Classes & Objects](Java-OOPS/class_and_object)
 
 ### [static & this](Java-OOPS/static_and_this) | [Inner Classes](Java-OOPS/inner_class)
 
