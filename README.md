@@ -17,12 +17,14 @@ Some Java Programs related to Concepts of:
 - StackOverflow Questions
 - Interview Questions
 
-.
+![Inspiring Quote](https://user-images.githubusercontent.com/2780145/33845470-989ae82a-dec9-11e7-8739-aeaa3b753101.png)
 
 ## 1. Java Fundamentals & OOPS
 [[USEFUL INFO - flowcharts, tables, diagrams, etc]](Java-OOPS)
 
-### [Classes & Objects](Java-OOPS/class_and_object) | [static & this](Java-OOPS/static_and_this) | [Inner Classes](Java-OOPS/inner_class)
+### Basics | [Classes & Objects](Java-OOPS/class_and_object)
+
+### [static & this](Java-OOPS/static_and_this) | [Inner Classes](Java-OOPS/inner_class)
 
 ### [Inheritance](Java-OOPS/inheritance) | [Overriding](Java-OOPS/overriding) | Polymorphism
 
@@ -34,7 +36,9 @@ Some Java Programs related to Concepts of:
 
 ## 2. Java Concepts
 
-### [Miscellaneous](Java-Concepts/basics) | [Arrays](Java-Concepts/arrays) | [Strings](Java-Concepts/strings)
+### [Miscellaneous Basics](Java-Concepts/basics_misc)
+
+### [Arrays](Java-Concepts/arrays) | [Strings](Java-Concepts/strings)
 
 ### [Exceptions](Java-Concepts/exceptions) | [Generics](Java-Concepts/generics)
 
