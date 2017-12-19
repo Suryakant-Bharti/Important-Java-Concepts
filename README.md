@@ -37,6 +37,7 @@ Some Java Programs related to Concepts of:
 .
 
 ## 2. Java Concepts
+[[USEFUL INFO - flowcharts, tables, diagrams, etc]](Java-Concepts)
 
 ### [Miscellaneous Basics](Java-Concepts/basics_misc)
 
