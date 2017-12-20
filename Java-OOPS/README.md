@@ -16,7 +16,7 @@ Object-Oriented Programming is a methodology or paradigm to design a program usi
 
 ## Constructors vs Methods
 
-![java constructor vs java methods](https://user-images.githubusercontent.com/2780145/34126228-e3c983ca-e45e-11e7-938a-b8549f29aab7.png)
+![java constructor vs java methods](https://user-images.githubusercontent.com/2780145/34219395-0e9f367a-e5d7-11e7-8032-51c8a6e8f12d.png)
 
 ## Types of Inheritance (Supported through Class)
 
