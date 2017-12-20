@@ -23,3 +23,7 @@ Object-Oriented Programming is a methodology or paradigm to design a program usi
 To reduce the complexity and simplify the language, multiple (hybrid is also multiple) inheritance is not supported in java through classes. Consider a scenario where A, B and C are three classes. The C class inherits A and B classes. If A and B classes have same method and you call it from child class object, there will be ambiguity to call method of A or B class. Since compile time errors are better than runtime errors, java renders compile time error if you inherit 2 classes. So whether you have same method or different, there will be compile time error.
 
 ![multiple](https://user-images.githubusercontent.com/2780145/34169841-c1c4ad6c-e50e-11e7-90df-fdb2f63ae9b5.jpg)
+
+## Polymorphism - Method Overloading vs Method Overriding
+
+![method overloading vs method overriding](https://user-images.githubusercontent.com/2780145/34218298-d8ddf196-e5d3-11e7-99dd-9cb6705a12c1.png)
