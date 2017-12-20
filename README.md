@@ -26,9 +26,13 @@ Some Java Programs related to Concepts of:
 
 ### [static & this](Java-OOPS/static_and_this) | [Inner Classes](Java-OOPS/inner_class)
 
-### [Inheritance](Java-OOPS/inheritance)
+### [Inheritance (IS-A & HAS-A)](Java-OOPS/inheritance)
 
-### Polymorphism
+### Overloading | Overriding
+
+### super, final & instanceof
+
+### Advanced Polymorphism
 
 ### Abstraction | Interfaces
 
