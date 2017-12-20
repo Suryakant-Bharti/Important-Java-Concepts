@@ -2,9 +2,9 @@
 
 Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects. It simplifies the software development and maintenance. Main Concepts - Inheritance, Polymorphism, Abstraction, Encapsulation.
 
-## Type Promotion in Java :
+## Data Type Promotion in Java :
 
-![type promotion](https://user-images.githubusercontent.com/2780145/34219135-3fb63cb4-e5d6-11e7-8f7c-20007e70eef7.jpg)
+![data type promotion](https://user-images.githubusercontent.com/2780145/34226289-3f7abda6-e5ef-11e7-8c14-0d8cd997258b.png)
 
 ## Java Naming Conventions :
 
