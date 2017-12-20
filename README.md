@@ -66,7 +66,7 @@ Some Java Programs related to Concepts of:
 
 ### Map Interface - [Map](Java-Collections/map)
 
-### Miscellaneous - [Enum](Java-Collections/enum) | [Vector](Java-Collections/vector)
+### Miscellaneous - [Enum](Java-Collections/enum) | [Vector](Java-Collections/vector) | Legacy
 
 ### More - [Collections Class](Java-Collections/collections_class)
 
@@ -81,7 +81,7 @@ Some Java Programs related to Concepts of:
 
 ### Databases - Java DB Connectivity (JDBC) | SQL Examples
 
-### Networking - Socket, URL & HHTP
+### Networking - Socket, URL & HHTP | Sample Apps
 
 ### GUI (Swing) - Components | LayoutManagers | Sample Apps
 
@@ -114,6 +114,14 @@ To Do in Spring 2018...
 ### Structural Patterns
 
 ### Behavioral Patterns
+
+.
+
+## 7. Extras
+
+### StackOverflow Questions
+
+### Interview Questions
 
 .
 
