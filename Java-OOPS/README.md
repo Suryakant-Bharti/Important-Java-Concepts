@@ -10,6 +10,10 @@ Object-Oriented Programming is a methodology or paradigm to design a program usi
 
 ![java naming conventions](https://user-images.githubusercontent.com/2780145/34084497-913ac9a0-e3a7-11e7-8eb9-5a733a330ea6.png)
 
+## Object vs Class
+
+![object vs class](https://user-images.githubusercontent.com/2780145/34218481-4b486856-e5d4-11e7-9b55-d00633f22fc1.png)
+
 ## Constructors vs Methods
 
 ![java constructor vs java methods](https://user-images.githubusercontent.com/2780145/34126228-e3c983ca-e45e-11e7-938a-b8549f29aab7.png)
