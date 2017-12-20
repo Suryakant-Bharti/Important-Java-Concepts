@@ -31,3 +31,7 @@ To reduce the complexity and simplify the language, multiple (hybrid is also mul
 ## Polymorphism - Method Overloading vs Method Overriding
 
 ![method overloading vs method overriding](https://user-images.githubusercontent.com/2780145/34219473-4b0ea5fa-e5d7-11e7-942c-12c7493b282d.png)
+
+## Abstraction vs Encapsulation
+
+![abstraction vs encapsulation](https://user-images.githubusercontent.com/2780145/34227453-24176ed4-e5f3-11e7-8361-b006727fd273.png)
