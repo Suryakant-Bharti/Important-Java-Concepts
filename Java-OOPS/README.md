@@ -4,7 +4,7 @@ Object-Oriented Programming is a methodology or paradigm to design a program usi
 
 ## Type Promotion in Java :
 
-![types](https://user-images.githubusercontent.com/2780145/34175455-7d7cd7ce-e522-11e7-8aa4-688e997ba809.JPG)
+![type promotion](https://user-images.githubusercontent.com/2780145/34219135-3fb63cb4-e5d6-11e7-8f7c-20007e70eef7.jpg)
 
 ## Java Naming Conventions :
 
