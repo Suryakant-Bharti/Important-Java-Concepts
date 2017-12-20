@@ -34,7 +34,7 @@ To reduce the complexity and simplify the language, multiple (hybrid is also mul
 
 ## Abstract Class vs Interface
 
-![abstract class vs interface](https://user-images.githubusercontent.com/2780145/34228050-5749c4ee-e5f5-11e7-8a8d-3f96c0092e29.png)
+![abstract class vs interface](https://user-images.githubusercontent.com/2780145/34228145-a8899456-e5f5-11e7-9700-3da10a91ee83.png)
 
 ## Abstraction vs Encapsulation
 
