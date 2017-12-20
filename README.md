@@ -28,7 +28,7 @@ Some Java Programs related to Concepts of:
 
 ### [Inheritance (IS-A & HAS-A)](Java-OOPS/inheritance)
 
-### [Overloading](Java-OOPS/overloading) | [Overriding](Java-OOPS/overriding)
+### [Overloading](Java-OOPS/method_overloading) | [Overriding](Java-OOPS/method_overriding)
 
 ### super, final & instanceof
 
