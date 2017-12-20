@@ -12,7 +12,7 @@ Object-Oriented Programming is a methodology or paradigm to design a program usi
 
 ## Object vs Class
 
-![object vs class](https://user-images.githubusercontent.com/2780145/34218481-4b486856-e5d4-11e7-9b55-d00633f22fc1.png)
+![object vs class](https://user-images.githubusercontent.com/2780145/34218549-7990b61e-e5d4-11e7-80b0-b4f53e7bfdc5.png)
 
 ## Constructors vs Methods
 
