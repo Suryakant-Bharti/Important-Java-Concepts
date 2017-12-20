@@ -20,7 +20,7 @@ Object-Oriented Programming is a methodology or paradigm to design a program usi
 
 ## Types of Inheritance (Supported through Class)
 
-![types of inheritance](https://user-images.githubusercontent.com/2780145/34169728-542d8684-e50e-11e7-82a1-7b2b1d37f73a.jpg)
+![single inheritance](https://user-images.githubusercontent.com/2780145/34229063-f2c8d010-e5f8-11e7-8e49-d2d750bb850a.png)
 
 ## Types of Inheritance (Supported through Interface only)
 
