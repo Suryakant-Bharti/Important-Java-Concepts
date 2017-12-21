@@ -119,6 +119,8 @@ To Do in Spring 2018...
 
 ## 7. Extras
 
+### Definitions
+
 ### StackOverflow Questions
 
 ### Interview Questions
