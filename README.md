@@ -38,7 +38,7 @@ Some Java Programs related to Concepts of:
 
 .
 
-## 2. Java Concepts
+## 2. Java Miscellaneous Concepts
 [[USEFUL INFO - flowcharts, tables, diagrams, etc]](Java-Concepts)
 
 ### [Miscellaneous Basics](Java-Concepts/basics_misc)
@@ -52,6 +52,8 @@ Some Java Programs related to Concepts of:
 ### [Regular Expressions](Java-Concepts/regex)
 
 ### [Lambda Expressions](Java-Concepts/lambda)
+
+### Functional Programming
 
 ### Some New Features
 
@@ -70,7 +72,7 @@ Some Java Programs related to Concepts of:
 
 .
 
-## 4. OS, DB, N/W & GUI Concepts
+## 4. Java Advanced Concepts
 [[USEFUL INFO - flowcharts, tables, diagrams, etc]](Concurrency)
 
 ### Concurrency I - [Multithreading](Concurrency/multithreading) | Sleep vs Wait 
@@ -83,11 +85,23 @@ Some Java Programs related to Concepts of:
 
 ### Networking - Socket, URL & HHTP | EMail | Few Apps
 
-### GUI (Swing) - Components | LayoutManagers | Few Apps
+### GUI (Swing) I - Components | LayoutManagers
+
+### GUI (Swing) I - Event-Driven Programming | Few Apps
 
 .
 
-## 5. Data Structures & Algorithms
+## 5. Java Third Party Libraries
+
+### JUnit 4 (Unit Testing)
+
+### RxJava (Reactive Programming)
+
+### Selenium 2 (Web App Testing)
+
+.
+
+## 6. Data Structures & Algorithms
 
 ### DS - [Linked Lists](Data-Structures/linked_lists) | Stacks | Queues
 
@@ -105,7 +119,7 @@ Repository for more DS-Algo programs - ["Coding Interview Questions"](https://gi
 
 .
 
-## 6. Software Design Patterns
+## 7. Software Design Patterns
 
 To Do in Spring 2018...
 
@@ -117,7 +131,7 @@ To Do in Spring 2018...
 
 .
 
-## 7. Extras
+## 8. Extras
 
 ### Definitions
 
