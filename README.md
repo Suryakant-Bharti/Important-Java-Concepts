@@ -1,4 +1,4 @@
-![city banner](https://user-images.githubusercontent.com/2780145/34269679-559a8aa0-e6ab-11e7-9b77-d70ba9d7a873.png)
+![city banner](https://user-images.githubusercontent.com/2780145/34272879-0e99730c-e6b8-11e7-88ac-fc8f7a8164a6.png)
 
 # Learn Java Programming
 
@@ -18,7 +18,7 @@ Some Java Programs related to Concepts of:
 - StackOverflow Questions
 - Interview Questions
 
-![quote banner](https://user-images.githubusercontent.com/2780145/34269660-46557500-e6ab-11e7-8c77-3a0623d2a422.png)
+![quote banner](https://user-images.githubusercontent.com/2780145/34272883-167f0ece-e6b8-11e7-9ced-a4384f2e07f8.png)
 
 ## 1. Java Fundamentals & OOPS
 [[USEFUL INFO - flowcharts, tables, diagrams, etc]](Java-OOPS)
