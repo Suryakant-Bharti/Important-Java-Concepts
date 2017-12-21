@@ -32,7 +32,7 @@ Some Java Programs related to Concepts of:
 
 ### Runtime Polymorphism | instanceof
 
-### Abstraction | Interfaces
+### Abstraction | Interfaces | Callbacks
 
 ### Encapsulation
 
@@ -73,15 +73,17 @@ Some Java Programs related to Concepts of:
 ## 4. OS, DB, N/W & GUI Concepts
 [[USEFUL INFO - flowcharts, tables, diagrams, etc]](Concurrency)
 
-### Concurrency - [Multithreading](Concurrency/multithreading) | Sleep vs Wait | [Classic Problems](Concurrency/classic_problems)
+### Concurrency I - [Multithreading](Concurrency/multithreading) | Sleep vs Wait 
+
+### Concurrency II - Advanced Concepts | [Classic Problems](Concurrency/classic_problems)
 
 ### OS Concepts - CPU Scheduling | Memory Management
 
 ### Databases - Java DB Connectivity (JDBC) | SQL Examples
 
-### Networking - Socket, URL & HHTP | Sample Apps
+### Networking - Socket, URL & HHTP | EMail | Few Apps
 
-### GUI (Swing) - Components | LayoutManagers | Sample Apps
+### GUI (Swing) - Components | LayoutManagers | Few Apps
 
 .
 
