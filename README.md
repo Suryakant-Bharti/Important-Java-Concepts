@@ -18,7 +18,7 @@ Some Java Programs related to Concepts of:
 - StackOverflow Questions
 - Interview Questions
 
-![slim quote banner](https://user-images.githubusercontent.com/2780145/34232430-43d4d7d0-e606-11e7-9ccc-9e91a5335ea2.png)
+![slimmer quote banner](https://user-images.githubusercontent.com/2780145/34267501-25aec746-e6a3-11e7-8a38-e89284b80f87.png)
 
 ## 1. Java Fundamentals & OOPS
 [[USEFUL INFO - flowcharts, tables, diagrams, etc]](Java-OOPS)
