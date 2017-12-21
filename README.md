@@ -56,7 +56,7 @@ Some Java Programs related to Concepts of:
 
 ### Functional Programming
 
-### Some New Features
+### Java New Features
 
 .
 
@@ -96,7 +96,7 @@ Some Java Programs related to Concepts of:
 
 ### JUnit 4 (Unit Testing)
 
-### RxJava (Reactive Programming)
+### RxJava 2 (Reactive Programming)
 
 ### Selenium 2 (Web App Testing)
 
