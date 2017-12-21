@@ -1,4 +1,4 @@
-![Great City Skyline Vector](https://user-images.githubusercontent.com/2780145/33828904-f4f9db84-de93-11e7-87bb-82fe8734ebc2.png)
+![city banner](https://user-images.githubusercontent.com/2780145/34268582-4f476104-e6a7-11e7-8d62-4e12662d9382.png)
 
 # Learn Java Programming
 
@@ -18,7 +18,7 @@ Some Java Programs related to Concepts of:
 - StackOverflow Questions
 - Interview Questions
 
-![slimmerer quote banner](https://user-images.githubusercontent.com/2780145/34267996-13ce397e-e6a5-11e7-87bb-7d2c13709970.png)
+![quote banner](https://user-images.githubusercontent.com/2780145/34268592-5cc3ec8a-e6a7-11e7-8eb2-b1bb8faa818a.png)
 
 ## 1. Java Fundamentals & OOPS
 [[USEFUL INFO - flowcharts, tables, diagrams, etc]](Java-OOPS)
