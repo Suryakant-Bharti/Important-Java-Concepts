@@ -28,11 +28,9 @@ Some Java Programs related to Concepts of:
 
 ### [Inheritance (IS-A & HAS-A)](Java-OOPS/inheritance)
 
-### [Overloading](Java-OOPS/method_overloading) | [Overriding](Java-OOPS/method_overriding)
+### [Overloading](Java-OOPS/method_overloading) | [Overriding](Java-OOPS/method_overriding) | [super & final](Java-OOPS/super_and_final)
 
-### super, final & instanceof
-
-### Advanced Polymorphism
+### Runtime Polymorphism | instanceof
 
 ### Abstraction | Interfaces
 
