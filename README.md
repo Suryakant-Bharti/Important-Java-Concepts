@@ -31,7 +31,7 @@ Some Java Programs related to Concepts of:
 
 ### [Overloading](Java-OOPS/method_overloading) | [Overriding](Java-OOPS/method_overriding) | [super & final](Java-OOPS/super_and_final)
 
-### Runtime Polymorphism | instanceof
+### [Runtime Polymorphism](Java-OOPS/runtime_polymorphism) | [instanceof](Java-OOPS/instanceof)
 
 ### Abstraction | Interfaces | Callbacks
 
