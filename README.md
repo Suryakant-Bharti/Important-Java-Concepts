@@ -33,7 +33,7 @@ Some Java Programs related to Concepts of:
 
 ### [Runtime Polymorphism](Java-OOPS/runtime_polymorphism) | [instanceof](Java-OOPS/instanceof)
 
-### Abstraction | Interfaces | Callbacks
+### [Abstraction](Java-OOPS/abstraction) | [Interfaces](Java-OOPS/interfaces) | Callbacks
 
 ### Encapsulation
 
@@ -135,6 +135,8 @@ To Do in Spring 2018...
 ## 8. Extras
 
 ### Definitions
+
+### Cheat Sheets
 
 ### StackOverflow Questions
 
