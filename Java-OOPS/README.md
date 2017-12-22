@@ -34,6 +34,10 @@ Object-Oriented Programming is a methodology or paradigm to design a program usi
 
 ![abstract class vs interface](https://user-images.githubusercontent.com/2780145/34228145-a8899456-e5f5-11e7-9700-3da10a91ee83.png)
 
+## Java Access Modifiers
+
+![java access modifiers](https://user-images.githubusercontent.com/2780145/34307899-81fbccce-e770-11e7-9b13-fcfff05fd1a1.png)
+
 ## Abstraction vs Encapsulation
 
 ![abstraction vs encapsulation](https://user-images.githubusercontent.com/2780145/34227453-24176ed4-e5f3-11e7-8361-b006727fd273.png)
