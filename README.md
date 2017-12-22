@@ -35,7 +35,7 @@ Some Java Programs related to Concepts of:
 
 ### [Abstraction](Java-OOPS/abstraction) | [Interfaces](Java-OOPS/interfaces) | Callbacks
 
-### Encapsulation
+### [Encapsulation](Java-OOPS/encapsulation)
 
 .
 
