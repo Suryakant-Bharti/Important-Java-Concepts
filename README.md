@@ -1,4 +1,4 @@
-![city banner](https://user-images.githubusercontent.com/2780145/34272879-0e99730c-e6b8-11e7-88ac-fc8f7a8164a6.png)
+![city banner](https://user-images.githubusercontent.com/2780145/34306937-c5816de6-e76b-11e7-93b1-8b1c96c40c72.png)
 
 # Learn Java Programming
 
