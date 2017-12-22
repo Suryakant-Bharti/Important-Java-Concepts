@@ -1,4 +1,4 @@
-![java banner](https://user-images.githubusercontent.com/2780145/34311849-1de2a22e-e786-11e7-8bc6-b5e4b0e54070.png)
+![java programming banner](https://user-images.githubusercontent.com/2780145/34312925-970749c8-e78d-11e7-86d4-046989d6122d.png)
 
 # Learn Java Programming
 
@@ -146,10 +146,10 @@ To Do in Spring 2018...
 
 --- References ---
 ------------------
-    This repository contains few codes and images which were not created by me.
+    This repository contains few codes and images from other authors.
     Used for "Nonprofit Educational Purpose".
-    Million Thanks to the original authors :)
+    Thanks to the original authors :)
     
     WEBSITES - javaTpoint, TutorialsPoint, GeeksforGeeks, StackOverflow, SourceMaking
     BOOKS - Java The Complete reference    
-    IMAGES - Google Images ^_^
+    IMAGES - Google Images
