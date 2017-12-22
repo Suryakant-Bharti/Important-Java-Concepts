@@ -1,3 +1,5 @@
+![java banner](https://user-images.githubusercontent.com/2780145/34311849-1de2a22e-e786-11e7-8bc6-b5e4b0e54070.png)
+
 # Learn Java Programming
 
 Some Java Programs related to Concepts of:
@@ -144,7 +146,7 @@ To Do in Spring 2018...
 
 --- References ---
 ------------------
-    This repository contains some codes and images which were not created by me.
+    This repository contains few codes and images which were not created by me.
     Used for "Nonprofit Educational Purpose".
     Million Thanks to the original authors :)
     
