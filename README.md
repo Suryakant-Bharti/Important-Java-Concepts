@@ -1,4 +1,4 @@
-![java programming banner](https://user-images.githubusercontent.com/2780145/34323229-4e222da8-e865-11e7-8b52-87102e1bac32.png)
+![java programming banner](https://user-images.githubusercontent.com/2780145/34323283-86d3db22-e867-11e7-9abc-289789872892.png)
 
 # Learn Java Programming
 
