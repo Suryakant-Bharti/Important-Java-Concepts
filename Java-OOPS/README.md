@@ -2,6 +2,8 @@
 
 Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects. It simplifies the software development and maintenance. Main Concepts - Inheritance, Polymorphism, Abstraction, Encapsulation.
 
+## C++ vs Java
+
 <table class="alt">
 <tbody><tr><th>Comparison Index</th> <th>C++</th><th>Java</th></tr>
 <tr><td>Platform-independent</td><td>C++ is platform-dependent.</td><td>Java is platform-independent.</td></tr>
