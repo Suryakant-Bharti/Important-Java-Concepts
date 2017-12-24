@@ -1,6 +1,8 @@
 ![java programming banner](https://user-images.githubusercontent.com/2780145/34323283-86d3db22-e867-11e7-9abc-289789872892.png)
 ![quote banner](https://user-images.githubusercontent.com/2780145/34323328-8af771c0-e86a-11e7-8773-e1cfe96a6acd.png)
 
+<img style="height:725px;max-width:500px;width: expression(this.width > 500 ? 500: true);" src="https://user-images.githubusercontent.com/2780145/34323328-8af771c0-e86a-11e7-8773-e1cfe96a6acd.png"/>
+
 # Learn Java Programming
 
 Some Java Programs related to Concepts of:
