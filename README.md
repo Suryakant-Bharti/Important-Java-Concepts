@@ -151,6 +151,6 @@ To Do in Spring 2018...
     Used for "Nonprofit Educational Purpose".
     Thanks to the original authors :)
     
-    WEBSITES - javaTpoint, tutorialsPoint, studytonight, w3schools,
-               GeeksforGeeks, StackOverflow, SourceMaking
+    WEBSITES - javaTpoint, tutorialsPoint, studytonight, w3schools
+    WEBSITES - GeeksforGeeks, StackOverflow, SourceMaking
     BOOKS - Java The Complete reference    
