@@ -1,5 +1,5 @@
 ![java programming banner](https://user-images.githubusercontent.com/2780145/34323283-86d3db22-e867-11e7-9abc-289789872892.png)
-![quote banner](https://user-images.githubusercontent.com/2780145/34341813-6dfc080e-e9c5-11e7-94d6-646d23749258.png)
+![quote banner](https://user-images.githubusercontent.com/2780145/34341843-fa43f72c-e9c5-11e7-88e8-f3b863448262.png)
 
 # Learn Java Programming
 
