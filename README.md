@@ -117,13 +117,13 @@
 
 ### [Dynamic Programming](Algorithms/dynamic_programming)
 
-Repository for more DS-Algo programs - ["Coding Interview Questions"](https://github.com/Suryakant-Bharti/coding-interview-questions)
+*Repository for more DS-Algo programs - ["Coding Interview Questions"](https://github.com/Suryakant-Bharti/coding-interview-questions)*
 
 .
 
 ## 7. Software Design Patterns
 
-To Do in Spring 2018...
+*To Do in Spring 2018...*
 
 ### Creational Patterns
 
@@ -144,6 +144,8 @@ To Do in Spring 2018...
 ### Interview Questions
 
 .
+
+---
 
 --- *References* ---
 --------------------
