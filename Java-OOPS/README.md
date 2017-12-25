@@ -28,15 +28,45 @@ Object-Oriented Programming is a methodology or paradigm to design a program usi
 
 ## Java Naming Conventions :
 
-![java naming conventions](https://user-images.githubusercontent.com/2780145/34084497-913ac9a0-e3a7-11e7-8eb9-5a733a330ea6.png)
+<table class="alt">
+<tbody><tr><th>Name</th><th>Convention</th></tr>
+<tr><td>class name</td><td> should start with uppercase letter and be a noun e.g. String, Color, Button, System, Thread etc.</td></tr>
+<tr><td>interface name</td><td>should start with uppercase letter and be an adjective 
+e.g. Runnable, Remote, ActionListener etc.</td></tr>
+<tr><td>method name</td><td>should start with lowercase letter and be a verb e.g. actionPerformed(), main(), print(), println() etc.
+</td></tr>
+<tr><td>variable name</td><td>should start with lowercase letter
+e.g. firstName, orderNumber etc.</td></tr>
+<tr><td>package name</td><td>should be in lowercase letter 
+e.g. java, lang, sql, util etc.
+</td></tr>
+<tr><td>constants name</td><td>should be in uppercase letter.
+e.g. RED, YELLOW, MAX_PRIORITY etc.</td></tr>
+</tbody></table>
 
 ## Object vs Class
 
-![object vs class](https://user-images.githubusercontent.com/2780145/34218964-c7c7420c-e5d5-11e7-9afd-b342b3562de3.png)
+<table class="alt">
+<tbody><tr><th>No.</th><th>Object</th><th>Class</th></tr>
+<tr><td>1)</td><td>Object is an <strong>instance</strong> of a class.</td><td>Class is a <strong>blueprint or template</strong> from which objects are created.</td></tr>
+<tr><td>2)</td><td>Object is a <strong>real world entity</strong> such as pen, laptop, mobile, bed, keyboard, mouse, chair etc.</td><td>Class is a <strong>group of similar objects</strong>.</td></tr>
+<tr><td>3)</td><td>Object is a <strong>physical</strong> entity.</td><td>Class is a <strong>logical</strong> entity.</td></tr>
+<tr><td>4)</td><td>Object is created through <strong>new keyword</strong> mainly e.g.<br> Student s1=new Student();</td><td>Class is declared using <strong>class keyword</strong> e.g.<br> class Student{}</td></tr>
+<tr><td>5)</td><td>Object is created <strong>many times</strong> as per requirement.</td><td>Class is declared <strong>once</strong>.</td></tr>
+<tr><td>6)</td><td>Object <strong>allocates memory when it is created</strong>.</td><td>Class <strong>doesn't allocated memory when it is created</strong>.</td></tr>
+<tr><td>7)</td><td>There are <strong>many ways to create object</strong> in java such as new keyword, newInstance() method, clone() method, factory method and deserialization.</td><td>There is only <strong>one way to define class</strong> in java using class keyword.</td></tr>
+</tbody></table>
 
 ## Constructors vs Methods
 
-![java constructor vs java methods](https://user-images.githubusercontent.com/2780145/34219395-0e9f367a-e5d7-11e7-8032-51c8a6e8f12d.png)
+<table class="alt">
+<tbody><tr><th>Java Constructor</th><th>Java Method</th></tr>
+<tr><td>Constructor is used to initialize the state of an object.</td><td>Method is used to expose behaviour of an object.</td></tr>
+<tr><td>Constructor must not have return type.</td><td>Method must have return type.</td></tr>
+<tr><td>Constructor is invoked implicitly.</td><td>Method is invoked explicitly.</td></tr>
+<tr><td>The java compiler provides a default constructor if you don't have any constructor.</td><td>Method is not provided by compiler in any case.</td></tr>
+<tr><td>Constructor name must be same as the class name.</td><td> Method name may or may not be same as class name.</td></tr>
+</tbody></table>
 
 ## Types of Inheritance (Supported through Class)
 
