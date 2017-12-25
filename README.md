@@ -145,8 +145,8 @@ To Do in Spring 2018...
 
 .
 
---- References ---
-------------------
+--- *References* ---
+--------------------
     This repository contains few codes and images from other authors.
     Used for "Nonprofit Educational Purpose".
     Thanks to the original authors :)
