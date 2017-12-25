@@ -3,21 +3,21 @@
 
 # Learn Java Programming
 
-Some Java Programs related to Concepts of:
-- Java Object-Oriented Programming
-- Java Collections Framework
-- Java Advanced Concepts
-- Concurrency
-- Operating Systems
-- Databases
-- Networking
-- Graphical User Interface
-- Software Testing
-- Data Structures
-- Algorithms
-- Software Design Patterns
-- StackOverflow Questions
-- Interview Questions
+**This Repo contains Java Programs related to Concepts of :**
+- *Java Object-Oriented Programming*
+- *Java Collections Framework*
+- *Java Advanced Concepts*
+- *Concurrency*
+- *Operating Systems*
+- *Databases*
+- *Networking*
+- *Graphical User Interface*
+- *Software Testing*
+- *Data Structures*
+- Algorithms*
+- *Software Design Patterns*
+- *StackOverflow Questions*
+- *Interview Questions*
 
 ## 1. Java Fundamentals & OOPS
 [[USEFUL INFO - flowcharts, tables, diagrams, etc]](Java-OOPS)
