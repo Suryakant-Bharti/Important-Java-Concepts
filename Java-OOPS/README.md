@@ -30,18 +30,20 @@ Object-Oriented Programming is a methodology or paradigm to design a program usi
 
 <table class="alt">
 <tbody><tr><th>Name</th><th>Convention</th></tr>
-<tr><td>class name</td><td> should start with uppercase letter and be a noun e.g. String, Color, Button, System, Thread etc.</td></tr>
+<tr><td>class name</td><td> should start with uppercase letter and be a noun 
+<br>e.g. String, Color, Button, System, Thread etc.</td></tr>
 <tr><td>interface name</td><td>should start with uppercase letter and be an adjective 
-e.g. Runnable, Remote, ActionListener etc.</td></tr>
-<tr><td>method name</td><td>should start with lowercase letter and be a verb e.g. actionPerformed(), main(), print(), println() etc.
+<br>e.g. Runnable, Remote, ActionListener etc.</td></tr>
+<tr><td>method name</td><td>should start with lowercase letter and be a verb 
+<br>e.g. actionPerformed(), main(), print(), println() etc.
 </td></tr>
 <tr><td>variable name</td><td>should start with lowercase letter
-e.g. firstName, orderNumber etc.</td></tr>
+<br>e.g. firstName, orderNumber etc.</td></tr>
 <tr><td>package name</td><td>should be in lowercase letter 
-e.g. java, lang, sql, util etc.
+<br>e.g. java, lang, sql, util etc.
 </td></tr>
 <tr><td>constants name</td><td>should be in uppercase letter.
-e.g. RED, YELLOW, MAX_PRIORITY etc.</td></tr>
+<br>e.g. RED, YELLOW, MAX_PRIORITY etc.</td></tr>
 </tbody></table>
 
 ## Object vs Class
@@ -110,6 +112,20 @@ e.g. RED, YELLOW, MAX_PRIORITY etc.</td></tr>
 </tbody></table>
 
 ## Abstraction vs Encapsulation
+
+<table class="alt">
+<tbody><tr><th>Abstraction</th><th>Encapsulation</th></tr>
+<tr><td>Abstraction is a process of hiding the implementation details and showing only functionality to the user.</td>
+<td> Encapsulation is a process of wrapping code and data together into a single unit</td></tr>
+<tr><td>Abstraction lets you focus on what the object does instead of how it does it.</td>
+<td>Encapsulation provides you the control over the data and keeping it safe from outside misuse.</td></tr>
+<tr><td>Abstraction solves the problem in the Design Level.</td>
+<td>Encapsulation solves the problem in the Implementation Level.</td></tr>
+<tr><td>Abstraction is implemented by using Interfaces and Abstract Classes.</td>
+<td>Encapsulation is implemented by using Access Modifiers (private, default, protected, public)</td></tr>
+<tr><td>Abstraction means hiding implementation complexities by using interfaces and abstract class.</td>
+<td>Encapsulation means hiding data by using setters and getters.</td></tr>
+</tbody></table>
 
 ![abstraction vs encapsulation](https://user-images.githubusercontent.com/2780145/34227453-24176ed4-e5f3-11e7-8361-b006727fd273.png)
 
