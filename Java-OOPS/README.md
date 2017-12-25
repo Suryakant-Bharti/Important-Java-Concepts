@@ -26,6 +26,10 @@ Object-Oriented Programming is a methodology or paradigm to design a program usi
 
 ![java-features](https://user-images.githubusercontent.com/2780145/34342551-a12aa88e-e9d9-11e7-9a92-ec37e71fdc2c.png)
 
+## Java Program Execution Process :
+
+![java-environment](https://user-images.githubusercontent.com/2780145/34342724-fd8b1cbc-e9de-11e7-8a41-7d514892dd80.png)
+
 ## Data Type Promotion in Java :
 
 ![data type promotion small](https://user-images.githubusercontent.com/2780145/34228209-f6d50f78-e5f5-11e7-889a-f961742b8bd7.png)
