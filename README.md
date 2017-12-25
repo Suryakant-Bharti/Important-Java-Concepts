@@ -145,8 +145,6 @@
 
 .
 
----
-
 --- *References* ---
 --------------------
     This repository contains few codes and images from other authors.
