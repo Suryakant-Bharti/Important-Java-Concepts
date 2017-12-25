@@ -78,15 +78,36 @@ e.g. RED, YELLOW, MAX_PRIORITY etc.</td></tr>
 
 ## Polymorphism - Method Overloading vs Method Overriding
 
-![method overloading vs method overriding](https://user-images.githubusercontent.com/2780145/34219473-4b0ea5fa-e5d7-11e7-942c-12c7493b282d.png)
+<table class="alt">
+<tbody><tr><th>No.</th><th>Method Overloading </th><th>Method Overriding</th></tr>
+<tr><td>1)</td><td>Method overloading is used <em>to increase the readability</em> of the program.</td><td>Method overriding is used <em>to provide the specific implementation</em> of the method that is already provided by its super class.</td></tr>
+<tr><td>2)</td><td>Method overloading is performed <em>within class</em>.</td><td>Method overriding occurs <em>in two classes</em> that have IS-A (inheritance) relationship.</td></tr>
+<tr><td>3)</td><td>In case of method overloading, <em>parameter must be different</em>.</td><td>In case of method overriding, <em>parameter must be same</em>.</td></tr>
+<tr><td>4)</td><td>Method overloading is the example of <em>compile time polymorphism</em>.</td><td>Method overriding is the example of <em>run time polymorphism</em>.</td></tr>
+<tr><td>5)</td><td>In java, method overloading can't be performed by changing return type of the method only. <em>Return type can be same or different</em> in method overloading. But you must have to change the parameter.</td><td><em>Return type must be same or covariant</em> in method overriding.</td></tr>
+</tbody></table>
 
 ## Abstract Class vs Interface
 
-![abstract class vs interface](https://user-images.githubusercontent.com/2780145/34228145-a8899456-e5f5-11e7-9700-3da10a91ee83.png)
+<table class="alt">
+<tbody><tr><th>Abstract class</th><th>Interface</th></tr>
+<tr><td>1) Abstract class can <strong>have abstract and non-abstract</strong> methods.</td><td>Interface can have <strong>only abstract</strong> methods. Since Java 8, it can have <strong>default and static methods</strong> also.</td></tr>
+<tr><td>2) Abstract class <strong>doesn't support multiple inheritance</strong>.</td><td>Interface <strong>supports multiple inheritance</strong>.</td></tr>
+<tr><td>3) Abstract class <strong>can have final, non-final, static and non-static variables</strong>.</td><td>Interface has <strong>only static and final variables</strong>.</td></tr>
+<tr><td>4) Abstract class <strong>can provide the implementation of interface</strong>.</td><td>Interface <strong>can't provide the implementation of abstract class</strong>.</td></tr>
+<tr><td>5) The <strong>abstract keyword</strong> is used to declare abstract class.</td><td>The <strong>interface keyword</strong> is used to declare interface.</td></tr>
+<tr><td>6) <strong>Example:</strong><br> public abstract class Shape{<br>public abstract void draw();<br>}</td><td><strong>Example:</strong><br> public interface Drawable{<br>void draw();<br>}</td></tr>
+</tbody></table>
 
 ## Java Access Modifiers
 
-![java access modifiers](https://user-images.githubusercontent.com/2780145/34307899-81fbccce-e770-11e7-9b13-fcfff05fd1a1.png)
+<table class="alt">
+<tbody><tr><th>Access Modifier</th><th>within class</th><th>within package</th><th>outside package by subclass only</th><th>outside package</th></tr>
+<tr><td><b>Private</b></td><td>Y</td><td>N</td><td>N</td><td>N</td></tr>
+<tr><td><b>Default</b></td><td>Y</td><td>Y</td><td>N</td><td>N</td></tr>
+<tr><td><b>Protected</b></td><td>Y</td><td>Y</td><td>Y</td><td>N</td></tr>
+<tr><td><b>Public</b></td><td>Y</td><td>Y</td><td>Y</td><td>Y</td></tr>
+</tbody></table>
 
 ## Abstraction vs Encapsulation
 
@@ -95,4 +116,17 @@ e.g. RED, YELLOW, MAX_PRIORITY etc.</td></tr>
 ## Methods of Object Class
 The Object class is the parent class of all the classes in java by default.
 
-![methods of object class](https://user-images.githubusercontent.com/2780145/34322988-65f36ff4-e85c-11e7-9925-f0d2dab7a5db.png)
+<table class="alt">
+<tbody><tr><th>Method</th><th>Description</th></tr>
+<tr><td>public final Class getClass()</td><td>returns the Class class object of this object. The Class class can further be used to get the metadata of this class.</td></tr>
+<tr><td>public int hashCode()</td><td> returns the hashcode number for this object.</td></tr>
+<tr><td>public boolean equals(Object obj)</td><td> compares the given object to this object.</td></tr>
+<tr><td>protected Object clone() throws CloneNotSupportedException</td><td> creates and returns the exact copy (clone) of this object.</td></tr>
+<tr><td>public String toString()</td><td> returns the string representation of this object.</td></tr>
+<tr><td>public final void notify()</td><td> wakes up single thread, waiting on this object's monitor.</td></tr>
+<tr><td>public final void notifyAll()</td><td> wakes up all the threads, waiting on this object's monitor.</td></tr>
+<tr><td>public final void wait(long timeout)throws InterruptedException</td><td> causes the current thread to wait for the specified milliseconds, until another thread notifies (invokes notify() or notifyAll() method).</td></tr>
+<tr><td>public final void wait(long timeout,int nanos)throws InterruptedException</td><td>causes the current thread to wait for the specified milliseconds and nanoseconds, until another thread notifies (invokes notify() or notifyAll() method).</td></tr>
+<tr><td>public final void wait()throws InterruptedException</td><td> causes the current thread to wait, until another thread notifies (invokes notify() or notifyAll() method).</td></tr>
+<tr><td>protected void finalize()throws Throwable</td><td> is invoked by the garbage collector before object is being garbage collected.</td></tr>
+</tbody></table>
