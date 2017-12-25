@@ -22,6 +22,10 @@ Object-Oriented Programming is a methodology or paradigm to design a program usi
 <tr><td>Inheritance Tree</td><td>C++ creates a new inheritance tree always.</td><td>Java uses single inheritance tree always because all classes are the child of Object class in java. Object class is the root of inheritance tree in java.</td></tr>
 </tbody></table>
 
+## Features of Java :
+
+![java-features](https://user-images.githubusercontent.com/2780145/34342551-a12aa88e-e9d9-11e7-9a92-ec37e71fdc2c.png)
+
 ## Data Type Promotion in Java :
 
 ![data type promotion small](https://user-images.githubusercontent.com/2780145/34228209-f6d50f78-e5f5-11e7-889a-f961742b8bd7.png)
