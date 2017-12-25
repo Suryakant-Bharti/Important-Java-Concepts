@@ -127,8 +127,6 @@ Object-Oriented Programming is a methodology or paradigm to design a program usi
 <td>Encapsulation means hiding data by using setters and getters.</td></tr>
 </tbody></table>
 
-![abstraction vs encapsulation](https://user-images.githubusercontent.com/2780145/34227453-24176ed4-e5f3-11e7-8361-b006727fd273.png)
-
 ## Methods of Object Class
 The Object class is the parent class of all the classes in java by default.
 
