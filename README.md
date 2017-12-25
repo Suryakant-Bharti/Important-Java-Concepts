@@ -14,13 +14,13 @@
 - *Graphical User Interface*
 - *Software Testing*
 - *Data Structures*
-- Algorithms*
+- *Algorithms*
 - *Software Design Patterns*
 - *StackOverflow Questions*
 - *Interview Questions*
 
 ## 1. Java Fundamentals & OOPS
-[[USEFUL INFO - flowcharts, tables, diagrams, etc]](Java-OOPS)
+*[[USEFUL INFO - tables, flowcharts, diagrams, etc]](Java-OOPS)*
 
 ### Basics | [Classes & Objects](Java-OOPS/class_and_object)
 
@@ -41,7 +41,7 @@
 .
 
 ## 2. Java Miscellaneous Concepts
-[[USEFUL INFO - flowcharts, tables, diagrams, etc]](Java-Concepts)
+*[[USEFUL INFO - tables, flowcharts, diagrams, etc]](Java-Concepts)*
 
 ### [Miscellaneous Basics](Java-Concepts/basics_misc)
 
@@ -62,7 +62,7 @@
 .
 
 ## 3. Java Collections Framework
-[[USEFUL INFO - flowcharts, tables, diagrams, etc]](Java-Collections)
+*[[USEFUL INFO - tables, flowcharts, diagrams, etc]](Java-Collections)*
 
 ### Collection Interface - [List](Java-Collections/list) | [Set](Java-Collections/set) | [Queue](Java-Collections/queue)
 
@@ -75,7 +75,7 @@
 .
 
 ## 4. Java Advanced Concepts
-[[USEFUL INFO - flowcharts, tables, diagrams, etc]](Concurrency)
+*[[USEFUL INFO - tables, flowcharts, diagrams, etc]](Concurrency)*
 
 ### Concurrency I - [Multithreading](Concurrency/multithreading) | Sleep vs Wait 
 
