@@ -1,5 +1,5 @@
 ![java programming banner](https://user-images.githubusercontent.com/2780145/34323283-86d3db22-e867-11e7-9abc-289789872892.png)
-![quote banner](https://user-images.githubusercontent.com/2780145/34341843-fa43f72c-e9c5-11e7-88e8-f3b863448262.png)
+![why java banner](https://user-images.githubusercontent.com/2780145/34342477-6f4a6e00-e9d7-11e7-8077-6d763187dd93.png)
 
 # Learn Java Programming
 
@@ -18,7 +18,7 @@
 - *Software Design Patterns*
 - *StackOverflow Questions*
 - *Interview Questions*
-
+![quote banner](https://user-images.githubusercontent.com/2780145/34341843-fa43f72c-e9c5-11e7-88e8-f3b863448262.png)
 ## 1. Java Fundamentals & OOPS
 *[[USEFUL INFO - tables, flowcharts, diagrams, etc]](Java-OOPS)*
 
