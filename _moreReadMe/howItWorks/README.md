@@ -46,7 +46,8 @@ Java is a **programming language** and a **platform**.
   - Write Once and Run Anywhere.
    
 - **interpreted:**
-  - Java is compiled to bytecodes, which are interpreted by a Java run-time environment. 
+  - Java is compiled to bytecodes, which are interpreted by a Java run-time environment.
+  - The interpreter reads bytecode stream then execute the instructions.
   
 - **High-Performance:**
   - **Uses ByteCode -** Java is faster than traditional interpreted languages since byte code is "close" to native code. 
@@ -76,6 +77,14 @@ Java is a **programming language** and a **platform**.
 ## JDK - JRE - JVM - JIT :
 
 ![jdk-jre-jvm-jit](https://user-images.githubusercontent.com/2780145/34342877-771d2796-e9e4-11e7-9d18-98ed672a4b53.png)
+
+**Java Development Kit (JDK):** It is a collection of development tools including JRE.
+
+**Java Runtime Environment (JRE):** It contains set of libraries and the JVM.
+
+**Java Virtual Machine (JVM):** It is an abstract machine. It is a specification that provides runtime environment in which java bytecode can be executed. The JVM performs following main tasks: Loads code, Verifies code, Executes code and Provides runtime environment.
+
+**NOTE -** JVMs are available for many hardware and software platforms. JVM, JRE and JDK are platform dependent because configuration of each OS differs. But, Java is platform independent.
 
 ## Internal Architecture of JVM :
 
