@@ -1,5 +1,7 @@
 ![java programming banner](https://user-images.githubusercontent.com/2780145/34323283-86d3db22-e867-11e7-9abc-289789872892.png)
-![why java banner](https://user-images.githubusercontent.com/2780145/34342477-6f4a6e00-e9d7-11e7-8077-6d763187dd93.png)
+![why java banner](https://user-images.githubusercontent.com/2780145/34364455-596977a4-eaac-11e7-9c89-9ac02f430511.png)
+
+<img src = "https://user-images.githubusercontent.com/2780145/34364478-7f0ef056-eaac-11e7-912a-c03fc4ab4743.png" align = "left" width = "50">
 
 # Learn Java Programming
 
