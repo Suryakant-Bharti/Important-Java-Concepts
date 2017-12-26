@@ -24,11 +24,11 @@ Object-Oriented Programming is a methodology or paradigm to design a program usi
 
 ## Features of Java :
 
-![java-features](https://user-images.githubusercontent.com/2780145/34342551-a12aa88e-e9d9-11e7-9a92-ec37e71fdc2c.png)
+![java-features](https://user-images.githubusercontent.com/2780145/34343682-d387500a-e9fe-11e7-8f6f-d6f49200c291.png)
 
 ## Java Program Execution Process :
 
-![java-environment](https://user-images.githubusercontent.com/2780145/34342724-fd8b1cbc-e9de-11e7-8a41-7d514892dd80.png)
+![java-execution-process](https://user-images.githubusercontent.com/2780145/34343683-d3aea7e0-e9fe-11e7-866d-26a8857e04c9.png)
 
 ## JDK - JRE - JVM - JIT :
 
