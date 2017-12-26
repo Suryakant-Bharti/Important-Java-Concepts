@@ -27,9 +27,9 @@
 
 *[[USEFUL INFO - For Polyglots - C++ vs Java]](_moreReadMe/polyglot)*
 
-### Basics | [Classes & Objects](Java-OOPS/class_and_object)
+### [Variables](Java-OOPS/variables) | [Operators](Java-OOPS/operators)  | [Control Flow](Java-OOPS/control_flow) 
 
-### [static & this](Java-OOPS/static_and_this) | [Inner Classes](Java-OOPS/inner_class)
+### [Classes & Objects](Java-OOPS/class_and_object) | [static & this](Java-OOPS/static_and_this) | [Inner Classes](Java-OOPS/inner_class)
 
 ### [Inheritance (IS-A & HAS-A)](Java-OOPS/inheritance)
 
@@ -42,6 +42,8 @@
 ### [Encapsulation](Java-OOPS/encapsulation)
 
 ### Recursion | Callbacks | Misc
+
+### [Basic Programs](Java-OOPS/basic_programs)
 
 .
 
