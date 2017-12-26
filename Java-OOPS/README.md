@@ -66,6 +66,20 @@ NOTE : UTF-8 is the most popular unicode character encoding with 90% websites us
 
 ![data type promotion small](https://user-images.githubusercontent.com/2780145/34364362-403e9db4-eaab-11e7-914b-7acc9007cf41.png)
 
+## Wrapper Classes in Java
+
+<table class="alt">
+<tbody><tr><th>Primitive Type</th><th>Wrapper class</th></tr>
+<tr><td>boolean</td><td>Boolean</td></tr>
+<tr><td>char</td><td>Character</td></tr>
+<tr><td>byte</td><td>Byte</td></tr>
+<tr><td>short</td><td>Short</td></tr>
+<tr><td>int</td><td>Integer</td></tr>
+<tr><td>long</td><td>Long</td></tr>
+<tr><td>float</td><td>Float</td></tr>
+<tr><td>double</td><td>Double</td></tr>
+</tbody></table>
+
 ## Operators in Java
 
 <table class="alt"> 
