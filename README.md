@@ -31,7 +31,7 @@
 
 ### [Classes & Objects](Java-OOPS/class_and_object) | [static & this](Java-OOPS/static_and_this) | [Inner Classes](Java-OOPS/inner_class)
 
-### [Inheritance (IS-A & HAS-A)](Java-OOPS/inheritance)
+### [Inheritance (is-a)](Java-OOPS/inheritance) | [Association (has-a, part-of)](Java-OOPS/association)
 
 ### [Overloading](Java-OOPS/method_overloading) | [Overriding](Java-OOPS/method_overriding) | [super & final](Java-OOPS/super_and_final)
 
