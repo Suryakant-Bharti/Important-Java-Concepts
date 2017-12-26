@@ -41,7 +41,7 @@
 
 ### [Abstraction](Java-OOPS/abstraction) | [Interfaces](Java-OOPS/interfaces) | [Encapsulation](Java-OOPS/encapsulation)
 
-### Recursion | Miscellaneous
+### [Recursion](Java-OOPS/recursion) | [Miscellaneous](Java-OOPS/miscellaneous)
 
 ### [Basic Programs](Java-OOPS/basic_programs)
 
@@ -49,8 +49,6 @@
 
 ## 2. Java Miscellaneous Concepts
 *[[USEFUL INFO - Java Miscellaneous Concepts]](Java-Concepts)*
-
-### [Miscellaneous Basics](Java-Concepts/basics_misc)
 
 ### [Arrays](Java-Concepts/arrays) | [Strings](Java-Concepts/strings)
 
@@ -64,7 +62,7 @@
 
 ### Functional Programming
 
-### Callbacks
+### [Callbacks](Java-Concepts/callbacks)
 
 ### Java New Features
 
