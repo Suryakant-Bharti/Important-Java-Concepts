@@ -25,7 +25,7 @@
 
 *[[USEFUL INFO - Java Features & Execution Process]](_moreReadMe/howItWorks)*
 
-*[[USEFUL INFO - For Polyglots - C++ vs Java]](_moreReadMe/polyglots)*
+*[[USEFUL INFO - For Polyglots - C++ vs Java]](_moreReadMe/polyglot)*
 
 ### Basics | [Classes & Objects](Java-OOPS/class_and_object)
 
