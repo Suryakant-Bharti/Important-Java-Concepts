@@ -64,6 +64,59 @@ Object-Oriented Programming is a methodology or paradigm to design a program usi
 
 ![data type promotion small](https://user-images.githubusercontent.com/2780145/34228209-f6d50f78-e5f5-11e7-889a-f961742b8bd7.png)
 
+## Operators in Java
+
+<table class="alt"> 
+<tbody><tr><th>Operator Type</th><th>Category</th><th>Precedence</th></tr> 
+<tr> 
+<td rowspan="2">Unary</td><td>postfix</td><td><code><em>expr</em>++ <em>expr</em>--</code></td> 
+</tr> 
+ 
+<tr> 
+<td>prefix</td><td headers="precedence"><code>++<em>expr</em> --<em>expr</em> +<em>expr</em> -<em>expr</em> ~ !</code></td> 
+</tr> 
+<tr> 
+<td rowspan="2">Arithmetic</td><td>multiplicative</td><td headers="precedence"><code>* / %</code></td> 
+</tr> 
+<tr> 
+<td>additive</td><td headers="precedence"><code>+ -</code></td> 
+</tr> 
+<tr> 
+<td>Shift</td><td>shift</td><td headers="precedence"><code>&lt;&lt; &gt;&gt; &gt;&gt;&gt;</code></td> 
+ 
+</tr> 
+<tr> 
+<td rowspan="2">Relational</td><td>comparison</td><td headers="precedence"><code>&lt; &gt; &lt;= &gt;= instanceof</code></td> 
+</tr> 
+<tr> 
+<td>equality</td><td headers="precedence"><code>== !=</code></td> 
+</tr> 
+ 
+<tr> 
+<td rowspan="3">Bitwise</td><td>bitwise AND</td><td headers="precedence"><code>&amp;</code></td> 
+</tr> 
+<tr> 
+<td>bitwise exclusive OR</td><td headers="precedence"><code>^</code></td> 
+</tr> 
+<tr> 
+<td>bitwise inclusive OR</td><td headers="precedence"><code>|</code></td> 
+</tr> 
+ 
+<tr> 
+<td rowspan="2">Logical</td><td>logical AND</td><td headers="precedence"><code>&amp;&amp;</code></td> 
+</tr> 
+<tr> 
+	<td>logical OR</td><td headers="precedence"><code>||</code></td> 
+</tr> 
+<tr> 
+<td>Ternary</td><td>ternary</td><td headers="precedence"><code>? :</code></td> 
+ 
+</tr> 
+<tr> 
+<td>Assignment</td><td>assignment</td><td headers="precedence"><code>= += -= *= /= %= &amp;= ^= |= &lt;&lt;= &gt;&gt;= &gt;&gt;&gt;=</code></td> 
+</tr> 
+</tbody></table>
+
 ## Java Naming Conventions :
 
 <table class="alt">
