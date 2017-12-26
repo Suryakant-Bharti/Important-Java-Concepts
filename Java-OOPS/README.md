@@ -2,6 +2,64 @@
 
 Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects. It simplifies the software development and maintenance. Main Concepts - Inheritance, Polymorphism, Abstraction, Encapsulation.
 
+## Data Types in Java
+
+<table class="alt"> 
+<tbody><tr> 
+  <th id="table_dvpt_datatype"><strong>Data Type</strong></th> 
+  <th id="table_dvpt_defaultvalue"><strong>Default Value</strong></th> 
+  <th id="table_dvpt_defaultsize"><strong>Default size</strong></th> 
+</tr> 
+ 
+<tr> 
+<td headers="table_dvpt_datatype">boolean</td> 
+<td headers="table_dvpt_defaultvalue">false</td> 
+<td headers="table_dvpt_defaultsize">1 bit</td> 
+</tr> 
+
+<tr> 
+<td headers="table_dvpt_datatype">char</td> 
+<td headers="table_dvpt_defaultvalue">'\u0000'</td> 
+<td headers="table_dvpt_defaultsize">2 byte</td> 
+</tr> 
+
+<tr> 
+<td headers="table_dvpt_datatype">byte</td> 
+<td headers="table_dvpt_defaultvalue">0</td> 
+<td headers="table_dvpt_defaultsize">1 byte</td> 
+</tr> 
+ 
+<tr> 
+<td headers="table_dvpt_datatype">short</td> 
+<td headers="table_dvpt_defaultvalue">0</td> 
+<td headers="table_dvpt_defaultsize">2 byte</td> 
+</tr> 
+ 
+<tr> 
+<td headers="table_dvpt_datatype">int</td> 
+<td headers="table_dvpt_defaultvalue">0</td> 
+<td headers="table_dvpt_defaultsize">4 byte</td> 
+</tr> 
+ 
+<tr> 
+<td headers="table_dvpt_datatype">long</td> 
+<td headers="table_dvpt_defaultvalue">0L</td> 
+<td headers="table_dvpt_defaultsize">8 byte</td> 
+</tr> 
+ 
+<tr> 
+<td headers="table_dvpt_datatype">float</td> 
+<td headers="table_dvpt_defaultvalue">0.0f</td> 
+<td headers="table_dvpt_defaultsize">4 byte</td> 
+</tr> 
+ 
+<tr> 
+<td headers="table_dvpt_datatype">double</td> 
+<td headers="table_dvpt_defaultvalue">0.0d</td> 
+<td headers="table_dvpt_defaultsize">8 byte</td> 
+</tr> 
+</tbody></table>
+
 ## Data Type Promotion in Java :
 
 ![data type promotion small](https://user-images.githubusercontent.com/2780145/34228209-f6d50f78-e5f5-11e7-889a-f961742b8bd7.png)
