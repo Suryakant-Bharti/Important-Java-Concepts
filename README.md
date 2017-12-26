@@ -21,7 +21,11 @@
 
 ![quote banner](https://user-images.githubusercontent.com/2780145/34341843-fa43f72c-e9c5-11e7-88e8-f3b863448262.png)
 ## 1. Java Fundamentals & OOPS
-*[[USEFUL INFO - tables, flowcharts, diagrams, etc]](Java-OOPS)*
+*[[USEFUL INFO - Java Fundamentals & OOPS Concepts]](Java-OOPS)*
+
+*[[USEFUL INFO - Java Features & Execution Process]](_moreReadMe/howItWorks)*
+
+*[[USEFUL INFO - For Polyglots - C++ vs Java]](_moreReadMe/polyglots)*
 
 ### Basics | [Classes & Objects](Java-OOPS/class_and_object)
 
@@ -42,7 +46,7 @@
 .
 
 ## 2. Java Miscellaneous Concepts
-*[[USEFUL INFO - tables, flowcharts, diagrams, etc]](Java-Concepts)*
+*[[USEFUL INFO - Java Miscellaneous Concepts]](Java-Concepts)*
 
 ### [Miscellaneous Basics](Java-Concepts/basics_misc)
 
@@ -63,7 +67,7 @@
 .
 
 ## 3. Java Collections Framework
-*[[USEFUL INFO - tables, flowcharts, diagrams, etc]](Java-Collections)*
+*[[USEFUL INFO - Java Collections Framework]](Java-Collections)*
 
 ### Collection Interface - [List](Java-Collections/list) | [Set](Java-Collections/set) | [Queue](Java-Collections/queue)
 
