@@ -27,7 +27,7 @@
 
 *[[USEFUL INFO - For Polyglots - C++ vs Java]](_moreReadMe/polyglot)*
 
-### [Variables](Java-OOPS/variables) | [Operators](Java-OOPS/operators)  | [Control Flow](Java-OOPS/control_flow) 
+### [Variables & Operators](Java-OOPS/variables_and_operators) | [Control Flow](Java-OOPS/control_flow) 
 
 ### [Classes & Objects](Java-OOPS/class_and_object) | [static & this](Java-OOPS/static_and_this) | [Inner Classes](Java-OOPS/inner_class)
 
@@ -37,11 +37,9 @@
 
 ### [Runtime Polymorphism](Java-OOPS/runtime_polymorphism) | [instanceof](Java-OOPS/instanceof)
 
-### [Abstraction](Java-OOPS/abstraction) | [Interfaces](Java-OOPS/interfaces)
+### [Abstraction](Java-OOPS/abstraction) | [Interfaces](Java-OOPS/interfaces) | [Encapsulation](Java-OOPS/encapsulation)
 
-### [Encapsulation](Java-OOPS/encapsulation)
-
-### Recursion | Callbacks | Misc
+### Recursion | Miscellaneous
 
 ### [Basic Programs](Java-OOPS/basic_programs)
 
@@ -63,6 +61,8 @@
 ### [Lambda Expressions](Java-Concepts/lambda)
 
 ### Functional Programming
+
+### Callbacks
 
 ### Java New Features
 
