@@ -60,9 +60,11 @@ Object-Oriented Programming is a methodology or paradigm to design a program usi
 </tr> 
 </tbody></table>
 
+NOTE : UTF-8 is the most popular unicode character encoding with 90% websites using it.
+
 ## Data Type Promotion in Java :
 
-![data type promotion small](https://user-images.githubusercontent.com/2780145/34228209-f6d50f78-e5f5-11e7-889a-f961742b8bd7.png)
+![data type promotion small](https://user-images.githubusercontent.com/2780145/34364362-403e9db4-eaab-11e7-914b-7acc9007cf41.png)
 
 ## Operators in Java
 
@@ -163,11 +165,15 @@ Object-Oriented Programming is a methodology or paradigm to design a program usi
 
 ## Types of Inheritance (Supported through Class)
 
-![single inheritance](https://user-images.githubusercontent.com/2780145/34229063-f2c8d010-e5f8-11e7-8e49-d2d750bb850a.png)
+![single inheritance](https://user-images.githubusercontent.com/2780145/34364364-40b6b646-eaab-11e7-8c92-2c4cd9d0b2ca.png)
 
 ## Types of Inheritance (Supported through Interface only)
 
-![multiple inheritance](https://user-images.githubusercontent.com/2780145/34229358-f95d95e0-e5f9-11e7-8ac5-c0a3aef2f89d.png)
+![multiple inheritance](https://user-images.githubusercontent.com/2780145/34364363-407486b8-eaab-11e7-94e2-5c1876f414d3.png)
+
+## Assciation - Aggregation - Composition
+
+![association-aggregation-composition](https://user-images.githubusercontent.com/2780145/34364371-5db00694-eaab-11e7-8ef2-bf56d3394f15.png)
 
 ## Polymorphism - Method Overloading vs Method Overriding
 
