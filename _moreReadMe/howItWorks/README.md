@@ -9,9 +9,10 @@ Java is a **programming language** and a **platform**.
 ![java-features](https://user-images.githubusercontent.com/2780145/34343690-2fd47db0-e9ff-11e7-9630-75423dda7eaa.png)
 
 - **Simple:**
-  - Syntax is based on C++
+  - User friendly syntax based on C++
+  - It has Automatic Garbage Collection
+  - It has Rich set of APIs 
   - Removed confusing features - explicit pointers, operator overloading, multiple inheritance, etc
-  - Introduced Automatic Garbage Collection
  
 - **Object-oriented:**
   - In Java, we organize the software as a combination of different types of objects that incorporates both data and behaviour.
@@ -32,19 +33,26 @@ Java is a **programming language** and a **platform**.
   - **More -** developers can add extra security through SSL, JAAS, Cryptography etc.
   
 - **Robust:**
-  - Good memory management - automatic garbage collection.
-  - No pointers - increses security. 
-  - Exception handling - increses robustness against errors.
-  - Strongly typed - variables' data types must be declared before they can be used.
+  - **Good memory management -** automatic garbage collection.
+  - **No pointers -** increses security. 
+  - **Exception handling -** increses robustness against errors.
+  - **Strongly typed -** every variable must be declared with a data type.
+  - **Statically typed -** type checking of variables is performed at compile time.
   
 - **Architecture-Neutral:**
   - There is no implementation dependent features. e.g. size of primitive types is fixed.
   
 - **Portable:**
   - Write Once and Run Anywhere.
+   
+- **interpreted:**
+  - Java is compiled to bytecodes, which are interpreted by a Java run-time environment. 
   
 - **High-Performance:**
-  - Java is faster than traditional interpretation since byte code is "close" to native code. NOTE: It is still somewhat slower than a compiled language like C++.
+  - **Uses ByteCode -** Java is faster than traditional interpreted languages since byte code is "close" to native code. 
+  - **Just-In-Time (JIT) -** it is designed to support JIT compilers, which dynamically compile bytecodes to machine code. 
+  - **Garbage collector -** collect the unused memory space and improve the performance of the application.
+  - NOTE: Java is still slower than a compiled language like C/C++.
   
 - **Distributed:**
   - We can create distributed applications in java. RMI and EJB are used for creating distributed applications.
@@ -55,14 +63,11 @@ Java is a **programming language** and a **platform**.
   - The main advantage of multi-threading is that it doesn't occupy memory for each thread. It shares a common memory area.
   - Threads are important for multi-media, Web applications etc.
   
-- **Simple:**
-  - Sy
-  
-- **Simple:**
-  - Sy
-  
-  
-  
+- **Dynamic:**
+  - **Dynamic Compilation (JIT) -** Implementations to gain performance during program execution. The machine code emitted by a dynamic compiler is constructed and optimized at program runtime, the use of dynamic compilation enables optimizations for efficiency.
+  - **Load on Demand -** Loads in classes as they are needed, even from across the network.
+  - **Dynamic memory allocation -** All Java objects are dynamically allocated. 
+  - **Dynamic Polymorphism -** Compiler doesn’t know which method to be called in advance. JVM decides which method to called at run time.
 
 ## Java Program Execution Process :
 
