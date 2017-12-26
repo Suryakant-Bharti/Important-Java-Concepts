@@ -1,4 +1,4 @@
-# Java Features and Internal Working
+# Java Features and Program Execution
 
 Java is a **programming language** and a **platform**. 
 
@@ -98,16 +98,18 @@ JVM (Java Virtual Machine) has various sub components internally. You can see th
   - It allots memory required for the program.
   
 - **Run time data area:** This is the memory resource used by JVM and it is divided into 5 parts
-  - **Method area:** Method area stores class code and method code.
-  - **Heap:** Objects are created on heap.
-  - **Java stacks:** Java stacks are the places where the Java methods are executed. A Java stack contains frames. On each frame, a separate method is executed.
-  - **Program counter registers:** The program counter registers store memory address of the instruction to be executed by the micro processor.
-  - **Native method stacks:** The native method stacks are places where native methods (for example, C language programs) are executed. Native method is a function, which is written in another language other than Java.
+  - **Class (Method) area:** Stores constant pool, field and method data, the code for methods.
+  - **Heap:** Objects are allocated on the heap.
+  - **Java stacks:** Java stacks are the places where the Java methods are executed. A Java stack contains frames. It holds local variables and partial results, and plays a part in method invocation and return. On each frame, a separate method is executed. Each thread has a private JVM stack, created at the same time as thread. A new frame is created each time a method is invoked. A frame is destroyed when its method invocation completes.
+  - **Program counter registers:** PC (program counter) register. It contains the address of the JVM instruction currently being executed.
+  - **Native method stacks:** Are places where native methods (eg. C language programs, etc) are executed.
   
 -  **Native method interface:** Native method interface is a program that connects native methods libraries (C header files) with JVM for executing native methods.
 
-- **Native method library:** holds the native libraries information.
+- **Native method library:** Holds the native libraries information.
 
-- **Execution engine:** Execution engine contains interpreter and JIT compiler, which covert byte code into machine code. JVM uses optimization technique to decide which part to be interpreted and which part to be used with JIT compiler. The HotSpot represent the block of code executed by JIT compiler.
-
-This is a basic guide. For more - Read "Inside JVM" Book
+- **Execution engine:** 
+  - **Just-In-Time(JIT) compiler:** It is used to improve the performance. It coverts byte code into machine code. JIT compiles parts of the byte code that have similar functionality at the same time, and hence reduces the amount of time needed for compilation.Here the term ?compiler? refers to a translator from the instruction set of a Java virtual machine (JVM) to the instruction set of a specific CPU.
+  - **Interpreter:** Read bytecode stream then execute the instructions.
+  - **Virtual processor** 
+  - **NOTE -** JVM uses optimization technique to decide which part to be interpreted and which part to be used with JIT compiler.
