@@ -130,9 +130,9 @@
 
 ## 7. Software Design Patterns
 
-*To Do in Spring 2018...*
+*Finish in Spring 2018...*
 
-### Creational Patterns
+### Creational Patterns - Factory Method
 
 ### Structural Patterns
 
