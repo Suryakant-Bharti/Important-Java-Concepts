@@ -29,100 +29,100 @@
 
 *[[USEFUL INFO - For Polyglots - C++ vs Java]](_moreReadMe/polyglot)*
 
-- ### [Variables & Operators](Java-OOPS/variables_and_operators) | [Control Flow](Java-OOPS/control_flow) 
+### [Variables & Operators](Java-OOPS/variables_and_operators) | [Control Flow](Java-OOPS/control_flow) 
 
-- ### [Classes & Objects](Java-OOPS/class_and_object) | [static & this](Java-OOPS/static_and_this) | [Inner Classes](Java-OOPS/inner_class)
+### [Classes & Objects](Java-OOPS/class_and_object) | [static & this](Java-OOPS/static_and_this) | [Inner Classes](Java-OOPS/inner_class)
 
-- ### [Inheritance (is-a)](Java-OOPS/inheritance) | [Association (has-a, part-of)](Java-OOPS/association)
+### [Inheritance (is-a)](Java-OOPS/inheritance) | [Association (has-a, part-of)](Java-OOPS/association)
 
-- ### [Overloading](Java-OOPS/method_overloading) | [Overriding](Java-OOPS/method_overriding) | [super & final](Java-OOPS/super_and_final)
+### [Overloading](Java-OOPS/method_overloading) | [Overriding](Java-OOPS/method_overriding) | [super & final](Java-OOPS/super_and_final)
 
-- ### [Runtime Polymorphism](Java-OOPS/runtime_polymorphism) | [instanceof](Java-OOPS/instanceof)
+### [Runtime Polymorphism](Java-OOPS/runtime_polymorphism) | [instanceof](Java-OOPS/instanceof)
 
-- ### [Abstraction](Java-OOPS/abstraction) | [Interfaces](Java-OOPS/interfaces) | [Encapsulation](Java-OOPS/encapsulation)
+### [Abstraction](Java-OOPS/abstraction) | [Interfaces](Java-OOPS/interfaces) | [Encapsulation](Java-OOPS/encapsulation)
 
-- ### [Recursion](Java-OOPS/recursion) | [Miscellaneous](Java-OOPS/miscellaneous)
+### [Recursion](Java-OOPS/recursion) | [Miscellaneous](Java-OOPS/miscellaneous)
 
-- ### [Basic Programs](Java-OOPS/basic_programs)
+### [Basic Programs](Java-OOPS/basic_programs)
 
 .
 
 ## 2. Java Miscellaneous Concepts
 *[[USEFUL INFO - Java Miscellaneous Concepts]](Java-Concepts)*
 
-- ### [Arrays](Java-Concepts/arrays) | [Strings](Java-Concepts/strings)
+### [Arrays](Java-Concepts/arrays) | [Strings](Java-Concepts/strings)
 
-- ### [Exceptions](Java-Concepts/exceptions) | [Generics](Java-Concepts/generics)
+### [Exceptions](Java-Concepts/exceptions) | [Generics](Java-Concepts/generics)
 
-- ### [Files, I/O, Serialization](Java-Concepts/input_output)
+### [Files, I/O, Serialization](Java-Concepts/input_output)
 
-- ### [Regular Expressions](Java-Concepts/regex)
+### [Regular Expressions](Java-Concepts/regex)
 
-- ### [Lambda Expressions](Java-Concepts/lambda)
+### [Lambda Expressions](Java-Concepts/lambda)
 
-- ### Functional Programming
+### Functional Programming
 
-- ### [Callbacks](Java-Concepts/callbacks)
+### [Callbacks](Java-Concepts/callbacks)
 
-- ### Java New Features
+### Java New Features
 
 .
 
 ## 3. Java Collections Framework
 *[[USEFUL INFO - Java Collections Framework]](Java-Collections)*
 
-- ### Collection Interface - [List](Java-Collections/list) | [Set](Java-Collections/set) | [Queue](Java-Collections/queue)
+### Collection Interface - [List](Java-Collections/list) | [Set](Java-Collections/set) | [Queue](Java-Collections/queue)
 
-- ### Map Interface - [Map](Java-Collections/map)
+### Map Interface - [Map](Java-Collections/map)
 
-- ### Miscellaneous - [Enum](Java-Collections/enum) | [Vector](Java-Collections/vector) | Legacy
+### Miscellaneous - [Enum](Java-Collections/enum) | [Vector](Java-Collections/vector) | Legacy
 
-- ### More - [Collections Class](Java-Collections/collections_class)
+### More - [Collections Class](Java-Collections/collections_class)
 
 .
 
 ## 4. Java Advanced Concepts
 *[[USEFUL INFO - tables, flowcharts, diagrams, etc]](Concurrency)*
 
-- ### Concurrency I - [Multithreading](Concurrency/multithreading) | Sleep vs Wait 
+### Concurrency I - [Multithreading](Concurrency/multithreading) | Sleep vs Wait 
 
-- ### Concurrency II - Advanced Concepts | [Classic Problems](Concurrency/classic_problems)
+### Concurrency II - Advanced Concepts | [Classic Problems](Concurrency/classic_problems)
 
-- ### OS Concepts - CPU Scheduling | Memory Management
+### OS Concepts - CPU Scheduling | Memory Management
 
-- ### Databases - Java DB Connectivity (JDBC) | SQL Examples
+### Databases - Java DB Connectivity (JDBC) | SQL Examples
 
-- ### Networking - Socket, URL & HHTP | EMail | Few Apps
+### Networking - Socket, URL & HHTP | EMail | Few Apps
 
-- ### GUI (Swing) I - Components | LayoutManagers
+### GUI (Swing) I - Components | LayoutManagers
 
-- ### GUI (Swing) II - Event-Driven Programming | Few Apps
+### GUI (Swing) II - Event-Driven Programming | Few Apps
 
 .
 
 ## 5. Java Third Party Libraries
 
-- ### JUnit 4 (Unit Testing)
+### JUnit 4 (Unit Testing)
 
-- ### RxJava 2 (Reactive Programming)
+### RxJava 2 (Reactive Programming)
 
-- ### Selenium 2 (Web App Testing)
+### Selenium 2 (Web App Testing)
 
 .
 
 ## 6. Data Structures & Algorithms
 
-- ### DS - [Linked Lists](Data-Structures/linked_lists) | Stacks | Queues
+### DS - [Linked Lists](Data-Structures/linked_lists) | Stacks | Queues
 
-- ### DS - BST | Heaps | Graph | Hashing
+### DS - BST | Heaps | Graph | Hashing
 
-- ### [Searching](Algorithms/searching) | [Sorting](Algorithms/sorting)
+### [Searching](Algorithms/searching) | [Sorting](Algorithms/sorting)
 
-- ### [Tree Traversal](Algorithms/tree_traversal) | [Graph Traversal](Algorithms/graph_traversal)
+### [Tree Traversal](Algorithms/tree_traversal) | [Graph Traversal](Algorithms/graph_traversal)
 
-- ### [Graph Algorithms](Algorithms/graph_classic_algos)
+### [Graph Algorithms](Algorithms/graph_classic_algos)
 
-- ### [Dynamic Programming](Algorithms/dynamic_programming)
+### [Dynamic Programming](Algorithms/dynamic_programming)
 
 *Repository for more DS-Algo programs - ["Coding Interview Questions"](https://github.com/Suryakant-Bharti/coding-interview-questions)*
 
@@ -132,23 +132,23 @@
 
 *Finish in Spring 2018...*
 
-- ### Creational Patterns - Factory Method
+### Creational Patterns - Factory Method
 
-- ### Structural Patterns
+### Structural Patterns
 
-- ### Behavioral Patterns
+### Behavioral Patterns
 
 .
 
 ## 8. Extras
 
-- ### Definitions
+### Definitions
 
-- ### Cheat Sheets
+### Cheat Sheets
 
-- ### StackOverflow Questions
+### StackOverflow Questions
 
-- ### Interview Questions
+### Interview Questions
 
 .
 
