@@ -96,7 +96,7 @@
 
 ### GUI (Swing) I - Components | LayoutManagers
 
-### GUI (Swing) I - Event-Driven Programming | Few Apps
+### GUI (Swing) II - Event-Driven Programming | Few Apps
 
 .
 
