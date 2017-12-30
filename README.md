@@ -163,6 +163,8 @@
 
 ### OOAD Funadamentals
 
+### Database Schema
+
 ### Unified Modeling Language
 
 ### Design Patterns - Creational | Structural | Behavioral
@@ -196,5 +198,5 @@
     Thanks to the original authors :)
     
     WEBSITES - javaTpoint, tutorialsPoint, studytonight, w3schools
-    WEBSITES - GeeksforGeeks, StackOverflow, SourceMaking
-    BOOKS - Java The Complete reference    
+    WEBSITES - GeeksforGeeks, LeetCode, StackOverflow, SourceMaking
+    BOOKS - Java The Complete reference
