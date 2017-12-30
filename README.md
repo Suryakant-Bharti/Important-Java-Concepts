@@ -44,7 +44,7 @@
 
 ### [Recursion](Java-OOPS/recursion) | [Miscellaneous](Java-OOPS/miscellaneous)
 
-### [Basic Programs](Java-OOPS/basic_programs)
+### [Basic Programs](Java-OOPS/basic_programs) | OOPS Real-World Examples
 
 .
 
@@ -169,7 +169,7 @@
 
 ### Design Patterns - Creational | Structural | Behavioral
 
-### Real-World Examples
+### Design Interview Questions
 
 .
 
