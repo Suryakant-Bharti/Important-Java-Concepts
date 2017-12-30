@@ -251,3 +251,5 @@ Returns a String object representing the specified character value that is, a 1-
 <tr><td>27</td><td>String trim()</td><td>removes beginning and ending spaces of this string.</td></tr>
 <tr><td>28</td><td>static String valueOf(int value)</td><td>converts given type into string. It is overloaded.</td></tr>
 </tbody></table>
+
+NOTE : CharSeq - CharSequence, delim - delimeter, elem - elements
