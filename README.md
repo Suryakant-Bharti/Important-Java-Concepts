@@ -83,15 +83,7 @@
 .
 
 ## 4. Java Advanced Concepts
-*[[USEFUL INFO - Concurrency]](Concurrency)*
-
-*[[USEFUL INFO - Operating Systems]]*
-
-*[[USEFUL INFO - Databases]]*
-
-*[[USEFUL INFO - Nwtworking]]*
-
-*[[USEFUL INFO - GUI (Swing)]]*
+*[USEFUL INFO - [Concurrency](Concurrency) | Operating Systems | Databases | Networking | GUI]*
 
 ### Concurrency I - [Multithreading](Concurrency/multithreading) | Sleep vs Wait 
 
