@@ -1,6 +1,6 @@
 # Concepts of Java
 
-Some of the important micellaneous concepts like Arrays, Strings, Exceptions, Genrics, Regex, Lambda etc.
+Some of the important miscellaneous concepts like Arrays, Strings, Exceptions, Genrics, Regex, Lambda etc.
 
 NOTE : Methods mentioned below are only important ones, and not all methods.
 
@@ -228,14 +228,14 @@ Returns a String object representing the specified character value that is, a 1-
 <tr><td>4</td><td>static String format(Locale l, String format, Object... args)</td><td>returns formatted string with given locale</td></tr>
 <tr><td>5</td><td>String substring(int beginIndex)</td><td>returns substring for given begin index</td></tr>
 <tr><td>6</td><td>String substring(int beginIndex, int endIndex)</td><td>returns substring for given begin index and end index</td></tr>
-<tr><td>7</td><td>boolean contains(CharSequence s)</td><td>returns true or false after matching the sequence of char value</td></tr>
-<tr><td>8</td><td>static String join(CharSequence delimiter, CharSequence... elements)</td><td>returns a joined string</td></tr>
-<tr><td>9</td><td>static String join(CharSequence delimiter, Iterable&lt;? extends CharSequence&gt; elements)</td><td>returns a joined string</td></tr>
+<tr><td>7</td><td>boolean contains(CharSeq s)</td><td>returns true or false after matching the sequence of char value</td></tr>
+<tr><td>8</td><td>static String join(CharSeq delim, CharSeq... elem)</td><td>returns a joined string</td></tr>
+<tr><td>9</td><td>static String join(CharSeq delim, Iterable&lt;? extends CharSeq&gt; elem)</td><td>returns a joined string</td></tr>
 <tr><td>10</td><td>boolean equals(Object another)</td><td>checks the equality of string with object</td></tr>
 <tr><td>11</td><td>boolean isEmpty()</td><td>checks if string is empty</td></tr>
 <tr><td>12</td><td>String concat(String str)</td><td>concatinates specified string</td></tr>
 <tr><td>13</td><td>String replace(char old, char new)</td><td>replaces all occurrences of specified char value</td></tr>
-<tr><td>14</td><td>String replace(CharSequence old, CharSequence new)</td><td>replaces all occurrences of specified CharSequence</td></tr>
+<tr><td>14</td><td>String replace(CharSeq old, CharSeq new)</td><td>replaces all occurrences of specified CharSeq</td></tr>
 <tr><td>15</td><td>static String equalsIgnoreCase(String another)</td><td>compares another string. It doesn't check case.</td></tr>
 <tr><td>16</td><td>String[] split(String regex)</td><td>returns splitted string matching regex</td>
 </tr><tr><td>17</td><td>String[] split(String regex, int limit)</td><td>returns splitted string matching regex and limit</td>
