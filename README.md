@@ -42,7 +42,7 @@
 
 ### [Abstraction](Java-OOPS/abstraction) | [Interfaces](Java-OOPS/interfaces) | [Encapsulation](Java-OOPS/encapsulation)
 
-### [Miscellaneous](Java-OOPS/miscellaneous) [Recursion](Java-OOPS/recursion) | [Basic Programs](Java-OOPS/basic_programs)
+### [Misc](Java-OOPS/miscellaneous) | [Recursion](Java-OOPS/recursion) | [Basic Programs](Java-OOPS/basic_programs)
 
 ### OOPS Real-World Examples
 
