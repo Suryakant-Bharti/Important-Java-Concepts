@@ -2,6 +2,8 @@
 
 Some of the important micellaneous concepts like Arrays, Strings, Exceptions, Genrics, Regex, Lambda etc.
 
+NOTE : Methods mentioned below are only important ones, and not all methods.
+
 ## Methods of Number Class :
 
 <table class="alt">
@@ -167,6 +169,52 @@ Converts the argument to radians.
 <td>random()</td><td>
 Returns a random number.
 </td>
+</tr>
+</tbody></table>
+
+## Methods of Character Class :
+
+<table class="alt">
+<tbody><tr><th>Sr.No.</th><th>Method</th><th>Description</th></tr>
+<tr>
+<td>1</td>
+<td>isLetter()</td><td>
+Determines whether the specified char value is a letter.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>isDigit()</td><td>
+Determines whether the specified char value is a digit.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>isWhitespace()</td><td>
+Determines whether the specified char value is white space.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>isUpperCase()</td><td>
+Determines whether the specified char value is uppercase.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>isLowerCase()</td><td>
+Determines whether the specified char value is lowercase.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>toUpperCase()</td><td>
+Returns the uppercase form of the specified char value.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>toLowerCase()</td><td>
+Returns the lowercase form of the specified char value.</td>
+</tr>
+<tr>
+<td>8</td>
+<td>toString()</td><td>
+Returns a String object representing the specified character value that is, a 1-character string.</td>
 </tr>
 </tbody></table>
 
