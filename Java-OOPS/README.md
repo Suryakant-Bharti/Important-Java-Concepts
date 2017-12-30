@@ -10,49 +10,41 @@ Object-Oriented Programming is a methodology or paradigm to design a program usi
   <th id="table_dvpt_defaultvalue"><strong>Default Value</strong></th> 
   <th id="table_dvpt_defaultsize"><strong>Default size</strong></th> 
 </tr> 
- 
 <tr> 
 <td headers="table_dvpt_datatype">boolean</td> 
 <td headers="table_dvpt_defaultvalue">false</td> 
 <td headers="table_dvpt_defaultsize">1 bit</td> 
 </tr> 
-
 <tr> 
 <td headers="table_dvpt_datatype">char</td> 
 <td headers="table_dvpt_defaultvalue">'\u0000'</td> 
 <td headers="table_dvpt_defaultsize">2 byte</td> 
 </tr> 
-
 <tr> 
 <td headers="table_dvpt_datatype">byte</td> 
 <td headers="table_dvpt_defaultvalue">0</td> 
 <td headers="table_dvpt_defaultsize">1 byte</td> 
 </tr> 
- 
 <tr> 
 <td headers="table_dvpt_datatype">short</td> 
 <td headers="table_dvpt_defaultvalue">0</td> 
 <td headers="table_dvpt_defaultsize">2 byte</td> 
 </tr> 
- 
 <tr> 
 <td headers="table_dvpt_datatype">int</td> 
 <td headers="table_dvpt_defaultvalue">0</td> 
 <td headers="table_dvpt_defaultsize">4 byte</td> 
 </tr> 
- 
 <tr> 
 <td headers="table_dvpt_datatype">long</td> 
 <td headers="table_dvpt_defaultvalue">0L</td> 
 <td headers="table_dvpt_defaultsize">8 byte</td> 
 </tr> 
- 
 <tr> 
 <td headers="table_dvpt_datatype">float</td> 
 <td headers="table_dvpt_defaultvalue">0.0f</td> 
 <td headers="table_dvpt_defaultsize">4 byte</td> 
 </tr> 
- 
 <tr> 
 <td headers="table_dvpt_datatype">double</td> 
 <td headers="table_dvpt_defaultvalue">0.0d</td> 
@@ -86,8 +78,7 @@ NOTE : UTF-8 is the most popular unicode character encoding with 90% websites us
 <tbody><tr><th>Operator Type</th><th>Category</th><th>Precedence</th></tr> 
 <tr> 
 <td rowspan="2">Unary</td><td>postfix</td><td><code><em>expr</em>++ <em>expr</em>--</code></td> 
-</tr> 
- 
+</tr>  
 <tr> 
 <td>prefix</td><td headers="precedence"><code>++<em>expr</em> --<em>expr</em> +<em>expr</em> -<em>expr</em> ~ !</code></td> 
 </tr> 
@@ -98,16 +89,14 @@ NOTE : UTF-8 is the most popular unicode character encoding with 90% websites us
 <td>additive</td><td headers="precedence"><code>+ -</code></td> 
 </tr> 
 <tr> 
-<td>Shift</td><td>shift</td><td headers="precedence"><code>&lt;&lt; &gt;&gt; &gt;&gt;&gt;</code></td> 
- 
+<td>Shift</td><td>shift</td><td headers="precedence"><code>&lt;&lt; &gt;&gt; &gt;&gt;&gt;</code></td>  
 </tr> 
 <tr> 
 <td rowspan="2">Relational</td><td>comparison</td><td headers="precedence"><code>&lt; &gt; &lt;= &gt;= instanceof</code></td> 
 </tr> 
 <tr> 
 <td>equality</td><td headers="precedence"><code>== !=</code></td> 
-</tr> 
- 
+</tr>  
 <tr> 
 <td rowspan="3">Bitwise</td><td>bitwise AND</td><td headers="precedence"><code>&amp;</code></td> 
 </tr> 
@@ -116,17 +105,15 @@ NOTE : UTF-8 is the most popular unicode character encoding with 90% websites us
 </tr> 
 <tr> 
 <td>bitwise inclusive OR</td><td headers="precedence"><code>|</code></td> 
-</tr> 
- 
+</tr>  
 <tr> 
 <td rowspan="2">Logical</td><td>logical AND</td><td headers="precedence"><code>&amp;&amp;</code></td> 
 </tr> 
 <tr> 
-	<td>logical OR</td><td headers="precedence"><code>||</code></td> 
+<td>logical OR</td><td headers="precedence"><code>||</code></td> 
 </tr> 
 <tr> 
 <td>Ternary</td><td>ternary</td><td headers="precedence"><code>? :</code></td> 
- 
 </tr> 
 <tr> 
 <td>Assignment</td><td>assignment</td><td headers="precedence"><code>= += -= *= /= %= &amp;= ^= |= &lt;&lt;= &gt;&gt;= &gt;&gt;&gt;=</code></td> 
@@ -188,6 +175,19 @@ NOTE : UTF-8 is the most popular unicode character encoding with 90% websites us
 ## Assciation - Aggregation - Composition
 
 ![association-aggregation-composition](https://user-images.githubusercontent.com/2780145/34364371-5db00694-eaab-11e7-8ef2-bf56d3394f15.png)
+
+## Aggregation vs Composition
+
+<table class="alt">
+<tbody><tr><th>Aggregation</th><th>Composition</th></tr>
+<tr><td>Aggregation is a weak Association.</td><td>Composition is a strong Association.</td></tr>
+<tr><td>Class can exist independently without owner.</td><td>Class can not meaningfully exist without owner.</td></tr>
+<tr><td>Have their own Life Time.</td><td>Life Time depends on the Owner.</td></tr>
+<tr><td>A uses B.</td><td>A owns B.</td></tr>
+<tr><td>Has-A relationship. A has B.</td><td>Part-Of relationship. B is part of A.</td></tr>
+<tr><td>Denoted by a empty diamond in UML.</td><td>Denoted by a filled diamond in UML.</td></tr>
+<tr><td>Examples:<br> Car has a Driver<br> A Company is an aggregation of People.<br> A Text Editor uses a File.</td><td>Examples:<br> Engine is a part of Car.<br> A Company is a composition of Accounts.<br> A Text Editor owns a Buffer.</td></tr>
+</tbody></table>
 
 ## Polymorphism - Method Overloading vs Method Overriding
 
