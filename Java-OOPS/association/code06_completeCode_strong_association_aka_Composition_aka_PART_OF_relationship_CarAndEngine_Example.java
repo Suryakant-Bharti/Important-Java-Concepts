@@ -1,32 +1,9 @@
 // This relationship between two objects is known as the association in OOPS software design 
 // and depicted by an arrow in UML.
 
-// Aggregation is when one class is associated with other class 
-// but both can exist independently
+// Composition is when one class owns other class 
+// and the other class can not meaningfully exist, when it's owner destroyed
 
-// Since School Has Students and Teachers, the relationship between them is Association.
-
-// Java program to illustrate
-//the concept of Aggregation.
-import java.io.*;
-import java.util.*;
- 
-// student class
-class Student 
-{
-    String name;
-    int id ;
-    String dept;
-     
-    Student(String name, int id, String dept) 
-    {
-         
-        this.name = name;
-        this.id = id;
-        this.dept = dept;
-         
-    }
-}
  
 import java.io.*;
 

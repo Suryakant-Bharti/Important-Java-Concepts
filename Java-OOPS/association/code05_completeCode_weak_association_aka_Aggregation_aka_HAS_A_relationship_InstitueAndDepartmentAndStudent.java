@@ -4,8 +4,6 @@
 // Aggregation is when one class is associated with other class 
 // but both can exist independently
 
-// Since School Has Students and Teachers, the relationship between them is Association.
-
 // Java program to illustrate
 //the concept of Aggregation.
 import java.io.*;
