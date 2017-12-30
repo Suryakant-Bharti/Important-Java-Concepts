@@ -125,11 +125,37 @@
 
 ### [Dynamic Programming](Algorithms/dynamic_programming)
 
-*Repository for more DS-Algo programs - ["Coding Interview Questions"](https://github.com/Suryakant-Bharti/coding-interview-questions)*
+.
+
+## 7. Coding Interview (LeetCode)
+
+### Arrays | Strings | Hash Table
+
+### Linked Lists | Stack | Two Pointers
+
+### Binary Search | Tree
+
+### Depth-first Search | Breadth-first Search
+
+### Bit Manipulation | Math | Others
 
 .
 
-## 7. Software Engineering 
+## 8. Coding Interview (GeeksForGeeks)
+
+### Arrays | Strings | Linked Lists
+
+### Stack & Queue | Tree | Heap
+
+### Recursion | Hashing | Graph
+
+### Greedy | Dynamic Programming
+
+### Divide and Conquer | Backtracking | Bit Magic
+
+.
+
+## 9. Software Engineering 
 
 *Do in Summer 2018...*
 
@@ -145,17 +171,21 @@
 
 .
 
-## 8. Extras
+## 10. Extras
+
+### Mathematics Fundamentals
+
+### Definitions (java, ds, algo)
+
+### Cheat Sheets (keywords, big-O, uml)
+
+### StackOverflow Questions (jaav)
+
+### Interview Questions (java)
+
+### Puzzles & HR Questions
 
 ### Good Books
-
-### Definitions
-
-### Cheat Sheets
-
-### StackOverflow Questions
-
-### Interview Questions
 
 .
 
