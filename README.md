@@ -129,27 +129,23 @@
 
 .
 
-## 7. Software Design Patterns
+## 7. Software Engineering 
 
-*Finish in Spring 2018...*
+*Do in Summer 2018...*
 
-### Creational Patterns - Factory Method
+### SE Funadamentals
 
-### Structural Patterns
-
-### Behavioral Patterns
-
-.
-
-## 8. Software Engineering 
-
-### Funadamental Concepts
+### OOAD Funadamentals
 
 ### Unified Modeling Language
 
+### Design Patterns - Creational | Structural | Behavioral
+
+### Real-World Examples
+
 .
 
-## 9. Extras
+## 8. Extras
 
 ### Good Books
 
