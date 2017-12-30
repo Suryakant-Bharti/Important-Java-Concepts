@@ -99,6 +99,10 @@
 
 ### GUI (Swing) II - Event-Driven Programming | Few Apps
 
+### Java Libraries - lang | util | others
+
+### Java Dev - Java Beans | Servlets
+
 .
 
 ## 5. Java Third Party Libraries
