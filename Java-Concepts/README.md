@@ -2,9 +2,179 @@
 
 Some of the important micellaneous concepts like Arrays, Strings, Exceptions, Genrics, Regex, Lambda etc.
 
+## Methods of Number Class :
+
+<table class="alt">
+<tbody><tr>
+<th>Sr.No.</th>
+<th style="text-align:center;">Method</th>
+<th style="text-align:center;">Description</th>
+</tr>
+<tr>
+<td class="ts">1</td>
+<td>xxxValue()</td><td>
+<p>Converts the value of <i>this</i> Number object to the xxx data type and returns it.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">2</td>
+<td>compareTo()</td><td>
+<p>Compares <i>this</i> Number object to the argument.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">3</td>
+<td>equals()</td><td>
+<p>Determines whether <i>this</i> number object is equal to the argument.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">4</td>
+<td>valueOf()</td><td>
+<p>Returns an Integer object holding the value of the specified primitive.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">5</td>
+<td>toString()</td><td>
+<p>Returns a String object representing the value of a specified int or Integer.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">6</td>
+<td>parseInt()</td><td>
+<p>This method is used to get the primitive data type of a certain String.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">7</td>
+<td>abs()</td><td>
+<p>Returns the absolute value of the argument.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">8</td>
+<td>ceil()</td><td>
+<p>Returns the smallest integer that is greater than or equal to the argument. Returned as a double.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">9</td>
+<td>floor()</td><td>
+<p>Returns the largest integer that is less than or equal to the argument. Returned as a double.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">10</td>
+<td>rint()</td><td>
+<p>Returns the integer that is closest in value to the argument. Returned as a double.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">11</td>
+<td>round()</td><td>
+<p>Returns the closest long or int, as indicated by the method's return type to the argument.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">12</td>
+<td>min()</td><td>
+<p>Returns the smaller of the two arguments.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">13</td>
+<td>max()</td><td>
+<p>Returns the larger of the two arguments.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">14</td>
+<td>exp()</td><td>
+<p>Returns the base of the natural logarithms, e, to the power of the argument.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">15</td>
+<td>log()</td><td>
+<p>Returns the natural logarithm of the argument.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">16</td>
+<td>pow()</td><td>
+<p>Returns the value of the first argument raised to the power of the second argument.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">17</td>
+<td>sqrt()</td><td>
+<p>Returns the square root of the argument.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">18</td>
+<td>sin()</td><td>
+<p>Returns the sine of the specified double value.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">19</td>
+<td>cos()</td><td>
+<p>Returns the cosine of the specified double value.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">20</td>
+<td>tan()</td><td>
+<p>Returns the tangent of the specified double value.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">21</td>
+<td>asin()</td><td>
+<p>Returns the arcsine of the specified double value.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">22</td>
+<td>acos()</td><td>
+<p>Returns the arccosine of the specified double value.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">23</td>
+<td>atan()</td><td>
+<p>Returns the arctangent of the specified double value.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">24</td>
+<td>atan2()</td><td>
+<p>Converts rectangular coordinates (x, y) to polar coordinate (r, theta) and returns theta.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">25</td>
+<td>toDegrees()</td><td>
+<p>Converts the argument to degrees.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">26</td>
+<td>toRadians()</td><td>
+<p>Converts the argument to radians.</p>
+</td>
+</tr>
+<tr>
+<td class="ts">27</td>
+<td>random()</td><td>
+<p>Returns a random number.</p>
+</td>
+</tr>
+</tbody></table>
+
 ## Methods of String Class :
-
-
 
 <table class="alt">
 <tbody><tr><th>No.</th><th>Method</th><th>Description</th></tr>
