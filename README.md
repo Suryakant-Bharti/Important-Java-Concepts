@@ -42,9 +42,9 @@
 
 ### [Abstraction](Java-OOPS/abstraction) | [Interfaces](Java-OOPS/interfaces) | [Encapsulation](Java-OOPS/encapsulation)
 
-### [Recursion](Java-OOPS/recursion) | [Miscellaneous](Java-OOPS/miscellaneous)
+### [Misc](Java-OOPS/miscellaneous) | [Recursion](Java-OOPS/recursion) | [Basic Programs](Java-OOPS/basic_programs)
 
-### [Basic Programs](Java-OOPS/basic_programs)
+### OOPS Real-World Examples
 
 .
 
@@ -98,6 +98,10 @@
 ### GUI (Swing) I - Components | LayoutManagers
 
 ### GUI (Swing) II - Event-Driven Programming | Few Apps
+
+### Java Libraries - lang | util | others
+
+### Java Dev - Java Beans | Servlets
 
 .
 
@@ -169,7 +173,7 @@
 
 ### Design Patterns - Creational | Structural | Behavioral
 
-### Real-World Examples
+### Design Interview Questions
 
 .
 
@@ -187,7 +191,7 @@
 
 ### Puzzles & HR Questions
 
-### Good Books
+### [Good Books](Extras)
 
 .
 
