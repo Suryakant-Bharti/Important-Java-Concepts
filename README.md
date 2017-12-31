@@ -109,11 +109,13 @@
 
 ## 5. Java - Third Party Libraries
 
-### JUnit 4 (Unit Testing)
+### Unit Testing - JUnit 4
 
-### RxJava 2 (Reactive Programming)
+### Reactive Programming - RxJava 2
 
-### Selenium 2 (Web App Testing)
+### Dependency Injection - Dagger 2
+
+### Web App Testing - Selenium 2
 
 .
 
