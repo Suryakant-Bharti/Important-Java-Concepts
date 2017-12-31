@@ -23,7 +23,7 @@
 - *Interview Questions*
 
 ![quote banner](https://user-images.githubusercontent.com/2780145/34341843-fa43f72c-e9c5-11e7-88e8-f3b863448262.png)
-## 1. Java Fundamentals & OOPS
+## 1. Java - Fundamentals & OOPS
 *[[USEFUL INFO - Java Fundamentals & OOPS Concepts]](Java-OOPS)*
 
 *[[USEFUL INFO - Java Features & Execution Process]](_moreReadMe/howItWorks)*
@@ -48,8 +48,10 @@
 
 .
 
-## 2. Java Miscellaneous Concepts
-*[[USEFUL INFO - Java Miscellaneous Concepts]](Java-Concepts)*
+## 2. Java - Other Important Concepts
+*[[USEFUL INFO - Java Other Important Concepts]](Java-Concepts)*
+
+*[[USEFUL INFO - Important Methods of various Classes]](_moreReadMe/importantMethods)*
 
 ### [Arrays](Java-Concepts/arrays) | [Strings](Java-Concepts/strings)
 
@@ -69,7 +71,7 @@
 
 .
 
-## 3. Java Collections Framework
+## 3. Java - Collections Framework
 *[[USEFUL INFO - Java Collections Framework]](Java-Collections)*
 
 ### Collection Interface - [List](Java-Collections/list) | [Set](Java-Collections/set) | [Queue](Java-Collections/queue)
@@ -82,7 +84,7 @@
 
 .
 
-## 4. Java Advanced Concepts
+## 4. Java - Advanced Concepts
 *[USEFUL INFO - [Concurrency](Concurrency) | Operating Systems | Databases | Networking | GUI ]*
 
 ### Concurrency I - [Multithreading](Concurrency/multithreading) | Sleep vs Wait 
@@ -99,13 +101,13 @@
 
 ### GUI (Swing) II - Event-Driven Programming | Few Apps
 
-### Java Libraries - lang | util | others
+### Java Libraries - lang | util | io | math | others
 
 ### Java Dev - Java Beans | Servlets
 
 .
 
-## 5. Java Third Party Libraries
+## 5. Java - Third Party Libraries
 
 ### JUnit 4 (Unit Testing)
 
