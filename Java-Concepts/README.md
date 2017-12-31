@@ -172,6 +172,8 @@ Returns a random number.
 </tr>
 </tbody></table>
 
+NOTE : Most of above methods belongs to java.lang.Math and java.lang.Number
+
 ## Methods of Array Class :
 
 <table class="alt">
@@ -233,12 +235,20 @@ Searches the array of ints for the specified value using the binary search algor
 <tr>
 <td>10</td>
 <td><b>public static List asList(int[] a)</b><br>
-Takes an array and creates a wrapper that implements List, which makes the original array available as a list. Nothing is copied and all, only a single wrapper object is created. Operations on the list wrapper are propagated to the original array. Some List operations like adding/removing elements aren’t allowed, you can only read/overwrite the elements.<br>
+Takes an array and creates a wrapper (nothing is copied) that implements List, which makes the original array available as a list. Operations on the list wrapper are propagated to the original array. List operations like adding/removing elements aren’t allowed, you can only read/overwrite the elements.<br>
+</td>
+</tr>
+<tr>
+<td>11</td>
+<td><b>static int hashCode(int[] a)</b><br>
+This method returns a hash code based on the contents of the specified array.<br>
 </td>
 </tr>
 </tbody></table>
 
-NOTE : All the methods mentioned above with int[] examples can be also used by all other primitive, wrapper and object data types (Eg - byte, short, long, Byte, Short, Int, etc.).
+NOTE : All the above methods belongs to java.util.Array
+
+All the methods mentioned above with int[] examples can be also used by all other primitive, wrapper and object data types (Eg - byte, short, long, Byte, Short, Int, etc)
 
 ## Methods of Character Class :
 
@@ -285,6 +295,8 @@ Returns the lowercase form of the specified char value.</td>
 Returns a String object representing the specified character value that is, a 1-character string.</td>
 </tr>
 </tbody></table>
+
+NOTE : All the above methods belongs to java.lang.Character
 
 ## Methods of String Class :
 
