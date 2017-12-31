@@ -178,53 +178,67 @@ Returns a random number.
 <tbody><tr><th>Sr.No.</th><th align = "left">     Methods & Description</th></tr>
 <tr>
 <td>1</td>
-<td><b>public static String toString(int[] a)</b>
-The string representation consists of a list of the array’s elements, enclosed in square brackets (“[]”). Adjacent elements are separated by the characters a comma followed by a space. Elements are converted to strings as by String.valueOf(int). Returns “null” if a is null. Same method could be used by all other data types (Byte, Short, Int, etc.)
+<td><b>public static String toString(int[] a)</b><br>
+The string representation consists of a list of the array’s elements, enclosed in square brackets (“[]”). Adjacent elements are separated by the characters a comma followed by a space. Elements are converted to strings as by String.valueOf(int). Returns “null” if a is null.<br>
 </td>
 </tr>
 <tr>
 <td>2</td>
-<td><b>public static boolean equals(int[] a, int[] a2)</b>
-Returns true if the two specified arrays of longs are equal to one another. Two arrays are considered equal if both arrays contain the same number of elements, and all corresponding pairs of elements in the two arrays are equal. This returns true if the two arrays are equal. Same method could be used by all other data types (Byte, Short, Int, etc.)
+<td><b>public static int[] copyOf(int[] original, int newLength)</b><br>
+Copies the specified array and length. It truncates the array if provided length is smaller and if provided length is longer, it adds default value of particular type to extra elements.<br>
 </td>
 </tr>
 <tr>
 <td>3</td>
-<td><b>public static void fill(int[] a, int val)</b>
-Assigns the specified int value to each element of the specified array of ints. The same method could be used by all other data types (Byte, short, Int, etc.)
+<td><b>public static int[] copyOfRange(int[] original, int from, int to)</b><br>
+Copies the specified range of the specified array into a new array. The initial index of the range (from) must lie between zero and original.length, inclusive.<br>
 </td>
 </tr>
 <tr>
 <td>4</td>
-<td><b>public static void fill(int[] a, int fromIndex, int toIndex, int val)</b>
-Fills elements of the specified array with the specified value from the fromIndex element, but not including the toIndex element.
+<td><b>public static void fill(int[] a, int val)</b><br>
+Assigns the specified int value to each element of the specified array of ints.<br>
 </td>
 </tr>
 <tr>
 <td>5</td>
-<td><b>public static void sort(int[] a)</b>
-Sorts the specified array of objects into an ascending order, according to the natural ordering of its elements. The same method could be used by all other data types ( Byte, short, Int, etc.)
+<td><b>public static void fill(int[] a, int fromIndex, int toIndex, int val)</b><br>
+Fills elements of the specified array with the specified value from the fromIndex element, but not including the toIndex element.<br>
 </td>
 </tr>
 <tr>
 <td>6</td>
-<td><b>public static void sort(int[] a, int fromIndex, int toIndex)</b>
-If we wish to sort a specified range of the array into ascending order. we can use this. The range to be sorted extends from the index fromIndex, inclusive, to the index toIndex, exclusive. If fromIndex == toIndex, the range to be sorted is empty.
+<td><b>public static boolean equals(int[] a, int[] a2)</b><br>
+Returns true if the two specified arrays of longs are equal to one another. Two arrays are considered equal if both arrays contain the same number of elements, and all corresponding pairs of elements in the two arrays are equal. This returns true if the two arrays are equal.<br>
 </td>
 </tr>
 <tr>
 <td>7</td>
-<td><b>public static int binarySearch(int[] a, int key)</b>
-Searches the array of ints for the specified value using the binary search algorithm. The array must be sorted prior to making this call. This returns index of the search key, if it is contained in the list; otherwise, it returns ( – (insertion point + 1)). Same method could be used by all other data types (Byte, Short, Int, etc.)
+<td><b>public static void sort(int[] a)</b><br>
+Sorts the specified array of objects into an ascending order, according to the natural ordering of its elements.<br>
 </td>
 </tr>
 <tr>
 <td>8</td>
-<td><b>public static List asList(int[] a)</b>
-Takes an array and creates a wrapper that implements List, which makes the original array available as a list. Nothing is copied and all, only a single wrapper object is created. Operations on the list wrapper are propagated to the original array. Some List operations like adding/removing elements aren’t allowed, you can only read/overwrite the elements.
+<td><b>public static void sort(int[] a, int fromIndex, int toIndex)</b><br>
+If we wish to sort a specified range of the array into ascending order. we can use this. The range to be sorted extends from the index fromIndex, inclusive, to the index toIndex, exclusive. If fromIndex == toIndex, the range to be sorted is empty.<br>
+</td>
+</tr>
+<tr>
+<td>9</td>
+<td><b>public static int binarySearch(int[] a, int key)</b><br>
+Searches the array of ints for the specified value using the binary search algorithm. The array must be sorted prior to making this call. This returns index of the search key, if it is contained in the list; otherwise, it returns ( – (insertion point + 1)).<br>
+</td>
+</tr>
+<tr>
+<td>10</td>
+<td><b>public static List asList(int[] a)</b><br>
+Takes an array and creates a wrapper that implements List, which makes the original array available as a list. Nothing is copied and all, only a single wrapper object is created. Operations on the list wrapper are propagated to the original array. Some List operations like adding/removing elements aren’t allowed, you can only read/overwrite the elements.<br>
 </td>
 </tr>
 </tbody></table>
+
+NOTE : All the methods mentioned above with int[] examples can be also used by all other primitive, wrapper and object data types (Eg - byte, short, long, Byte, Short, Int, etc.).
 
 ## Methods of Character Class :
 
