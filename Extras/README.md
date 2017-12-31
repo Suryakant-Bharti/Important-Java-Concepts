@@ -58,9 +58,21 @@
 
 [Coding Interview Questions](https://www.amazon.com/Coding-Interview-Questions-Narasimha-Karumanchi/dp/8193245202)
 
-### Python - ML/AI
+### Python - AI/ML
 
-### Web - Front End
+[Python Workbook - Basics](http://www.springer.com/in/book/9783319142395)
+
+[Learn Python Visually](https://www.amazon.com/Learn-Python-Visually-Ivelin-Demirov/dp/0993836712)
+
+[Illustrated-Guide-Python](https://www.amazon.com/Illustrated-Guide-Python-Walkthrough-Illustrations/dp/1977921752)
+
+[Python ML with Scikit and TensorFlow](https://www.amazon.com/dp/B06XNKV5TS)
+
+[Python Machine Learning](https://www.amazon.com/dp/1787125939)
+
+[Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine-ebook/dp/B01MRVFGX4)
+
+### Web Dev - Front End
 
 [Smarter way to learn JavaScript](https://www.amazon.com/Smarter-JavaScript-tech-assisted-approach-requires/dp/1497408180)
 
