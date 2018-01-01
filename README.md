@@ -85,7 +85,7 @@
 .
 
 ## 4. Java - Advanced Concepts
-*[[USEFUL INFO - [Concurrency](Concurrency) | Operating Systems | Databases | Networking | GUI ]]*
+*[USEFUL INFO - [Concurrency](Concurrency) | Operating Systems | Databases | Networking | GUI ]*
 
 ### Concurrency - [Multithreading Basics](Concurrency/multithreading) | Advanced | [Classic Problems](Concurrency/classic_problems) 
 
