@@ -150,7 +150,7 @@ NOTE : UTF-8 is the most popular unicode character encoding with 90% websites us
 <tr><td>4)</td><td>Object is created through <strong>new keyword</strong> mainly e.g. Student s1=new Student();</td><td>Class is declared using <strong>class keyword</strong> e.g. class Student{}</td></tr>
 <tr><td>5)</td><td>Object is created <strong>many times</strong> as per requirement.</td><td>Class is declared <strong>once</strong>.</td></tr>
 <tr><td>6)</td><td>Object <strong>allocates memory when it is created</strong>.</td><td>Class <strong>doesn't allocated memory when it is created</strong>.</td></tr>
-<tr><td>7)</td><td>There are <strong>many ways to create object</strong> in java such as new keyword, newInstance() method, clone() method, factory method and deserialization.</td><td>There is only <strong>one way to define class</strong> in java using class keyword.</td></tr>
+<tr><td>7)</td><td>There are <strong>many ways to create object</strong> like new keyword, newInstance() method, clone() method, factory method & deserialization.</td><td>There is only <strong>one way to define class</strong> in java using class keyword.</td></tr>
 </tbody></table>
 
 ## Constructors vs Methods
