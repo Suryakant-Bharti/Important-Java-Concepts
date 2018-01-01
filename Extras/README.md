@@ -79,3 +79,35 @@
 [Smarter way to learn HTML/CSS](https://www.amazon.com/Smarter-Way-Learn-HTML-CSS/dp/150867387X)
 
 [Smarter way to learn jQuery](https://www.amazon.com/Smarter-Way-Learn-jQuery-Remember/dp/1523986468)
+
+### Core & Others
+
+Operating Systems
+
+Computer Networks
+
+Computer Architecture
+
+Database Systems
+
+Software Engineering
+
+Theory of Computation
+
+Discrete Mathematics
+
+Formal Logic
+
+### Advanced
+
+Object Oriented Analysis & Design
+
+Image Processing & Pattern Recognition
+
+Distributed and Parallel Computing
+
+Fuzzy Logic
+
+Artificial Intelligence
+
+Machine Learning
