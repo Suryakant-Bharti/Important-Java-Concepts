@@ -121,7 +121,7 @@
 
 ## 6. Data Structures & Algorithms
 
-### DS - [Linked Lists](Data-Structures/linked_lists) | Stacks | Queues
+### DS - [Linked Lists](DS-Algo/linked_lists) | Stacks | Queues
 
 ### DS - BST | Heaps | Graph | Hashing
 
