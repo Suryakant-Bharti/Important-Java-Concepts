@@ -78,22 +78,20 @@
 
 ### Map Interface - [Map](Java-Collections/map)
 
-### Miscellaneous - [Enum](Java-Collections/enum) | [Vector](Java-Collections/vector) | Legacy
+### More - [Enum](Java-Collections/enum) | [Vector](Java-Collections/vector) | Stack | Legacy
 
-### More - [Collections Class](Java-Collections/collections_class)
+### [Collections Class](Java-Collections/collections_class)
 
 .
 
 ## 4. Java - Advanced Concepts
-*[USEFUL INFO - [Concurrency](Concurrency) | Operating Systems | Databases | Networking | GUI ]*
+*[[USEFUL INFO - [Concurrency](Concurrency) | Operating Systems | Databases | Networking | GUI ]]*
 
-### Concurrency I - [Multithreading](Concurrency/multithreading) | Sleep vs Wait 
-
-### Concurrency II - Advanced Concepts | [Classic Problems](Concurrency/classic_problems)
+### Concurrency - [Multithreading Basics](Concurrency/multithreading) | Advanced | [Classic Problems](Concurrency/classic_problems) 
 
 ### OS Concepts - CPU Scheduling | Memory Management
 
-### Databases - Java DB Connectivity (JDBC) | SQL Examples
+### Databases - JDBC | SQL Examples | MongoDB
 
 ### Networking - Socket, URL & HHTP | EMail | Few Apps
 
@@ -107,13 +105,15 @@
 
 .
 
-## 5. Java - Third Party Libraries
+## 5. Java - Few Third Party Libraries
 
-### Unit Testing - JUnit 4
+### Unit Testing - JUnit 4 (+Android)
 
-### Reactive Programming - RxJava 2
+### HTTP Client - Retrofit 2 (+Android)
 
-### Dependency Injection - Dagger 2
+### Reactive Programming - RxJava 2 (+Android)
+
+### Dependency Injection - Dagger 2 (+Android)
 
 ### Web App Testing - Selenium 2
 
@@ -185,17 +185,23 @@
 
 ### Mathematics Fundamentals
 
+### Version Control (git & gitHub)
+
+### Linux & Bash Shell
+
 ### Definitions (java, ds, algo)
 
 ### Cheat Sheets (keywords, big-O, uml)
 
-### StackOverflow Questions (jaav)
+### StackOverflow Questions (java)
 
 ### Interview Questions (java)
 
 ### Puzzles & HR Questions
 
-### [Good Books](Extras)
+### [Good Books for Reference](_moreReadMe/books)
+
+### [Great Websites for Learning](_moreReadMe/websites)
 
 .
 
