@@ -172,7 +172,7 @@ NOTE : UTF-8 is the most popular unicode character encoding with 90% websites us
 
 ![multiple inheritance](https://user-images.githubusercontent.com/2780145/34364363-407486b8-eaab-11e7-94e2-5c1876f414d3.png)
 
-## Assciation - Aggregation - Composition
+## Assciation vs Aggregation vs Composition
 
 ![association-aggregation-composition](https://user-images.githubusercontent.com/2780145/34364371-5db00694-eaab-11e7-8ef2-bf56d3394f15.png)
 
@@ -184,7 +184,7 @@ NOTE : UTF-8 is the most popular unicode character encoding with 90% websites us
 <tr><td>Class can exist independently without owner.</td><td>Class can not meaningfully exist without owner.</td></tr>
 <tr><td>Have their own Life Time.</td><td>Life Time depends on the Owner.</td></tr>
 <tr><td>A uses B.</td><td>A owns B.</td></tr>
-<tr><td>Child can have many owners.</td><td>Child can have only 1 owner.</td></tr>
+<tr><td>Child is not owned by 1 owner.</td><td>Child can have only 1 owner.</td></tr>
 <tr><td>Has-A relationship. A has B.</td><td>Part-Of relationship. B is part of A.</td></tr>
 <tr><td>Denoted by a empty diamond in UML.</td><td>Denoted by a filled diamond in UML.</td></tr>
 <tr><td>We do not use "final" keyword for Aggregation.</td><td>"final" keyword is used to represent Composition.</td></tr>
