@@ -177,6 +177,8 @@
 
 ### Design Patterns - Creational | Structural | Behavioral
 
+### SOLID Design Principles 
+
 ### Design Interview Questions
 
 .
