@@ -201,7 +201,9 @@
 
 ### Web Dev (HTML/CSS/JS/JQuery/AJAX)
 
-### AngularJS | NodeJS | Apache HTTP Server
+### TypeScript | Angular
+
+### NodeJS | Apache HTTP Server
 
 .
 
