@@ -191,9 +191,17 @@
 
 ### SQL Scripting
 
+### Coding Interview
+
 ### Android Development
 
-### Coding Interview
+### Web Development (HTML/CSS/JS/JQuery/AJAX)
+
+### Angular JS
+
+### Node JS
+
+### Apache HTTP Server
 
 .
 
