@@ -42,9 +42,9 @@
 
 ### [Abstraction](Java-OOPS/abstraction) | [Interfaces](Java-OOPS/interfaces) | [Encapsulation](Java-OOPS/encapsulation)
 
-### [Misc](Java-OOPS/miscellaneous) | [Recursion](Java-OOPS/recursion) | [Basic Programs](Java-OOPS/basic_programs)
+### [Misc](Java-OOPS/miscellaneous) | [Recursion](Java-OOPS/recursion)
 
-### [OOPS Realworld examples](Java-OOPS/real_world_examples)
+### [Basic Programs](Java-OOPS/basic_programs) | [OOPS Real examples](Java-OOPS/real_world_examples)
 
 .
 
@@ -61,13 +61,11 @@
 
 ### [Regular Expressions](Java-Concepts/regex)
 
-### [Lambda Expressions](Java-Concepts/lambda)
+### [Lambda Expr](Java-Concepts/lambda) | Functional Programming
 
-### Functional Programming
+### JSON Parsing | XML Parsing | [Callbacks](Java-Concepts/callbacks)
 
-### [Callbacks](Java-Concepts/callbacks)
-
-### Java New Features
+### Other Java New Features
 
 .
 
@@ -78,7 +76,7 @@
 
 ### Map Interface - [Map](Java-Collections/map)
 
-### More - [Enum](Java-Collections/enum) | [Vector](Java-Collections/vector) | Stack | Legacy
+### More - [Enum](Java-Collections/enum) | [Vector & Stack](Java-Collections/vector) | Legacy
 
 ### [Collections Class](Java-Collections/collections_class)
 
