@@ -185,7 +185,7 @@
 
 ### Version Control (git & gitHub)
 
-### Build automation system (Gradle)
+### Build Automation System (Gradle)
 
 ### Linux & Bash Shell
 
@@ -193,15 +193,15 @@
 
 ### Coding Interview
 
-### Android Development
+### Android App Development
 
-### Web Development (HTML/CSS/JS/JQuery/AJAX)
+### Android Game Development
 
-### Angular JS
+### Python (Data Science, AI/ML)
 
-### Node JS
+### Web Dev (HTML/CSS/JS/JQuery/AJAX)
 
-### Apache HTTP Server
+### AngularJS | NodeJS | Apache HTTP Server
 
 .
 
