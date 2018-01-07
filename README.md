@@ -26,9 +26,9 @@
 ## 1. Java - Fundamentals & OOPS
 *[[USEFUL INFO - Java Fundamentals & OOPS Concepts]](Java-OOPS)*
 
-*[[USEFUL INFO - Java Features & Execution Process]](_moreReadMe/howItWorks)*
+*[[USEFUL INFO - Java Features, Execution Process & JVM Internals]](_moreReadMe/howItWorks)*
 
-*[[USEFUL INFO - For Polyglots - C++ vs Java]](_moreReadMe/polyglot)*
+*[[USEFUL INFO - For Polyglots - Java vs C++, Python, C#]](_moreReadMe/polyglot)*
 
 ### [Variables & Operators](Java-OOPS/variables_and_operators) | [Control Flow](Java-OOPS/control_flow) 
 
@@ -53,19 +53,21 @@
 
 *[[USEFUL INFO - Important Methods of various Classes]](_moreReadMe/importantMethods)*
 
-### [Arrays](Java-Concepts/arrays) | [Strings](Java-Concepts/strings)
+### [Arrays](Java-Concepts/arrays) | [Strings](Java-Concepts/strings) | Date & Time
 
 ### [Exceptions](Java-Concepts/exceptions) | [Generics](Java-Concepts/generics)
 
-### [Files, I/O, Serialization](Java-Concepts/input_output)
+### [Files, I/O, Serialization](Java-Concepts/input_output) | NIO
 
 ### [Regular Expressions](Java-Concepts/regex)
 
 ### [Lambda Expr](Java-Concepts/lambda) | Functional Programming
 
-### JSON Parsing | XML Parsing | [Callbacks](Java-Concepts/callbacks)
+### JSON & XML Parsing | Big Decimal & Integar
 
-### Other Java New Features
+### Concept X vs Concept Y (Misc)
+
+### New Features - Till Java7 | Java8 | Java9
 
 .
 
@@ -85,7 +87,9 @@
 ## 4. Java - Advanced Concepts
 *[USEFUL INFO - [Concurrency](Concurrency) | Operating Systems | Databases | Networking | GUI ]*
 
-### Concurrency - [Multithreading Basics](Concurrency/multithreading) | Advanced | [Classic Problems](Concurrency/classic_problems) 
+### Multithreading - [Basics](Concurrency/multithreading) | Garbage Collection
+
+### Concurrency - | Advanced | [Classic Problems](Concurrency/classic_problems) 
 
 ### OS Concepts - CPU Scheduling | Memory Management
 
@@ -95,7 +99,7 @@
 
 ### GUI (Swing) I - Components | LayoutManagers
 
-### GUI (Swing) II - Event-Driven Programming | Few Apps
+### GUI (Swing) II - [Callbacks](Java-Concepts/callbacks) | Event-Driven Programming | Few Apps
 
 ### Java Libraries - lang | util | io | math | others
 
@@ -103,9 +107,11 @@
 
 .
 
-## 5. Java - Few Third Party Libraries
+## 5. Third Party Libraries & FrameWorks
 
 ### Unit Testing - JUnit 4 (+Android)
+
+### Test Doubling - Mockito 2
 
 ### HTTP Client - Retrofit 2 (+Android)
 
@@ -114,6 +120,10 @@
 ### Dependency Injection - Dagger 2 (+Android)
 
 ### Web App Testing - Selenium 2
+
+### Inversion of Control - Spring 5
+
+### Object-Relational Mapping - Hibernate 5
 
 .
 
@@ -131,49 +141,39 @@
 
 ### [Dynamic Programming](Algorithms/dynamic_programming)
 
-.
-
-## 7. Coding Interview (LeetCode)
-
-### Arrays | Strings | Hash Table
-
-### Linked Lists | Stack | Two Pointers
-
-### Binary Search | Tree
-
-### Depth-first Search | Breadth-first Search
-
-### Bit Manipulation | Math | Others
+[Dedicate Repo For More DS-ALGO Programs - CODING INTERVIEW QUESTIONS](https://github.com/Suryakant-Bharti/coding-interview-questions)
 
 .
 
-## 8. Coding Interview (GeeksForGeeks)
-
-### Arrays | Strings | Linked Lists
-
-### Stack & Queue | Tree | Heap
-
-### Recursion | Hashing | Graph
-
-### Greedy | Dynamic Programming
-
-### Divide and Conquer | Backtracking | Bit Magic
-
-.
-
-## 9. Software Engineering 
+## 9. Software Development 
 
 *Do in Summer 2018...*
+
+### Java Best Practices
 
 ### SE Funadamentals
 
 ### OOAD Funadamentals
 
-### Database Schema
-
 ### Unified Modeling Language
 
-### Design Patterns - Creational | Structural | Behavioral
+### Database Schema
+
+### Refactoring & Regression
+
+### Test Driven Development
+
+### Behaviour Driven Development
+
+.
+
+## 9. Software Design 
+
+### GOF Design Patterns - Creational
+
+### GOF Design Patterns - Structural
+
+### GOF Design Patterns - Behavioral
 
 ### SOLID Design Principles 
 
@@ -181,15 +181,27 @@
 
 .
 
+## 9. Important Tools & Technologies (External Repos)
+
+### Version Control (git & gitHub)
+
+### Build automation system (Gradle)
+
+### Linux & Bash Shell
+
+### SQL Scripting
+
+### Android Development
+
+### Coding Interview
+
+.
+
 ## 10. Extras
 
 ### Mathematics Fundamentals
 
-### Version Control (git & gitHub)
-
-### Linux & Bash Shell
-
-### Definitions (java, ds, algo)
+### Glossary (java, ds, algo)
 
 ### Cheat Sheets (keywords, big-O, uml)
 
@@ -198,6 +210,8 @@
 ### Interview Questions (java)
 
 ### Puzzles & HR Questions
+
+### Aptitude
 
 ### [Good Books for Reference](_moreReadMe/books)
 
