@@ -119,11 +119,11 @@
 
 ### Dependency Injection - Dagger 2 (+Android)
 
-### Web App Testing - Selenium 2
-
 ### Inversion of Control - Spring 5
 
 ### Object-Relational Mapping - Hibernate 5
+
+### Web App Testing - Selenium 2
 
 .
 
@@ -145,7 +145,7 @@
 
 .
 
-## 9. Software Development 
+## 7. Software Development 
 
 *Do in Summer 2018...*
 
@@ -167,7 +167,7 @@
 
 .
 
-## 9. Software Design 
+## 8. Software Design 
 
 ### GOF Design Patterns - Creational
 
