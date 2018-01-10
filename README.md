@@ -26,6 +26,8 @@
 ## 1. Java - Fundamentals & OOPS
 *[[USEFUL INFO - Java Fundamentals & OOPS Concepts]](Java-OOPS)*
 
+*[[USEFUL INFO - Important Methods of various Classes]](_moreReadMe/importantMethods)*
+
 *[[USEFUL INFO - Java Features, Execution Process & JVM Internals]](_moreReadMe/howItWorks)*
 
 *[[USEFUL INFO - For Polyglots - Java vs C++, Python, C#]](_moreReadMe/polyglot)*
@@ -42,22 +44,19 @@
 
 ### [Abstraction](Java-OOPS/abstraction) | [Interfaces](Java-OOPS/interfaces) | [Encapsulation](Java-OOPS/encapsulation)
 
-### [Misc](Java-OOPS/miscellaneous) | [Recursion](Java-OOPS/recursion) | [Basic Programs](Java-OOPS/basic_programs)
-
-### [OOPS Real examples](Java-OOPS/real_world_examples)
-
-.
-
-## 2. Java - Other Important Concepts
-*[[USEFUL INFO - Java Other Important Concepts]](Java-Concepts)*
-
-*[[USEFUL INFO - Important Methods of various Classes]](_moreReadMe/importantMethods)*
-
 ### [Arrays](Java-Concepts/arrays) | [Strings](Java-Concepts/strings) | Date & Time
 
 ### [Exceptions](Java-Concepts/exceptions) | [Generics](Java-Concepts/generics)
 
 ### [Files, I/O, Serialization](Java-Concepts/input_output) | NIO
+
+### [Misc](Java-OOPS/miscellaneous) | [Recursion](Java-OOPS/recursion) | [Basic Programs](Java-OOPS/basic_programs)
+
+### [OOPS Real examples](Java-OOPS/real_world_examples)
+.
+
+## 2. Java - Other Important Concepts
+*[[USEFUL INFO - Java Other Important Concepts]](Java-Concepts)*
 
 ### [Regular Expressions](Java-Concepts/regex)
 
