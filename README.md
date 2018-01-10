@@ -68,6 +68,9 @@
 .
 
 ## 2. Java - Other Important Concepts
+
+*[[USEFUL INFO - Multithreading and Concurrency]](_moreReadMe/concurrency)*
+
 *[[USEFUL INFO - Java Other Important Concepts]](Java-Concepts)*
 
 ### Multithreading - [Basics](Java-Concepts/multithreading) | Garbage Collection
@@ -87,7 +90,7 @@
 .
 
 ## 4. Java - Advanced Concepts
-*[USEFUL INFO - [Concurrency](Concurrency) | Operating Systems | Databases | Networking | GUI ]*
+*[USEFUL INFO - Operating Systems | Databases | Networking | GUI (Swing)]*
 
 ### OS Concepts - CPU Scheduling | Memory Management
 
