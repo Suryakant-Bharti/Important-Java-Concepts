@@ -54,8 +54,25 @@
 
 .
 
+## 2. Java - Collections Framework
+*[[USEFUL INFO - Java Collections Framework]](Java-Collections)*
+
+### Collection Interface - [List](Java-Collections/list) | [Set](Java-Collections/set) | [Queue](Java-Collections/queue)
+
+### Map Interface - [Map](Java-Collections/map)
+
+### More - [Enum](Java-Collections/enum) | [Vector & Stack](Java-Collections/vector) | Legacy
+
+### [Collections Class](Java-Collections/collections_class)
+
+.
+
 ## 2. Java - Other Important Concepts
 *[[USEFUL INFO - Java Other Important Concepts]](Java-Concepts)*
+
+### Multithreading - [Basics](Java-Concepts/multithreading) | Garbage Collection
+
+### Concurrency - | Advanced | [Classic Problems](Java-Concepts/classic_problems) 
 
 ### [Regular Expressions](Java-Concepts/regex)
 
@@ -69,25 +86,8 @@
 
 .
 
-## 3. Java - Collections Framework
-*[[USEFUL INFO - Java Collections Framework]](Java-Collections)*
-
-### Collection Interface - [List](Java-Collections/list) | [Set](Java-Collections/set) | [Queue](Java-Collections/queue)
-
-### Map Interface - [Map](Java-Collections/map)
-
-### More - [Enum](Java-Collections/enum) | [Vector & Stack](Java-Collections/vector) | Legacy
-
-### [Collections Class](Java-Collections/collections_class)
-
-.
-
 ## 4. Java - Advanced Concepts
 *[USEFUL INFO - [Concurrency](Concurrency) | Operating Systems | Databases | Networking | GUI ]*
-
-### Multithreading - [Basics](Concurrency/multithreading) | Garbage Collection
-
-### Concurrency - | Advanced | [Classic Problems](Concurrency/classic_problems) 
 
 ### OS Concepts - CPU Scheduling | Memory Management
 
