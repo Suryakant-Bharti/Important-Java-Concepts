@@ -52,7 +52,6 @@
 
 ### [Misc](Java-OOPS/miscellaneous) | [Recursion](Java-OOPS/recursion) | [Basic Programs](Java-OOPS/basic_programs)
 
-### [OOPS Real examples](Java-OOPS/real_world_examples)
 .
 
 ## 2. Java - Other Important Concepts
