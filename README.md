@@ -52,12 +52,14 @@
 
 .
 
-## 2. Java - Generics, Collections & I/O
+## 2. Java - Generics, Collections, I/O, Threads, GC
 *[[USEFUL INFO - Java Collections Framework]](Java-Collections)*
 
 *[USEFUL INFO - Java Generics]*
 
 *[USEFUL INFO - Files, I/O, Serialization]*
+
+*[[USEFUL INFO - Multithreading and Concurrency]](_moreReadMe/concurrency)*
 
 ### [Java Generics](Java-Collections/generics)
 
@@ -65,21 +67,21 @@
 
 ### [Map Interface (Map)](Java-Collections/map_interface)
 
-### [Legacy Data Structures (Enum,Vector,etc)](Java-Collections/legacy_ds)
+### [Legacy DS (Enum,Vector,Stack,etc)](Java-Collections/legacy_ds)
 
 ### [Collections Class](Java-Collections/collections_class)
 
 ### [Files, I/O, Serialization](Java-Collections/input_output)
 
+### [Multithreading](Java-Collections/multithreading)
+
+### Garbage Collection
+
 .
 
-## 3. Java - Advanced Concepts I
-
-*[[USEFUL INFO - Multithreading and Concurrency]](_moreReadMe/concurrency)*
+## 3. Java - Misc Concepts
 
 *[[USEFUL INFO - Java Other Important Concepts]](Java-Concepts)*
-
-### [Multithreading](Java-Concepts/multithreading) | Garbage Collection
 
 ### Concurrency | [Classic Problems](Java-Concepts/classic_problems) 
 
@@ -95,7 +97,7 @@
 
 .
 
-## 4. Java - Advanced Concepts II
+## 4. Java - Advanced Concepts
 *[USEFUL INFO - Operating Systems | Databases | Networking | GUI (Swing)]*
 
 ### OS Concepts - CPU Scheduling | Memory Management
