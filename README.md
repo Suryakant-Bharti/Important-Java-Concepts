@@ -46,26 +46,30 @@
 
 ### [Arrays](Java-OOPS/arrays) | [Strings](Java-OOPS/strings) | [Date & Time](Java-OOPS/date_time)
 
-### [Exceptions](Java-OOPS/exceptions) | [Generics](Java-OOPS/generics) | [Files, I/O](Java-OOPS/input_output)
+### [Exceptions](Java-OOPS/exceptions) |  | 
 
 ### [Misc](Java-OOPS/miscellaneous) | [Recursion](Java-OOPS/recursion) | [Basic Programs](Java-OOPS/basic_programs)
 
 .
 
-## 2. Java - Collections Framework
+## 2. Java - Generics, Collections & I/O
 *[[USEFUL INFO - Java Collections Framework]](Java-Collections)*
+
+### [Generics](Java-Collections/generics)
 
 ### Collection Interface - [List](Java-Collections/list) | [Set](Java-Collections/set) | [Queue](Java-Collections/queue)
 
 ### Map Interface - [Map](Java-Collections/map)
 
-### More - [Enum](Java-Collections/enum) | [Vector & Stack](Java-Collections/vector) | Legacy
+### Legacy - [Enum](Java-Collections/enum) | [Vector & Stack](Java-Collections/vector) | Others
 
 ### [Collections Class](Java-Collections/collections_class)
 
+### [Files, I/O, Serialization](Java-Collections/input_output)
+
 .
 
-## 3. Java - Other Important Concepts
+## 3. Java - Advanced Concepts I
 
 *[[USEFUL INFO - Multithreading and Concurrency]](_moreReadMe/concurrency)*
 
@@ -74,8 +78,6 @@
 ### [Multithreading](Java-Concepts/multithreading) | Garbage Collection
 
 ### Concurrency | [Classic Problems](Java-Concepts/classic_problems) 
-
-### Serialization | New I/O (NIO)
 
 ### [Callbacks](Java-Concepts/callbacks) | [Regular Expressions](Java-Concepts/regex)
 
@@ -89,7 +91,7 @@
 
 .
 
-## 4. Java - Advanced Concepts
+## 4. Java - Advanced Concepts II
 *[USEFUL INFO - Operating Systems | Databases | Networking | GUI (Swing)]*
 
 ### OS Concepts - CPU Scheduling | Memory Management
@@ -102,7 +104,7 @@
 
 ### GUI (Swing) II - Event-Driven Programming | Few Apps
 
-### Java Libraries - lang | util | io | math | others
+### Java Libraries - lang | util | io/nio | math | others
 
 ### Java Dev - Java Beans | Servlets
 
