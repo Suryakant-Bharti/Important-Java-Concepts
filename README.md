@@ -65,7 +65,7 @@
 
 ### Map Interface - [Map](Java-Collections/map)
 
-### Legacy - [Enum](Java-Collections/enum) | [Vector & Stack](Java-Collections/vector) | Others
+### Legacy - [Enum](Java-Collections/enum) | [Vector, Stack](Java-Collections/vector) | Others
 
 ### [Collections Class](Java-Collections/collections_class)
 
