@@ -59,7 +59,7 @@
 
 *[[USEFUL INFO - Files, I/O, Serialization]](_moreReadMe/input_output)*
 
-*[[USEFUL INFO - Multithreading and Concurrency]](_moreReadMe/concurrency)*
+*[[USEFUL INFO - Multithreading and Concurrency]](_moreReadMe/multithreading)*
 
 ### [Java Generics](Java-Collections/generics)
 
@@ -73,7 +73,7 @@
 
 ### [Files, I/O, Serialization](Java-Collections/input_output)
 
-### [Multithreading](Java-Collections/multithreading) | Garbage Collection
+### [Multithreading](Java-Collections/multithreading) | [Garbage Collector](Java-Collections/garbage_collector)
 
 .
 
