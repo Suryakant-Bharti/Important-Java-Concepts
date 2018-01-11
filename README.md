@@ -51,9 +51,9 @@
 .
 
 ## 2. Java - Generics, Collections, I/O, Threads
-*[[USEFUL INFO - Java Collections Framework]](Java-Collections)*
-
 *[[USEFUL INFO - Java Generics]](_moreReadMe/generics)*
+
+*[[USEFUL INFO - Java Collections Framework]](Java-Collections)*
 
 *[[USEFUL INFO - Files, I/O, Serialization]](_moreReadMe/input_output)*
 
@@ -238,10 +238,9 @@
 
 --- *References* ---
 --------------------
-    This repository contains few codes and images from other authors.
+    This repository contains some codes and few images from other authors.
     Used for "Nonprofit Educational Purpose".
     Thanks to the original authors :)
     
-    WEBSITES - javaTpoint, tutorialsPoint, studytonight, w3schools
-    WEBSITES - GeeksforGeeks, LeetCode, StackOverflow, SourceMaking
+    WEBSITES - javaTpoint, tutorialsPoint, GeeksforGeeks, StackOverflow
     BOOKS - Java The Complete reference
