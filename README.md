@@ -75,11 +75,17 @@
 
 .
 
-## 3. Java - Misc Concepts
+## 3. Java - Few Important Topics
+
+*[[USEFUL INFO - For Polyglots - Java vs Other Languages]](_moreReadMe/polyglot)*
+
+*[[USEFUL INFO - Java Other Important Concepts]](_moreReadMe/testing)*
 
 *[[USEFUL INFO - Java Other Important Concepts]](Java-Concepts)*
 
-*[[USEFUL INFO - For Polyglots - Java vs Other Languages]](_moreReadMe/polyglot)*
+### Unit Testing - JUnit 4 (Third Party Library)
+
+### Class Relationships (Design Basics)
 
 ### Concurrency | [Classic Problems](Java-Concepts/classic_problems) 
 
@@ -115,8 +121,6 @@
 .
 
 ## 5. Third Party Libraries & FrameWorks
-
-### Unit Testing - JUnit 4 (+Android)
 
 ### Test Doubling - Mockito 2
 
