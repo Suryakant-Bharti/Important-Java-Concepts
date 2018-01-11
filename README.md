@@ -44,11 +44,11 @@
 
 ### [Abstraction](Java-OOPS/abstraction) | [Interfaces](Java-OOPS/interfaces) | [Encapsulation](Java-OOPS/encapsulation)
 
-### [Arrays](Java-OOPS/arrays) | [Strings](Java-OOPS/strings) | Date & Time
+### [Arrays](Java-OOPS/arrays) | [Strings](Java-OOPS/strings) | [Date & Time](Java-OOPS/date_time)
 
 ### [Exceptions](Java-OOPS/exceptions) | [Generics](Java-OOPS/generics)
 
-### [Files, I/O, Serialization](Java-OOPS/input_output) |
+### [Files, I/O, Serialization](Java-OOPS/input_output)
 
 ### [Misc](Java-OOPS/miscellaneous) | [Recursion](Java-OOPS/recursion) | [Basic Programs](Java-OOPS/basic_programs)
 
