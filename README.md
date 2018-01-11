@@ -61,11 +61,11 @@
 
 ### [Java Generics](Java-Collections/generics)
 
-### Collection Interface - [List](Java-Collections/list) | [Set](Java-Collections/set) | [Queue](Java-Collections/queue)
+### [Collection Interface (List,Set,Queue)](Java-Collections/collection_interface)
 
-### Map Interface - [Map](Java-Collections/map)
+### [Map Interface (Map)](Java-Collections/map_interface)
 
-### Legacy - [Enum](Java-Collections/enum) | [Vector, Stack](Java-Collections/vector) | Others
+### [Legacy Data Structures (Enum,Vector,etc)](Java-Collections/legacy_ds)
 
 ### [Collections Class](Java-Collections/collections_class)
 
