@@ -55,7 +55,11 @@
 ## 2. Java - Generics, Collections & I/O
 *[[USEFUL INFO - Java Collections Framework]](Java-Collections)*
 
-### [Generics](Java-Collections/generics)
+*[USEFUL INFO - Java Generics]*
+
+*[USEFUL INFO - Files, I/O, Serialization]*
+
+### [Java Generics](Java-Collections/generics)
 
 ### Collection Interface - [List](Java-Collections/list) | [Set](Java-Collections/set) | [Queue](Java-Collections/queue)
 
