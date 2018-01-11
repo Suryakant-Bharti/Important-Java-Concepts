@@ -52,12 +52,12 @@
 
 .
 
-## 2. Java - Generics, Collections, I/O, Threads, GC
+## 2. Java - Generics, Collections, I/O, Threads
 *[[USEFUL INFO - Java Collections Framework]](Java-Collections)*
 
-*[USEFUL INFO - Java Generics]*
+*[[USEFUL INFO - Java Generics]](_moreReadMe/generics)*
 
-*[USEFUL INFO - Files, I/O, Serialization]*
+*[[USEFUL INFO - Files, I/O, Serialization]](_moreReadMe/input_output)*
 
 *[[USEFUL INFO - Multithreading and Concurrency]](_moreReadMe/concurrency)*
 
@@ -67,15 +67,13 @@
 
 ### [Map Interface (Map)](Java-Collections/map_interface)
 
-### [Legacy DS (Enum,Vector,Stack,etc)](Java-Collections/legacy_ds)
+### [Legacy DS (Enum,Vector,etc)](Java-Collections/legacy_ds)
 
 ### [Collections Class](Java-Collections/collections_class)
 
 ### [Files, I/O, Serialization](Java-Collections/input_output)
 
-### [Multithreading](Java-Collections/multithreading)
-
-### Garbage Collection
+### [Multithreading](Java-Collections/multithreading) | Garbage Collection
 
 .
 
