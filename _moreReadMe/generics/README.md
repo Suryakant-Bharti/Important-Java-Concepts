@@ -7,10 +7,11 @@ A generic class declaration looks like a non-generic class declaration, except t
 The type parameter section of a generic class can have one or more type parameters separated by commas. These classes are known as parameterized classes or parameterized types because they accept one or more parameters.
 
 ### Syntax:
-<pre class="result notranslate">public class Box&lt;T&gt; {
+```
+public class Box<T> {
    private T t;
 }
-</pre>
+```
 
 <ul class="list">
 <li><p><b>Box</b> − Box is a generic class.</p></li>
@@ -38,12 +39,13 @@ Type inference represents the Java compiler's ability to look at a method invoca
 Compiler generates unchecked conversion warning in-case type inference is not used.
 
 ### Syntax:
-<pre class="result notranslate">Box&lt;Integer&gt; integerBox = new Box&lt;&gt;();
-</pre>
+```
+Box<Integer> integerBox = new Box<>();
+```
 
 <ul class="list">
 <li><p><b>Box</b> − Box is a generic class.</p></li>
-<li><p><b>&lt;&gt;</b> − The diamond operator denotes type inference.</p></li>
+<li><p><b><></b> − The diamond operator denotes type inference.</p></li>
 </ul>
 
 Using diamond operator, compiler determines the type of the parameter. This operator is avalilable from Java SE 7 version onwards.
@@ -53,53 +55,61 @@ Using diamond operator, compiler determines the type of the parameter. This oper
 You can write a single generic method declaration that can be called with arguments of different types. Based on the types of the arguments passed to the generic method, the compiler handles each method call appropriately. Following are the rules to define Generic Methods −
 
 <ul class="list">
-<li><p>All generic method declarations have a type parameter section delimited by angle brackets (&lt; and &gt;) that precedes the method's return type ( &lt; E &gt; in the next example).</p></li>
+<li><p>All generic method declarations have a type parameter section delimited by angle brackets (< and >) that precedes the method's return type ( < E > in the next example).</p></li>
 <li><p>Each type parameter section contains one or more type parameters separated by commas. A type parameter, also known as a type variable, is an identifier that specifies a generic type name.</p></li>
 <li><p>The type parameters can be used to declare the return type and act as placeholders for the types of the arguments passed to the generic method, which are known as actual type arguments.</p></li>
 <li><p>A generic method's body is declared like that of any other method. Note that type parameters can represent only reference types, not primitive types (like int, double and char).</p></li>
 </ul>
 
-<pre class="result notranslate">public static &lt;E&gt; void printArray( E[] inputArray ) {
+```
+public static <E> void printArray( E[] inputArray ) {
       // Display array elements
       for(E element : inputArray) {
          System.out.printf("%s ", element);
       }
       System.out.println();
    }
-</pre>
+```
 
 ## Multiple Type Parameters
 
 A Generic class can have muliple type parameters. Following example will showcase above mentioned concept.
 
-<pre class="result notranslate">public class Box&lt;S,T&gt; {
+```
+public class Box<S,T> {
    private T t;
    private S s;
 }
-</pre>
+```
 
 ## Parameterized Types
 
 A Generic class can have parameterized types where a type parameter can be substituted with a parameterized type. 
 Parameterized Types are types that take other types as parameters. Eg - Collection<String>, ArrayList<String>, etc.
   
-<pre class="result notranslate">public class Box&lt;S,T&gt; {
+```
+public class Box<S,T> {
    ...
 }
 ...
-Box&lt;Integer, List&lt;String&gt;&gt; box = new Box&lt;Integer, List&lt;String&gt;&gt;(); //Parameterized Types
+Box<Integer, List<String>> box = new Box<Integer, List<String>>(); //Parameterized Types
 ...
-</pre>
+```
 
 ## Raw Types
 
 A raw type is an object of a generic class or interface if its type arguments are not passed during its creation.
 
-<pre class="result notranslate">Box rawBox = new Box();
-</pre>
+```
+Box rawBox = new Box();
+```
 
 ## Bounded Type Parameters
 
 There may be times when you'll want to restrict the kinds of types that are allowed to be passed to a type parameter. For example, a method that operates on numbers might only want to accept instances of Number or its subclasses. This is what bounded type parameters are for.
 
 To declare a bounded type parameter, list the type parameter's name, followed by the extends keyword, followed by its upper bound.
+
+```
+public static <T extends Comparable<T>> T maximum(T x, T y, T z)
+```
