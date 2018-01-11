@@ -169,3 +169,63 @@ The T is a type parameter passed to the generic interface Map and its implemenat
 
 ## Generics Wild Cards
 
+The question mark (?), represents the wildcard, stands for unknown type in generics. 
+
+### Upper Bounded Wildcards
+
+There may be times when you'll want to restrict the kinds of types that are allowed to be passed to a type parameter. For example, a method that operates on numbers might only want to accept instances of Number or its subclasses.
+
+To declare a upper bounded Wildcard parameter, list the ?, followed by the extends keyword, followed by its upper bound.
+```
+public static double sum(List<? extends Number> numberlist) {
+      ...
+   }
+```
+
+### Unbounded Wildcards
+
+There may be times when any object can be used when a method can be implemented using functionality provided in the Object class or When the code is independent of the type parameter.
+
+To declare a Unbounded Wildcard parameter, list the ? only.
+```
+public static void printAll(List<?> list) {
+    ...
+   }
+```
+
+### Lower Bounded Wildcards
+
+There may be times when you'll want to restrict the kinds of types that are allowed to be passed to a type parameter. For example, a method that operates on numbers might only want to accept instances of Integer or its superclasses like Number.
+
+To declare a lower bounded Wildcard parameter, list the ?, followed by the super keyword, followed by its lower bound.
+```
+public static void addCat(List<? super Cat> catList) {
+      ...
+   }
+...
+//You can add list of Cat or Animal (super class of the Cat class)
+addCat(animalList);
+addCat(catList);
+```
+
+## Restrictions on Generics
+
+**No Primitive Types** - Using generics, primitive types can not be passed as type parameters.
+```
+Box<int> intBox = new Box<int>() //Error
+```   
+NOTE : Use Wrappers like Integar instead.
+
+**No Instance** - A type parameter cannot be used to instantiate its object inside a method.
+```
+public static <T> void add(Box<T> box) //Error
+```   
+NOTE : To achieve such functionality, reflection can be used.
+
+**No Static field** - Using generics, type parameters are not allowed to be static. As static variable is shared among object so compiler can not determine which type to used.
+```
+class Box<T> {   
+   private static T t; //Error
+}
+```   
+
