@@ -6,7 +6,7 @@ A generic class declaration looks like a non-generic class declaration, except t
 
 The type parameter section of a generic class can have one or more type parameters separated by commas. These classes are known as parameterized classes or parameterized types because they accept one or more parameters.
 
-### Syntax:
+**Syntax:**
 ```
 public class Box<T> {
    private T t;
@@ -38,7 +38,7 @@ Type inference represents the Java compiler's ability to look at a method invoca
 
 Compiler generates unchecked conversion warning in-case type inference is not used.
 
-### Syntax:
+**Syntax:**
 ```
 Box<Integer> integerBox = new Box<>();
 ```
@@ -110,6 +110,62 @@ There may be times when you'll want to restrict the kinds of types that are allo
 
 To declare a bounded type parameter, list the type parameter's name, followed by the extends keyword, followed by its upper bound.
 
+**Single Bound:**
 ```
 public static <T extends Comparable<T>> T maximum(T x, T y, T z)
 ```
+
+**Multiple Bounds:**
+```
+public static <T extends Number & Comparable<T>> T maximum(T x, T y, T z)
+```
+<ul class="list">
+<li><p><b>maximum</b> − maximum is a generic method.</p></li>
+<li><p><b>T</b> − The generic type parameter passed to generic method. It can take any Object.</p></li>
+</ul>
+
+The T is a type parameter passed to the generic class Box and should be subtype of Number class and must implments Comparable interface. In case a class is passed as bound, it should be passed first before interface otherwise compile time error will occur.
+
+**Calling eg.:**
+```
+maximum( 6.6, 8.8, 7.7 )
+```
+
+## Collections Framework Examples
+
+Java has provided generic support in Collections Framework Interfaces like List, Set, Map, etc.
+
+### List
+
+```
+List<T> list = new ArrayList<T>();
+```
+<ul class="list">
+<li><p><b>list</b> − object of List interface.</p></li>
+<li><p><b>T</b> − The generic type parameter passed during List declaration.</p></li>
+</ul>
+The T is a type parameter passed to the generic interface List and its implemenation class ArrayList.
+
+### Set
+
+```
+Set<T> set = new HashSet<T>();
+```
+<ul class="list">
+<li><p><b>set</b> − object of Set Interface.</p></li>
+<li><p><b>T</b> − The generic type parameter passed during Set declaration.</p></li>
+</ul>
+The T is a type parameter passed to the generic interface Set and its implemenation class HashSet.
+
+### Map
+```
+Map<T> set = new HashMap<T>();
+```
+<ul class="list">
+<li><p><b>set</b> − object of Map Interface.</p></li>
+<li><p><b>T</b> − The generic type parameter passed during Map declaration.</p></li>
+</ul>
+The T is a type parameter passed to the generic interface Map and its implemenation class HashMap.
+
+## Generics Wild Cards
+
