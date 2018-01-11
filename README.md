@@ -67,23 +67,23 @@
 
 .
 
-## 2. Java - Other Important Concepts
+## 3. Java - Other Important Concepts
 
 *[[USEFUL INFO - Multithreading and Concurrency]](_moreReadMe/concurrency)*
 
 *[[USEFUL INFO - Java Other Important Concepts]](Java-Concepts)*
 
-### Multithreading - [Basics](Java-Concepts/multithreading) | Garbage Collection
+### [Multithreading](Java-Concepts/multithreading) | Garbage Collection
 
-### Concurrency - | Advanced | [Classic Problems](Java-Concepts/classic_problems) 
+### Concurrency | [Classic Problems](Java-Concepts/classic_problems) 
 
-### [Regular Expressions](Java-Concepts/regex)
+### [Callbacks](Java-Concepts/callbacks) | [Regular Expressions](Java-Concepts/regex)
 
 ### [Lambda Expr](Java-Concepts/lambda) | Functional Programming
 
 ### JSON & XML Parsing | Big Decimal & Integar
 
-### Misc - X vs Y | Performance Comparisons
+### X vs Y | Performance Comparisons
 
 ### New Features - Till Java7 | Java8 | Java9
 
@@ -100,7 +100,7 @@
 
 ### GUI (Swing) I - Components | LayoutManagers
 
-### GUI (Swing) II - [Callbacks](Java-Concepts/callbacks) | Event-Driven Programming | Few Apps
+### GUI (Swing) II - Event-Driven Programming | Few Apps
 
 ### Java Libraries - lang | util | io | math | others
 
