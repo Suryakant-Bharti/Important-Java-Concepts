@@ -48,7 +48,7 @@
 
 ### [Exceptions](Java-OOPS/exceptions) | [Generics](Java-OOPS/generics)
 
-### [Files, I/O, Serialization](Java-OOPS/input_output) | NIO
+### [Files, I/O, Serialization](Java-OOPS/input_output) |
 
 ### [Misc](Java-OOPS/miscellaneous) | [Recursion](Java-OOPS/recursion) | [Basic Programs](Java-OOPS/basic_programs)
 
@@ -102,7 +102,7 @@
 
 ### GUI (Swing) II - Event-Driven Programming | Few Apps
 
-### Java Libraries - lang | util | io | math | others
+### Java Libraries - lang | util | io | nio | math
 
 ### Java Dev - Java Beans | Servlets
 
