@@ -46,9 +46,7 @@
 
 ### [Arrays](Java-OOPS/arrays) | [Strings](Java-OOPS/strings) | [Date & Time](Java-OOPS/date_time)
 
-### [Exceptions](Java-OOPS/exceptions) | [Generics](Java-OOPS/generics)
-
-### [Files, I/O, Serialization](Java-OOPS/input_output)
+### [Exceptions](Java-OOPS/exceptions) | [Generics](Java-OOPS/generics) | [Files, I/O](Java-OOPS/input_output)
 
 ### [Misc](Java-OOPS/miscellaneous) | [Recursion](Java-OOPS/recursion) | [Basic Programs](Java-OOPS/basic_programs)
 
@@ -77,6 +75,8 @@
 
 ### Concurrency | [Classic Problems](Java-Concepts/classic_problems) 
 
+### Serialization | New I/O (NIO)
+
 ### [Callbacks](Java-Concepts/callbacks) | [Regular Expressions](Java-Concepts/regex)
 
 ### [Lambda Expr](Java-Concepts/lambda) | Functional Programming
@@ -102,7 +102,7 @@
 
 ### GUI (Swing) II - Event-Driven Programming | Few Apps
 
-### Java Libraries - lang | util | io | nio | math
+### Java Libraries - lang | util | io | math | others
 
 ### Java Dev - Java Beans | Servlets
 
