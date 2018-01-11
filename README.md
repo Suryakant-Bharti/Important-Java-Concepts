@@ -30,7 +30,7 @@
 
 *[[USEFUL INFO - Java Features, Execution Process & JVM Internals]](_moreReadMe/howItWorks)*
 
-*[[USEFUL INFO - For Polyglots - Java vs C++, Python, C#]](_moreReadMe/polyglot)*
+*[[USEFUL INFO - For Polyglots - Java vs Other Languages]](_moreReadMe/polyglot)*
 
 ### [Variables & Operators](Java-OOPS/variables_and_operators) | [Control Flow](Java-OOPS/control_flow) 
 
