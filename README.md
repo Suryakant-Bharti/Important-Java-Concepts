@@ -30,8 +30,6 @@
 
 *[[USEFUL INFO - Java Features, Execution Process & JVM Internals]](_moreReadMe/howItWorks)*
 
-*[[USEFUL INFO - For Polyglots - Java vs Other Languages]](_moreReadMe/polyglot)*
-
 ### [Variables & Operators](Java-OOPS/variables_and_operators) | [Control Flow](Java-OOPS/control_flow) 
 
 ### [Classes & Objects](Java-OOPS/class_and_object) | [static & this](Java-OOPS/static_and_this) | [Inner Classes](Java-OOPS/inner_class)
@@ -80,6 +78,8 @@
 ## 3. Java - Misc Concepts
 
 *[[USEFUL INFO - Java Other Important Concepts]](Java-Concepts)*
+
+*[[USEFUL INFO - For Polyglots - Java vs Other Languages]](_moreReadMe/polyglot)*
 
 ### Concurrency | [Classic Problems](Java-Concepts/classic_problems) 
 
