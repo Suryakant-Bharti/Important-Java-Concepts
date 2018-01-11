@@ -46,9 +46,9 @@
 
 ### [Arrays](Java-OOPS/arrays) | [Strings](Java-OOPS/strings) | [Date & Time](Java-OOPS/date_time)
 
-### [Exceptions](Java-OOPS/exceptions) |  | 
+### [Exceptions](Java-OOPS/exceptions) | [Misc](Java-OOPS/miscellaneous)
 
-### [Misc](Java-OOPS/miscellaneous) | [Recursion](Java-OOPS/recursion) | [Basic Programs](Java-OOPS/basic_programs)
+### [Recursion](Java-OOPS/recursion) | [Basic Programs](Java-OOPS/basic_programs)
 
 .
 
