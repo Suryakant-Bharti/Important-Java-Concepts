@@ -111,13 +111,17 @@
 
 ### [Dynamic Programming](Algorithms/dynamic_programming)
 
-[Dedicate Repo For More DS-ALGO Programs - CODING INTERVIEW QUESTIONS (To Do)](https://github.com/Suryakant-Bharti/coding-interview-questions)
+[Dedicate Repository For More DS-ALGO Programs - CODING QUESTIONS (To Do)](https://github.com/Suryakant-Bharti/coding-interview-questions)
 
 ## Extras
 
 ### [Good Books for Reference](_moreReadMe/books)
 
 ### [Great Websites for Learning](_moreReadMe/websites)
+
+NOTE : I will keep adding more important programs to this Repository throughout 2018. 
+
+Happy Learning ^_^
 
 --- *References* ---
 --------------------
