@@ -6,21 +6,13 @@
 # Learn Java Programming
 
 **This Repo contains Java Programs related to Concepts of :**
+- *Java Fundamentals*
 - *Java Object-Oriented Programming*
 - *Java Collections Framework*
-- *Java Advanced Concepts*
-- *Concurrency*
-- *Operating Systems*
-- *Databases*
-- *Networking*
-- *Graphical User Interface*
-- *Software Testing*
-- *Data Structures*
-- *Algorithms*
-- *Software Design Patterns*
-- *Software Engineering*
-- *StackOverflow Questions*
-- *Interview Questions*
+- *Java Multithreading*
+- *Unit Testing in Java*
+- *Data Structures in Java*
+- *Algorithms in Java*
 
 ![quote banner](https://user-images.githubusercontent.com/2780145/34341843-fa43f72c-e9c5-11e7-88e8-f3b863448262.png)
 ## 1. Java - Fundamentals & OOPS
@@ -105,44 +97,7 @@
 
 .
 
-## 4. Java - Advanced Concepts
-*[USEFUL INFO - Operating Systems | Databases | Networking | GUI (Swing)]*
-
-### OS Concepts - CPU Scheduling | Memory Management
-
-### Databases - JDBC | SQL Examples | MongoDB
-
-### Networking - Socket, URL & HHTP | EMail | Few Apps
-
-### GUI (Swing) I - Components | LayoutManagers
-
-### GUI (Swing) II - Event-Driven Programming | Few Apps
-
-### Java Libraries - lang | util | io/nio | math | others
-
-### Java Dev - Java Beans | Servlets
-
-.
-
-## 5. Third Party Libraries & FrameWorks
-
-### Test Doubling - Mockito 2
-
-### HTTP Client - Retrofit 2 (+Android)
-
-### Reactive Programming - RxJava 2 (+Android)
-
-### Dependency Injection - Dagger 2 (+Android)
-
-### Inversion of Control - Spring 5
-
-### Object-Relational Mapping - Hibernate 5
-
-### Web App Testing - Selenium 2
-
-.
-
-## 6. Data Structures & Algorithms
+## 4. Data Structures & Algorithms
 
 ### DS - [Linked Lists](DS-Algo/linked_lists) | Stacks | Queues
 
@@ -158,97 +113,15 @@
 
 [Dedicate Repo For More DS-ALGO Programs - CODING INTERVIEW QUESTIONS](https://github.com/Suryakant-Bharti/coding-interview-questions)
 
-.
-
-## 7. Software Development 
-
-*Do in Summer 2018...*
-
-### Java Best Practices
-
-### SE Funadamentals
-
-### OOAD Funadamentals
-
-### Unified Modeling Language
-
-### Database Schema
-
-### Refactoring & Regression
-
-### Test Driven Development
-
-### Behaviour Driven Development
-
-.
-
-## 8. Software Design 
-
-### GOF Design Patterns - Creational
-
-### GOF Design Patterns - Structural
-
-### GOF Design Patterns - Behavioral
-
-### SOLID Design Principles 
-
-### Design Interview Questions
-
-.
-
-## 9. Important Tools & Technologies (External Repos)
-
-### Version Control (git & gitHub)
-
-### Build Automation System (Gradle)
-
-### Linux & Bash Shell
-
-### SQL Scripting
-
-### Coding Interview
-
-### Android App Development
-
-### Android Game Development
-
-### Python (Data Science, AI/ML)
-
-### Web Dev (HTML/CSS/JS/JQuery/AJAX)
-
-### TypeScript | Angular
-
-### NodeJS | Apache HTTP Server
-
-.
-
-## 10. Extras
-
-### Mathematics Fundamentals
-
-### Glossary (java, ds, algo)
-
-### Cheat Sheets (keywords, big-O, uml)
-
-### StackOverflow Questions (java)
-
-### Interview Questions (java)
-
-### Puzzles & HR Questions
-
-### Aptitude
+## Extras
 
 ### [Good Books for Reference](_moreReadMe/books)
 
 ### [Great Websites for Learning](_moreReadMe/websites)
 
 .
-
 --- *References* ---
 --------------------
     This repository contains some codes and few images from other authors.
     Used for "Nonprofit Educational Purpose".
     Thanks to the original authors :)
-    
-    WEBSITES - javaTpoint, tutorialsPoint, GeeksforGeeks, StackOverflow
-    BOOKS - Java The Complete reference
