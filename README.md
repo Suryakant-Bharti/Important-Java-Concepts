@@ -111,7 +111,7 @@
 
 ### [Dynamic Programming](Algorithms/dynamic_programming)
 
-[Dedicate Repository For More DS-ALGO Programs - CODING QUESTIONS (To Do)](https://github.com/Suryakant-Bharti/coding-interview-questions)
+[Repo For More DS-ALGO Programs - CODING QUESTIONS (To Do)](https://github.com/Suryakant-Bharti/coding-interview-questions)
 
 .
 
