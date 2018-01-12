@@ -30,6 +30,8 @@
 
 *[[USEFUL INFO - Important Methods of various Classes]](_moreReadMe/importantMethods)*
 
+*[[USEFUL INFO - For Polyglots - Java vs Other Languages]](_moreReadMe/polyglot)*
+
 ### [Variables & Operators](Java-OOPS/variables_and_operators) | [Control Flow](Java-OOPS/control_flow) 
 
 ### [Classes & Objects](Java-OOPS/class_and_object) | [static & this](Java-OOPS/static_and_this) | [Inner Classes](Java-OOPS/inner_class)
@@ -49,6 +51,8 @@
 .
 
 ## 2. Java - Exceptions, Generics, Collections, I/O, Threads
+*[[USEFUL INFO - Java Exception Handling]](_moreReadMe/exceptions)*
+
 *[[USEFUL INFO - Java Generics]](_moreReadMe/generics)*
 
 *[[USEFUL INFO - Java Collections Framework]](Java-Collections)*
@@ -57,7 +61,7 @@
 
 *[[USEFUL INFO - Multithreading and Concurrency]](_moreReadMe/multithreading)*
 
-### [Exception Handling](Java-OOPS/exceptions)
+### [Exception Handling](Java-Collections/exceptions)
 
 ### [Generics in Java](Java-Collections/generics)
 
@@ -76,8 +80,6 @@
 .
 
 ## 3. Java - Few Important Topics
-
-*[[USEFUL INFO - For Polyglots - Java vs Other Languages]](_moreReadMe/polyglot)*
 
 *[[USEFUL INFO - Java Other Important Concepts]](_moreReadMe/testing)*
 
