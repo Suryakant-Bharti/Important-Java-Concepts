@@ -208,19 +208,31 @@ addCat(animalList);
 addCat(catList);
 ```
 
+## Type Erasure
+
+Generics are used for tighter type checks at compile time and to provide a generic programming. To implement generic behaviour, java compiler apply type erasure. Type erasure is a process in which compiler replaces a generic parameter with actual class or bridge method. In type erasure, compiler ensures that no extra classes are created and there is no runtime overhead.
+
+**Type Erasure rules:**
+<ul class="list">
+<li><p>Replace type parameters in generic type with their bound if bounded type parameters are used.</p></li>
+<li><p>Replace type parameters in generic type with Object if unbounded type parameters are used.</p></li>
+<li><p>Insert type casts to preserve type safety.</p></li>
+<li><p>Generate bridge methods to keep polymorphism in extended generic types.</p></li>
+</ul>
+
 ## Restrictions on Generics
 
 **No Primitive Types** - Using generics, primitive types can not be passed as type parameters.
 ```
 Box<int> intBox = new Box<int>() //Error
 ```   
-NOTE : Use Wrappers like Integar instead.
+NOTE: Use Wrappers like Integar instead.
 
 **No Instance** - A type parameter cannot be used to instantiate its object inside a method.
 ```
 public static <T> void add(Box<T> box) //Error
 ```   
-NOTE : To achieve such functionality, reflection can be used.
+NOTE: To achieve such functionality, reflection can be used.
 
 **No Static field** - Using generics, type parameters are not allowed to be static. As static variable is shared among object so compiler can not determine which type to used.
 ```
@@ -229,3 +241,40 @@ class Box<T> {
 }
 ```   
 
+**No Cast** - Casting to a parameterized type is not allowed unless it is parameterized by unbounded wildcards.
+
+```
+Box<Integer> integerBox = new Box<Integer>();
+Box<Number> numberBox = new Box<Number>();
+integerBox = (Box<Integer>)numberBox; //Error: Cannot cast from Box<Number> to Box<Integer>
+```
+NOTE: To achive the same, unbounded wildcards can be used.
+
+**No instanceOf** - Because compiler uses type erasure, the runtime does not keep track of type parameters, so at runtime difference between Box<Integer> and Box<String> cannot be verified using instanceOf operator.
+
+```
+... integerBox instanceof Box<Integer> ... 
+```
+
+**No Array** - Arrays of parameterized types are not allowed. Because compiler uses type erasure, the type parameter is replaced with Object and user can add any type of object to the array. And at runtime, code will not able to throw ArrayStoreException.
+
+```
+Object[] stringBoxes = new Box<String>[]; //Error
+```
+
+**No Exceptionn** - A generic class is not allowed to extend the Throwable class directly or indirectly. 
+
+```
+//The generic class Box<T> may not subclass java.lang.Throwable
+class Box<T> extends Exception {}
+class Box1<T> extends Throwable {}
+```
+A method is not allowed to catch an instance of a type parameter. 
+```... catch (T e) ...```
+
+**No Overload** - A class is not allowed to have two overloaded methods that can have the same signature after type erasure.
+```
+...
+public void print(List<String> stringList) { }  // Error
+public void print(List<Integer> integerList) { }
+```
