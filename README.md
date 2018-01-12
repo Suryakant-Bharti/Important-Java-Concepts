@@ -81,7 +81,9 @@
 
 ## 3. Java - Few Important Topics
 
-*[[USEFUL INFO - Java Other Important Concepts]](_moreReadMe/testing)*
+*[[USEFUL INFO - Testing Basics]](_moreReadMe/testing)*
+
+*[[USEFUL INFO - Class Design Basic]](_moreReadMe/class_relations)*
 
 *[[USEFUL INFO - Java Other Important Concepts]](Java-Concepts)*
 
