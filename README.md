@@ -71,7 +71,7 @@
 
 .
 
-## 3. Java - Few Important Topics
+## 3. Java - Other Important Topics
 
 *[[USEFUL INFO - Testing Basics]](_moreReadMe/testing)*
 
