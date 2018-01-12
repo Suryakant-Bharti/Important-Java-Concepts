@@ -119,12 +119,14 @@
 
 ### [Great Websites for Learning](_moreReadMe/websites)
 
-NOTE : I will keep adding more important programs to this Repository throughout 2018. 
+**NOTE :**
 
-Happy Learning ^_^
+    I will keep adding more important programs to this Repository throughout 2018. 
+Happy Learning! :smiley:
 
---- *References* ---
---------------------
+**REFERENCES :**
+
     This repository contains some codes and few images from other authors.
     Used for "Nonprofit Educational Purpose".
-    Thanks to the original authors :)
+    References are listed in the above link for Books & Websites.
+Thanks to those authors! :thumbsup:
