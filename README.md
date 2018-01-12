@@ -97,7 +97,7 @@
 
 .
 
-## 4. Data Structures & Algorithms
+## 4. Basic Data Structures & Algorithms
 
 ### DS - [Linked Lists](DS-Algo/linked_lists) | Stacks | Queues
 
@@ -111,7 +111,7 @@
 
 ### [Dynamic Programming](Algorithms/dynamic_programming)
 
-[Dedicate Repo For More DS-ALGO Programs - CODING INTERVIEW QUESTIONS](https://github.com/Suryakant-Bharti/coding-interview-questions)
+[Dedicate Repo For More DS-ALGO Programs - CODING INTERVIEW QUESTIONS (To Do)](https://github.com/Suryakant-Bharti/coding-interview-questions)
 
 ## Extras
 
@@ -119,7 +119,6 @@
 
 ### [Great Websites for Learning](_moreReadMe/websites)
 
-.
 --- *References* ---
 --------------------
     This repository contains some codes and few images from other authors.
