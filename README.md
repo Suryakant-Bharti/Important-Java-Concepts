@@ -26,9 +26,9 @@
 ## 1. Java - Fundamentals & OOPS
 *[[USEFUL INFO - Java Fundamentals & OOPS Concepts]](Java-OOPS)*
 
-*[[USEFUL INFO - Important Methods of various Classes]](_moreReadMe/importantMethods)*
-
 *[[USEFUL INFO - Java Features, Execution Process & JVM Internals]](_moreReadMe/howItWorks)*
+
+*[[USEFUL INFO - Important Methods of various Classes]](_moreReadMe/importantMethods)*
 
 ### [Variables & Operators](Java-OOPS/variables_and_operators) | [Control Flow](Java-OOPS/control_flow) 
 
@@ -44,9 +44,7 @@
 
 ### [Arrays](Java-OOPS/arrays) | [Strings](Java-OOPS/strings) | [Date & Time](Java-OOPS/date_time)
 
-### [Exceptions](Java-OOPS/exceptions) | [Miscellaneous](Java-OOPS/miscellaneous)
-
-### [Recursion](Java-OOPS/recursion) | [Basic Programs](Java-OOPS/basic_programs)
+### [Misc](Java-OOPS/miscellaneous) | [Recursion](Java-OOPS/recursion) | [Basic Programs](Java-OOPS/basic_programs)
 
 .
 
@@ -59,7 +57,9 @@
 
 *[[USEFUL INFO - Multithreading and Concurrency]](_moreReadMe/multithreading)*
 
-### [Java Generics](Java-Collections/generics)
+### [Exception Handling](Java-OOPS/exceptions)
+
+### [Generics in Java](Java-Collections/generics)
 
 ### [Collection Interface (List,Set,Queue)](Java-Collections/collection_interface)
 
