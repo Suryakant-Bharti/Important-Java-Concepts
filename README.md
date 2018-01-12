@@ -48,7 +48,7 @@
 
 .
 
-## 2. Java - Generics, Collections, I/O, Threads
+## 2. Java - Exceptions, Generics, Collections, I/O, Threads
 *[[USEFUL INFO - Java Generics]](_moreReadMe/generics)*
 
 *[[USEFUL INFO - Java Collections Framework]](Java-Collections)*
