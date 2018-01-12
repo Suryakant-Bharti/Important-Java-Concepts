@@ -50,18 +50,16 @@
 
 .
 
-## 2. Java - Exceptions, Generics, Collections, I/O, Threads
-*[[USEFUL INFO - Java Exception Handling]](_moreReadMe/exceptions)*
-
+## 2. Java - Generics, Collections, Exceptions, I/O, Threads
 *[[USEFUL INFO - Java Generics]](_moreReadMe/generics)*
 
 *[[USEFUL INFO - Java Collections Framework]](Java-Collections)*
 
+*[[USEFUL INFO - Java Errors, Exception Handling]](_moreReadMe/exceptions)*
+
 *[[USEFUL INFO - Files, I/O, Serialization]](_moreReadMe/input_output)*
 
 *[[USEFUL INFO - Multithreading and Concurrency]](_moreReadMe/multithreading)*
-
-### [Exception Handling](Java-Collections/exceptions)
 
 ### [Generics in Java](Java-Collections/generics)
 
@@ -72,6 +70,8 @@
 ### [Legacy DS (Enum,Vector,etc)](Java-Collections/legacy_ds)
 
 ### [Collections Class](Java-Collections/collections_class)
+
+### [Exception Handling](Java-Collections/exceptions)
 
 ### [Files, I/O, Serialization](Java-Collections/input_output)
 
