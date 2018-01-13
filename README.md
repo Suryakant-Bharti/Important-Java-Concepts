@@ -79,6 +79,10 @@
 
 *[[USEFUL INFO - Class Design Basic]](_moreReadMe/class_relations)*
 
+*[[USEFUL INFO - Regular Expressions]](_moreReadMe/regex)*
+
+*[[USEFUL INFO - Lambda and Functional Programming]](_moreReadMe/lambda)*
+
 *[[USEFUL INFO - Java Other Important Concepts]](Java-Concepts)*
 
 ### Unit Testing - JUnit 4 (Third Party Library)
@@ -100,6 +104,16 @@
 .
 
 ## 4. Basic Data Structures & Algorithms
+
+*[[USEFUL INFO - Common Data Structures]](_moreReadMe/ds)*
+
+*[[USEFUL INFO - Searching and Sorting Algorithms]](_moreReadMe/search_sort)*
+
+*[[USEFUL INFO - Tree and Graph Algorithms]](_moreReadMe/tree_graph)*
+
+*[[USEFUL INFO - Concepts of Dynamic Programming]](_moreReadMe/dp)*
+
+*[[USEFUL INFO - Big O Cheat Sheet]](_moreReadMe/bigO)*
 
 ### DS - [Linked Lists](DS-Algo/linked_lists) | Stacks | Queues
 
