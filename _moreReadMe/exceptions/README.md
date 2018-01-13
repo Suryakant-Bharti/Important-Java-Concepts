@@ -54,9 +54,7 @@ a[10]=50; //ArrayIndexOutOfBoundsException
 The JVM firstly checks whether the exception is handled or not. If exception is not handled, JVM provides a default exception handler that performs the following tasks:
 
 - Prints out exception description.
-
 - Prints the stack trace (Hierarchy of methods where the exception occurred).
-
 - Causes the program to terminate.
 
 But if exception is handled by the application programmer, normal flow of the application is maintained i.e. rest of the code is executed.
