@@ -83,6 +83,23 @@ An exception is first thrown from the top of the stack and if it is not caught, 
 
 - By default, Checked Exceptions are not forwarded in calling chain (propagated).
 
+## Using throws keyword
+
+*Only **Checked exception** should be declared*, because **Unchecked Exception** are under your control (so correct your code) And **Errors** are beyond your control.
+
+**Advantage :** By using throws keyword Checked Exception can be propagated (forwarded in call stack). It provides information to the caller of the method about the exception.
+
+If you are calling a method that declares an exception, you must either caught or declare the exception.
+
+1. You caught the exception i.e. handle the exception using try/catch.
+  - the code will be executed fine whether exception occurs during the program or not.
+
+2. You declare the exception i.e. specifying throws with the method.
+  - if exception does not occur, the code will be executed fine.
+  - if exception occures, an exception will be thrown at runtime because throws does not handle the exception.
+
+You can rethrow and exception by throwing same exception in catch block.
+
 ## Java throw vs throws Keywords
 
 <table class="alt">
@@ -107,3 +124,9 @@ An exception is first thrown from the top of the stack and if it is not caught, 
 - If the superclass method does not declare an exception, subclass overridden method cannot declare the checked exception but it can declare unchecked exception.
 
 - If the superclass method declares an exception, subclass overridden method can declare same, subclass exception or no exception but cannot declare parent exception.
+
+## Java Custom Exception :
+
+If you are creating your own Exception that is known as custom exception or user-defined exception. Java custom exceptions are used to customize the exception according to user need.
+
+By the help of custom exception, you can have your own exception and message.
