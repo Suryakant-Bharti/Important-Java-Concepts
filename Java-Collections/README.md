@@ -2,6 +2,13 @@
 
 The java.util package contains all the classes and interfaces for Collection framework.
 
+**Map :**
+An object that maps keys to values. A map cannot contain duplicate keys; each key can map to at most one value.
+    
+**Collection :**
+A collection represents a group of objects, known as its elements. [...] The JDK [...] provides implementations of more specific subinterfaces like Set and List.
+
+
 ## Hierarchy of Collection Interface :
 
 ![collection-hierarchy](https://user-images.githubusercontent.com/2780145/34073817-62945de4-e2c8-11e7-820b-84f9dad32af3.png)
