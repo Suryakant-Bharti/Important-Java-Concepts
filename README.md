@@ -22,6 +22,8 @@
 
 *[[USEFUL INFO - Important Methods of various Classes]](_moreReadMe/importantMethods)*
 
+*[[USEFUL INFO - All Java Keywords with definitions]](_moreReadMe/keywords)*
+
 *[[USEFUL INFO - For Polyglots - Java vs Other Languages]](_moreReadMe/polyglot)*
 
 ### [Variables & Operators](Java-OOPS/variables_and_operators) | [Control Flow](Java-OOPS/control_flow) 
