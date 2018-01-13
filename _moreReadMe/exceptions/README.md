@@ -90,11 +90,11 @@ An exception is first thrown from the top of the stack and if it is not caught, 
 If you are calling a method that declares an exception, you must either caught or declare the exception.
 
 1. You caught the exception i.e. handle the exception using try/catch.
-  - the code will be executed fine whether exception occurs during the program or not.
+- the code will be executed fine whether exception occurs during the program or not.
 
 2. You declare the exception i.e. specifying throws with the method.
-  - if exception does not occur, the code will be executed fine.
-  - if exception occures, an exception will be thrown at runtime because throws does not handle the exception.
+- if exception does not occur, the code will be executed fine.
+- if exception occures, an exception will be thrown at runtime because throws does not handle the exception.
 
 You can rethrow and exception by throwing same exception in catch block.
 
