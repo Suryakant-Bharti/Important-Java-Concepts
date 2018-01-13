@@ -3,11 +3,27 @@
 The java.util package contains all the classes and interfaces for Collection framework.
 
 **Map :**
-An object that maps keys to values. A map cannot contain duplicate keys; each key can map to at most one value.
+An object that maps keys to values. A map is not ordered and cannot contain duplicate keys (but can contain duplicate values). Each key can map to at most one value.
     
 **Collection :**
 A collection represents a group of objects, known as its elements. The JDK provides implementations of more specific subinterfaces like Set and List.
 
+**List :**
+A list is an ordered list of objects, where the same object may well appear more than once. For example: [1, 7, 1, 3, 1, 1, 1, 5]. It makes sense to talk about the "third element" in a list. You can add an element anywhere in the list, change an element anywhere in the list, or remove an element from any position in the list.
+
+**Queue :**
+A queue is also ordered, but you'll only ever touch elements at one end. All elements get inserted at the "end" and removed from the "beginning" (or head) of the queue. You can find out how many elements are in the queue, but you can't find out what, say, the "third" element is. You'll see it when you get there.
+
+**Set :**
+A set is not ordered and cannot contain duplicates. Any given object either is or isn't in the set. {7, 5, 3, 1} is the exact same set as {1, 7, 3, 5}. You again can't ask for the "third" element or even the "first" element, since they are not in any particular order. You can add or remove elements, and you can find out if a certain element exists.
+
+<table class="alt">
+<tbody>
+<tr><th> </th><th>List</th><th>Set</th><th>Queue</th><th>Map</th></tr>
+<tr><th>Order</th><th>Yes</th><th>No</th><th>Yes</th><th>No</th></tr>
+<tr><th>Duplicates</th><th>Yes</th><th>No</th><th>Yes</th><th>No (Allow duplicate values not keys)</th></tr>
+<tr><th>Null Values</th><th>Yes</th><th>Single Null</th><th>Yes (LinkedList Queue). No (Priority Queue).</th><th>Single null key and many null values</th></tr>
+</tbody></table>
 
 ## Hierarchy of Collection Interface :
 
