@@ -17,7 +17,8 @@ Exception is an event that disrupts the normal flow of the program. It is an obj
 ## Exception Example Situations :
 
 **ArithmeticException**
-```int a=50/0;//ArithmeticException```
+```
+int a=50/0;//ArithmeticException```
 
 **NullPointerException**
 ```String s=null;  
