@@ -176,17 +176,15 @@ public class fileStreamTest {
 ## File Navigation and I/O
 
 Other classes for File Navigation and I/O.
-<ul class="list">
-<li><p><a href="/java/java_file_class.htm">File Class</a></p></li>
-<li><p><a href="/java/java_filereader_class.htm">FileReader Class</a></p></li>
-<li><p><a href="/java/java_filewriter_class.htm">FileWriter Class</a></p></li>
-</ul>
+- File Class
+- FileReader Class
+- FileWriter Class
 
 ## Directories in Java
 
 A directory is a File which can contain a list of other files and directories. You use **File** object to create directories, to list down files available in a directory.
 
-### Creating Directories
+## Creating Directories
 
 <ul class="list">
 <li><p>The <b>mkdir( )</b> method creates a directory, returning true on success and false on failure. Failure indicates that the path specified in the File object already exists, or that the directory cannot be created because the entire path does not exist yet.</p></li>
