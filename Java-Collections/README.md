@@ -115,3 +115,13 @@ A collection represents a group of objects, known as its elements. The JDK provi
 <tr><td>4) Comparable is found in <strong>java.lang</strong> package.</td><td>Comparator is found in <strong>java.util</strong> package.</td></tr>
 <tr><td>5) We can sort the list elements of Comparable type by <strong>Collections.sort(List)</strong> method.</td><td>We can sort the list elements of Comparator type by <strong>Collections.sort(List,Comparator)</strong> method.</td></tr>
 </tbody></table>
+
+## Legacy Data Structures in Java
+
+Legacy classes and interfaces are the classes and interfaces that formed the collections framework in the earlier versions of Java and has now been restructured or re-engineered. They are fully compatible with the framework.
+
+All legacy classes were re-engineered to support generic in JDK5.
+
+Legacy = heritage of old java version.
+
+Legacy classes and interfaces - Enum, Vector, Stack, Dictionary, HashTable, Properties...
