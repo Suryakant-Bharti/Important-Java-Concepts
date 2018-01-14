@@ -51,9 +51,9 @@
 
 *[[USEFUL INFO - Java Errors and Exception Handling]](_moreReadMe/exceptions)*
 
-*[[USEFUL INFO - Java Files and I/O Basics]](_moreReadMe/input_output)*
+*[[USEFUL INFO - Java Files and I/O]](_moreReadMe/input_output)*
 
-*[[USEFUL INFO - Java Multithreading and Garbage Collection]](_moreReadMe/multithreading)*
+*[[USEFUL INFO - Java Serialization]](_moreReadMe/serialization)*
 
 ### [Generics in Java](Java-Collections/generics)
 
@@ -67,13 +67,15 @@
 
 ### [Exception Handling](Java-Collections/exceptions)
 
-### [Files, I/O, Serialization](Java-Collections/input_output)
+### [Files and I/O](Java-Collections/input_output)
 
-### [Multithreading](Java-Collections/multithreading) | [Garbage Collector](Java-Collections/garbage_collector)
+### [Serialization](Java-Collections/serialization)
 
 .
 
 ## 3. Java - Other Important Topics
+
+*[[USEFUL INFO - Java Multithreading and Garbage Collection]](_moreReadMe/multithreading)*
 
 *[[USEFUL INFO - Testing Basics]](_moreReadMe/testing)*
 
@@ -84,6 +86,8 @@
 *[[USEFUL INFO - Lambda and Functional Programming]](_moreReadMe/lambda)*
 
 *[[USEFUL INFO - Java Other Important Concepts]](Java-Concepts)*
+
+### [Multithreading](Java-Collections/multithreading) | [Garbage Collector](Java-Collections/garbage_collector)
 
 ### Unit Testing - JUnit 4 (Third Party Library)
 
