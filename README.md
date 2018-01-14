@@ -20,7 +20,7 @@
 
 *[[USEFUL INFO - Java Features, Execution Process & JVM Internals]](_moreReadMe/howItWorks)*
 
-*[[USEFUL INFO - Important Methods of various Classes]](_moreReadMe/importantMethods)*
+*[[USEFUL INFO - Methods of Number, Array, Char, String Classes]](_moreReadMe/importantMethods)*
 
 *[[USEFUL INFO - All Java Keywords with definitions]](_moreReadMe/keywords)*
 
@@ -49,11 +49,11 @@
 
 *[[USEFUL INFO - Java Collections Framework]](Java-Collections)*
 
-*[[USEFUL INFO - Java Errors, Exception Handling]](_moreReadMe/exceptions)*
+*[[USEFUL INFO - Java Errors and Exception Handling]](_moreReadMe/exceptions)*
 
-*[[USEFUL INFO - Files, I/O, Serialization]](_moreReadMe/input_output)*
+*[[USEFUL INFO - Files, and I/O Basics]](_moreReadMe/input_output)*
 
-*[[USEFUL INFO - Multithreading and Concurrency]](_moreReadMe/multithreading)*
+*[[USEFUL INFO - Multithreading and Garbage Collection]](_moreReadMe/multithreading)*
 
 ### [Generics in Java](Java-Collections/generics)
 
