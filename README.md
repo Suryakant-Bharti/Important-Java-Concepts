@@ -75,19 +75,19 @@
 
 ## 3. Java - Other Important Topics
 
-*[[USEFUL INFO - Java Multithreading & Garbage Collection]](_moreReadMe/multithreading)*
+*[[USEFUL INFO - Java Concurrency & Garbage Collection]](_moreReadMe/multithreading)*
 
-*[[USEFUL INFO - Testing Basics]](_moreReadMe/testing)*
+*[[USEFUL INFO - Java Testing Basics]](_moreReadMe/testing)*
 
-*[[USEFUL INFO - Class Design Basic]](_moreReadMe/class_relations)*
+*[[USEFUL INFO - Java Class Design Basic]](_moreReadMe/class_relations)*
 
-*[[USEFUL INFO - Regular Expressions & Lambda Expressions]](_moreReadMe/regex_and_lambda)*
+*[[USEFUL INFO - Java RegEx & Lambda Expressions]](_moreReadMe/regex_and_lambda)*
 
 *[[USEFUL INFO - Java Other Important Concepts]](Java-Concepts)*
 
-### [Multithreading](Java-Collections/multithreading)
+### [Multithreading](Java-Concepts/multithreading)
 
-## [Garbage Collection](Java-Collections/garbage_collector)
+### [Garbage Collection](Java-Concepts/garbage_collection)
 
 ### Unit Testing - JUnit 4 (Third Party Library)
 
@@ -104,8 +104,6 @@
 ### X vs Y | Performance Comparisons
 
 ### New Features - Till Java7 | Java8 | Java9
-
-### Concurrency | [Classic Problems](Java-Concepts/classic_problems) 
 
 ### [Callbacks](Java-Concepts/callbacks) | Functional Programming
 
