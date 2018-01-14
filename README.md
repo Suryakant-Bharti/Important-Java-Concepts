@@ -22,7 +22,7 @@
 
 *[[USEFUL INFO - Methods of Number, Array, Char, String Classes]](_moreReadMe/importantMethods)*
 
-*[[USEFUL INFO - All Java Keywords with definitions]](_moreReadMe/keywords)*
+*[[USEFUL INFO - All Java Keywords with definitions & examples]](_moreReadMe/keywords)*
 
 *[[USEFUL INFO - For Polyglots - Java vs Other Languages]](_moreReadMe/polyglot)*
 
@@ -51,9 +51,9 @@
 
 *[[USEFUL INFO - Java Errors and Exception Handling]](_moreReadMe/exceptions)*
 
-*[[USEFUL INFO - Files, and I/O Basics]](_moreReadMe/input_output)*
+*[[USEFUL INFO - Java Files and I/O Basics]](_moreReadMe/input_output)*
 
-*[[USEFUL INFO - Multithreading and Garbage Collection]](_moreReadMe/multithreading)*
+*[[USEFUL INFO - Java Multithreading and Garbage Collection]](_moreReadMe/multithreading)*
 
 ### [Generics in Java](Java-Collections/generics)
 
