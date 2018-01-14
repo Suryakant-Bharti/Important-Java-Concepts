@@ -4,17 +4,18 @@
 
 abstract keyword is used to implement the abstraction in java. A method which doesn’t have method definition must be declared as abstract and the class containing it must be declared as abstract. You can’t instantiate abstract classes. Abstract methods must be implemented in the sub classes. You can’t use abstract keyword with variables and constructors. [See more]
 
-
+```
 abstract class AbstractClass
 {
     abstract void abstractMethod();
 }
+```
 
 ## 2) assert
 
 assert keyword is used in the assertion statements. These statements will enable you to test your assumptions about a program. Assertion statements provide the best way to detect and correct the programming errors. Assertion statements take one boolean expression as input and assumes that this will be always true. If the boolean expression returns false, AssertionError will be thrown.
 
-
+```
 public class MainClass
 {
     public static void main(String[] args) 
@@ -28,19 +29,22 @@ public class MainClass
         assert marks > 35 : "FAIL";
     }
 }
+```
 
 ## 3) boolean
 
 boolean keyword is used to define boolean type variables. boolean type variables can hold only two values – either true or false.
 
-
+```
 boolean isActive = true;
+```
 
 ## 4) break
 
 The break keyword is used to stop the execution of a loop(for, while, switch-case) based on some condition.
 
 
+```
 public class MainClass
 {
     public static void main(String[] args) 
@@ -56,19 +60,23 @@ public class MainClass
         }
     }
 }
+```
 
 ## 5) byte
 
 byte keyword is used to declare byte type of variables. A byte variable can hold a numeric value in the range from -128 to 127.
 
 
+```
 byte b = 50;
+```
 
 ## 6) switch       7) case
 
 Both switch and case keywords are used in the switch-case statement.
 
 
+```
 public class MainClass
 {
     public static void main(String[] args) 
@@ -107,12 +115,14 @@ public class MainClass
         }
     }
 }
+```
 
 ## 8) try     9) catch     10) finally
 
 try, catch and finally keywords are used to handle the exceptions in java. The statements which are to be monitored for exceptions are kept in the try block. The exceptions thrown by the try block are caught in the catch block. finally block is always executed. [See more]
 
 
+```
 public class MainClass
 {
     public static void main(String[] args) 
@@ -131,23 +141,27 @@ public class MainClass
         }
     }
 }
+```
 
 ## 11) char
 
 char keyword is used to declare primitive char type variables. char represents the characters in java.
 
 
+```
 char a = 'A';
          
 char b = 'B';
          
 char c = 'C';
+```
 
 ## 12) class
 
 class keyword is used to define the classes in java.
 
 
+```
 class MyClass
 {
     class MyInnerClass
@@ -155,12 +169,14 @@ class MyClass
         //Inner Class
     }
 }
+```
 
 ## 13) continue
 
 continue keyword is used to stop the execution of current iteration and start the execution of next iteration in a loop.
 
 
+```
 public class MainClass
 {
     public static void main(String[] args) 
@@ -176,12 +192,14 @@ public class MainClass
         }
     }
 }
+```
 
 ## 14) default
 
 default keyword is used to define the default methods in an interface (From Java 8). default keyword is also used in the switch-case statements.
 
 
+```
 interface MyInterface 
 {
     public default void myDefaultMethod() 
@@ -189,12 +207,14 @@ interface MyInterface
         System.out.println("Default Method");
     }
 }
+```
 
 ## 15) do
 
 do keyword is used in a do–while loop. do-while loop is used to execute one or more statements repetitively until a condition returns false.
 
 
+```
 public class MainClass
 {
     public static void main(String[] args) 
@@ -216,12 +236,14 @@ public class MainClass
         } while (a <= 100);
     }
 }
+```
 
 ## 16) double
 
 double keyword is used to declare primitive double type of variables.
 
 
+```
 public class MainClass
 {
     public static void main(String[] args) 
@@ -235,12 +257,14 @@ public class MainClass
         System.out.println(d3);
     }
 }
+```
 
 ## 17) if         18) else
 
 if and else keywords are used in if-else block.
 
 
+```
 public class MainClass
 {
     public static void main(String[] args) 
@@ -261,22 +285,26 @@ public class MainClass
         }
     }
 }
+```
 
 ## 19) enum
 
 enum keyword is used to define enum types.
 
 
+```
 enum MyEnums
 {
     A, B, C, D;
 }
+```
 
 ## 20) extends
 
 extends keyword is used in inheritance. It is used when a class extends another class.
 
 
+```
 class SuperClass
 {
     //Super Class
@@ -286,12 +314,14 @@ class SubClass extends SuperClass
 {
     //Sub Class
 }
+```
 
 ## 21) final
 
 final keyword is used when a class or a method or a field doesn’t need further modifications. final class can’t be extended, final method can’t be overridden and the value of a final field can’t be changed. [See more]
 
 
+```
 final class FinalClass
 {
     final int finalVariable = 10;
@@ -301,12 +331,14 @@ final class FinalClass
         //final method
     }
 }
+```
 
 ## 22) float
 
 float keyword indicates primitive float type of variables.
 
 
+```
 public class MainClass
 {
     public static void main(String[] args) 
@@ -320,12 +352,14 @@ public class MainClass
         System.out.println(f3);
     }
 }
+```
 
 ## 23) for
 
 for loop is used to execute the set of statements until a condition is true.
 
 
+```
 public class MainClass
 {
     public static void main(String[] args) 
@@ -336,12 +370,14 @@ public class MainClass
         }
     }
 }
+```
 
 ## 24) implements
 
 implements keyword is used while implementing an interface.
 
 
+```
 interface MyInterface
 {
     void myMethod();
@@ -354,21 +390,25 @@ class MyClass implements MyInterface
         System.out.println("My Method");
     }
 }
+```
 
 ## 25) import
 
 import keyword is used to import the members of a particular package into current java file. [See more]
 
 
+```
 import java.sql.*;
 import java.util.Arrays;
 import java.util.Scanner;
+```
 
 ## 26) instanceOf
 
 instanceOf is used to check whether an object is of specified type. The syntax for using instanceOf keyword is “Object_Reference instanceOf Type“.
 
 
+```
 class A
 {
      
@@ -386,12 +426,14 @@ public class MainClass
         }
     }
 }
+```
 
 ## 27) int
 
 int keyword is used to declare primitive integer type of variables.
 
 
+```
 public class MainClass
 {
     public static void main(String[] args) 
@@ -405,22 +447,26 @@ public class MainClass
         System.out.println(i3);
     }
 }
+```
 
 ## 28) interface
 
 interface keyword is used to define the interfaces in java.
 
 
+```
 interface MyInterface
 {
     void myMethod();
 }
+```
 
 ## 29) long
 
 long is used to define the primitive long type variables.
 
 
+```
 public class MainClass
 {
     public static void main(String[] args) 
@@ -434,22 +480,26 @@ public class MainClass
         System.out.println(l3);
     }
 }
+```
 
 ## 30) native
 
 native keyword is used with a method to indicate that a particular method is implemented in native code using Java Native Interfaces(JNI).
 
 
+```
 class AnyClass
 {
     public native void anyMethod(int i, double d);
 }
+```
 
 ## 31) new
 
 new keyword is used while creating the instances of a class.
 
 
+```
 class A
 {
      
@@ -462,24 +512,28 @@ public class MainClass
         A a = new A();
     }
 }
+```
 
 ## 32) package
 
 package keyword is used to specify a package to which the current file belongs to.
 
 
+```
 package pack1;
  
 class A
 {
      
 }
+```
 
 ## 33) private
 
 private keyword is used to declare a member of a class as private. private methods and fields are visible within the class in which they are defined.
 
 
+```
 class A
 {
     private int i = 111;   //private field
@@ -489,12 +543,14 @@ class A
         //private method
     }
 }
+```
 
 ## 34) protected
 
 protected keyword is used to declare a member of a class as protected. protected members of a class are visible within the package only, but they can be inherited to any sub classes.
 
 
+```
 class A
 {
     protected int i = 111;   //protected field
@@ -504,12 +560,14 @@ class A
         //protected method
     }
 }
+```
 
 ## 35) public
 
 public keyword is used to declare the members of a class or class itself as public. public members of a class are visible from anywhere and they can be inherited to any sub classes.
 
 
+```
 public class A
 {
     public int i = 222;   //public field
@@ -524,12 +582,14 @@ public class A
         //public method
     }
 }
+```
 
 ## 36) return
 
 return keyword is used to return the control back to the caller from the method.
 
 
+```
 class A
 {
     int method(int i)
@@ -537,21 +597,25 @@ class A
         return i*i;     //method returning a value
     }
 }
+```
 
 ## 37) short
 
 short keyword is used to declare primitive short type variables.
 
 
+```
 short s1 = 11;
          
 short s2 = 22;
+```
 
 ## 38) static
 
 static keyword is used to define the class level members of a class. static members of a class are stored in the class memory and you can access them directly through class name. No need to instantiate a class. [See more]
 
 
+```
 class A
 {
     static int staticField = 555;    //Static Field
@@ -571,12 +635,14 @@ public class MainClass
         A.staticMethod();     //Accessing staticMethod via class name
     }
 }
+```
 
 ## 39) strictfp
 
 strictfp keyword is used to implement the strict precision of floating point calculations on different platforms. strictfp can be used with classes, interfaces and methods.
 
 
+```
 strictfp interface I
 {
     //strictfp applied on interface
@@ -594,12 +660,14 @@ class A
         //strictfp applied on method
     }
 }
+```
 
 ## 40) super
 
 super keyword is used to access super class members inside a sub class.
 
 
+```
 class A
 {
     int i;
@@ -629,12 +697,14 @@ class B extends A
         super.methodA();    //Calling super class method
     }
 }
+```
 
 ## 41) synchronized
 
 synchronized keyword is used to implement the synchronization in java. only one thread can enter into a method or a block which is declared as synchronized. Any thread which wants to enter synchronized method or block must acquire object lock of those methods or blocks. [See more]
 
 
+```
 class AnyClass
 {
     synchronized void synchronizedMethod()
@@ -650,12 +720,14 @@ class AnyClass
         }
     }
 }
+```
 
 ## 42) this
 
 this keyword is used to access other members of the same class.
 
 
+```
 class AnyClass
 {
     int i;
@@ -682,12 +754,14 @@ class AnyClass
         this.methodOne();      //Accessing same class method
     }
 }
+```
 
 ## 43) throw
 
 throw keyword is used to throw the exceptions manually. [See more]
 
 
+```
 public class MainClass
 {
     public static void main(String[] args) 
@@ -704,12 +778,14 @@ public class MainClass
         }
     }
 }
+```
 
 ## 44) throws
 
 throws keyword is used to specify the exceptions which the current method may throw. [See more]
 
 
+```
 class A
 {
     void method() throws NumberFormatException
@@ -717,12 +793,14 @@ class A
         int i = Integer.parseInt("abc");
     }
 }
+```
 
 ## 45) transient
 
 transient keyword is used in serialization. A variable which is declared as transient will not be eligible for serialization.
 
 
+```
 class MyClass implements Serializable
 {
     int a;
@@ -731,12 +809,14 @@ class MyClass implements Serializable
      
     double d;
 }
+```
 
 ## 46) void
 
 void keyword is used to indicate that method returns nothing.
 
 
+```
 class A
 {
     void methodReturnsNothing()
@@ -744,22 +824,26 @@ class A
         //Method returns no value
     }
 }
+```
 
 ## 47) volatile
 
 volatile keyword is used in the concurrent programming. The value of a variable which is declared as volatile will be written into or read from the main memory.
 
 
+```
 class A
 {
     public volatile int counter = 0;
 }
+```
 
 ## 48) while
 
 while keyword is used in the while loop.
 
 
+```
 public class MainClass
 {
     public static void main(String[] args) 
@@ -774,6 +858,7 @@ public class MainClass
         }
     }
 }
+```
 
 ## 49) goto        50) const
 
