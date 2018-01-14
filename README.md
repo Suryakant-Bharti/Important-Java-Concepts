@@ -44,7 +44,7 @@
 
 .
 
-## 2. Java - Generics, Collections, Exceptions, I/O, Threads
+## 2. Java - Generics, Collections, Exceptions, I/O
 *[[USEFUL INFO - Java Generics]](_moreReadMe/generics)*
 
 *[[USEFUL INFO - Java Collections Framework]](Java-Collections)*
@@ -75,35 +75,39 @@
 
 ## 3. Java - Other Important Topics
 
-*[[USEFUL INFO - Java Multithreading and Garbage Collection]](_moreReadMe/multithreading)*
+*[[USEFUL INFO - Java Multithreading & Garbage Collection]](_moreReadMe/multithreading)*
 
 *[[USEFUL INFO - Testing Basics]](_moreReadMe/testing)*
 
 *[[USEFUL INFO - Class Design Basic]](_moreReadMe/class_relations)*
 
-*[[USEFUL INFO - Regular Expressions]](_moreReadMe/regex)*
-
-*[[USEFUL INFO - Lambda and Functional Programming]](_moreReadMe/lambda)*
+*[[USEFUL INFO - Regular Expressions & Lambda Expressions]](_moreReadMe/regex_and_lambda)*
 
 *[[USEFUL INFO - Java Other Important Concepts]](Java-Concepts)*
 
-### [Multithreading](Java-Collections/multithreading) | [Garbage Collector](Java-Collections/garbage_collector)
+### [Multithreading](Java-Collections/multithreading)
+
+## [Garbage Collection](Java-Collections/garbage_collector)
 
 ### Unit Testing - JUnit 4 (Third Party Library)
 
 ### Class Relationships (Design Basics)
 
-### Concurrency | [Classic Problems](Java-Concepts/classic_problems) 
+### [Regular Expressions](Java-Concepts/regex)
 
-### [Callbacks](Java-Concepts/callbacks) | [Regular Expressions](Java-Concepts/regex)
+### [Lambda Expressions](Java-Concepts/lambda)
 
-### [Lambda Expr](Java-Concepts/lambda) | Functional Programming
+### BigDecimal & BigIntegar
 
-### JSON & XML Parsing | Big Decimal & Integar
+### JSON & XML Parsing
 
 ### X vs Y | Performance Comparisons
 
 ### New Features - Till Java7 | Java8 | Java9
+
+### Concurrency | [Classic Problems](Java-Concepts/classic_problems) 
+
+### [Callbacks](Java-Concepts/callbacks) | Functional Programming
 
 .
 
