@@ -1,5 +1,9 @@
 # All 50 Java Keywords with Examples
 
+Table below lists 48 Keywords in Java; excluding the keywords goto and const because they are not used.
+
+![keywords-in-java](https://user-images.githubusercontent.com/2780145/34911899-785e9aa8-f8f9-11e7-8970-87ebd9e02574.jpg)
+
 ## 1) abstract
 
 abstract keyword is used to implement the abstraction in java. A method which doesn’t have method definition must be declared as abstract and the class containing it must be declared as abstract. You can’t instantiate abstract classes. Abstract methods must be implemented in the sub classes. You can’t use abstract keyword with variables and constructors. [See more]
