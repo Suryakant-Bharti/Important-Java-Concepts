@@ -135,7 +135,7 @@
 
 ## More DS/Algo Programs
 
-[My Repository for Coding Questions (To Do)](https://github.com/Suryakant-Bharti/coding-interview-questions)
+My Repository for Coding Questions (To Do)
 
 .
 
