@@ -61,7 +61,7 @@
 
 ### [Map Interface (Map)](Java-Collections/map_interface)
 
-### [Legacy DS (Enum,Vector,etc)](Java-Collections/legacy_ds)
+### [Legacy (Enum Vector,Stack,etc)](Java-Collections/legacy_ds)
 
 ### [Collections Class](Java-Collections/collections_class)
 
@@ -73,25 +73,21 @@
 
 .
 
-## 3. Java - Other Important Topics
+## 3. Java - Few Advanced Topics
 
 *[[USEFUL INFO - Java Concurrency & Garbage Collection]](_moreReadMe/multithreading)*
+
+*[[USEFUL INFO - Java RegEx & Lambda Expressions]](_moreReadMe/regex_and_lambda)*
 
 *[[USEFUL INFO - Java Testing Basics]](_moreReadMe/testing)*
 
 *[[USEFUL INFO - Java Class Design Basic]](_moreReadMe/class_relations)*
-
-*[[USEFUL INFO - Java RegEx & Lambda Expressions]](_moreReadMe/regex_and_lambda)*
 
 *[[USEFUL INFO - Java Other Important Concepts]](Java-Concepts)*
 
 ### [Multithreading](Java-Concepts/multithreading)
 
 ### [Garbage Collection](Java-Concepts/garbage_collection)
-
-### Unit Testing - JUnit 4 (Third Party Library)
-
-### Class Relationships (Design Basics)
 
 ### [Regular Expressions](Java-Concepts/regex)
 
@@ -101,11 +97,11 @@
 
 ### JSON & XML Parsing
 
-### X vs Y | Performance Comparisons
+### Unit Testing - JUnit 4 (Library)
 
-### New Features - Till Java7 | Java8 | Java9
+### Class Relationships (Design Basics)
 
-### [Callbacks](Java-Concepts/callbacks) | Functional Programming
+### [Callbacks](Java-Concepts/callbacks)
 
 .
 
@@ -121,21 +117,29 @@
 
 *[[USEFUL INFO - Big O Cheat Sheet]](_moreReadMe/bigO)*
 
-### DS - [Linked Lists](DS-Algo/linked_lists) | Stacks | Queues
+### [Linked List DS](DS-Algo/linked_lists)
 
-### DS - BST | Heaps | Graph | Hashing
+### BST & Heap DS
 
-### [Searching](Algorithms/searching) | [Sorting](Algorithms/sorting)
+### [Searching](DS-Algo/searching)
 
-### [Tree Traversal](Algorithms/tree_traversal) | [Graph Traversal](Algorithms/graph_traversal)
+### [Sorting](DS-Algo/sorting)
 
-### [Graph Algorithms](Algorithms/graph_classic_algos)
+### [Tree Traversal](DS-Algo/tree_traversal)
 
-### [Dynamic Programming](Algorithms/dynamic_programming)
+### [Graph Traversal](DS-Algo/graph_traversal)
 
-[Repo For More DS-ALGO Programs - CODING QUESTIONS (To Do)](https://github.com/Suryakant-Bharti/coding-interview-questions)
+### [Graph Algorithms](DS-Algo/graph_classic_algos)
+
+### [Dynamic Programming](DS-Algo/dynamic_programming)
+
+[For More DS-Algo Programs - My Repository for Coding Questions (To Do)](https://github.com/Suryakant-Bharti/coding-interview-questions)
 
 .
+
+## Android Development
+
+[My Repository for Learning Android App Development Concepts](https://github.com/Suryakant-Bharti/some-android-information)
 
 ## Extras
 
