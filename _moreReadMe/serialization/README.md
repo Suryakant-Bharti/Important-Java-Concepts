@@ -2,9 +2,10 @@
 
 Serialization in java is a mechanism of writing the state of an object into a byte stream. It is mainly used in Hibernate, RMI, JPA, EJB and JMS technologies. The reverse operation of serialization is called deserialization.
 
+![serialization-deserialization](https://user-images.githubusercontent.com/2780145/34921451-530414b8-f9a8-11e7-9201-0ed1b395906e.JPG)
+
 **Advantage of Java Serialization :**
 It is mainly used to travel object's state on the network (known as marshaling).
-
 
 **java.io.Serializable interface :**
 Serializable is a marker interface (has no data member and method). It is used to "mark" java classes so that objects of these classes may get certain capability. The Cloneable and Remote are also marker interfaces.
