@@ -25,6 +25,12 @@ Java **Byte** streams are used to perform input and output of 8-bit bytes, where
 
 Though internally FileReader uses FileInputStream and FileWriter uses FileOutputStream but here the major difference is that FileReader reads two bytes at a time and FileWriter writes two bytes at a time.
 
+## Why there are Byte and Character Streams
+
+A stream is a way of sequentially accessing a file. A byte stream access the file byte by byte. A byte stream is suitable for any kind of file, however not quite appropriate for text files. For example, if the file is using a unicode encoding and a character is represented with two bytes, the byte stream will treat these separately and you will need to do the conversion yourself.
+
+A character stream will read a file character by character. A character stream needs to be given the file's encoding in order to work properly.
+
 ## Standard Streams
 
 All the programming languages provide support for standard I/O where the user's program can take input from a keyboard and then produce an output on the computer screen. Java provides the following three standard streams
