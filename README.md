@@ -131,13 +131,19 @@
 
 ### [Dynamic Programming](DS-Algo/dynamic_programming)
 
-[For More DS-Algo Programs - My Repository for Coding Questions (To Do)](https://github.com/Suryakant-Bharti/coding-interview-questions)
+.
+
+## More DS/Algo Programs
+
+[My Repository for Coding Questions (To Do)](https://github.com/Suryakant-Bharti/coding-interview-questions)
 
 .
 
-## Android Development
+## Android App Development
 
 [My Repository for Learning Android App Development Concepts](https://github.com/Suryakant-Bharti/some-android-information)
+
+.
 
 ## Extras
 
