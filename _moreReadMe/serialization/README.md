@@ -82,3 +82,33 @@ class Depersist{
  }  
 }  
 ```
+
+## Serialization Rules
+
+**Serialization with Inheritance (IS-A Relationship) :**
+If a class implements serializable then all its sub classes will also be serializable. Parent class properties are inherited to subclasses so if parent class is Serializable, subclass would also be.
+
+**Serialization with Aggregation (HAS-A Relationship) :**
+If a class has a reference of another class, all the references must be Serializable otherwise serialization process will not be performed. In such case, NotSerializableException is thrown at runtime. 
+
+All the objects within an object must be Serializable.
+
+**Serialization with static data member :**
+If there is any static data member in a class, it will not be serialized because static is the part of class not object.
+
+**Serialization with array or collection :**
+In case of array or collection, all the objects of array or collection must be serializable. If any object is not serialiizable, serialization will be failed.
+
+## Externalizable in Java
+The Externalizable interface provides the facility of writing the state of an object into a byte stream in compress format. It is not a marker interface.
+
+The Externalizable interface provides two methods:
+- public void writeExternal(ObjectOutput out) throws IOException
+- public void readExternal(ObjectInput in) throws IOException
+
+## Java Transient Keyword
+If you don't want to serialize any data member of a class, you can mark it as transient.
+**Example :**
+```
+transient int age; //It will not be serialized  
+```
