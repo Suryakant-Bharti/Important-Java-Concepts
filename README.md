@@ -101,8 +101,6 @@
 
 ### Class Relationships (Design Basics)
 
-### [Callbacks](Java-Concepts/callbacks)
-
 .
 
 ## 4. Basic Data Structures & Algorithms
