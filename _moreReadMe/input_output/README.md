@@ -1,6 +1,10 @@
-# Concepts of I/O anf Files in Java
+# Files and I/O in Java
 
-The java.io package contains nearly every class you might ever need to perform input and output (I/O) in Java. All these streams represent an input source and an output destination. The stream in the java.io package supports many data such as primitives, object, localized characters, etc. Java provides strong and flexible support for I/O related to files and networks.
+The java.io package contains nearly every class required to perform input and output (I/O) in Java. All these streams represent an input source and an output destination. The stream in the java.io package supports many data such as primitives, object, localized characters, etc. Java provides strong and flexible support for I/O related to files and networks.
+
+## The Hierarchy of I/O Class in Java
+
+![java io class hierarchy](https://user-images.githubusercontent.com/2780145/34911563-14813348-f8f3-11e7-87ef-4c8f589bbdf5.png)
 
 ## Stream
 
