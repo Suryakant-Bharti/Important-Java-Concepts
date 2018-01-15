@@ -91,3 +91,84 @@ The Runnable interface should be implemented by any class whose instances are in
 - The thread moves from New state to the Runnable state.
 - When the thread gets a chance to execute, its target run() method will run.
 
+## Creating Thread Codes :
+
+1. Thread Example by extending Thread class
+```java
+class Multi extends Thread{  
+public void run(){  
+System.out.println("thread is running...");  
+}  
+public static void main(String args[]){  
+Multi t1=new Multi();  
+t1.start();  
+ }  
+}  
+```
+
+2. Thread Example by implementing Runnable interface
+```java
+class Multi3 implements Runnable{  
+public void run(){  
+System.out.println("thread is running...");  
+}  
+  
+public static void main(String args[]){  
+Multi3 m1=new Multi3();  
+Thread t1 =new Thread(m1);  
+t1.start();  
+ }  
+} 
+```
+
+## Thread Scheduler in Java
+Thread scheduler in java is the part of the JVM that decides which thread should run. There is no guarantee that which runnable thread will be chosen to run by the thread scheduler. Only one thread at a time can run in a single process. The thread scheduler mainly uses preemptive or time slicing scheduling to schedule the threads.
+
+**Difference between preemptive scheduling and time slicing**
+Under preemptive scheduling, the highest priority task executes until it enters the waiting or dead states or a higher priority task comes into existence. Under time slicing, a task executes for a predefined slice of time and then reenters the pool of ready tasks. The scheduler then determines which task should execute next, based on priority and other factors.
+
+**NOTE :**
+We cannot start a thread twice. After starting a thread, it can never be started again. If you does so, an IllegalThreadStateException is thrown the moment it is started for the second time.
+
+## sleep() method in Java
+The sleep() method of Thread class is used to sleep a thread for the specified amount of time.
+
+**The Thread class provides two methods for sleep :**
+1. public static void sleep(long miliseconds)throws InterruptedException
+2. public static void sleep(long miliseconds, int nanos)throws InterruptedException
+```java
+Thread.sleep(500)
+```
+At a time only one thread is executed. If you sleep a thread for the specified time,the thread shedular picks up another thread and so on.
+
+## run() method in Java
+In Java, Each thread starts in a separate call stack. Invoking the run() method from main thread, the run() method goes onto the current call stack rather than at the beginning of a new call stack.
+
+**Problem if you use run() directly instead of start() "**
+There is no context-switching in the below program because here t1 and t2 will be treated as normal object not thread object.
+Output will be : 1 2 3 4 5 1 2 3 4 5         (One object will finish before starting next)
+```java
+class TestCallRun extends Thread{  
+ public void run(){  
+  for(int i=1;i<5;i++){  
+    try{Thread.sleep(500);}catch(InterruptedException e){System.out.println(e);}  
+    System.out.println(i);  
+  }  
+ }  
+ public static void main(String args[]){  
+  TestCallRun2 t1=new TestCallRun2();  
+  TestCallRun2 t2=new TestCallRun2();  
+   
+  t1.run();  
+  t2.run();  
+ }  
+} } }  
+```
+
+## join() method in Java
+The join() method waits for a thread to die. In other words, it causes the currently running threads to stop executing until the thread it joins with completes its task.
+
+**The Thread class provides two methods for join :**
+1. public void join()throws InterruptedException
+2. public void join(long milliseconds)throws InterruptedException
+
