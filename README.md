@@ -131,13 +131,17 @@
 
 ### [Dynamic Programming](DS-Algo/dynamic_programming)
 
-.
-
-## More DS/Algo Programs
-
-My Repository for Coding Questions (To Do)
+**More DS/Algo Programs -** My Repository for Coding Questions (To Do)
 
 .
+
+## Relation of Java and Others Languages
+
+### [C,C++ and Java](_moreReadMe/cplusplus)*
+
+### [Java and C#](_moreReadMe/csharp)*
+
+### Java and Python
 
 ## Android App Development
 
