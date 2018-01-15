@@ -15,7 +15,7 @@
 - *Algorithms in Java*
 
 ![quote banner](https://user-images.githubusercontent.com/2780145/34341843-fa43f72c-e9c5-11e7-88e8-f3b863448262.png)
-## 1. Java - Fundamentals & OOPS
+## 1. Java - Fundamentals & OOPS [Done]
 *[[USEFUL INFO - Java Fundamentals & OOPS Concepts]](Java-OOPS)*
 
 *[[USEFUL INFO - Java Features, Execution Process & JVM Internals]](_moreReadMe/howItWorks)*
@@ -44,7 +44,7 @@
 
 .
 
-## 2. Java - Generics, Collections, Exceptions, I/O
+## 2. Java - Generics, Collections, Exceptions, I/O [Done]
 *[[USEFUL INFO - Java Generics]](_moreReadMe/generics)*
 
 *[[USEFUL INFO - Java Collections Framework]](Java-Collections)*
@@ -73,7 +73,7 @@
 
 .
 
-## 3. Java - Concurrency & Other Advanced Topics
+## 3. Java - Concurrency & Other Advanced Topics [WIP]
 
 *[[USEFUL INFO - Java Multithreading & Garbage Collection]](_moreReadMe/multithreading)*
 
@@ -103,7 +103,7 @@
 
 .
 
-## 4. Basic Data Structures & Algorithms
+## 4. Basic Data Structures & Algorithms [WIP]
 
 *[[USEFUL INFO - Common Data Structures]](_moreReadMe/ds)*
 
