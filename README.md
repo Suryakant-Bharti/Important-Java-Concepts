@@ -147,9 +147,9 @@
 ### NOTES :
 *[[USEFUL INFO - C,C++ and Java]](_moreReadMe/cplusplus)*
 
-*[[USEFUL INFO - Java and C#]]](_moreReadMe/csharp)*
+*[[USEFUL INFO - Java and C#]](_moreReadMe/csharp)*
 
-*[[USEFUL INFO - Java and Python]]](_moreReadMe/python)*
+*[[USEFUL INFO - Java and Python]](_moreReadMe/python)*
 
 ## Learn Android App Development
 ### EXTERNAL LINKS :
