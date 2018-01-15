@@ -8,7 +8,7 @@ Table below lists 48 Keywords in Java; excluding the keywords goto and const bec
 
 abstract keyword is used to implement the abstraction in java. A method which doesn’t have method definition must be declared as abstract and the class containing it must be declared as abstract. You can’t instantiate abstract classes. Abstract methods must be implemented in the sub classes. You can’t use abstract keyword with variables and constructors. [See more]
 
-```
+```java
 abstract class AbstractClass
 {
     abstract void abstractMethod();
@@ -19,7 +19,7 @@ abstract class AbstractClass
 
 assert keyword is used in the assertion statements. These statements will enable you to test your assumptions about a program. Assertion statements provide the best way to detect and correct the programming errors. Assertion statements take one boolean expression as input and assumes that this will be always true. If the boolean expression returns false, AssertionError will be thrown.
 
-```
+```java
 public class MainClass
 {
     public static void main(String[] args) 
@@ -39,7 +39,7 @@ public class MainClass
 
 boolean keyword is used to define boolean type variables. boolean type variables can hold only two values – either true or false.
 
-```
+```java
 boolean isActive = true;
 ```
 
@@ -48,7 +48,7 @@ boolean isActive = true;
 The break keyword is used to stop the execution of a loop(for, while, switch-case) based on some condition.
 
 
-```
+```java
 public class MainClass
 {
     public static void main(String[] args) 
@@ -71,7 +71,7 @@ public class MainClass
 byte keyword is used to declare byte type of variables. A byte variable can hold a numeric value in the range from -128 to 127.
 
 
-```
+```java
 byte b = 50;
 ```
 
@@ -80,7 +80,7 @@ byte b = 50;
 Both switch and case keywords are used in the switch-case statement.
 
 
-```
+```java
 public class MainClass
 {
     public static void main(String[] args) 
@@ -126,7 +126,7 @@ public class MainClass
 try, catch and finally keywords are used to handle the exceptions in java. The statements which are to be monitored for exceptions are kept in the try block. The exceptions thrown by the try block are caught in the catch block. finally block is always executed. [See more]
 
 
-```
+```java
 public class MainClass
 {
     public static void main(String[] args) 
@@ -152,7 +152,7 @@ public class MainClass
 char keyword is used to declare primitive char type variables. char represents the characters in java.
 
 
-```
+```java
 char a = 'A';
          
 char b = 'B';
@@ -165,7 +165,7 @@ char c = 'C';
 class keyword is used to define the classes in java.
 
 
-```
+```java
 class MyClass
 {
     class MyInnerClass
@@ -180,7 +180,7 @@ class MyClass
 continue keyword is used to stop the execution of current iteration and start the execution of next iteration in a loop.
 
 
-```
+```java
 public class MainClass
 {
     public static void main(String[] args) 
@@ -203,7 +203,7 @@ public class MainClass
 default keyword is used to define the default methods in an interface (From Java 8). default keyword is also used in the switch-case statements.
 
 
-```
+```java
 interface MyInterface 
 {
     public default void myDefaultMethod() 
@@ -218,7 +218,7 @@ interface MyInterface
 do keyword is used in a do–while loop. do-while loop is used to execute one or more statements repetitively until a condition returns false.
 
 
-```
+```java
 public class MainClass
 {
     public static void main(String[] args) 
@@ -247,7 +247,7 @@ public class MainClass
 double keyword is used to declare primitive double type of variables.
 
 
-```
+```java
 public class MainClass
 {
     public static void main(String[] args) 
@@ -268,7 +268,7 @@ public class MainClass
 if and else keywords are used in if-else block.
 
 
-```
+```java
 public class MainClass
 {
     public static void main(String[] args) 
@@ -296,7 +296,7 @@ public class MainClass
 enum keyword is used to define enum types.
 
 
-```
+```java
 enum MyEnums
 {
     A, B, C, D;
@@ -308,7 +308,7 @@ enum MyEnums
 extends keyword is used in inheritance. It is used when a class extends another class.
 
 
-```
+```java
 class SuperClass
 {
     //Super Class
@@ -325,7 +325,7 @@ class SubClass extends SuperClass
 final keyword is used when a class or a method or a field doesn’t need further modifications. final class can’t be extended, final method can’t be overridden and the value of a final field can’t be changed. [See more]
 
 
-```
+```java
 final class FinalClass
 {
     final int finalVariable = 10;
@@ -342,7 +342,7 @@ final class FinalClass
 float keyword indicates primitive float type of variables.
 
 
-```
+```java
 public class MainClass
 {
     public static void main(String[] args) 
@@ -363,7 +363,7 @@ public class MainClass
 for loop is used to execute the set of statements until a condition is true.
 
 
-```
+```java
 public class MainClass
 {
     public static void main(String[] args) 
@@ -381,7 +381,7 @@ public class MainClass
 implements keyword is used while implementing an interface.
 
 
-```
+```java
 interface MyInterface
 {
     void myMethod();
@@ -401,7 +401,7 @@ class MyClass implements MyInterface
 import keyword is used to import the members of a particular package into current java file. [See more]
 
 
-```
+```java
 import java.sql.*;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -412,7 +412,7 @@ import java.util.Scanner;
 instanceOf is used to check whether an object is of specified type. The syntax for using instanceOf keyword is “Object_Reference instanceOf Type“.
 
 
-```
+```java
 class A
 {
      
@@ -437,7 +437,7 @@ public class MainClass
 int keyword is used to declare primitive integer type of variables.
 
 
-```
+```java
 public class MainClass
 {
     public static void main(String[] args) 
@@ -458,7 +458,7 @@ public class MainClass
 interface keyword is used to define the interfaces in java.
 
 
-```
+```java
 interface MyInterface
 {
     void myMethod();
@@ -470,7 +470,7 @@ interface MyInterface
 long is used to define the primitive long type variables.
 
 
-```
+```java
 public class MainClass
 {
     public static void main(String[] args) 
@@ -491,7 +491,7 @@ public class MainClass
 native keyword is used with a method to indicate that a particular method is implemented in native code using Java Native Interfaces(JNI).
 
 
-```
+```java
 class AnyClass
 {
     public native void anyMethod(int i, double d);
@@ -503,7 +503,7 @@ class AnyClass
 new keyword is used while creating the instances of a class.
 
 
-```
+```java
 class A
 {
      
@@ -523,7 +523,7 @@ public class MainClass
 package keyword is used to specify a package to which the current file belongs to.
 
 
-```
+```java
 package pack1;
  
 class A
@@ -537,7 +537,7 @@ class A
 private keyword is used to declare a member of a class as private. private methods and fields are visible within the class in which they are defined.
 
 
-```
+```java
 class A
 {
     private int i = 111;   //private field
@@ -554,7 +554,7 @@ class A
 protected keyword is used to declare a member of a class as protected. protected members of a class are visible within the package only, but they can be inherited to any sub classes.
 
 
-```
+```java
 class A
 {
     protected int i = 111;   //protected field
@@ -571,7 +571,7 @@ class A
 public keyword is used to declare the members of a class or class itself as public. public members of a class are visible from anywhere and they can be inherited to any sub classes.
 
 
-```
+```java
 public class A
 {
     public int i = 222;   //public field
@@ -593,7 +593,7 @@ public class A
 return keyword is used to return the control back to the caller from the method.
 
 
-```
+```java
 class A
 {
     int method(int i)
@@ -608,7 +608,7 @@ class A
 short keyword is used to declare primitive short type variables.
 
 
-```
+```java
 short s1 = 11;
          
 short s2 = 22;
@@ -619,7 +619,7 @@ short s2 = 22;
 static keyword is used to define the class level members of a class. static members of a class are stored in the class memory and you can access them directly through class name. No need to instantiate a class. [See more]
 
 
-```
+```java
 class A
 {
     static int staticField = 555;    //Static Field
@@ -646,7 +646,7 @@ public class MainClass
 strictfp keyword is used to implement the strict precision of floating point calculations on different platforms. strictfp can be used with classes, interfaces and methods.
 
 
-```
+```java
 strictfp interface I
 {
     //strictfp applied on interface
@@ -671,7 +671,7 @@ class A
 super keyword is used to access super class members inside a sub class.
 
 
-```
+```java
 class A
 {
     int i;
@@ -708,7 +708,7 @@ class B extends A
 synchronized keyword is used to implement the synchronization in java. only one thread can enter into a method or a block which is declared as synchronized. Any thread which wants to enter synchronized method or block must acquire object lock of those methods or blocks. [See more]
 
 
-```
+```java
 class AnyClass
 {
     synchronized void synchronizedMethod()
@@ -731,7 +731,7 @@ class AnyClass
 this keyword is used to access other members of the same class.
 
 
-```
+```java
 class AnyClass
 {
     int i;
@@ -765,7 +765,7 @@ class AnyClass
 throw keyword is used to throw the exceptions manually. [See more]
 
 
-```
+```java
 public class MainClass
 {
     public static void main(String[] args) 
@@ -789,7 +789,7 @@ public class MainClass
 throws keyword is used to specify the exceptions which the current method may throw. [See more]
 
 
-```
+```java
 class A
 {
     void method() throws NumberFormatException
@@ -804,7 +804,7 @@ class A
 transient keyword is used in serialization. A variable which is declared as transient will not be eligible for serialization.
 
 
-```
+```java
 class MyClass implements Serializable
 {
     int a;
@@ -820,7 +820,7 @@ class MyClass implements Serializable
 void keyword is used to indicate that method returns nothing.
 
 
-```
+```java
 class A
 {
     void methodReturnsNothing()
@@ -835,7 +835,7 @@ class A
 volatile keyword is used in the concurrent programming. The value of a variable which is declared as volatile will be written into or read from the main memory.
 
 
-```
+```java
 class A
 {
     public volatile int counter = 0;
@@ -847,7 +847,7 @@ class A
 while keyword is used in the while loop.
 
 
-```
+```java
 public class MainClass
 {
     public static void main(String[] args) 
