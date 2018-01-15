@@ -82,4 +82,12 @@ Thread class provide constructors and methods to create and perform operations o
 <li><strong>public static boolean interrupted():  </strong>tests if the current thread has been interrupted.</li>
 </ol>
 
+**Runnable interface:**
+The Runnable interface should be implemented by any class whose instances are intended to be executed by a thread. Runnable interface have only one method named run(). **public void run():** is used to perform action for a thread.
+
+**Starting a thread:**
+**start()** method of Thread class is used to start a newly created thread. It performs following tasks:
+- A new thread starts(with new callstack).
+- The thread moves from New state to the Runnable state.
+- When the thread gets a chance to execute, its target run() method will run.
 
