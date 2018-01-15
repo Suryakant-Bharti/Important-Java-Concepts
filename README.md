@@ -22,9 +22,9 @@
 
 *[[USEFUL INFO - Java Features, Execution Process & JVM Internals]](_moreReadMe/howItWorks)*
 
-*[[USEFUL INFO - For Polyglots, Java vs Other Languages (C++)]](_moreReadMe/polyglot)*
-
 *[[USEFUL INFO - Java Fundamentals & OOPS Concepts]](Java-OOPS)*
+
+*[[USEFUL INFO - For Polyglots, Java vs Other Languages (C++)]](_moreReadMe/oopsRules)*
 
 *[[USEFUL INFO - Methods of Number, Array, Char, String Classes]](_moreReadMe/importantMethods)*
 
