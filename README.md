@@ -73,21 +73,21 @@
 
 .
 
-## 3. Java - Few Advanced Topics
+## 3. Java - Concurrency & Other Advanced Topics
 
-*[[USEFUL INFO - Java Concurrency & Garbage Collection]](_moreReadMe/multithreading)*
+*[[USEFUL INFO - Java Multithreading & Garbage Collection]](_moreReadMe/multithreading)*
 
-*[[USEFUL INFO - Java RegEx & Lambda Expressions]](_moreReadMe/regex_and_lambda)*
+*[[USEFUL INFO - Java Thread Synchronization]](_moreReadMe/multithreading)*
 
 *[[USEFUL INFO - Java Testing Basics]](_moreReadMe/testing)*
 
 *[[USEFUL INFO - Java Class Design Basic]](_moreReadMe/class_relations)*
 
-*[[USEFUL INFO - Java Other Important Concepts]](Java-Concepts)*
+*[[USEFUL INFO - Java RegEx & Lambda Expressions]](_moreReadMe/regex_and_lambda)*
 
 ### [Multithreading](Java-Concepts/multithreading)
 
-### [Garbage Collection](Java-Concepts/garbage_collection)
+### [Thread Synchronization](Java-Concepts/synchronization)
 
 ### [Regular Expressions](Java-Concepts/regex)
 
