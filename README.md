@@ -16,6 +16,8 @@
 
 ![quote banner](https://user-images.githubusercontent.com/2780145/34341843-fa43f72c-e9c5-11e7-88e8-f3b863448262.png)
 ## 1. Java - Fundamentals & OOPS [Done]
+### NOTES :
+
 *[[USEFUL INFO - All 50 Java Keywords with definitions & examples]](_moreReadMe/keywords)*
 
 *[[USEFUL INFO - Java Features, Execution Process & JVM Internals]](_moreReadMe/howItWorks)*
@@ -26,21 +28,22 @@
 
 *[[USEFUL INFO - Methods of Number, Array, Char, String Classes]](_moreReadMe/importantMethods)*
 
-### [Variables & Operators](Java-OOPS/variables_and_operators) | [Control Flow](Java-OOPS/control_flow) 
+### PROGRAMS :
+#### [Variables & Operators](Java-OOPS/variables_and_operators) | [Control Flow](Java-OOPS/control_flow) 
 
-### [Classes & Objects](Java-OOPS/class_and_object) | [static & this](Java-OOPS/static_and_this) | [Inner Classes](Java-OOPS/inner_class)
+#### [Classes & Objects](Java-OOPS/class_and_object) | [static & this](Java-OOPS/static_and_this) | [Inner Classes](Java-OOPS/inner_class)
 
-### [Inheritance (is-a)](Java-OOPS/inheritance) | [Association (has-a, part-of)](Java-OOPS/association)
+#### [Inheritance (is-a)](Java-OOPS/inheritance) | [Association (has-a, part-of)](Java-OOPS/association)
 
-### [Overloading](Java-OOPS/method_overloading) | [Overriding](Java-OOPS/method_overriding) | [super & final](Java-OOPS/super_and_final)
+#### [Overloading](Java-OOPS/method_overloading) | [Overriding](Java-OOPS/method_overriding) | [super & final](Java-OOPS/super_and_final)
 
-### [Runtime Polymorphism](Java-OOPS/runtime_polymorphism) | [instanceof](Java-OOPS/instanceof)
+#### [Runtime Polymorphism](Java-OOPS/runtime_polymorphism) | [instanceof](Java-OOPS/instanceof)
 
-### [Abstraction](Java-OOPS/abstraction) | [Interfaces](Java-OOPS/interfaces) | [Encapsulation](Java-OOPS/encapsulation)
+#### [Abstraction](Java-OOPS/abstraction) | [Interfaces](Java-OOPS/interfaces) | [Encapsulation](Java-OOPS/encapsulation)
 
-### [Arrays](Java-OOPS/arrays) | [Strings](Java-OOPS/strings) | [Date & Time](Java-OOPS/date_time)
+#### [Arrays](Java-OOPS/arrays) | [Strings](Java-OOPS/strings) | [Date & Time](Java-OOPS/date_time)
 
-### [Misc](Java-OOPS/miscellaneous) | [Recursion](Java-OOPS/recursion) | [Basic Programs](Java-OOPS/basic_programs)
+#### [Misc](Java-OOPS/miscellaneous) | [Recursion](Java-OOPS/recursion) | [Basic Programs](Java-OOPS/basic_programs)
 
 .
 
@@ -137,9 +140,9 @@
 
 ## Relation of Java and Others Languages
 
-### [C,C++ and Java](_moreReadMe/cplusplus)*
+### [C,C++ and Java](_moreReadMe/cplusplus)
 
-### [Java and C#](_moreReadMe/csharp)*
+### [Java and C#](_moreReadMe/csharp)
 
 ### Java and Python
 
