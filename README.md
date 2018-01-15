@@ -16,15 +16,15 @@
 
 ![quote banner](https://user-images.githubusercontent.com/2780145/34341843-fa43f72c-e9c5-11e7-88e8-f3b863448262.png)
 ## 1. Java - Fundamentals & OOPS [Done]
-*[[USEFUL INFO - Java Fundamentals & OOPS Concepts]](Java-OOPS)*
+*[[USEFUL INFO - All 50 Java Keywords with definitions & examples]](_moreReadMe/keywords)*
 
 *[[USEFUL INFO - Java Features, Execution Process & JVM Internals]](_moreReadMe/howItWorks)*
 
+*[[USEFUL INFO - For Polyglots, Java vs Other Languages (C++)]](_moreReadMe/polyglot)*
+
+*[[USEFUL INFO - Java Fundamentals & OOPS Concepts]](Java-OOPS)*
+
 *[[USEFUL INFO - Methods of Number, Array, Char, String Classes]](_moreReadMe/importantMethods)*
-
-*[[USEFUL INFO - All Java Keywords with definitions & examples]](_moreReadMe/keywords)*
-
-*[[USEFUL INFO - For Polyglots - Java vs Other Languages]](_moreReadMe/polyglot)*
 
 ### [Variables & Operators](Java-OOPS/variables_and_operators) | [Control Flow](Java-OOPS/control_flow) 
 
