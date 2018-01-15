@@ -47,10 +47,13 @@
 - If there are no matching type arguments method, and each method promotes similar number of arguments, there will be ambiguity.
 - One type is not de-promoted implicitly for example double cannot be depromoted to any type implicitly.
 
+## Method Overriding
+- If subclass (child class) has the same method as declared in the parent class, it is known as method overriding.
+- - Method must have same name and parameters as in the parent class for overriding.
+- Method overriding is used to provide specific implementation of a method that is already provided by its super class. Also used for runtime polymorphism.
+- We cannot override static method (not also main method) because static method is bound with class whereas instance method is bound with object. Static belongs to class area and instance belongs to heap area.
+- Method Overriding with Access Modifier: if you are overriding a method, overridden method (i.e. declared in subclass) must not be more restrictive.
+-  Covariant Return Type: It is possible to override method by changing the return type if subclass overrides any method whose return type is Non-Primitive but it changes its return type to subclass type. 
 
-
-
-- If subclass (child class) has the same method as declared in the parent class, it is known as method overriding in java.
-
+## super Keyword
 - The super keyword in java is a reference variable which is used to refer immediate parent class object.
-- 
