@@ -15,7 +15,7 @@
 - *Algorithms in Java*
 
 ![quote banner](https://user-images.githubusercontent.com/2780145/34341843-fa43f72c-e9c5-11e7-88e8-f3b863448262.png)
-## 1. Java - Fundamentals & OOPS [Done]
+## [1] Java - Fundamentals & OOPS [Done]
 ### NOTES :
 
 *[[USEFUL INFO - All 50 Java Keywords with definitions & examples]](_moreReadMe/keywords)*
@@ -47,7 +47,7 @@
 
 .
 
-## 2. Java - Generics, Collections, Exceptions, I/O [Done]
+## [2] Java - Generics, Collections, Exceptions, I/O [Done]
 ### NOTES :
 *[[USEFUL INFO - Java Generics]](_moreReadMe/generics)*
 
@@ -78,7 +78,7 @@
 
 .
 
-## 3. Java - Concurrency & Other Advanced Topics [WIP]
+## [3] Java - Concurrency & Other Advanced Topics [WIP]
 ### NOTES :
 *[[USEFUL INFO - Java Multithreading & Garbage Collection]](_moreReadMe/multithreading)*
 
@@ -109,7 +109,7 @@
 
 .
 
-## 4. Basic Data Structures & Algorithms [WIP]
+## [4] Basic Data Structures & Algorithms [WIP]
 ### NOTES :
 *[[USEFUL INFO - Common Data Structures]](_moreReadMe/ds)*
 
@@ -151,14 +151,14 @@
 
 *[[USEFUL INFO - Java and Python]]](_moreReadMe/python)*
 
-## Android App Development
+## Learn Android App Development
 ### EXTERNAL LINKS :
 [My Repository for Learning Android App Development Concepts](https://github.com/Suryakant-Bharti/some-android-information)
 
 .
 
 ## Extras
-### L### NOTES :
+### NOTES :
 *[[USEFUL INFO - Good Java & Computer Science Books for Reference]](_moreReadMe/books)*
 
 *[[USEFUL INFO - Great Websites for Learning Java & Computer Science]](_moreReadMe/websites)*
