@@ -48,6 +48,7 @@
 .
 
 ## 2. Java - Generics, Collections, Exceptions, I/O [Done]
+### NOTES :
 *[[USEFUL INFO - Java Generics]](_moreReadMe/generics)*
 
 *[[USEFUL INFO - Java Collections Framework]](Java-Collections)*
@@ -58,26 +59,27 @@
 
 *[[USEFUL INFO - Java Serialization]](_moreReadMe/serialization)*
 
-### [Generics in Java](Java-Collections/generics)
+### PROGRAMS :
+#### [Generics in Java](Java-Collections/generics)
 
-### [Collection Interface (List,Set,Queue)](Java-Collections/collection_interface)
+#### [Collection Interface (List,Set,Queue)](Java-Collections/collection_interface)
 
-### [Map Interface (Map)](Java-Collections/map_interface)
+#### [Map Interface (Map)](Java-Collections/map_interface)
 
-### [Legacy (Enum Vector,Stack,etc)](Java-Collections/legacy_ds)
+#### [Legacy (Enum Vector,Stack,etc)](Java-Collections/legacy_ds)
 
-### [Collections Class](Java-Collections/collections_class)
+#### [Collections Class](Java-Collections/collections_class)
 
-### [Exception Handling](Java-Collections/exceptions)
+#### [Exception Handling](Java-Collections/exceptions)
 
-### [Files and I/O](Java-Collections/input_output)
+#### [Files and I/O](Java-Collections/input_output)
 
-### [Serialization](Java-Collections/serialization)
+#### [Serialization](Java-Collections/serialization)
 
 .
 
 ## 3. Java - Concurrency & Other Advanced Topics [WIP]
-
+### NOTES :
 *[[USEFUL INFO - Java Multithreading & Garbage Collection]](_moreReadMe/multithreading)*
 
 *[[USEFUL INFO - Java Thread Synchronization]](_moreReadMe/multithreading)*
@@ -88,26 +90,27 @@
 
 *[[USEFUL INFO - Java RegEx & Lambda Expressions]](_moreReadMe/regex_and_lambda)*
 
-### [Multithreading](Java-Concepts/multithreading)
+### PROGRAMS :
+#### [Multithreading](Java-Concepts/multithreading)
 
-### [Thread Synchronization](Java-Concepts/synchronization)
+#### [Thread Synchronization](Java-Concepts/synchronization)
 
-### [Regular Expressions](Java-Concepts/regex)
+#### [Regular Expressions](Java-Concepts/regex)
 
-### [Lambda Expressions](Java-Concepts/lambda)
+#### [Lambda Expressions](Java-Concepts/lambda)
 
-### BigDecimal & BigIntegar
+#### BigDecimal & BigIntegar
 
-### JSON & XML Parsing
+#### JSON & XML Parsing
 
-### Unit Testing - JUnit 4 (Library)
+#### Unit Testing - JUnit 4 (Library)
 
-### Class Relationships (Design Basics)
+#### Class Relationships (Design Basics)
 
 .
 
 ## 4. Basic Data Structures & Algorithms [WIP]
-
+### NOTES :
 *[[USEFUL INFO - Common Data Structures]](_moreReadMe/ds)*
 
 *[[USEFUL INFO - Searching and Sorting Algorithms]](_moreReadMe/search_sort)*
@@ -118,58 +121,60 @@
 
 *[[USEFUL INFO - Big O Cheat Sheet]](_moreReadMe/bigO)*
 
-### [Linked List DS](DS-Algo/linked_lists)
+### PROGRAMS :
+#### [Linked List DS](DS-Algo/linked_lists)
 
-### BST & Heap DS
+#### BST & Heap DS
 
-### [Searching](DS-Algo/searching)
+#### [Searching](DS-Algo/searching)
 
-### [Sorting](DS-Algo/sorting)
+#### [Sorting](DS-Algo/sorting)
 
-### [Tree Traversal](DS-Algo/tree_traversal)
+#### [Tree Traversal](DS-Algo/tree_traversal)
 
-### [Graph Traversal](DS-Algo/graph_traversal)
+#### [Graph Traversal](DS-Algo/graph_traversal)
 
-### [Graph Algorithms](DS-Algo/graph_classic_algos)
+#### [Graph Algorithms](DS-Algo/graph_classic_algos)
 
-### [Dynamic Programming](DS-Algo/dynamic_programming)
+#### [Dynamic Programming](DS-Algo/dynamic_programming)
 
+### EXTERNAL LINKS :
 **More DS/Algo Programs -** My Repository for Coding Questions (To Do)
 
 .
 
 ## Relation of Java and Others Languages
+### NOTES :
+*[[USEFUL INFO - C,C++ and Java]](_moreReadMe/cplusplus)*
 
-### [C,C++ and Java](_moreReadMe/cplusplus)
+*[[USEFUL INFO - Java and C#]]](_moreReadMe/csharp)*
 
-### [Java and C#](_moreReadMe/csharp)
-
-### Java and Python
+*[[USEFUL INFO - Java and Python]]](_moreReadMe/python)*
 
 ## Android App Development
-
+### EXTERNAL LINKS :
 [My Repository for Learning Android App Development Concepts](https://github.com/Suryakant-Bharti/some-android-information)
 
 .
 
 ## Extras
+### L### NOTES :
+*[[USEFUL INFO - Good Java & Computer Science Books for Reference]](_moreReadMe/books)*
 
-### [Good Books for Reference](_moreReadMe/books)
-
-### [Great Websites for Learning](_moreReadMe/websites)
+*[[USEFUL INFO - Great Websites for Learning Java & Computer Science]](_moreReadMe/websites)*
 
 .
 
 **NOTE :**
 
-    I will keep adding more important programs to this Repository throughout 2018. 
+    I will keep adding more important codes to this Repo throughout 2018. 
 Happy Learning! :smiley:
 
 .
 
 **REFERENCES :**
 
-    This repository contains some codes and few images from other authors.
+    This repository contains some codes and images from other authors.
     Used for "Nonprofit Educational Purpose".
     References are listed in the above link for Books & Websites.
 Thanks to those authors! :thumbsup:
