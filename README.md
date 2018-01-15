@@ -24,9 +24,9 @@
 
 *[[USEFUL INFO - Java Fundamentals & OOPS Concepts]](Java-OOPS)*
 
-*[[USEFUL INFO - For Polyglots, Java vs Other Languages (C++)]](_moreReadMe/oopsRules)*
+*[[USEFUL INFO - Java Fundamentals & OOPS Rules]](_moreReadMe/oopsRules)*
 
-*[[USEFUL INFO - Methods of Number, Array, Char, String Classes]](_moreReadMe/importantMethods)*
+*[[USEFUL INFO - Methods of Number, Char, String, Array, Date Classes]](_moreReadMe/importantMethods)*
 
 ### PROGRAMS :
 #### [Variables & Operators](Java-OOPS/variables_and_operators) | [Control Flow](Java-OOPS/control_flow) 
