@@ -196,7 +196,34 @@ Getting the Current Thread
 **public static Thread currentThread():**
 The currentThread() method returns a reference of currently executing thread.
 ```java
-System.out.println(Thread.currentThread().getName());  
+public void run(){ 
+ System.out.println(Thread.currentThread().getName());
+}  
 ```
 
 ## Priority of a Thread
+Each thread have a priority. Priorities are represented by a number between 1 and 10. In most cases, thread schedular schedules the threads according to their priority (known as preemptive scheduling). But it is not guaranteed because it depends on JVM specification that which scheduling it chooses.
+
+The 3 constants defined in Thread class:
+- public static int MIN_PRIORITY
+- public static int NORM_PRIORITY
+- public static int MAX_PRIORITY
+
+Default priority of a thread is 5 (NORM_PRIORITY). The value of MIN_PRIORITY is 1 and the value of MAX_PRIORITY is 10.
+```java
+System.out.println("thread priority is:"+t1.getPriority()); 
+```
+```java
+t1.setPriority(Thread.MIN_PRIORITY);  
+```
+
+## Daemon Thread
+Daemon thread in java is a service provider thread that provides services to the user thread. It has no role in life than to serve user threads. Its life depends on user threads i.e. when all the user threads dies, JVM terminates this thread automatically. It is a low priority thread.
+
+There are many java daemon threads running automatically e.g. gc, finalizer etc.
+
+**NOTE :** You can see all the detail by typing the jconsole in the command prompt. The jconsole tool provides information about the loaded classes, memory usage, running threads etc.
+
+
+
+
