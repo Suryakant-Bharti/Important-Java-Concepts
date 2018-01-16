@@ -2,6 +2,9 @@
 
 ## Definitions, Tips & Rules related to Java OOPS
 
+### Basics
+- 
+
 ### Class & Constructor
 - A class in Java can contain: fields, methods, constructors, blocks, nested class and interface.
 - Object is an instance of a class.
@@ -47,7 +50,7 @@
 - If there are no matching type arguments method, and each method promotes similar number of arguments, there will be ambiguity.
 - One type is not de-promoted implicitly for example double cannot be depromoted to any type implicitly.
 
-## Method Overriding
+### Method Overriding
 - If subclass (child class) has the same method as declared in the parent class, it is known as method overriding.
 - Method must have same name and parameters as in the parent class for overriding.
 - Method overriding is used to provide specific implementation of a method that is already provided by its super class. Also used for runtime polymorphism.
@@ -55,19 +58,19 @@
 - Method Overriding with Access Modifier: if you are overriding a method, overridden method (i.e. declared in subclass) must not be more restrictive.
 -  Covariant Return Type: It is possible to override method by changing the return type if subclass overrides any method whose return type is Non-Primitive but it changes its return type to subclass type. 
 
-## super Keyword
+### super Keyword
 - The super keyword is a reference variable which is used to refer immediate parent class object.
 - super can be used to refer immediate parent class instance variable or invoke immediate parent class method and constructor.
 - super() is added in each class constructor automatically by compiler if there is no super() or this().
 
-## Instance initializer block
+### Instance initializer block
 - Instance Initializer block is used to initialize the instance data member. 
 - It is created when instance of the class is created.
 - It runs each time when object of the class is created.
 - It is invoked after the parent class constructor is invoked (i.e. after super() constructor call).
 - The instance Initializer block comes in the order in which they appear.
 
-## final Keywword
+### final Keyword
 - The final keyword in java is used to restrict the user.
 - You cannot change the value of final variable(It will be constant).
 - If you make any  as , You cannot override a final method.
@@ -78,3 +81,48 @@
 - A static final variable that is not initialized at the time of declaration is known as static blank final variable. It can be initialized only in static block.
 - If you declare any parameter as final, you cannot change the value of it.
 - A constructor cannot be declared final because it is never inherited.
+
+### Runtime Polymorphism
+- Polymorphism is a concept by which we can perform a single action by different ways. 
+- There are two types of polymorphism in java: compile time polymorphism and runtime polymorphism.
+- We can perform polymorphism in java by method overloading and method overriding.
+- If you overload static method in java, it is the example of compile time polymorphism.
+- In Runtime polymorphism (Dynamic Method Dispatch), an overridden method is resolved at runtime rather than compile-time.
+- When reference variable of Parent class refers to the object of Child class, it is known as upcasting.
+- Method is overridden not the datamembers, so runtime polymorphism can't be achieved by data members.
+- Connecting a method call to the method body is known as binding.
+- There are two types of binding : Static binding (early binding) and Dynamic binding (late binding).
+
+### instanceof Keyword
+- instanceof operator is used to test whether the object is an instance of the specified type (class/subclass/interface).
+- When Subclass type refers to the object of Parent class, it is known as downcasting. 
+- If we perform downcasting directly, there is compile error. 
+- If we perform downcasting by typecasting, ClassCastException is thrown at runtime. 
+- If we use instanceof operator, downcasting is possible!
+
+### Abstract Class
+- A class that is declared as abstract (keyword) is abstract class. It can have abstract and non-abstract methods.
+- Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+- There are two ways to achieve abstraction in java : Abstract class (0 to 100%) and Interface (100%).
+- A method that is declared as abstract and does not have implementation is abstract method.
+- Any method with a body is non-abstract method.
+- An abstract class can have data member, abstract method, method body, constructor and even main() method.
+- If there is any abstract method in a class, that class must be abstract.
+- If extending any abstract class that have abstract method, we must either provide the implementation of the method or make this class abstract.
+- Abstract class can also be used to provide some implementation of an interface. Then, the end user extending thtis abstract class is free to skip implementing that method while overriding all the methods of the interface.
+
+### Interface
+- An interface in java is a blueprint of a class. It has static constants and abstract methods.
+- - Since Java 8, we can have method body in interface. But we need to make it default or static method.
+- The interface is a mechanism to achieve abstraction. It represents IS-A relationship.
+- By using interface, we can support multiple inheritance.
+- It can be also used to achieve loose coupling (coupling is degree of direct knowledge that one element has of another).
+- The Java compiler adds public & abstract before the interface method. Adds public, static & final before data members.
+- A class extends another class, an interface extends another interface but a class implements an interface.
+- Multiple inheritance is not supported by class because of ambiguity. But, supported by interface because there is no ambiguity as implementation is provided by the implementation class.
+- An interface with no member is called marker/tagged interface. For example: Serializable, Cloneable, Remote etc.
+- Marker interface are used to provide essential information to JVM, so that JVM may perform some useful operation.
+- An interface can have another interface i.e. known as nested interface.
+
+### Package
+A java package is a group of similar types of classes, interfaces and sub-packages.
