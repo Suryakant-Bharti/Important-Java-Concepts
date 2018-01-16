@@ -166,9 +166,37 @@ class TestCallRun extends Thread{
 ```
 
 ## join() method in Java
-The join() method waits for a thread to die. In other words, it causes the currently running threads to stop executing until the thread it joins with completes its task.
+Java Thread **join()** method can be used to pause the current thread execution, until the specified thread is dead. 
 
-**The Thread class provides two methods for join :**
-1. public void join()throws InterruptedException
-2. public void join(long milliseconds)throws InterruptedException
+**There are three join methods :**
+1. public void join()
+2. public void join(long millis)
+3. public void join(long millis, int nanos)
 
+**Examples :**
+```java
+t1.join();   \\Current thread will be paused, until t1 is dead. (t1 will start executing)
+```
+```java
+t1.join(1500);  \\Current thread will be paused, t1 will execute for 1500 milliseconds.
+```
+
+## Naming Thread
+The Thread class provides methods to change and get the name of a thread. By default, each thread has a name i.e. thread-0, thread-1 and so on. But, we can change the name of the thread by using setName() method.
+- **public String getName():** is used to get the name of a thread.
+```java
+t1.getName()
+```
+- **public void setName(String name):** is used to change the name of a thread.
+```java
+t1.setName("My sweet thread"); 
+```
+
+Getting the Current Thread
+**public static Thread currentThread():**
+The currentThread() method returns a reference of currently executing thread.
+```java
+System.out.println(Thread.currentThread().getName());  
+```
+
+## Priority of a Thread
