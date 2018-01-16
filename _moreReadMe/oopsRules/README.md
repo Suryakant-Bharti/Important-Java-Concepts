@@ -110,7 +110,7 @@
 
 ### Interface
 - An interface in java is a blueprint of a class. It has static constants and abstract methods.
-- - Since Java 8, we can have method body in interface. But we need to make it default or static method.
+- Since Java 8, we can have method body in interface. But we need to make it default or static method.
 - The interface is a mechanism to achieve abstraction. It represents IS-A relationship.
 - By using interface, we can support multiple inheritance.
 - It can be also used to achieve loose coupling (coupling is degree of direct knowledge that one element has of another).
@@ -150,9 +150,9 @@
 - By providing only setter or getter method, you can make the class read-only or write-only.
 
 ## Miscellaneous
-- The Object class is the parent class of all the classes in java by default.
+*- The Object class is the parent class of all the classes in java by default.
 - The Cloneable interface must be implemented by the class if we want to create a clone of an object.
 - Wrapper class is used to convert primitive into object and object into primitive.
 - Autoboxing and unboxing feature converts primitive into object and object into primitive automatically.
 - There is only call by value in java, not call by reference.
-- A method in java that calls itself is called recursive method.
+- A method in java that calls itself is called recursive method.*
