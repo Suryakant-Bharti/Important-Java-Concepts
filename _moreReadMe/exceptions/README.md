@@ -1,6 +1,8 @@
 # Exception Handling in Java
 
 Exception is an event that disrupts the normal flow of the program. It is an object which is thrown at runtime. The exception handling in java is one of the powerful mechanism to handle the runtime errors so that normal flow of the application can be maintained.
+- An Error "indicates serious problems that a reasonable application should not try to catch."
+- An Exception "indicates conditions that a reasonable application might want to catch."
 
 ## Hierarchy of the Throwable Class :
 
