@@ -26,7 +26,7 @@
 
 *[[USEFUL INFO - Java OOPS - few points to remember]](_moreReadMe/oopsRules)*
 
-*[[USEFUL INFO - Methods of Number, Char, String, Array, Date Classes]](_moreReadMe/importantMethods)*
+*[[USEFUL INFO - Methods of Number, Char, String, Array Classes]](_moreReadMe/importantMethods)*
 
 ### PROGRAMS :
 #### [Variables & Operators](Java-OOPS/variables_and_operators) | [Control Flow](Java-OOPS/control_flow) 
