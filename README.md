@@ -24,7 +24,7 @@
 
 *[[USEFUL INFO - Java Fundamentals & OOPS Concepts]](Java-OOPS)*
 
-*[[USEFUL INFO - Java Fundamentals - things to remember]](_moreReadMe/oopsRules)*
+*[[USEFUL INFO - Java Fundamentals - few things to remember]](_moreReadMe/oopsRules)*
 
 *[[USEFUL INFO - Methods of Number, Char, String, Array, Date Classes]](_moreReadMe/importantMethods)*
 
