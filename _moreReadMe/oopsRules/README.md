@@ -57,3 +57,24 @@
 
 ## super Keyword
 - The super keyword is a reference variable which is used to refer immediate parent class object.
+- super can be used to refer immediate parent class instance variable or invoke immediate parent class method and constructor.
+- super() is added in each class constructor automatically by compiler if there is no super() or this().
+
+## Instance initializer block
+- Instance Initializer block is used to initialize the instance data member. 
+- It is created when instance of the class is created.
+- It runs each time when object of the class is created.
+- It is invoked after the parent class constructor is invoked (i.e. after super() constructor call).
+- The instance Initializer block comes in the order in which they appear.
+
+## final Keywword
+- The final keyword in java is used to restrict the user.
+- You cannot change the value of final variable(It will be constant).
+- If you make any  as , You cannot override a final method.
+- If you make any class as final, you cannot extend it.
+- Final method is inherited but you cannot override it.
+- A final variable that is not initialized at the time of declaration is known as blank final variable.
+- We can initialize a blank final variable only in constructor.
+- A static final variable that is not initialized at the time of declaration is known as static blank final variable. It can be initialized only in static block.
+- If you declare any parameter as final, you cannot change the value of it.
+- A constructor cannot be declared final because it is never inherited.
