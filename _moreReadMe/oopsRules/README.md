@@ -2,9 +2,6 @@
 
 ## Definitions, Tips & Rules related to Java OOPS
 
-### Basics
-- 
-
 ### Class & Constructor
 - A class in Java can contain: fields, methods, constructors, blocks, nested class and interface.
 - Object is an instance of a class.
@@ -125,4 +122,37 @@
 - An interface can have another interface i.e. known as nested interface.
 
 ### Package
-A java package is a group of similar types of classes, interfaces and sub-packages.
+- A java package is a group of similar types of classes, interfaces and sub-packages.
+- Java package is used to categorize the classes and interfaces, provides access protection and removes naming collision.
+- The package keyword is used to create a package. Package inside the package is called the subpackage.
+- If you import a package (package.* ), subpackages will not be imported.
+- To import subpackage, use import package.classname.
+- Use fully qualified name to access only the declared class of a package.
+- Sequence of the program must be package then import then class.
+- The standard of defining package is domain.company.package. eg - com.oracle.database
+- There can be only one public class in a java source file and it must be saved by the public class name.
+
+## Access Modifiers
+- There are two types of modifiers in java: access modifiers and non-access modifiers.
+- There are 4 types of java access modifiers: private, default, protected & public.
+- There are many non-access modifiers such as static, abstract, synchronized, native, volatile, transient etc.
+- The private access modifier is accessible only within class.
+- If you make any class constructor private, you cannot create the instance of that class from outside the class. 
+- If we don't use any modifier, it is treated as default. Default modifier is accessible only within package.
+- A Class cannot be private or protected except nested class.
+- The protected access modifier is accessible within package and outside the package but through inheritance only.
+- The public access modifier is accessible everywhere. It has the widest scope among all other modifiers.
+- If you are overriding any method, overridden method (i.e. declared in subclass) must not be more restrictive.
+
+## Encapsulation 
+- Encapsulation is a process of wrapping code and data together into a single unit.
+- To create a fully encapsulated class, make all data members of the class private, & use setter/getter methods to access data.
+- By providing only setter or getter method, you can make the class read-only or write-only.
+
+## Miscellaneous
+- The Object class is the parent class of all the classes in java by default.
+- The Cloneable interface must be implemented by the class if we want to create a clone of an object.
+- Wrapper class is used to convert primitive into object and object into primitive.
+- Autoboxing and unboxing feature converts primitive into object and object into primitive automatically.
+- There is only call by value in java, not call by reference.
+- A method in java that calls itself is called recursive method.
