@@ -379,3 +379,20 @@ System.gc();    // explicitely invoking the garbage collector
 
 **NOTE :**  Neither finalization nor garbage collection is guaranteed.
 
+## Java Runtime Class
+**Java Runtime class is used to interact with java runtime environment**. Java Runtime class provides methods to execute a process, invoke GC, get total and free memory etc. There is only one instance of java.lang.Runtime class is available for one java application. The **Runtime.getRuntime()** method returns the singleton instance of Runtime class.
+
+**Important methods of Java Runtime class :**
+<table class="alt">
+<tbody><tr><th>No.</th><th>Method</th><th>Description</th></tr>
+<tr><td>1)</td><td>public static Runtime getRuntime()</td><td>returns the instance of Runtime class.</td></tr>
+<tr><td>2)</td><td>public void exit(int status)</td><td>terminates the current virtual machine.</td></tr>
+<tr><td>3)</td><td>public void addShutdownHook(Thread hook)</td><td>registers new hook thread.</td></tr>
+<tr><td>4)</td><td>public Process exec(String command)throws IOException</td><td>executes given command in a separate process.</td></tr>
+<tr><td>5)</td><td>public int availableProcessors()</td><td>returns no. of available processors.</td></tr>
+<tr><td>6)</td><td>public long freeMemory()</td><td>returns amount of free memory in JVM.</td></tr>
+<tr><td>7)</td><td>public long totalMemory()</td><td>returns amount of total memory in JVM.</td></tr>
+</tbody></table>
+
+## Java Runtime exec() method
+
