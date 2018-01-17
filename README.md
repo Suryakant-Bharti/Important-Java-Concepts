@@ -82,7 +82,7 @@
 ### NOTES :
 *[[USEFUL INFO - Java Multithreading & Garbage Collection]](_moreReadMe/multithreading)*
 
-*[[USEFUL INFO - Java Thread Synchronization]](_moreReadMe/multithreading)*
+*[[USEFUL INFO - Java Thread Synchronization]](_moreReadMe/threadSynchronization)*
 
 *[[USEFUL INFO - Java Testing Basics]](_moreReadMe/testing)*
 
