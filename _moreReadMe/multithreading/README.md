@@ -395,4 +395,32 @@ System.gc();    // explicitely invoking the garbage collector
 </tbody></table>
 
 ## Java Runtime exec() method
+```java
+public class Runtime1{  
+ public static void main(String args[])throws Exception{  
+  Runtime.getRuntime().exec("notepad");  // Will open a new notepad  
+ }  
+}  
+```
+**Shutdown system in Java :**
+```java
+Runtime.getRuntime().exec("shutdown -s -t 0");  // Shutdown
+```
+You can use shutdown -s command to shutdown system. For windows OS, you need to provide full path of shutdown command e.g. c:\\Windows\\System32\\shutdown. Here you can use -s switch to shutdown system, -r switch to restart system and -t switch to specify time delay.
+```java
+Runtime.getRuntime().exec("c:\\Windows\\System32\\shutdown -s -t 0");  // Windows Shutdown
+```
+```java
+Runtime.getRuntime().exec("shutdown -r -t 0");  // Restart
+```
 
+**Runtime availableProcessors() method :**
+```java
+System.out.println(Runtime.getRuntime().availableProcessors());
+```
+
+**Runtime freeMemory() and totalMemory() method :**
+```java
+System.out.println("Total Memory: "+Runtime.totalMemory());  
+System.out.println("Free Memory: "+Runtime.freeMemory());  
+```
