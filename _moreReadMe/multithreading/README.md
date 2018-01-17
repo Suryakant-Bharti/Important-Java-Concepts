@@ -224,6 +224,68 @@ There are many java daemon threads running automatically e.g. gc, finalizer etc.
 
 **NOTE :** You can see all the detail by typing the jconsole in the command prompt. The jconsole tool provides information about the loaded classes, memory usage, running threads etc.
 
+**Methods for Daemon Thread:**
+- **public void setDaemon(boolean status):** is used to mark the current thread as daemon thread or user thread.
+```java
+t1.setDaemon(true);   //Now, t1 is a daemon thread  
+t1.start()
+```
+- **public boolean isDaemon():** is used to check that current is daemon.
+```java
+if(t1.isDaemon()) {
+ ...
+}
+```
 
+If you want to make a user thread as Daemon, it must not be started otherwise it will throw IllegalThreadStateException.
+```java
+t1.start();  
+t1.setDaemon(true);     //will Throw Exception Here  
+```
 
+## Java Thread Pool
+Java Thread pool represents a group of worker threads that are waiting for the job and reuse many times.
+In case of thread pool, a group of fixed size threads are created. A thread from the thread pool is pulled out and assigned a job by the service provider. After completion of the job, thread is contained in the thread pool again.
+
+**Advantage of Java Thread Pool is Better performance.** It saves time because there is no need to create new thread.
+
+**Real time usage:** It is used in Servlet and JSP where container creates a thread pool to process the request.
+
+## ThreadGroup Class in Java
+Java provides a convenient way to group multiple threads in a single object. In such way, we can suspend, resume or interrupt group of threads by a single method call. Java thread group is implemented by java.lang.ThreadGroup class.
+
+**NOTE :** Now suspend(), resume() and stop() methods are **deprecated**.
+
+**Constructors of ThreadGroup class :**
+<table class="alt">
+<tbody><tr><th>No.</th><th>Constructor</th><th>Description</th></tr>
+<tr><td>1)</td><td>ThreadGroup(String name)</td><td>creates a thread group with given name.</td></tr>
+<tr><td>2)</td><td>ThreadGroup(ThreadGroup parent, String name)</td><td>creates a thread group with given parent group and name.</td></tr>
+</tbody></table>
+
+**Important methods of ThreadGroup class :**
+<table class="alt">
+<tbody><tr><th>No.</th><th>Method</th><th>Description</th></tr>
+<tr><td>1)</td><td>int activeCount()</td><td>returns no. of threads running in current group.</td></tr>
+<tr><td>2)</td><td>int activeGroupCount()</td><td>returns a no. of active group in this thread group.</td></tr>
+<tr><td>3)</td><td>void destroy()</td><td>destroys this thread group and all its sub groups.</td></tr>
+<tr><td>4)</td><td>String getName()</td><td>returns the name of this group.</td></tr>
+<tr><td>5)</td><td>ThreadGroup getParent()</td><td>returns the parent of this group.</td></tr>
+<tr><td>6)</td><td>void interrupt()</td><td>interrupts all threads of this group.</td></tr>
+<tr><td>7)</td><td>void list()</td><td>prints information of this group to standard console.</td></tr>
+</tbody></table>
+
+**Creating group of threads :**
+```java
+ThreadGroup tg1 = new ThreadGroup("Group A");   
+Thread t1 = new Thread(tg1,new MyRunnable(),"one");     
+Thread t2 = new Thread(tg1,new MyRunnable(),"two");     
+Thread t3 = new Thread(tg1,new MyRunnable(),"three");    
+```
+Now all 3 threads belong to one group. Here, tg1 is the thread group name, MyRunnable is the class that implements Runnable interface and "one", "two" and "three" are the thread names.
+
+Now we can interrupt all threads by a single line of code only.
+```java
+Thread.currentThread().getThreadGroup().interrupt();  
+```
 
