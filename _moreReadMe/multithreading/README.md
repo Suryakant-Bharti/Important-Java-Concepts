@@ -251,6 +251,15 @@ In case of thread pool, a group of fixed size threads are created. A thread from
 
 **Real time usage:** It is used in Servlet and JSP where container creates a thread pool to process the request.
 
+**Example Syntax:**
+```java
+ExecutorService executor = Executors.newFixedThreadPool(5);  //creating a pool of 5 threads 
+```
+```java
+Runnable worker = new ...
+executor.execute(worker);   //calling execute method of ExecutorService  
+```
+
 ## ThreadGroup Class in Java
 Java provides a convenient way to group multiple threads in a single object. In such way, we can suspend, resume or interrupt group of threads by a single method call. Java thread group is implemented by java.lang.ThreadGroup class.
 
@@ -289,3 +298,40 @@ Now we can interrupt all threads by a single line of code only.
 Thread.currentThread().getThreadGroup().interrupt();  
 ```
 
+## Java Shutdown Hook
+The shutdown hook can be used to perform cleanup resource or save the state when JVM shuts down normally or abruptly. Performing clean resource means closing log file, sending some alerts or something else. So if you want to execute some code before JVM shuts down, use shutdown hook.
+
+**The JVM shuts down when:** 
+user presses ctrl+c on the command prompt, System.exit(int) method is invoked, user logoff, shutdown, etc.
+
+The **addShutdownHook()** method of Runtime class is used to register the thread with the Virtual Machine.
+```java
+public void addShutdownHook(Thread hook){}  
+```
+The object of Runtime class can be obtained by calling the static factory method getRuntime()
+```java
+Runtime r = Runtime.getRuntime();
+```
+
+**Factory method:** The method that returns the instance of a class is known as factory method.
+
+**NOTE:** The shutdown sequence can be stopped by invoking the halt(int) method of Runtime class.
+
+## Multitask 
+
+Each thread run in a separate **callstack**.
+![callstack](https://user-images.githubusercontent.com/2780145/35023526-11302878-fb61-11e7-942a-da830e4cd714.JPG)
+```java
+class TestMultitasking1 extends Thread{  
+ public void run(){  
+   System.out.println("task one");  
+ }  
+ public static void main(String args[]){  
+  TestMultitasking1 t1=new TestMultitasking1();  
+  TestMultitasking1 t2=new TestMultitasking1();    
+  t1.start();  
+  t2.start();    
+ }  } 
+```
+
+## Java Garbage Collection
