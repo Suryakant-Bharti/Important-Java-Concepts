@@ -320,6 +320,7 @@ Runtime r = Runtime.getRuntime();
 ## Multitask 
 
 Each thread run in a separate **callstack**.
+
 ![callstack](https://user-images.githubusercontent.com/2780145/35023526-11302878-fb61-11e7-942a-da830e4cd714.JPG)
 ```java
 class TestMultitasking1 extends Thread{  
