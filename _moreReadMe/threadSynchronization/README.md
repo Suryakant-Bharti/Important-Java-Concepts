@@ -68,4 +68,72 @@ synchronized static void printTable(int n){
 ![deadlock of threads](https://user-images.githubusercontent.com/2780145/35073886-2122bc2c-fc11-11e7-97a0-a04938a49227.png)
 
 Deadlock can occur in a situation when a thread is waiting for an object lock, that is acquired by another thread and second thread is waiting for an object lock that is acquired by first thread. Since, both threads are waiting for each other to release the lock, the condition is called deadlock.
+```java
+public class TestDeadlockExample1 {  
+  public static void main(String[] args) {  
+    final String resource1 = "John";  
+    final String resource2 = "Tom";  
+    
+    // t1 tries to lock resource1 then resource2  
+    Thread t1 = new Thread() {  
+      public void run() {  
+          synchronized (resource1) {  
+           System.out.println("Thread 1: locked resource 1");  
+           try { Thread.sleep(100);} catch (Exception e) {}  
+           synchronized (resource2) {  
+            System.out.println("Thread 1: locked resource 2");  
+           } } } };  
+  
+    // t2 tries to lock resource2 then resource1  
+    Thread t2 = new Thread() {  
+      public void run() {  
+        synchronized (resource2) {  
+          System.out.println("Thread 2: locked resource 2");  
+          try { Thread.sleep(100);} catch (Exception e) {}  
+          synchronized (resource1) {  
+            System.out.println("Thread 2: locked resource 1");  
+          } } } };  
+      
+    t1.start();  
+    t2.start();  
+  } } 
+```
+**Output:** 
+```
+Thread 1: locked resource 1
+Thread 2: locked resource 2
+```
+
+## Inter-Thread Communication in Java
+Inter-thread communication or Co-operation is all about allowing synchronized threads to communicate with each other. Cooperation (Inter-thread communication) is a mechanism in which a thread is paused running in its critical section and another thread is allowed to enter (or lock) in the same critical section to be executed.
+
+It is implemented by following 3 methods of **Object class:**
+1. wait()
+2. notify()
+3. notifyAll()
+
+### wait() Method
+Causes current thread to release the lock and wait until either another thread invokes the notify() method or the notifyAll() method for this object, or a specified amount of time has elapsed. The current thread must own this object's monitor, so it must be called from the synchronized method only otherwise it will throw exception.
+- public final void wait()throws InterruptedException	
+- public final void wait(long timeout)throws InterruptedException
+
+### notify() Method
+Wakes up a single thread that is waiting on this object's monitor. If any threads are waiting on this object, one of them is chosen to be awakened. The choice is arbitrary and occurs at the discretion of the implementation.
+- public final void notify()
+
+### notifyAll() Method
+Wakes up all threads that are waiting on this object's monitor.
+- public final void notifyAll()
+
+## Understanding the process of inter-thread communication
+
+
+
+
+
+
+
+
+
+
 
