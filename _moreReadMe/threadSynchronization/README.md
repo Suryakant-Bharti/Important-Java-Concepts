@@ -127,13 +127,55 @@ Wakes up all threads that are waiting on this object's monitor.
 
 ## Understanding the process of inter-thread communication
 
+![inter-thread communication](https://user-images.githubusercontent.com/2780145/35122584-44ef23e8-fcc5-11e7-9caf-581529986ace.png)
 
+**Explanation of the above diagram :**
+1. Threads enter to acquire lock.
+2. Lock is acquired by one thread.
+3. Now thread goes to waiting state if you call wait() method on the object. Otherwise, it releases the lock & exits when done.
+4. If you call notify() or notifyAll() method, thread moves to the notified state (runnable state).
+5. Now thread is available to acquire lock.
+6. After completion of the task, thread releases the lock and exits the monitor state of the object.
 
+**NOTE :** wait(), notify() and notifyAll() methods are defined in Object class not Thread class because they are related to lock and object has a lock.
 
+## Difference between wait and sleep
+<table class="alt">
+<tbody><tr><th>wait()</th><th>sleep()</th></tr>
+<tr><td>wait() method releases the lock</td><td>sleep() method doesn't release the lock.</td></tr>
+<tr><td>is a method of Object class</td><td>is a method of Thread class</td></tr>
+<tr><td>is a non-static method</td><td>is a static method</td></tr>
+<tr><td>should be notified by notify() or notifyAll() methods</td><td>after the specified amount of time, sleep is completed.</td></tr>
+</tbody></table>
 
+**Sinple Example :**
+```java
+class Customer {
+ int amount = 10000;
 
+ synchronized void withdraw(int amount) {
+  System.out.println("going to withdraw...");
+  if (this.amount < amount) {
+   System.out.println("Less balance; waiting for deposit...");
+   try { wait(); } catch (Exception e) {} 
+  }       // Doesn't consider if amount is again low after notify()
+  this.amount -= amount;
+  System.out.println("withdraw completed...");
+ }
+ 
+ synchronized void deposit(int amount) {
+  System.out.println("going to deposit...");
+  this.amount += amount;
+  System.out.println("deposit completed... ");
+  notify();
+ }
+}
 
-
-
-
-
+class Test {
+ public static void main(String args[]) {
+  final Customer c = new Customer();
+  new Thread() { public void run() { c.withdraw(15000); }}.start();
+  new Thread() { public void run() { c.deposit(10000); }}.start();
+ }
+}
+```
