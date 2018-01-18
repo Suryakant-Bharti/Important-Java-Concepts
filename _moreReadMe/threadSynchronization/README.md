@@ -5,9 +5,8 @@ Synchronization in java is the capability to control the access of multiple thre
 - To **prevent Thread Interference** (Thread interference is a condition which occurs when more than one threads, executing simultaneously, access same piece of data.).
 - To **prevent Consistency Problem** (Memory consistency errors occur when different threads have inconsistent views of what should be the same data.).
 
-**There are two types of synchronization :**
-1. Process Synchronization
-2. Thread Synchronization
+## Types of Synchronization :
+![synchronization-types](https://user-images.githubusercontent.com/2780145/35073887-214be2f0-fc11-11e7-9a84-604feca9bbb4.png)
 
 ## Thread Synchronization
 There are two types of thread synchronization mutual exclusive and inter-thread communication.
@@ -52,7 +51,21 @@ If you make any static method as synchronized, the lock will be on the class not
 
 **Problem without static synchronization :**
 
+![static synchronization](https://user-images.githubusercontent.com/2780145/35074524-596ce5f0-fc14-11e7-8fd9-e7defb2de0ae.png)
 
+Suppose there are two objects of a shared class(e.g. Table) named object1 and object2.In case of synchronized method and synchronized block there cannot be interference between t1 and t2 or t3 and t4 because t1 and t2 both refers to a common object that have a single lock.But there can be interference between t1 and t3 or t2 and t4 because t1 acquires another lock and t3 acquires another lock.I want no interference between t1 and t3 or t2 and t4.Static synchronization solves this problem.
+```java
+synchronized static void printTable(int n){  
+   for(int i=1;i<=10;i++){  
+     System.out.println(n*i);  
+     try{  Thread.sleep(200);  
+     }catch(Exception e){System.out.println(e);}  
+   }  }  
+```
 
+## Deadlock in Java
 
+![deadlock of threads](https://user-images.githubusercontent.com/2780145/35073886-2122bc2c-fc11-11e7-97a0-a04938a49227.png)
+
+Deadlock can occur in a situation when a thread is waiting for an object lock, that is acquired by another thread and second thread is waiting for an object lock that is acquired by first thread. Since, both threads are waiting for each other to release the lock, the condition is called deadlock.
 
