@@ -158,7 +158,7 @@ class Customer {
   if (this.amount < amount) {
    System.out.println("Less balance; waiting for deposit...");
    try { wait(); } catch (Exception e) {} 
-  }       // Doesn't consider if amount is again low after notify()
+  }   // Simple Eg. So, doesn't consider if amount is again low after notify()
   this.amount -= amount;
   System.out.println("withdraw completed...");
  }
@@ -179,3 +179,24 @@ class Test {
  }
 }
 ```
+
+## Interrupting a Thread
+If any thread is in sleeping or waiting state (i.e. sleep() or wait()) is invoked, calling the interrupt() method on the thread, breaks out the sleeping or waiting state throwing InterruptedException. If the thread is not in the sleeping or waiting state, calling the interrupt() method performs normal behaviour and doesn't interrupt the thread but sets the interrupt flag to true.
+
+The 3 methods provided by the Thread class for interrupting a thread :
+- public void interrupt()
+- public static boolean interrupted()
+- public boolean isInterrupted()
+
+
+
+
+
+
+
+
+
+
+
+
+
