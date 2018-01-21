@@ -1,4 +1,4 @@
-# Java vs Other Languages
+# C,C++ and Java
 
 ## C vs Java :
 
