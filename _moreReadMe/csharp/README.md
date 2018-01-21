@@ -54,14 +54,19 @@
       <td>C# supports unchecked exception.</td>
    </tr>
    <tr>
-      <td>9)</td>
+      <td>10)</td>
       <td>Java code can never use pointers.</td>
       <td>C# code can use pointers in unsafe mode.</td>
    </tr>
    <tr>
-      <td>9)</td>
+      <td>11)</td>
       <td>Java is used on all platforms.</td>
       <td>C# is used rarely outside Windows.</td>
+   </tr>
+   <tr>
+      <td>12)</td>
+      <td>Java is Free and Open-Source.</td>
+      <td>C# is not Open-Source.</td>
    </tr>
 </tbody></table>
 
