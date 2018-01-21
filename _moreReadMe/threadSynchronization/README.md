@@ -181,22 +181,64 @@ class Test {
 ```
 
 ## Interrupting a Thread
-If any thread is in sleeping or waiting state (i.e. sleep() or wait()) is invoked, calling the interrupt() method on the thread, breaks out the sleeping or waiting state throwing InterruptedException. If the thread is not in the sleeping or waiting state, calling the interrupt() method performs normal behaviour and doesn't interrupt the thread but sets the interrupt flag to true.
+An interrupt is an indication to a thread that it should stop what it is doing and do something else. It's up to the programmer to decide exactly how a thread responds to an interrupt, but it is very common for the thread to terminate.
 
 The 3 methods provided by the Thread class for interrupting a thread :
 - public void interrupt()
+If any thread is in sleeping or waiting state (i.e. sleep() or wait()) is invoked, calling the interrupt() method on the thread, breaks out the sleeping or waiting state throwing InterruptedException. If the thread is not in the sleeping or waiting state, calling the interrupt() method performs normal behaviour and doesn't interrupt the thread but sets the interrupt flag to true.
+```
+t1.interrupt();  
+```
 - public static boolean interrupted()
+The static interrupted() method returns the interrupted flag afterthat it sets the flag to false if it is true.
+```
+t1.interrupted()
+```
 - public boolean isInterrupted()
+The isInterrupted() method returns the interrupted flag either true or false.
 
+**NOTE :** If we interrupt a thread, and propagate the exception, it will stop working. If we don't want to stop the thread, we should handle it where sleep() or wait() method is invoked.
+```java
+class TestIntrpt extends Thread {
+ public void run() {
+  try { Thread.sleep(1000);
+   System.out.println("task");
+  } catch (InterruptedException e) {
+   System.out.println("Exception handled " + e); }
+  System.out.println("thread is still running after exception...");
+ }
+ public static void main(String args[]) {
+  TestIntrpt t1 = new TestIntrpt();
+  t1.start();
+  t1.interrupt();
+ }}
+```
 
+## Reentrant Monitor in Java
+According to Sun Microsystems, **Java monitors are reentrant** means java thread can reuse the same monitor for different synchronized methods if method is called from the method.
 
+**Advantage of Reentrant Monitor:** It eliminates the possibility of single thread deadlocking.
 
+**Example :**
+```java
+class Reentrant {  
+    public synchronized void m() {  
+    n();  
+    System.out.println("this is m() method"); }  
+    
+    public synchronized void n() {  
+    System.out.println("this is n() method"); }  
+}  
 
-
-
-
-
-
-
+public class ReentrantExample {
+ public static void main(String args[]) {
+  final ReentrantExample re = new ReentrantExample();
+  
+  Thread t1 = new Thread() { //creating thread using annonymous class
+   public void run() {
+    re.m(); }};  //calling m() method of Reentrant class  
+   
+  t1.start();
+ }}
 
 
