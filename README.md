@@ -145,7 +145,7 @@
 
 ## Relation of Java and Others Languages
 ### NOTES :
-*[[USEFUL INFO - C,C++,C# and Java Comparisons]](_moreReadMe/cplusplus)*
+*[[USEFUL INFO - C, C++, C# and Java Comparisons]](_moreReadMe/cplusplus)*
 
 *[[USEFUL INFO - CheatSheet | C# for Java Developers]](_moreReadMe/csharp)*
 
