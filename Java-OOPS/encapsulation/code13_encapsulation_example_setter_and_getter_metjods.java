@@ -4,7 +4,7 @@
 // ------------------- FILE 1 --------------------
 
 //save as Student.java  
-package com.javatpoint;  
+package com.pak;  
 public class Student{  
 private String name;  
    
@@ -19,7 +19,7 @@ this.name=name
 // ------------------- FILE 2 --------------------
 
 //save as Test.java  
-package com.javatpoint;  
+package com.pak;  
 class Test{  
 public static void main(String[] args){  
 Student s=new Student();  

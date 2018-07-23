@@ -4,12 +4,12 @@
 
 //save as A.java  
   
-package javatpoint;  
+package pak;  
 public class A{}  
 
 // ------------------- FILE 2 --------------------
 
 //save as B.java  
   
-package javatpoint;  
+package pak;  
 public class B{}  

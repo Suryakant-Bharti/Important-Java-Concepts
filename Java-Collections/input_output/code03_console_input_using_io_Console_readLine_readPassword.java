@@ -4,8 +4,6 @@ import java.util.*;
 /**
  * This program demonstrates how to use the Console class to read a
  * password securely.
- *
- * @author www.codejava.net
  */
 public class ConsoleLoginExample {
  

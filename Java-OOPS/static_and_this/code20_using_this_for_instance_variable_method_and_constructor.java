@@ -15,7 +15,7 @@ public class This_Example {
    }
    
    public void greet() {
-      System.out.println("Hi Welcome to Tutorialspoint");
+      System.out.println("Hi, Welcome to Java");
    }
       
    public void print() {
