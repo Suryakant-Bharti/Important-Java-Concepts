@@ -86,6 +86,8 @@
 - *We can perform polymorphism in java by method overloading and method overriding.*
 - *If you overload static method in java, it is the example of compile time polymorphism.*
 - *In Runtime polymorphism (Dynamic Method Dispatch), an overridden method is resolved at runtime rather than compile-time.*
+- *A Virtual Method is an inheritable and overridable method for which dynamic dispatch is facilitated.*
+- *All non-static, non-final and non-private methods are Virtual Methods by default.*
 - *When reference variable of Parent class refers to the object of Child class, it is known as upcasting.*
 - *Method is overridden not the datamembers, so runtime polymorphism can't be achieved by data members.*
 - *Connecting a method call to the method body is known as binding.*
