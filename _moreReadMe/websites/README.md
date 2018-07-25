@@ -20,6 +20,8 @@ StudyTonight
 
 ### Blogs
 
+Medium
+
 Vogella
 
-Medium
+Baeldung
