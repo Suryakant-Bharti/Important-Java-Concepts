@@ -83,11 +83,11 @@
 
 ### PROGRAMS :
 
-#### GOF Design Patterns - Creational
+#### Design Patterns - Creational
 
-#### GOF Design Patterns - Structural
+#### Design Patterns - Structural
 
-#### GOF Design Patterns - Behavioral
+#### Design Patterns - Behavioral
 
 #### SOLID Design Principles 
 
