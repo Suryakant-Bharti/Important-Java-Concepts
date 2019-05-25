@@ -9,7 +9,8 @@
 - *Java Fundamentals*
 - *Java Object-Oriented Programming*
 - *Java Collections Framework*
-- *Java Multithreading*
+- *Design Patterns in Java*
+- *Multithreading in Java*
 - *Unit Testing in Java*
 - *Data Structures in Java*
 - *Algorithms in Java*
