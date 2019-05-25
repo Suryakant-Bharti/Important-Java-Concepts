@@ -9,7 +9,8 @@
 - *Java Fundamentals*
 - *Java Object-Oriented Programming*
 - *Java Collections Framework*
-- *Java Multithreading*
+- *Design Patterns in Java*
+- *Multithreading in Java*
 - *Unit Testing in Java*
 - *Data Structures in Java*
 - *Algorithms in Java*
@@ -78,7 +79,26 @@
 
 .
 
-## [3] Java - Concurrency & Other Advanced Topics [WIP]
+## [3] Software Design [WIP]
+
+### NOTES :
+*[[USEFUL INFO - Design Patterns Intro]](_moreReadMe/design_patterns_intro)*
+
+### PROGRAMS :
+
+#### Design Patterns - Creational
+
+#### Design Patterns - Structural
+
+#### Design Patterns - Behavioral
+
+#### SOLID Design Principles 
+
+#### Design Interview Questions
+
+.
+
+## [4] Java - Concurrency & Other Advanced Topics [WIP]
 ### NOTES :
 *[[USEFUL INFO - Java Multithreading & Garbage Collection]](_moreReadMe/multithreading)*
 
