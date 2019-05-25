@@ -79,7 +79,7 @@
 
 .
 
-## [4]. Software Design [WIP]
+## [3] Software Design [WIP]
 
 ### PROGRAMS :
 
@@ -95,7 +95,7 @@
 
 .
 
-## [3] Java - Concurrency & Other Advanced Topics [WIP]
+## [4] Java - Concurrency & Other Advanced Topics [WIP]
 ### NOTES :
 *[[USEFUL INFO - Java Multithreading & Garbage Collection]](_moreReadMe/multithreading)*
 
