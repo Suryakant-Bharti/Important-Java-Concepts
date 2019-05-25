@@ -81,6 +81,9 @@
 
 ## [3] Software Design [WIP]
 
+### NOTES :
+*[[USEFUL INFO - Design Patterns Intro]](_moreReadMe/design_patterns_intro)*
+
 ### PROGRAMS :
 
 #### Design Patterns - Creational
