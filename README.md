@@ -78,6 +78,22 @@
 
 .
 
+## [4]. Software Design [WIP]
+
+### PROGRAMS :
+
+#### GOF Design Patterns - Creational
+
+#### GOF Design Patterns - Structural
+
+#### GOF Design Patterns - Behavioral
+
+#### SOLID Design Principles 
+
+#### Design Interview Questions
+
+.
+
 ## [3] Java - Concurrency & Other Advanced Topics [WIP]
 ### NOTES :
 *[[USEFUL INFO - Java Multithreading & Garbage Collection]](_moreReadMe/multithreading)*
