@@ -98,7 +98,7 @@
 
 .
 
-## [4] Java - Concurrency & Other Advanced Topics [WIP]
+## [4] Java - Concurrency & Other Topics [WIP]
 ### NOTES :
 *[[USEFUL INFO - Java Multithreading & Garbage Collection]](_moreReadMe/multithreading)*
 
@@ -129,7 +129,7 @@
 
 .
 
-## [4] Basic Data Structures & Algorithms [WIP]
+## [5] Data Structures & Algorithms [WIP]
 ### NOTES :
 *[[USEFUL INFO - Common Data Structures]](_moreReadMe/ds)*
 
