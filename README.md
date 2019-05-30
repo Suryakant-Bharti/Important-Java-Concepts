@@ -142,21 +142,21 @@
 *[[USEFUL INFO - Big O Cheat Sheet]](_moreReadMe/bigO)*
 
 ### PROGRAMS :
-#### [Linked List DS](DS-Algo/linked_lists)
+#### [Linked List DS](Java-DS-Algo/linked_lists)
 
 #### BST & Heap DS
 
-#### [Searching](DS-Algo/searching)
+#### [Searching](Java-DS-Algo/searching)
 
-#### [Sorting](DS-Algo/sorting)
+#### [Sorting](Java-DS-Algo/sorting)
 
-#### [Tree Traversal](DS-Algo/tree_traversal)
+#### [Tree Traversal](Java-DS-Algo/tree_traversal)
 
-#### [Graph Traversal](DS-Algo/graph_traversal)
+#### [Graph Traversal](Java-DS-Algo/graph_traversal)
 
-#### [Graph Algorithms](DS-Algo/graph_classic_algos)
+#### [Graph Algorithms](Java-DS-Algo/graph_classic_algos)
 
-#### [Dynamic Programming](DS-Algo/dynamic_programming)
+#### [Dynamic Programming](Java-DS-Algo/dynamic_programming)
 
 ### EXTERNAL LINKS :
 **More DS/Algo Programs -** My Repository for Coding Questions (To Do)
