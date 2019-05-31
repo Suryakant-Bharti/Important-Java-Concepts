@@ -78,25 +78,7 @@
 
 [Smarter way to learn jQuery](https://www.amazon.com/Smarter-Way-Learn-jQuery-Remember/dp/1523986468)
 
-### Core & Others
-
-Operating Systems
-
-Computer Networks
-
-Computer Architecture
-
-Database Systems
-
-Software Engineering
-
-Theory of Computation
-
-Discrete Mathematics
-
-Formal Logic
-
-### Advanced
+### Others
 
 Object Oriented Analysis & Design
 
