@@ -14,6 +14,8 @@
 
 ### Quality Development
 
+[Clean Architecture](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164/)
+
 [Clean Code](https://www.amazon.com/dp/0132350882)
 
 [The Clean Coder](https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073)
