@@ -52,7 +52,7 @@
 ### NOTES :
 *[[USEFUL INFO - Java Generics]](_moreReadMe/generics)*
 
-*[[USEFUL INFO - Java Collections Framework]](Java-Collections)*
+*[[USEFUL INFO - Java Collections Framework]](Java-BasicsII-Collections)*
 
 *[[USEFUL INFO - Java Errors and Exception Handling]](_moreReadMe/exceptions)*
 
@@ -61,21 +61,21 @@
 *[[USEFUL INFO - Java Serialization]](_moreReadMe/serialization)*
 
 ### PROGRAMS :
-#### [Generics in Java](Java-Collections/generics)
+#### [Generics in Java](Java-BasicsII-Collections/generics)
 
-#### [Collection Interface (List,Set,Queue)](Java-Collections/collection_interface)
+#### [Collection Interface (List,Set,Queue)](Java-BasicsII-Collections/collection_interface)
 
-#### [Map Interface (Map)](Java-Collections/map_interface)
+#### [Map Interface (Map)](Java-BasicsII-Collections/map_interface)
 
-#### [Legacy (Enum,Vector,Stack,etc)](Java-Collections/legacy_ds)
+#### [Legacy (Enum,Vector,Stack,etc)](Java-BasicsII-Collections/legacy_ds)
 
-#### [Collections Class](Java-Collections/collections_class)
+#### [Collections Class](Java-BasicsII-Collections/collections_class)
 
-#### [Exception Handling](Java-Collections/exceptions)
+#### [Exception Handling](Java-BasicsII-Collections/exceptions)
 
-#### [Files and I/O](Java-Collections/input_output)
+#### [Files and I/O](Java-BasicsII-Collections/input_output)
 
-#### [Serialization](Java-Collections/serialization)
+#### [Serialization](Java-BasicsII-Collections/serialization)
 
 .
 
