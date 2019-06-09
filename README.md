@@ -44,7 +44,7 @@
 
 #### [Arrays](Java-BasicsI-and-OOPS/arrays) | [Strings](Java-BasicsI-and-OOPS/strings) | [Date & Time](Java-BasicsI-and-OOPS/date_time)
 
-#### [Misc](Java-BasicsI-and-OOPS/miscellaneous) | [Recursion](Java-BasicsI-and-OOPS/recursion_programs) | [Basic Programs](Java-BasicsI-and-OOPS/basic_programs)
+#### [Misc](Java-BasicsI-and-OOPS/miscellaneous) | [Basic Programs](Java-BasicsI-and-OOPS/basic_programs) | [Recursion Programs](Java-BasicsI-and-OOPS/recursion_programs)
 
 .
 
