@@ -17,17 +17,17 @@
 
 ![quote banner](https://user-images.githubusercontent.com/2780145/34341843-fa43f72c-e9c5-11e7-88e8-f3b863448262.png)
 ## [1] Java - Fundamentals & OOPS [Done]
-### NOTES :
+### NOTES [Useful Info] :
 
-*[[USEFUL INFO - All 50 Java Keywords with definitions & examples]](_moreReadMe/keywords)*
+*[-> All 50 Java Keywords with definitions & examples](_moreReadMe/keywords)*
 
-*[[USEFUL INFO - Java Features, Execution Process & JVM Internals]](_moreReadMe/howItWorks)*
+*[-> Java Features, Execution Process & JVM Internals](_moreReadMe/howItWorks)*
 
-*[[USEFUL INFO - Java Fundamentals & OOPS Concepts]](Java-BasicsI-and-OOPS)*
+*[-> Java Fundamentals & OOPS Concepts](Java-BasicsI-and-OOPS)*
 
-*[[USEFUL INFO - Java OOPS - few points to remember]](_moreReadMe/oopsRules)*
+*[-> Java OOPS - few points to remember](_moreReadMe/oopsRules)*
 
-*[[USEFUL INFO - Methods of Number, Char, String, Array Classes]](_moreReadMe/importantMethods)*
+*[-> Methods of Number, Char, String, Array Classes](_moreReadMe/importantMethods)*
 
 ### PROGRAMS :
 #### [Variables & Operators](Java-BasicsI-and-OOPS/variables_and_operators) | [Control Flow](Java-BasicsI-and-OOPS/control_flow) 
@@ -49,16 +49,16 @@
 .
 
 ## [2] Java - Generics, Collections, Exceptions, I/O [Done]
-### NOTES :
-*[[USEFUL INFO - Java Generics]](_moreReadMe/generics)*
+### NOTES [Useful Info] :
+*[-> Java Generics](_moreReadMe/generics)*
 
-*[[USEFUL INFO - Java Collections Framework]](Java-BasicsII-and-Collections)*
+*[-> Java Collections Framework](Java-BasicsII-and-Collections)*
 
-*[[USEFUL INFO - Java Errors and Exception Handling]](_moreReadMe/exceptions)*
+*[-> Java Errors and Exception Handling](_moreReadMe/exceptions)*
 
-*[[USEFUL INFO - Java Files and I/O]](_moreReadMe/input_output)*
+*[-> Java Files and I/O](_moreReadMe/input_output)*
 
-*[[USEFUL INFO - Java Serialization]](_moreReadMe/serialization)*
+*[-> Java Serialization](_moreReadMe/serialization)*
 
 ### PROGRAMS :
 #### [Generics in Java](Java-BasicsII-and-Collections/generics)
@@ -81,8 +81,8 @@
 
 ## [3] Software Design [WIP]
 
-### NOTES :
-*[[USEFUL INFO - Design Patterns Intro]](_moreReadMe/design_patterns_intro)*
+### NOTES [Useful Info] :
+*[-> Design Patterns Intro](_moreReadMe/design_patterns_intro)*
 
 ### PROGRAMS :
 
@@ -99,16 +99,16 @@
 .
 
 ## [4] Java - Concurrency & Other Topics [WIP]
-### NOTES :
-*[[USEFUL INFO - Java Multithreading & Garbage Collection]](_moreReadMe/multithreading)*
+### NOTES [Useful Info] :
+*[-> Java Multithreading & Garbage Collection](_moreReadMe/multithreading)*
 
-*[[USEFUL INFO - Java Thread Synchronization]](_moreReadMe/threadSynchronization)*
+*[-> Java Thread Synchronization](_moreReadMe/threadSynchronization)*
 
-*[[USEFUL INFO - Java Testing Basics]](_moreReadMe/testing)*
+*[-> Java Testing Basics](_moreReadMe/testing)*
 
-*[[USEFUL INFO - Java Class Design Basic]](_moreReadMe/class_relations)*
+*[-> Java Class Design Basic](_moreReadMe/class_relations)*
 
-*[[USEFUL INFO - Java RegEx & Lambda Expressions]](_moreReadMe/regex_and_lambda)*
+*[-> Java RegEx & Lambda Expressions](_moreReadMe/regex_and_lambda)*
 
 ### PROGRAMS :
 #### [Multithreading](Java-Concurrency/multithreading)
@@ -130,16 +130,16 @@
 .
 
 ## [5] Data Structures & Algorithms [WIP]
-### NOTES :
-*[[USEFUL INFO - Common Data Structures]](_moreReadMe/ds)*
+### NOTES [Useful Info] :
+*[-> Common Data Structures](_moreReadMe/ds)*
 
-*[[USEFUL INFO - Searching and Sorting Algorithms]](_moreReadMe/search_sort)*
+*[-> Searching and Sorting Algorithms](_moreReadMe/search_sort)*
 
-*[[USEFUL INFO - Tree and Graph Algorithms]](_moreReadMe/tree_graph)*
+*[-> Tree and Graph Algorithms](_moreReadMe/tree_graph)*
 
-*[[USEFUL INFO - Concepts of Dynamic Programming]](_moreReadMe/dp)*
+*[-> Concepts of Dynamic Programming](_moreReadMe/dp)*
 
-*[[USEFUL INFO - Big O Cheat Sheet]](_moreReadMe/bigO)*
+*[-> Big O Cheat Sheet](_moreReadMe/bigO)*
 
 ### PROGRAMS :
 #### [Linked List DS](Java-DataStructures-Algorithms/linked_lists)
