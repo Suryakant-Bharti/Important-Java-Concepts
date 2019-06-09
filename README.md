@@ -80,7 +80,15 @@
 ## [3] Software Design [WIP]
 
 ### NOTES [Useful Info] :
-*[-> Design Patterns Intro](_moreReadMe/design_patterns_intro)*
+*[-> Introduction to Design Patterns](_moreReadMe/design_patterns_intro)*
+
+*[-> Creational Design Patterns](_moreReadMe/design_patterns_creational)*
+
+*[-> Structural Design Patterns](_moreReadMe/design_patterns_structural)*
+
+*[-> Behavioral Design Patterns](_moreReadMe/design_patterns_behavioral)*
+
+*[-> Design Patterns Cheat Sheet](_moreReadMe/design_patterns_cheat_sheet)*
 
 ### PROGRAMS :
 
