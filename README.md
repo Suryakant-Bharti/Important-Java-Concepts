@@ -23,28 +23,28 @@
 
 *[[USEFUL INFO - Java Features, Execution Process & JVM Internals]](_moreReadMe/howItWorks)*
 
-*[[USEFUL INFO - Java Fundamentals & OOPS Concepts]](Java-Basics-OOPS)*
+*[[USEFUL INFO - Java Fundamentals & OOPS Concepts]](Java-Basics-and-OOPS)*
 
 *[[USEFUL INFO - Java OOPS - few points to remember]](_moreReadMe/oopsRules)*
 
 *[[USEFUL INFO - Methods of Number, Char, String, Array Classes]](_moreReadMe/importantMethods)*
 
 ### PROGRAMS :
-#### [Variables & Operators](Java-Basics-OOPS/variables_and_operators) | [Control Flow](Java-Basics-OOPS/control_flow) 
+#### [Variables & Operators](Java-Basics-and-OOPS/variables_and_operators) | [Control Flow](Java-Basics-and-OOPS/control_flow) 
 
-#### [Classes & Objects](Java-Basics-OOPS/class_and_object) | [static & this](Java-Basics-OOPS/static_and_this) | [Inner Classes](Java-Basics-OOPS/inner_class)
+#### [Classes & Objects](Java-Basics-and-OOPS/class_and_object) | [static & this](Java-Basics-and-OOPS/static_and_this) | [Inner Classes](Java-Basics-and-OOPS/inner_class)
 
-#### [Inheritance (is-a)](Java-Basics-OOPS/inheritance) | [Association (has-a, part-of)](Java-Basics-OOPS/association)
+#### [Inheritance (is-a)](Java-Basics-and-OOPS/inheritance) | [Association (has-a, part-of)](Java-Basics-and-OOPS/association)
 
-#### [Overloading](Java-Basics-OOPS/method_overloading) | [Overriding](Java-Basics-OOPS/method_overriding) | [super & final](Java-Basics-OOPS/super_and_final)
+#### [Overloading](Java-Basics-and-OOPS/method_overloading) | [Overriding](Java-Basics-and-OOPS/method_overriding) | [super & final](Java-Basics-and-OOPS/super_and_final)
 
-#### [Runtime Polymorphism](Java-Basics-OOPS/runtime_polymorphism) | [instanceof](Java-Basics-OOPS/instanceof)
+#### [Runtime Polymorphism](Java-Basics-and-OOPS/runtime_polymorphism) | [instanceof](Java-Basics-and-OOPS/instanceof)
 
-#### [Abstraction](Java-Basics-OOPS/abstraction) | [Interfaces](Java-Basics-OOPS/interfaces) | [Encapsulation](Java-Basics-OOPS/encapsulation)
+#### [Abstraction](Java-Basics-and-OOPS/abstraction) | [Interfaces](Java-Basics-and-OOPS/interfaces) | [Encapsulation](Java-Basics-and-OOPS/encapsulation)
 
-#### [Arrays](Java-Basics-OOPS/arrays) | [Strings](Java-Basics-OOPS/strings) | [Date & Time](Java-Basics-OOPS/date_time)
+#### [Arrays](Java-Basics-and-OOPS/arrays) | [Strings](Java-Basics-and-OOPS/strings) | [Date & Time](Java-Basics-and-OOPS/date_time)
 
-#### [Misc](Java-Basics-OOPS/miscellaneous) | [Recursion](Java-Basics-OOPS/recursion) | [Basic Programs](Java-Basics-OOPS/basic_programs)
+#### [Misc](Java-Basics-and-OOPS/miscellaneous) | [Recursion](Java-Basics-and-OOPS/recursion) | [Basic Programs](Java-Basics-and-OOPS/basic_programs)
 
 .
 
@@ -52,7 +52,7 @@
 ### NOTES :
 *[[USEFUL INFO - Java Generics]](_moreReadMe/generics)*
 
-*[[USEFUL INFO - Java Collections Framework]](Java-BasicsII-Collections)*
+*[[USEFUL INFO - Java Collections Framework]](Java-BasicsII-and-Collections)*
 
 *[[USEFUL INFO - Java Errors and Exception Handling]](_moreReadMe/exceptions)*
 
@@ -61,21 +61,21 @@
 *[[USEFUL INFO - Java Serialization]](_moreReadMe/serialization)*
 
 ### PROGRAMS :
-#### [Generics in Java](Java-BasicsII-Collections/generics)
+#### [Generics in Java](Java-BasicsII-and-Collections/generics)
 
-#### [Collection Interface (List,Set,Queue)](Java-BasicsII-Collections/collection_interface)
+#### [Collection Interface (List,Set,Queue)](Java-BasicsII-and-Collections/collection_interface)
 
-#### [Map Interface (Map)](Java-BasicsII-Collections/map_interface)
+#### [Map Interface (Map)](Java-BasicsII-and-Collections/map_interface)
 
-#### [Legacy (Enum,Vector,Stack,etc)](Java-BasicsII-Collections/legacy_ds)
+#### [Legacy (Enum,Vector,Stack,etc)](Java-BasicsII-and-Collections/legacy_ds)
 
-#### [Collections Class](Java-BasicsII-Collections/collections_class)
+#### [Collections Class](Java-BasicsII-and-Collections/collections_class)
 
-#### [Exception Handling](Java-BasicsII-Collections/exceptions)
+#### [Exception Handling](Java-BasicsII-and-Collections/exceptions)
 
-#### [Files and I/O](Java-BasicsII-Collections/input_output)
+#### [Files and I/O](Java-BasicsII-and-Collections/input_output)
 
-#### [Serialization](Java-BasicsII-Collections/serialization)
+#### [Serialization](Java-BasicsII-and-Collections/serialization)
 
 .
 
@@ -111,13 +111,13 @@
 *[[USEFUL INFO - Java RegEx & Lambda Expressions]](_moreReadMe/regex_and_lambda)*
 
 ### PROGRAMS :
-#### [Multithreading](Java-Concepts/multithreading)
+#### [Multithreading](Java-Concurrency/multithreading)
 
-#### [Thread Synchronization](Java-Concepts/synchronization)
+#### [Thread Synchronization](Java-Concurrency/synchronization)
 
-#### [Regular Expressions](Java-Concepts/regex)
+#### [Regular Expressions](Java-Concurrency/regex)
 
-#### [Lambda Expressions](Java-Concepts/lambda)
+#### [Lambda Expressions](Java-Concurrency/lambda)
 
 #### BigDecimal & BigIntegar
 
@@ -142,21 +142,21 @@
 *[[USEFUL INFO - Big O Cheat Sheet]](_moreReadMe/bigO)*
 
 ### PROGRAMS :
-#### [Linked List DS](Java-DS-Algo/linked_lists)
+#### [Linked List DS](Java-DataStructures-Algorithms/linked_lists)
 
 #### BST & Heap DS
 
-#### [Searching](Java-DS-Algo/searching)
+#### [Searching](Java-DataStructures-Algorithms/searching)
 
-#### [Sorting](Java-DS-Algo/sorting)
+#### [Sorting](Java-DataStructures-Algorithms/sorting)
 
-#### [Tree Traversal](Java-DS-Algo/tree_traversal)
+#### [Tree Traversal](Java-DataStructures-Algorithms/tree_traversal)
 
-#### [Graph Traversal](Java-DS-Algo/graph_traversal)
+#### [Graph Traversal](Java-DataStructures-Algorithms/graph_traversal)
 
-#### [Graph Algorithms](Java-DS-Algo/graph_classic_algos)
+#### [Graph Algorithms](Java-DataStructures-Algorithms/graph_classic_algos)
 
-#### [Dynamic Programming](Java-DS-Algo/dynamic_programming)
+#### [Dynamic Programming](Java-DataStructures-Algorithms/dynamic_programming)
 
 ### EXTERNAL LINKS :
 **More DS/Algo Programs -** My Repository for Coding Questions (To Do)
