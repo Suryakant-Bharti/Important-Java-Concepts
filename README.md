@@ -82,13 +82,13 @@
 ### NOTES [Useful Info] :
 *[-> Introduction to Design Patterns](_moreReadMe/design_patterns_intro)*
 
-*[-> Creational Design Patterns](_moreReadMe/design_patterns_creational)*
+*[-> Creational Design Patterns](Java-Design-Patterns/gof_creational)*
 
-*[-> Structural Design Patterns](_moreReadMe/design_patterns_structural)*
+*[-> Structural Design Patterns](Java-Design-Patterns/gof_structural)*
 
-*[-> Behavioral Design Patterns](_moreReadMe/design_patterns_behavioral)*
+*[-> Behavioral Design Patterns](Java-Design-Patterns/gof_behavioral)*
 
-*[-> Design Patterns Cheat Sheet](_moreReadMe/design_patterns_cheat_sheet)*
+*[-> Design Patterns Cheat Sheet](_moreReadMe/design_patterns_cheatsheet)*
 
 ### PROGRAMS :
 
