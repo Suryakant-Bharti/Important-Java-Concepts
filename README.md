@@ -115,9 +115,9 @@
 
 #### [Thread Synchronization](Java-Concurrency/synchronization)
 
-#### [Regular Expressions](Java-Concurrency/regex)
+#### [Regular Expressions](Java-Other-Advanced-Concepts/regex)
 
-#### [Lambda Expressions](Java-Concurrency/lambda)
+#### [Lambda Expressions](Java-Other-Advanced-Concepts/lambda)
 
 #### BigDecimal & BigIntegar
 
