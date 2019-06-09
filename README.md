@@ -84,11 +84,11 @@
 
 ### PROGRAMS :
 
-#### Design Patterns - Creational
+#### [GOF Design Patterns - Creational](Java-Design-Patters/gof_creational)
 
-#### Design Patterns - Structural
+#### [GOF Design Patterns - Structural](Java-Design-Patters/gof_structural)
 
-#### Design Patterns - Behavioral
+#### [GOF Design Patterns - Behavioral](Java-Design-Patters/gof_behavioral)
 
 #### SOLID Design Principles 
 
