@@ -42,9 +42,7 @@
 
 #### [Abstraction](Java-BasicsI-and-OOPS/abstraction) | [Interfaces](Java-BasicsI-and-OOPS/interfaces) | [Encapsulation](Java-BasicsI-and-OOPS/encapsulation)
 
-#### [Arrays](Java-BasicsI-and-OOPS/arrays) | [Strings](Java-BasicsI-and-OOPS/strings) | [Date & Time](Java-BasicsI-and-OOPS/date_time)
-
-#### [Misc](Java-BasicsI-and-OOPS/miscellaneous) | [Basic Programs](Java-BasicsI-and-OOPS/basic_programs) | [Recursion Programs](Java-BasicsI-and-OOPS/recursion_programs)
+#### [Arrays](Java-BasicsI-and-OOPS/arrays) | [Strings](Java-BasicsI-and-OOPS/strings) | [Date & Time](Java-BasicsI-and-OOPS/date_time) | [Misc](Java-BasicsI-and-OOPS/miscellaneous)
 
 .
 
@@ -142,6 +140,8 @@
 *[-> Big O Cheat Sheet](_moreReadMe/bigO)*
 
 ### PROGRAMS :
+#### [Basic Programs](Java-DataStructures-Algorithms/basic_programs) | [Recursion Programs](Java-DataStructures-Algorithms/recursion_programs)
+
 #### [Linked List DS](Java-DataStructures-Algorithms/linked_lists)
 
 #### BST & Heap DS
