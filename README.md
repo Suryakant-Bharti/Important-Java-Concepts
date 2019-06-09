@@ -23,28 +23,28 @@
 
 *[[USEFUL INFO - Java Features, Execution Process & JVM Internals]](_moreReadMe/howItWorks)*
 
-*[[USEFUL INFO - Java Fundamentals & OOPS Concepts]](Java-Basics-and-OOPS)*
+*[[USEFUL INFO - Java Fundamentals & OOPS Concepts]](Java-BasicsI-and-OOPS)*
 
 *[[USEFUL INFO - Java OOPS - few points to remember]](_moreReadMe/oopsRules)*
 
 *[[USEFUL INFO - Methods of Number, Char, String, Array Classes]](_moreReadMe/importantMethods)*
 
 ### PROGRAMS :
-#### [Variables & Operators](Java-Basics-and-OOPS/variables_and_operators) | [Control Flow](Java-Basics-and-OOPS/control_flow) 
+#### [Variables & Operators](Java-BasicsI-and-OOPS/variables_and_operators) | [Control Flow](Java-BasicsI-and-OOPS/control_flow) 
 
-#### [Classes & Objects](Java-Basics-and-OOPS/class_and_object) | [static & this](Java-Basics-and-OOPS/static_and_this) | [Inner Classes](Java-Basics-and-OOPS/inner_class)
+#### [Classes & Objects](Java-BasicsI-and-OOPS/class_and_object) | [static & this](Java-BasicsI-and-OOPS/static_and_this) | [Inner Classes](Java-BasicsI-and-OOPS/inner_class)
 
-#### [Inheritance (is-a)](Java-Basics-and-OOPS/inheritance) | [Association (has-a, part-of)](Java-Basics-and-OOPS/association)
+#### [Inheritance (is-a)](Java-BasicsI-and-OOPS/inheritance) | [Association (has-a, part-of)](Java-BasicsI-and-OOPS/association)
 
-#### [Overloading](Java-Basics-and-OOPS/method_overloading) | [Overriding](Java-Basics-and-OOPS/method_overriding) | [super & final](Java-Basics-and-OOPS/super_and_final)
+#### [Overloading](Java-BasicsI-and-OOPS/method_overloading) | [Overriding](Java-BasicsI-and-OOPS/method_overriding) | [super & final](Java-BasicsI-and-OOPS/super_and_final)
 
-#### [Runtime Polymorphism](Java-Basics-and-OOPS/runtime_polymorphism) | [instanceof](Java-Basics-and-OOPS/instanceof)
+#### [Runtime Polymorphism](Java-BasicsI-and-OOPS/runtime_polymorphism) | [instanceof](Java-BasicsI-and-OOPS/instanceof)
 
-#### [Abstraction](Java-Basics-and-OOPS/abstraction) | [Interfaces](Java-Basics-and-OOPS/interfaces) | [Encapsulation](Java-Basics-and-OOPS/encapsulation)
+#### [Abstraction](Java-BasicsI-and-OOPS/abstraction) | [Interfaces](Java-BasicsI-and-OOPS/interfaces) | [Encapsulation](Java-BasicsI-and-OOPS/encapsulation)
 
-#### [Arrays](Java-Basics-and-OOPS/arrays) | [Strings](Java-Basics-and-OOPS/strings) | [Date & Time](Java-Basics-and-OOPS/date_time)
+#### [Arrays](Java-BasicsI-and-OOPS/arrays) | [Strings](Java-BasicsI-and-OOPS/strings) | [Date & Time](Java-BasicsI-and-OOPS/date_time)
 
-#### [Misc](Java-Basics-and-OOPS/miscellaneous) | [Recursion](Java-Basics-and-OOPS/recursion) | [Basic Programs](Java-Basics-and-OOPS/basic_programs)
+#### [Misc](Java-BasicsI-and-OOPS/miscellaneous) | [Recursion](Java-BasicsI-and-OOPS/recursion) | [Basic Programs](Java-BasicsI-and-OOPS/basic_programs)
 
 .
 
