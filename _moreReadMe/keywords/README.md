@@ -6,7 +6,7 @@ Table below lists 48 Keywords in Java; excluding the keywords goto and const bec
 
 ## 1) abstract
 
-abstract keyword is used to implement the abstraction in java. A method which doesn’t have method definition must be declared as abstract and the class containing it must be declared as abstract. You can’t instantiate abstract classes. Abstract methods must be implemented in the sub classes. You can’t use abstract keyword with variables and constructors. [See more]
+abstract keyword is used to implement the abstraction in java. A method which doesn’t have method definition must be declared as abstract and the class containing it must be declared as abstract. You can’t instantiate abstract classes. Abstract methods must be implemented in the sub classes. You can’t use abstract keyword with variables and constructors.
 
 ```java
 abstract class AbstractClass
@@ -123,7 +123,7 @@ public class MainClass
 
 ## 8) try     9) catch     10) finally
 
-try, catch and finally keywords are used to handle the exceptions in java. The statements which are to be monitored for exceptions are kept in the try block. The exceptions thrown by the try block are caught in the catch block. finally block is always executed. [See more]
+try, catch and finally keywords are used to handle the exceptions in java. The statements which are to be monitored for exceptions are kept in the try block. The exceptions thrown by the try block are caught in the catch block. finally block is always executed.
 
 
 ```java
@@ -322,7 +322,7 @@ class SubClass extends SuperClass
 
 ## 21) final
 
-final keyword is used when a class or a method or a field doesn’t need further modifications. final class can’t be extended, final method can’t be overridden and the value of a final field can’t be changed. [See more]
+final keyword is used when a class or a method or a field doesn’t need further modifications. final class can’t be extended, final method can’t be overridden and the value of a final field can’t be changed.
 
 
 ```java
@@ -398,7 +398,7 @@ class MyClass implements MyInterface
 
 ## 25) import
 
-import keyword is used to import the members of a particular package into current java file. [See more]
+import keyword is used to import the members of a particular package into current java file.
 
 
 ```java
@@ -616,7 +616,7 @@ short s2 = 22;
 
 ## 38) static
 
-static keyword is used to define the class level members of a class. static members of a class are stored in the class memory and you can access them directly through class name. No need to instantiate a class. [See more]
+static keyword is used to define the class level members of a class. static members of a class are stored in the class memory and you can access them directly through class name. No need to instantiate a class.
 
 
 ```java
@@ -705,7 +705,7 @@ class B extends A
 
 ## 41) synchronized
 
-synchronized keyword is used to implement the synchronization in java. only one thread can enter into a method or a block which is declared as synchronized. Any thread which wants to enter synchronized method or block must acquire object lock of those methods or blocks. [See more]
+synchronized keyword is used to implement the synchronization in java. only one thread can enter into a method or a block which is declared as synchronized. Any thread which wants to enter synchronized method or block must acquire object lock of those methods or blocks.
 
 
 ```java
@@ -762,7 +762,7 @@ class AnyClass
 
 ## 43) throw
 
-throw keyword is used to throw the exceptions manually. [See more]
+throw keyword is used to throw the exceptions manually.
 
 
 ```java
@@ -786,7 +786,7 @@ public class MainClass
 
 ## 44) throws
 
-throws keyword is used to specify the exceptions which the current method may throw. [See more]
+throws keyword is used to specify the exceptions which the current method may throw.
 
 
 ```java
