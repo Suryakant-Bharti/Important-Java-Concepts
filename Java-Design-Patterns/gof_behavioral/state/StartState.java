@@ -1,4 +1,4 @@
-package gof_design_patterns.behavioral.state;
+package Java-Design-Patterns.gof_behavioral.state;
 
 public class StartState implements State {
 

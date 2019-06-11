@@ -1,4 +1,4 @@
-package gof_design_patterns.creational.abstractfactory;
+package Java-Design-Patterns.gof_creational.abstractfactory;
 
 public class EducationLoan extends Loan {
 

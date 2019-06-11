@@ -1,4 +1,4 @@
-package gof_design_patterns.creational.builder;
+package Java-Design-Patterns.gof_creational.builder;
 
 public class Person {
 

@@ -1,4 +1,4 @@
-package gof_design_patterns.behavioral.mediator;
+package Java-Design-Patterns.gof_behavioral.mediator;
 
 public class User {
     private String name;

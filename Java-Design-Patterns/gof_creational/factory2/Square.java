@@ -1,4 +1,4 @@
-package gof_design_patterns.creational.factory2;
+package Java-Design-Patterns.gof_creational.factory2;
 
 public class Square implements Shape {
 

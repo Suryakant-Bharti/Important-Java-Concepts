@@ -1,4 +1,4 @@
-package gof_design_patterns.behavioral.iterator;
+package Java-Design-Patterns.gof_behavioral.iterator;
 
 public class NameRepository implements Container {
 

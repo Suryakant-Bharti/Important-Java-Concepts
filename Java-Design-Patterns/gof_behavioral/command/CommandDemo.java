@@ -1,12 +1,12 @@
-package gof_design_patterns.behavioral.command;
+package Java-Design-Patterns.gof_behavioral.command;
 
 public class CommandDemo {
     public static void main(String[] args) {
 
-        Stock stock1 = new Stock("Google", 10);
+        Java.Stock stock1 = new Java.Stock("Google", 10);
 
-        BuyStock buyStock = new BuyStock(stock1);
-        SellStock sellStock = new SellStock(stock1);
+        Java.BuyStock buyStock = new Java.BuyStock(stock1);
+        Java.SellStock sellStock = new Java.SellStock(stock1);
 
         Broker broker = new Broker();
 

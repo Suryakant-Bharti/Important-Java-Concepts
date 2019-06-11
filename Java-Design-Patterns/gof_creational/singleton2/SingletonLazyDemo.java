@@ -1,4 +1,4 @@
-package gof_design_patterns.creational.singleton2;
+package Java-Design-Patterns.gof_creational.singleton2;
 
 public class SingletonLazyDemo {
 

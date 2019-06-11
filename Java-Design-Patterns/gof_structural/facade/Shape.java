@@ -1,4 +1,4 @@
-package gof_design_patterns.structural.facade;
+package Java-Design-Patterns.gof_structural.facade;
 
 public interface Shape {
     void draw();

@@ -1,4 +1,4 @@
-package gof_design_patterns.behavioral.memento;
+package Java-Design-Patterns.gof_behavioral.memento;
 
 public class Memento {
 

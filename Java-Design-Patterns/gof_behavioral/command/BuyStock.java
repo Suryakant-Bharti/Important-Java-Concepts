@@ -1,4 +1,4 @@
-package gof_design_patterns.behavioral.command;
+package Java-Design-Patterns.gof_behavioral.command;
 
 public class BuyStock implements Order {
 

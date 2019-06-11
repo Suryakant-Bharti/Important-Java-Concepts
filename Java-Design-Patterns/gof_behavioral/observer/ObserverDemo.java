@@ -1,4 +1,4 @@
-package gof_design_patterns.behavioral.observer;
+package Java-Design-Patterns.gof_behavioral.observer;
 
 public class ObserverDemo {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package gof_design_patterns.creational.factory;
+package Java-Design-Patterns.gof_creational.factory;
 
 public class FactoryDemo {
     public static void main(String args[])

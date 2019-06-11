@@ -1,4 +1,4 @@
-package gof_design_patterns.structural.flyweight;
+package Java-Design-Patterns.gof_gof_structural.flyweight;
 
 public class FlyweightDemo {
 

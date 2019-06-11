@@ -1,4 +1,4 @@
-package gof_design_patterns.behavioral.command;
+package Java-Design-Patterns.gof_behavioral.command;
 
 import java.util.ArrayList;
 import java.util.List;

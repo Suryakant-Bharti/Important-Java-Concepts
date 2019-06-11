@@ -1,4 +1,4 @@
-package gof_design_patterns.structural.composite;
+package Java-Design-Patterns.gof_structural.composite;
 
 import java.util.ArrayList;
 import java.util.List;

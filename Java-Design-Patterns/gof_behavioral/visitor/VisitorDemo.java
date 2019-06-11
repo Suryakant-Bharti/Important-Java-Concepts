@@ -1,4 +1,4 @@
-package gof_design_patterns.behavioral.visitor;
+package Java-Design-Patterns.gof_behavioral.visitor;
 
 public class VisitorDemo {
     public static void main( String[] args ) {

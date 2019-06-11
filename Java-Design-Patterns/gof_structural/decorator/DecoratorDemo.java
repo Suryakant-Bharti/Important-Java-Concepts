@@ -1,4 +1,4 @@
-package gof_design_patterns.structural.decorator;
+package Java-Design-Patterns.gof_structural.decorator;
 
 public class DecoratorDemo {
     public static void main(String[] args) {

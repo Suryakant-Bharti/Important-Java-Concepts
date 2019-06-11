@@ -1,4 +1,4 @@
-package gof_design_patterns.behavioral.strategy;
+package Java-Design-Patterns.gof_behavioral.strategy;
 
 public class NeftStrategy implements MoneyTransferStrategy {
 

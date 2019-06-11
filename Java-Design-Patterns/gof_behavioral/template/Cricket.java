@@ -1,4 +1,4 @@
-package gof_design_patterns.behavioral.template;
+package Java-Design-Patterns.gof_behavioral.template;
 
 public class Cricket extends Game {
     @Override

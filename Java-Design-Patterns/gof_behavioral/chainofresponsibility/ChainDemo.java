@@ -1,4 +1,4 @@
-package gof_design_patterns.behavioral.chainofresponsibility;
+package Java-Design-Patterns.gof_behavioral.chainofresponsibility;
 
 public class ChainDemo {
 
@@ -6,8 +6,8 @@ public class ChainDemo {
 
         //Configure Chain of Responsibility
         Chain c1 = new NegativeProcessor();
-        Chain c2 = new ZeroProcessor();
-        Chain c3 = new PositiveProcessor();
+        Chain c2 = new Java.ZeroProcessor();
+        Chain c3 = new Java.PositiveProcessor();
 
         c1.setNext(c2);
         c2.setNext(c3);

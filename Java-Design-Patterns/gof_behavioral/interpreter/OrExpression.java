@@ -1,4 +1,4 @@
-package gof_design_patterns.behavioral.interpreter;
+package Java-Design-Patterns.gof_behavioral.interpreter;
 
 public class OrExpression implements Expression {
 

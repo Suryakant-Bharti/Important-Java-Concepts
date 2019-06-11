@@ -1,4 +1,4 @@
-package gof_design_patterns.behavioral.chainofresponsibility;
+package Java-Design-Patterns.gof_behavioral.chainofresponsibility;
 
 interface Chain {
     void setNext(Chain nextInChain);

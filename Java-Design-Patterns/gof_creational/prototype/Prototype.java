@@ -1,4 +1,4 @@
-package gof_design_patterns.creational.prototype;
+package Java-Design-Patterns.gof_creational.prototype;
 
 public interface Prototype {
     Prototype getClone();

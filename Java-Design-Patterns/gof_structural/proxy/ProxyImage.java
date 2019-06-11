@@ -1,4 +1,4 @@
-package gof_design_patterns.structural.proxy;
+package Java-Design-Patterns.gof_structural.proxy;
 
 public class ProxyImage implements Image {
 
