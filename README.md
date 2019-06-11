@@ -150,17 +150,11 @@
 ### PROGRAMS :
 #### [Basic Programs](Java-DataStructures-Algorithms/basic_programs) | [Recursion Programs](Java-DataStructures-Algorithms/recursion_programs)
 
-#### [Linked List DS](Java-DataStructures-Algorithms/linked_lists)
+#### [Linked List DS](Java-DataStructures-Algorithms/linked_lists) | [BST & Heap DS](Java-DataStructures-Algorithms/bst_heaps)
 
-#### BST & Heap DS
+#### [Searching](Java-DataStructures-Algorithms/searching) | [Sorting](Java-DataStructures-Algorithms/sorting)
 
-#### [Searching](Java-DataStructures-Algorithms/searching)
-
-#### [Sorting](Java-DataStructures-Algorithms/sorting)
-
-#### [Tree Traversal](Java-DataStructures-Algorithms/tree_traversal)
-
-#### [Graph Traversal](Java-DataStructures-Algorithms/graph_traversal)
+#### [Tree Traversal](Java-DataStructures-Algorithms/tree_traversal) | [Graph Traversal](Java-DataStructures-Algorithms/graph_traversal)
 
 #### [Graph Algorithms](Java-DataStructures-Algorithms/graph_classic_algos)
 
@@ -172,12 +166,12 @@
 .
 
 ## Relation of Java and Others Languages
-### NOTES :
-*[[USEFUL INFO - C, C++, C# and Java Comparisons]](_moreReadMe/cplusplus)*
+### NOTES [Useful Info] :
+*[-> Comparisons between C, C++, C# and Java Language](_moreReadMe/cplusplus)*
 
-*[[USEFUL INFO - CheatSheet | C# for Java Developers]](_moreReadMe/csharp)*
+*[-> CheatSheet | C# for Java Developers](_moreReadMe/csharp)*
 
-*[[USEFUL INFO - Java and Python]](_moreReadMe/python)*
+*[-> Java and Python](_moreReadMe/python)*
 
 ## Learn Android App Development
 ### EXTERNAL LINKS :
