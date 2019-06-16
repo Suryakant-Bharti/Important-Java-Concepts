@@ -1,4 +1,4 @@
-package java_design_patterns.gof_gof_structural.flyweight;
+package java_design_patterns.gof_structural.flyweight;
 
 public class FlyweightDemo {
 
@@ -7,7 +7,7 @@ public class FlyweightDemo {
     public static void main(String[] args) {
 
         for(int i=0; i < 20; ++i) {
-            Circle circle = (Circle)ShapeFactory.getCircle(getRandomColor());
+            Circle circle = (Circle) ShapeFactory.getCircle(getRandomColor());
             circle.setX(getRandomX());
             circle.setY(getRandomY());
             circle.setRadius(100);
