@@ -23,26 +23,26 @@
 
 *[-> Java Features, Execution Process & JVM Internals](_moreReadMe/howItWorks)*
 
-*[-> Java Fundamentals & OOPS Concepts](Java-BasicsI-and-OOPS)*
+*[-> Java Fundamentals & OOPS Concepts](java_basicsI_and_oops)*
 
 *[-> Java OOPS - few points to remember](_moreReadMe/oopsRules)*
 
 *[-> Methods of Number, Char, String, Array Classes](_moreReadMe/importantMethods)*
 
 ### PROGRAMS :
-#### [Variables & Operators](Java-BasicsI-and-OOPS/variables_and_operators) | [Control Flow](Java-BasicsI-and-OOPS/control_flow) 
+#### [Variables & Operators](java_basicsI_and_oops/variables_and_operators) | [Control Flow](java_basicsI_and_oops/control_flow) 
 
-#### [Classes & Objects](Java-BasicsI-and-OOPS/class_and_object) | [static & this](Java-BasicsI-and-OOPS/static_and_this) | [Inner Classes](Java-BasicsI-and-OOPS/inner_class)
+#### [Classes & Objects](java_basicsI_and_oops/class_and_object) | [static & this](java_basicsI_and_oops/static_and_this) | [Inner Classes](java_basicsI_and_oops/inner_class)
 
-#### [Inheritance (is-a)](Java-BasicsI-and-OOPS/inheritance) | [Association (has-a, part-of)](Java-BasicsI-and-OOPS/association)
+#### [Inheritance (is-a)](java_basicsI_and_oops/inheritance) | [Association (has-a, part-of)](java_basicsI_and_oops/association)
 
-#### [Overloading](Java-BasicsI-and-OOPS/method_overloading) | [Overriding](Java-BasicsI-and-OOPS/method_overriding) | [super & final](Java-BasicsI-and-OOPS/super_and_final)
+#### [Overloading](java_basicsI_and_oops/method_overloading) | [Overriding](java_basicsI_and_oops/method_overriding) | [super & final](java_basicsI_and_oops/super_and_final)
 
-#### [Runtime Polymorphism](Java-BasicsI-and-OOPS/runtime_polymorphism) | [instanceof](Java-BasicsI-and-OOPS/instanceof)
+#### [Runtime Polymorphism](java_basicsI_and_oops/runtime_polymorphism) | [instanceof](java_basicsI_and_oops/instanceof)
 
-#### [Abstraction](Java-BasicsI-and-OOPS/abstraction) | [Interfaces](Java-BasicsI-and-OOPS/interfaces) | [Encapsulation](Java-BasicsI-and-OOPS/encapsulation)
+#### [Abstraction](java_basicsI_and_oops/abstraction) | [Interfaces](java_basicsI_and_oops/interfaces) | [Encapsulation](java_basicsI_and_oops/encapsulation)
 
-#### [Arrays](Java-BasicsI-and-OOPS/arrays) | [Strings](Java-BasicsI-and-OOPS/strings) | [Date & Time](Java-BasicsI-and-OOPS/date_time) | [Misc](Java-BasicsI-and-OOPS/miscellaneous)
+#### [Arrays](java_basicsI_and_oops/arrays) | [Strings](java_basicsI_and_oops/strings) | [Date & Time](java_basicsI_and_oops/date_time) | [Misc](java_basicsI_and_oops/miscellaneous)
 
 .
 
@@ -50,7 +50,7 @@
 ### NOTES [Useful Info] :
 *[-> Java Generics](_moreReadMe/generics)*
 
-*[-> Java Collections Framework](Java-BasicsII-and-Collections)*
+*[-> Java Collections Framework](java_basicsII_and_collections)*
 
 *[-> Java Errors and Exception Handling](_moreReadMe/exceptions)*
 
@@ -59,21 +59,21 @@
 *[-> Java Serialization](_moreReadMe/serialization)*
 
 ### PROGRAMS :
-#### [Generics in Java](Java-BasicsII-and-Collections/generics)
+#### [Generics in Java](java_basicsII_and_collections/generics)
 
-#### [Collection Interface (List,Set,Queue)](Java-BasicsII-and-Collections/collection_interface)
+#### [Collection Interface (List,Set,Queue)](java_basicsII_and_collections/collection_interface)
 
-#### [Map Interface (Map)](Java-BasicsII-and-Collections/map_interface)
+#### [Map Interface (Map)](java_basicsII_and_collections/map_interface)
 
-#### [Legacy (Enum,Vector,Stack,etc)](Java-BasicsII-and-Collections/legacy_ds)
+#### [Legacy (Enum,Vector,Stack,etc)](java_basicsII_and_collections/legacy_ds)
 
-#### [Collections Class](Java-BasicsII-and-Collections/collections_class)
+#### [Collections Class](java_basicsII_and_collections/collections_class)
 
-#### [Exception Handling](Java-BasicsII-and-Collections/exceptions)
+#### [Exception Handling](java_basicsII_and_collections/exceptions)
 
-#### [Files and I/O](Java-BasicsII-and-Collections/input_output)
+#### [Files and I/O](java_basicsII_and_collections/input_output)
 
-#### [Serialization](Java-BasicsII-and-Collections/serialization)
+#### [Serialization](java_basicsII_and_collections/serialization)
 
 .
 
@@ -82,21 +82,21 @@
 ### NOTES [Useful Info] :
 *[-> Introduction to Design Patterns](_moreReadMe/design_patterns_intro)*
 
-*[-> Creational Design Patterns](Java-Design-Patterns/gof_creational)*
+*[-> Creational Design Patterns](java_design_patterns/gof_creational)*
 
-*[-> Structural Design Patterns](Java-Design-Patterns/gof_structural)*
+*[-> Structural Design Patterns](java_design_patterns/gof_structural)*
 
-*[-> Behavioral Design Patterns](Java-Design-Patterns/gof_behavioral)*
+*[-> Behavioral Design Patterns](java_design_patterns/gof_behavioral)*
 
 *[-> Design Patterns Cheat Sheet](_moreReadMe/design_patterns_cheatsheet)*
 
 ### PROGRAMS :
 
-#### [GOF Design Patterns - Creational](Java-Design-Patterns/gof_creational)
+#### [GOF Design Patterns - Creational](java_design_patterns/gof_creational)
 
-#### [GOF Design Patterns - Structural](Java-Design-Patterns/gof_structural)
+#### [GOF Design Patterns - Structural](java_design_patterns/gof_structural)
 
-#### [GOF Design Patterns - Behavioral](Java-Design-Patterns/gof_behavioral)
+#### [GOF Design Patterns - Behavioral](java_design_patterns/gof_behavioral)
 
 #### SOLID Design Principles 
 
@@ -117,13 +117,13 @@
 *[-> Java RegEx & Lambda Expressions](_moreReadMe/regex_and_lambda)*
 
 ### PROGRAMS :
-#### [Multithreading](Java-Concurrency/multithreading)
+#### [Multithreading](java_concurrency/multithreading)
 
-#### [Thread Synchronization](Java-Concurrency/synchronization)
+#### [Thread Synchronization](java_concurrency/synchronization)
 
-#### [Regular Expressions](Java-Misc-Advanced-Concepts/regex)
+#### [Regular Expressions](java_misc_advanced_concepts/regex)
 
-#### [Lambda Expressions](Java-Misc-Advanced-Concepts/lambda)
+#### [Lambda Expressions](java_misc_advanced_concepts/lambda)
 
 #### BigDecimal & BigIntegar
 
@@ -148,17 +148,17 @@
 *[-> Big O Cheat Sheet](_moreReadMe/bigO)*
 
 ### PROGRAMS :
-#### [Basic Programs](Java-DataStructures-Algorithms/basic_programs) | [Recursion Programs](Java-DataStructures-Algorithms/recursion_programs)
+#### [Basic Programs](java_datastructures_algorithms/basic_programs) | [Recursion Programs](java_datastructures_algorithms/recursion_programs)
 
-#### [Linked List DS](Java-DataStructures-Algorithms/linked_lists) | [BST & Heap DS](Java-DataStructures-Algorithms/bst_heaps)
+#### [Linked List DS](java_datastructures_algorithms/linked_lists) | [BST & Heap DS](java_datastructures_algorithms/bst_heaps)
 
-#### [Searching](Java-DataStructures-Algorithms/searching) | [Sorting](Java-DataStructures-Algorithms/sorting)
+#### [Searching](java_datastructures_algorithms/searching) | [Sorting](java_datastructures_algorithms/sorting)
 
-#### [Tree Traversal](Java-DataStructures-Algorithms/tree_traversal) | [Graph Traversal](Java-DataStructures-Algorithms/graph_traversal)
+#### [Tree Traversal](java_datastructures_algorithms/tree_traversal) | [Graph Traversal](java_datastructures_algorithms/graph_traversal)
 
-#### [Graph Algorithms](Java-DataStructures-Algorithms/graph_classic_algos)
+#### [Graph Algorithms](java_datastructures_algorithms/graph_classic_algos)
 
-#### [Dynamic Programming](Java-DataStructures-Algorithms/dynamic_programming)
+#### [Dynamic Programming](java_datastructures_algorithms/dynamic_programming)
 
 ### EXTERNAL LINKS :
 **More DS/Algo Programs -** My Repository for Coding Questions (To Do)
