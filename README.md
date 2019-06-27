@@ -65,7 +65,7 @@
 
 .
 
-## [2] Java - I/O, Serialization & Networking [Done]
+## [3] Java - I/O, Serialization & Networking [Done]
 ### NOTES [Useful Info] :
 *[-> Java Files and I/O](_moreReadMe/input_output)*
 
@@ -78,7 +78,7 @@
 
 .
 
-## [3] Software Design [WIP]
+## [4] Software Design [WIP]
 
 ### NOTES [Useful Info] :
 *[-> Introduction to Design Patterns](_moreReadMe/design_patterns_intro)*
@@ -105,7 +105,7 @@
 
 .
 
-## [4] Java - Concurrency & Other Topics [WIP]
+## [5] Java - Concurrency & Other Topics [WIP]
 ### NOTES [Useful Info] :
 *[-> Java Multithreading & Garbage Collection](_moreReadMe/multithreading)*
 
@@ -136,7 +136,7 @@
 
 .
 
-## [5] Data Structures & Algorithms [WIP]
+## [6] Data Structures & Algorithms [WIP]
 ### NOTES [Useful Info] :
 *[-> Common Data Structures](_moreReadMe/ds)*
 
