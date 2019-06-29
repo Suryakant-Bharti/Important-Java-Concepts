@@ -76,6 +76,21 @@
 
 #### [Serialization](java_basicsII_and_collections/serialization)
 
+#### JSON & XML Parsing
+
+.
+
+## [5] Java - Concurrency & Other Topics [WIP]
+### NOTES [Useful Info] :
+*[-> Java Multithreading & Garbage Collection](_moreReadMe/multithreading)*
+
+*[-> Java Thread Synchronization](_moreReadMe/threadSynchronization)*
+
+### PROGRAMS :
+#### [Multithreading](java_concurrency/multithreading)
+
+#### [Thread Synchronization](java_concurrency/synchronization)
+
 .
 
 ## [4] Software Design [WIP]
