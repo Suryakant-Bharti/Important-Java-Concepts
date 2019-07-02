@@ -80,7 +80,7 @@
 
 .
 
-## [5] Java - Concurrency & Other Topics [WIP]
+## [4] Java - Concurrency & Background Process [WIP]
 ### NOTES [Useful Info] :
 *[-> Java Multithreading & Garbage Collection](_moreReadMe/multithreading)*
 
@@ -93,7 +93,7 @@
 
 .
 
-## [4] Software Design [WIP]
+## [5] Software Design [WIP]
 
 ### NOTES [Useful Info] :
 *[-> Introduction to Design Patterns](_moreReadMe/design_patterns_intro)*
@@ -120,7 +120,7 @@
 
 .
 
-## [5] Java - Concurrency & Other Topics [WIP]
+## [6] Java - Concurrency & Other Topics [WIP]
 ### NOTES [Useful Info] :
 *[-> Java Multithreading & Garbage Collection](_moreReadMe/multithreading)*
 
@@ -151,7 +151,7 @@
 
 .
 
-## [6] Data Structures & Algorithms [WIP]
+## [7] Data Structures & Algorithms [WIP]
 ### NOTES [Useful Info] :
 *[-> Common Data Structures](_moreReadMe/ds)*
 
