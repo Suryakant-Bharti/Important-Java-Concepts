@@ -59,9 +59,17 @@
 *[-> Java Serialization](_moreReadMe/serialization)*
 
 ### PROGRAMS :
-#### [Files and I/O](java_basicsII_and_collections/input_output)
+#### [Generics in Java](java_basicsII_and_collections/generics)
 
-#### [Serialization](java_basicsII_and_collections/serialization)
+#### [Collection Interface (List,Set,Queue)](java_basicsII_and_collections/collection_interface)
+
+#### [Map Interface (Map)](java_basicsII_and_collections/map_interface)
+
+#### [Legacy (Enum,Vector,Stack,etc)](java_basicsII_and_collections/legacy_ds)
+
+#### [Collections Class](java_basicsII_and_collections/collections_class)
+
+#### [Exception Handling](java_basicsII_and_collections/exceptions)
 
 .
 
@@ -76,7 +84,11 @@
 
 #### [Serialization](java_basicsII_and_collections/serialization)
 
-#### JSON & XML Parsing
+#### Networking
+
+#### Streaming in Detail
+
+#### Data Parsing (CSV, JSON & XML)
 
 .
 
