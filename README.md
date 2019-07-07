@@ -103,6 +103,10 @@
 
 #### [Thread Synchronization](java_concurrency/synchronization)
 
+#### Background Processing
+
+#### Inter-Process Communication
+
 .
 
 ## [5] Software Design [WIP]
