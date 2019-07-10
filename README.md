@@ -136,11 +136,8 @@
 
 .
 
-## [6] Java - Concurrency & Other Topics [WIP]
+## [6] Java - Other Advanced Topics [WIP]
 ### NOTES [Useful Info] :
-*[-> Java Multithreading & Garbage Collection](_moreReadMe/multithreading)*
-
-*[-> Java Thread Synchronization](_moreReadMe/threadSynchronization)*
 
 *[-> Java Testing Basics](_moreReadMe/testing)*
 
@@ -149,17 +146,13 @@
 *[-> Java RegEx & Lambda Expressions](_moreReadMe/regex_and_lambda)*
 
 ### PROGRAMS :
-#### [Multithreading](java_concurrency/multithreading)
-
-#### [Thread Synchronization](java_concurrency/synchronization)
-
 #### [Regular Expressions](java_misc_advanced_concepts/regex)
 
 #### [Lambda Expressions](java_misc_advanced_concepts/lambda)
 
 #### BigDecimal & BigIntegar
 
-#### JSON & XML Parsing
+#### Advanced Data Types (Flatbuffer)
 
 #### Unit Testing - JUnit 4 (Library)
 
