@@ -73,7 +73,7 @@
 
 .
 
-## [3] Java - I/O, Serialization & Networking [Done]
+## [3] Java - Files, I/O, Serialization & Networking [Done]
 ### NOTES [Useful Info] :
 *[-> Java Files and I/O](_moreReadMe/input_output)*
 
@@ -84,7 +84,7 @@
 
 #### [Serialization](java_basicsII_and_collections/serialization)
 
-#### Networking
+#### Networking (URL, HTTP, Socket, Email)
 
 #### Streaming in Detail
 
