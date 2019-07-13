@@ -54,10 +54,6 @@
 
 *[-> Java Errors and Exception Handling](_moreReadMe/exceptions)*
 
-*[-> Java Files and I/O](_moreReadMe/input_output)*
-
-*[-> Java Serialization](_moreReadMe/serialization)*
-
 ### PROGRAMS :
 #### [Generics in Java](java_basicsII_and_collections/generics)
 
