@@ -103,6 +103,8 @@
 
 #### [Thread Synchronization](java_concurrency/synchronization)
 
+#### Operating Systems (CPU Scheduling, Memory Management)
+
 #### Background Processing
 
 #### Inter-Process Communication
