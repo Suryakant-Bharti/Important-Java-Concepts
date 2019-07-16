@@ -9,6 +9,7 @@
 - *Java Fundamentals*
 - *Java Object-Oriented Programming*
 - *Java Collections Framework*
+- *Networking in Java*
 - *Multithreading in Java*
 - *Design Patterns in Java*
 - *Data Structures in Java*
