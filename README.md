@@ -9,11 +9,11 @@
 - *Java Fundamentals*
 - *Java Object-Oriented Programming*
 - *Java Collections Framework*
-- *Design Patterns in Java*
 - *Multithreading in Java*
-- *Unit Testing in Java*
+- *Design Patterns in Java*
 - *Data Structures in Java*
 - *Algorithms in Java*
+- *Unit Testing in Java*
 
 ![quote banner](https://user-images.githubusercontent.com/2780145/34341843-fa43f72c-e9c5-11e7-88e8-f3b863448262.png)
 ## [1] Java - Fundamentals & OOPS [Done]
