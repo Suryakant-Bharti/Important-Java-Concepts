@@ -79,7 +79,7 @@
 ### PROGRAMS :
 #### [Files and I/O](java_io_networking/input_output)
 
-#### [Serialization](java_basicsII_and_collections/serialization)
+#### [Serialization](java_io_networking/serialization)
 
 #### Networking (URL, HTTP, Socket, Email)
 
