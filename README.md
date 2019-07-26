@@ -83,9 +83,9 @@
 
 #### Networking (URL, HTTP, Socket, Email)
 
-#### Streaming in Detail
-
 #### Data Parsing (CSV, JSON & XML)
+
+#### Streaming in Detail
 
 .
 
