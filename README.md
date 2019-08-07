@@ -87,7 +87,7 @@
 
 #### Streaming in Detail
 
-#### Advanced Networking
+#### Advanced Networking (Email,etc))
 
 .
 
