@@ -1,3 +1,5 @@
+// To execute this program open two command prompts and execute each program at each command prompt
+
 import java.io.*;
 import java.net.*;
 public class MyServer {
