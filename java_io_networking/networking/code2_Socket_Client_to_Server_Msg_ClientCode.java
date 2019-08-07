@@ -1,3 +1,6 @@
+// To execute this program open two command prompts and execute each program at each command prompt.
+// After running the client application, a message will be displayed on the server console.
+
 import java.io.*;
 import java.net.*;
 public class MyClient {
