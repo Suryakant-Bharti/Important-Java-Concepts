@@ -1,3 +1,6 @@
+// First, client will write to the server then server will receive and print the text.
+// Then server will write to the client and client will receive and print the text.
+
 import java.net.*;
 import java.io.*;
 class MyServer{
