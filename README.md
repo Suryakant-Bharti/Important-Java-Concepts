@@ -81,7 +81,7 @@
 
 #### [Serialization](java_io_networking/serialization)
 
-#### [Networking (Socket,URL,HTTP)](java_io_networking/networking)
+#### [Networking (Socket,URL,HTTP,Datagram)](java_io_networking/networking)
 
 #### Data Parsing (CSV, JSON & XML)
 
