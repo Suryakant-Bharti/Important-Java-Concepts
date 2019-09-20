@@ -2,6 +2,8 @@
 
 Java Networking is a concept of connecting two or more computing devices together so that we can share resources.
 
+Java Socket Programming provides facility to share data between different computing devices.
+
 ![serialization-deserialization](https://user-images.githubusercontent.com/2780145/34921451-530414b8-f9a8-11e7-9201-0ed1b395906e.JPG)
 
 **Advantage of Java Serialization :**
