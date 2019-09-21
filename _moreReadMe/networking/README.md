@@ -6,7 +6,7 @@ Java Socket Programming provides facility to share data between different comput
 
 ![serialization-deserialization](https://user-images.githubusercontent.com/2780145/34921451-530414b8-f9a8-11e7-9201-0ed1b395906e.JPG)
 
-**Advantage of Java Serialization :**
+**Advantage of Java Networking :**
 It is mainly used to travel object's state on the network (known as marshaling).
 
 **java.io.Serializable interface :**
