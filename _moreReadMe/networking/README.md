@@ -7,7 +7,8 @@ Java Socket Programming provides facility to share data between different comput
 ![serialization-deserialization](https://user-images.githubusercontent.com/2780145/34921451-530414b8-f9a8-11e7-9201-0ed1b395906e.JPG)
 
 **Advantage of Java Networking :**
-It is mainly used to travel object's state on the network (known as marshaling).
+-	sharing resources
+-	centralized software management
 
 **java.io.Serializable interface :**
 Serializable is a marker interface (has no data member and method). It is used to "mark" java classes so that objects of these classes may get certain capability. The Cloneable and Remote are also marker interfaces.
