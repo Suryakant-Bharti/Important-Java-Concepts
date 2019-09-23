@@ -4,8 +4,6 @@ Java Networking is a concept of connecting two or more computing devices togethe
 
 Java Socket Programming provides facility to share data between different computing devices.
 
-![serialization-deserialization](https://user-images.githubusercontent.com/2780145/34921451-530414b8-f9a8-11e7-9201-0ed1b395906e.JPG)
-
 **Advantage of Java Networking :**
 -	sharing resources
 -	centralized software management
@@ -19,6 +17,8 @@ The String class and all the wrapper classes implements java.io.Serializable int
 
 ## ObjectOutputStream class
 The ObjectOutputStream class is used to write primitive data types and Java objects to an OutputStream. Only objects that support the java.io.Serializable interface can be written to streams.
+
+![serialization-deserialization](https://user-images.githubusercontent.com/2780145/34921451-530414b8-f9a8-11e7-9201-0ed1b395906e.JPG)
 
 **Constructor :**
 ```
