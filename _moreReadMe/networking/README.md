@@ -8,7 +8,7 @@ Java Socket Programming provides facility to share data between different comput
 -	sharing resources
 -	centralized software management
 
-**java.io.Serializable interface :**
+**Java Networking Terminology :**
 Serializable is a marker interface (has no data member and method). It is used to "mark" java classes so that objects of these classes may get certain capability. The Cloneable and Remote are also marker interfaces.
 
 It must be implemented by the class whose object you want to persist.
