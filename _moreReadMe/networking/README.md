@@ -10,13 +10,14 @@ Java Socket Programming provides facility to share data between different comput
 
 **Java Networking Terminology :**
 
-The widely used java networking terminologies are given below:
+The widely used java networking terminologies are:
 1.	IP Address
 2.	Protocol
 3.	Port Number
 4.	MAC Address
 5.	Socket
-6.	Connection-oriented and connection-less protocol
+6.	Connection-oriented protocol
+7.  Connection-less protocol
 
 
 Serializable is a marker interface (has no data member and method). It is used to "mark" java classes so that objects of these classes may get certain capability. The Cloneable and Remote are also marker interfaces.
