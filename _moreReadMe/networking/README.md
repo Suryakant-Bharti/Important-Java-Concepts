@@ -10,7 +10,7 @@ Java Socket Programming provides facility to share data between different comput
 
 **Java Networking Terminology :**
 
-The widely used java networking terminologies are:
+Some of the widely used java networking terminologies are as follows:
 1.	IP Address
 2.	Protocol
 3.	Port Number
