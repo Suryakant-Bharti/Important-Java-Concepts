@@ -16,9 +16,8 @@ Some of the widely used java networking terminologies are as follows:
 It is a logical address that can be changed.
 2.	Protocol
     - A protocol is a set of rules basically that is followed for communication. For example: TCP, FTP, Telnet, SMTP, POP, etc.
-
 3.	Port Number
-The port number is used to uniquely identify different applications. It acts as a communication endpoint between applications. The port number is associated with the IP address for communication between two applications.
+    - The port number is used to uniquely identify different applications. It acts as a communication endpoint between applications. The port number is associated with the IP address for communication between two applications.
 4.	MAC Address
 5.	Socket
 6.	Connection-oriented protocol
