@@ -23,6 +23,7 @@ It is a logical address that can be changed.
     - The port number is used to uniquely identify different applications. It acts as a communication endpoint between applications. The port number is associated with the IP address for communication between two applications.
 
 4.	MAC Address
+
 5.	Socket
 6.	Connection-oriented protocol
 7.  Connection-less protocol
