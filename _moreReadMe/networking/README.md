@@ -25,6 +25,7 @@ It is a logical address that can be changed.
 4.	MAC Address
 
 5.	Socket
+
 6.	Connection-oriented protocol
 7.  Connection-less protocol
 
