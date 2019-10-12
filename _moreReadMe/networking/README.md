@@ -26,7 +26,7 @@ It is a logical address that can be changed.
     - MAC (Media Access Control) Address is a unique identifier of NIC (Network Interface Controller). A network node can have multiple NIC but each with unique MAC. The main difference between MAC and IP address is that, MAC Address is used to ensure the physical address of computer. It uniquely identifies the devices on a network. While IP address are used to uniquely identifies the connection of network with that device take part in a network.
 
 5.	Socket
-A socket is an endpoint between two way communication.
+A socket is an endpoint between two way communication. More details in "Socket" section below.
 
 6.	Connection-oriented protocol
 
