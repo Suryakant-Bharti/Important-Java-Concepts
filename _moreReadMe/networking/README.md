@@ -29,7 +29,7 @@ It is a logical address that can be changed.
     - A socket is an endpoint between two way communication. More details in "Socket" section below.
 
 6.	Connection-oriented protocol
-- In connection-oriented protocol, acknowledgement is sent by the receiver. So, it is reliable but slow. The example of connection-oriented protocol is TCP.
+    - In connection-oriented protocol, acknowledgement is sent by the receiver. So, it is reliable but slow. The example of connection-oriented protocol is TCP.
 
 7.  Connection-less protocol
 
