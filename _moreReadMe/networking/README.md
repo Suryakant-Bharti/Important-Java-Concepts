@@ -13,7 +13,7 @@ Java Socket Programming provides facility to share data between different comput
 Some of the widely used java networking terminologies are as follows:
 
 1.	IP Address
-    - IP address is a unique number assigned to a node of a network e.g. 192.168.0.1 . It is composed of octets that range from 0 to 255.
+    - IP address is a unique number assigned to a node of a network e.g. 192.168.0.1. It is composed of octets that range from 0 to 255.
 It is a logical address that can be changed.
 
 2.	Protocol
