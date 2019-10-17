@@ -34,13 +34,6 @@ It is a logical address that can be changed.
 7.  Connection-less protocol
     - In connection-less protocol, acknowledgement is not sent by the receiver. So, it is not reliable but fast. The example of connection-less protocol is UDP.
 
-
-Serializable is a marker interface (has no data member and method). It is used to "mark" java classes so that objects of these classes may get certain capability. The Cloneable and Remote are also marker interfaces.
-
-It must be implemented by the class whose object you want to persist.
-
-The String class and all the wrapper classes implements java.io.Serializable interface by default.
-
 ## ObjectOutputStream class
 The ObjectOutputStream class is used to write primitive data types and Java objects to an OutputStream. Only objects that support the java.io.Serializable interface can be written to streams.
 
