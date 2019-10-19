@@ -8,7 +8,7 @@ Java Socket Programming provides facility to share data between different comput
 -	sharing resources
 -	centralized software management
 
-**Java Networking Terminology :**
+## Java Networking Terminology :
 
 Some of the widely used java networking terminologies are as follows:
 
@@ -34,7 +34,7 @@ It is a logical address that can be changed.
 7.  Connection-less protocol
     - In connection-less protocol, acknowledgement is not sent by the receiver. So, it is not reliable but fast. The example of connection-less protocol is UDP.
 
-## ObjectOutputStream class
+## java.net package
 The ObjectOutputStream class is used to write primitive data types and Java objects to an OutputStream. Only objects that support the java.io.Serializable interface can be written to streams.
 
 ![serialization-deserialization](https://user-images.githubusercontent.com/2780145/34921451-530414b8-f9a8-11e7-9201-0ed1b395906e.JPG)
