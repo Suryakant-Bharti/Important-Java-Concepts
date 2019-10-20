@@ -35,7 +35,13 @@ It is a logical address that can be changed.
     - In connection-less protocol, acknowledgement is not sent by the receiver. So, it is not reliable but fast. The example of connection-less protocol is UDP.
 
 ## java.net package
-The ObjectOutputStream class is used to write primitive data types and Java objects to an OutputStream. Only objects that support the java.io.Serializable interface can be written to streams.
+The java.net package provides many classes to deal with networking applications in Java. A list of these classes is given below:
+
+
+
+
+
+
 
 ![serialization-deserialization](https://user-images.githubusercontent.com/2780145/34921451-530414b8-f9a8-11e7-9201-0ed1b395906e.JPG)
 
