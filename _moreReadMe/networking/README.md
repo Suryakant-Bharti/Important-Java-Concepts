@@ -79,6 +79,13 @@ The java.net package provides many classes to deal with networking applications 
 
 ## Java Socket Programming
 
+Java Socket programming is used for communication between the applications running on different JRE.
+
+
+
+
+
+
 
 
 ![serialization-deserialization](https://user-images.githubusercontent.com/2780145/34921451-530414b8-f9a8-11e7-9201-0ed1b395906e.JPG)
