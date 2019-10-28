@@ -87,11 +87,12 @@ The client in socket programming must know two information:
 1.	IP Address of Server
 2.	Port number.
 
+**Socket Class :**
 
 
-![serialization-deserialization](https://user-images.githubusercontent.com/2780145/34921451-530414b8-f9a8-11e7-9201-0ed1b395906e.JPG)
 
-**Constructor :**
+
+
 ```
 public ObjectOutputStream(OutputStream out) throws IOException {}
 ```
@@ -128,6 +129,9 @@ Deserialization is the process of reconstructing the object from the serialized 
 
 ## ObjectInputStream class
 An ObjectInputStream deserializes objects and primitive data written using an ObjectOutputStream.
+
+![serialization-deserialization](https://user-images.githubusercontent.com/2780145/34921451-530414b8-f9a8-11e7-9201-0ed1b395906e.JPG)
+
 
 **Constructor :**
 ```
