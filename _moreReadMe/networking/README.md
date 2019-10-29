@@ -89,6 +89,8 @@ The client in socket programming must know two information:
 
 **Socket Class :**
 
+A socket is simply an endpoint for communications between the machines. The Socket class can be used to create a socket.
+
 
 
 
