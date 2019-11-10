@@ -46,7 +46,7 @@
 
 .
 
-## [2] Java - Generics, Collections, Exceptions, I/O [Done]
+## [2] Java - Generics, Collections & Exception Handling [Done]
 ### NOTES [Useful Info] :
 *[-> Java Generics](_moreReadMe/generics)*
 
@@ -59,18 +59,19 @@
 *[-> Java Serialization](_moreReadMe/serialization)*
 
 ### PROGRAMS :
-#### [Generics in Java](java_basicsII_and_collections/generics)
+#### [Files and I/O](java_basicsII_and_collections/input_output)
 
-#### [Collection Interface (List,Set,Queue)](java_basicsII_and_collections/collection_interface)
+#### [Serialization](java_basicsII_and_collections/serialization)
 
-#### [Map Interface (Map)](java_basicsII_and_collections/map_interface)
+.
 
-#### [Legacy (Enum,Vector,Stack,etc)](java_basicsII_and_collections/legacy_ds)
+## [2] Java - I/O, Serialization & Networking [Done]
+### NOTES [Useful Info] :
+*[-> Java Files and I/O](_moreReadMe/input_output)*
 
-#### [Collections Class](java_basicsII_and_collections/collections_class)
+*[-> Java Serialization](_moreReadMe/serialization)*
 
-#### [Exception Handling](java_basicsII_and_collections/exceptions)
-
+### PROGRAMS :
 #### [Files and I/O](java_basicsII_and_collections/input_output)
 
 #### [Serialization](java_basicsII_and_collections/serialization)
