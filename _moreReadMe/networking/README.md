@@ -115,14 +115,8 @@ The ServerSocket class can be used to create a server socket. This object is use
 ## Example of Java Socket Programming
 
 ### Creating Server :
-
-
-
-
-
-## Java Transient Keyword
-If you don't want to serialize any data member of a class, you can mark it as transient.
-**Example :**
 ```
-transient int age; //It will not be serialized  
+ServerSocket ss=new ServerSocket(6666);  
+Socket s=ss.accept(); //establishes connection and waits for the client   
 ```
+
