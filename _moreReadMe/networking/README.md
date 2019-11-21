@@ -112,6 +112,12 @@ The ServerSocket class can be used to create a server socket. This object is use
 <tr><td>2) public synchronized void close()</td><td>closes the server socket.</td></tr>
 </tbody></table>
 
+### Example of Java Socket Programming
+
+
+
+
+
 ## Java Transient Keyword
 If you don't want to serialize any data member of a class, you can mark it as transient.
 **Example :**
