@@ -19,22 +19,26 @@ Exception is an event that disrupts the normal flow of the program. It is an obj
 ## Exception Example Situations :
 
 **ArithmeticException**
+```java
+int a = 50/0; //ArithmeticException
 ```
-int a=50/0;//ArithmeticException```
 
 **NullPointerException**
-```String s=null;  
+```java
+String s = null;  
 System.out.println(s.length());//NullPointerException
 ```
 
 **NumberFormatException**
-```String s="abc";  
-int i=Integer.parseInt(s);//NumberFormatException  
+```java
+String s = "abc";  
+int i = Integer.parseInt(s);//NumberFormatException  
 ```
 
 **ArrayIndexOutOfBoundsException**
-```int a[]=new int[5];  
-a[10]=50; //ArrayIndexOutOfBoundsException  
+```java
+int a[] = new int[5];  
+a[10] = 50; //ArrayIndexOutOfBoundsException  
 ```
 
 ## Java Exception Handling Keywords :
