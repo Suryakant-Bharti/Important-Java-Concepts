@@ -120,3 +120,7 @@ ServerSocket ss=new ServerSocket(6666);
 Socket s=ss.accept(); //establishes connection and waits for the client   
 ```
 
+### Creating Client :
+```
+Socket s=new Socket("localhost",6666);  
+```
