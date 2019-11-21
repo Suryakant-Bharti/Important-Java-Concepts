@@ -101,6 +101,7 @@ A socket is simply an endpoint for communications between the machines. The Sock
 <tr><td>3) public synchronized void close()</td><td>closes this socket</td></tr>
 </tbody></table>
 
+### ServerSocket Class :
 
 
 
