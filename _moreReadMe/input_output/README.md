@@ -50,11 +50,11 @@ The **InputStream** is used to read data from a source and the **OutputStream** 
 This stream is used for reading data from the files. Objects can be created using the keyword new and there are several types of constructors available.
 
 Following constructor takes a file name as a string to create an input stream object to read the file.
-```
+```java
 InputStream f = new FileInputStream("C:/java/hello");
 ```
 Following constructor takes a file object to create an input stream object to read the file. First we create a file object using File() method.
-```
+```java
 File f = new File("C:/java/hello");
 InputStream f = new FileInputStream(f);
 ```
@@ -107,11 +107,11 @@ Other important input streams :
 FileOutputStream is used to create a file and write data into it. The stream would create a file, if it doesn't already exist, before opening it for output.
 
 Following constructor takes a file name as a string to create an input stream object to write the file
-```
+```java
 OutputStream f = new FileOutputStream("C:/java/hello") 
 ```
 Following constructor takes a file object to create an output stream object to write the file. First, we create a file object using File() method.
-```
+```java
 File f = new File("C:/java/hello");
 OutputStream f = new FileOutputStream(f);
 ```
@@ -155,7 +155,7 @@ Other important output streams :
 
 ## Complete Example
 The below code would create file test.txt and would write given numbers in binary format. Same would be the output on the stdout screen.
-```
+```java
 import java.io.*;
 public class fileStreamTest {
 
@@ -186,7 +186,7 @@ public class fileStreamTest {
 ## Java Console Class
 The Java Console class is be used to get input from console. It provides methods to read texts and passwords. If you read password using Console class, it will not be displayed to the user. The java.io.Console class is attached with system console internally.
 **Example :**
-```
+```java
 import java.io.Console;  
 class ReadPasswordTest{    
 public static void main(String args[]){    
@@ -219,7 +219,7 @@ A directory is a File which can contain a list of other files and directories. Y
 </ul>
 
 Below code creates "/tmp/user/java/bin" directory.
-```
+```java
 import java.io.File;
 public class CreateDir {
 
@@ -238,7 +238,7 @@ public class CreateDir {
 ## Listing Directories
 
 You can use list( ) method provided by File object to list down all the files and directories available in a directory as follows.
-```
+```java
 import java.io.File;
 public class ReadDir {
 
