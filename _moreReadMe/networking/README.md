@@ -115,12 +115,12 @@ The ServerSocket class can be used to create a server socket. This object is use
 ## Example of Java Socket Programming
 
 ### Creating Server :
-```
-ServerSocket ss=new ServerSocket(6666);  
-Socket s=ss.accept(); //establishes connection and waits for the client   
+```java
+ServerSocket ss = new ServerSocket(6666);  
+Socket s = ss.accept(); //establishes connection and waits for the client   
 ```
 
 ### Creating Client :
-```
-Socket s=new Socket("localhost",6666);  
+```java
+Socket s = new Socket("localhost",6666);  
 ```
