@@ -105,7 +105,11 @@ A socket is simply an endpoint for communications between the machines. The Sock
 
 The ServerSocket class can be used to create a server socket. This object is used to establish communication with the clients.
 
-
+<table class="alt">
+<tbody><tr><th>Method</th><th>Description</th></tr>
+<tr><td>1) public Socket accept()</td><td>returns the socket and establish a connection between server and client.</td></tr>
+<tr><td>2) public synchronized void close()</td><td>closes the server socket.</td></tr>
+</tbody></table>
 
 ## Java Transient Keyword
 If you don't want to serialize any data member of a class, you can mark it as transient.
