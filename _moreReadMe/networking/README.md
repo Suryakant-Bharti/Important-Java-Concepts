@@ -103,6 +103,8 @@ A socket is simply an endpoint for communications between the machines. The Sock
 
 ### ServerSocket Class :
 
+The ServerSocket class can be used to create a server socket. This object is used to establish communication with the clients.
+
 
 
 ## Java Transient Keyword
