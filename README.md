@@ -179,7 +179,7 @@
 ### PROGRAMS :
 #### [Basic Programs](java_datastructures_algorithms/basic_programs) | [Recursion Programs](java_datastructures_algorithms/recursion_programs)
 
-#### [Linked List DS](java_datastructures_algorithms/linked_lists) | [BST & Heap DS](java_datastructures_algorithms/bst_heaps)
+#### [Linked List](java_datastructures_algorithms/linked_lists) | [BST & Heap](java_datastructures_algorithms/bst_heaps)
 
 #### [Searching](java_datastructures_algorithms/searching) | [Sorting](java_datastructures_algorithms/sorting)
 
@@ -190,7 +190,7 @@
 #### [Dynamic Programming](java_datastructures_algorithms/dynamic_programming)
 
 ### EXTERNAL LINKS :
-**More DS/Algo Programs -** My Repository for Coding Questions (To Do)
+[Dedicated Repo For More DS-ALGO Programs - CODING INTERVIEW QUESTIONS](https://github.com/Suryakant-Bharti/coding-interview-questions)
 
 .
 
