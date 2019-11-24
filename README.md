@@ -10,7 +10,7 @@
 - *Java Object-Oriented Programming*
 - *Java Collections Framework*
 - *I/O & Networking in Java*
-- *Multithreading in Java*
+- *Concurrency in Java*
 - *Design Patterns in Java*
 - *Data Structures in Java*
 - *Algorithms in Java*
