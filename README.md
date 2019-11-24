@@ -11,6 +11,7 @@
 - *Java Collections Framework*
 - *I/O & Networking in Java*
 - *Concurrency in Java*
+- *Databases in Java*
 - *Design Patterns in Java*
 - *Data Structures in Java*
 - *Algorithms in Java*
