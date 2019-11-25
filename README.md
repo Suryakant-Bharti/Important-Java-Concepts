@@ -179,7 +179,9 @@
 ### PROGRAMS :
 #### [Basic Programs](java_datastructures_algorithms/basic_programs) | [Recursion Programs](java_datastructures_algorithms/recursion_programs)
 
-#### [Linked List](java_datastructures_algorithms/linked_lists) | [BST & Heap](java_datastructures_algorithms/bst_heaps)
+#### [Linked List](java_datastructures_algorithms/linked_lists) | [Stack](java_datastructures_algorithms/linked_lists) | [Queue](java_datastructures_algorithms/linked_lists) 
+
+#### [BST](java_datastructures_algorithms/bst) | [Heap](java_datastructures_algorithms/heap) | [Hashing](java_datastructures_algorithms/hashing) 
 
 #### [Searching](java_datastructures_algorithms/searching) | [Sorting](java_datastructures_algorithms/sorting)
 
