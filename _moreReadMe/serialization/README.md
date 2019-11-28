@@ -18,7 +18,7 @@ The String class and all the wrapper classes implements java.io.Serializable int
 The ObjectOutputStream class is used to write primitive data types and Java objects to an OutputStream. Only objects that support the java.io.Serializable interface can be written to streams.
 
 **Constructor :**
-```
+```java
 public ObjectOutputStream(OutputStream out) throws IOException {}
 ```
 Above constructor creates an ObjectOutputStream that writes to the specified OutputStream.
@@ -33,7 +33,7 @@ Above constructor creates an ObjectOutputStream that writes to the specified Out
 
 ## Example of Java Serialization
 Example to serialize the object of Student class.
-```
+```java
 import java.io.*;  
 class Persist{  
  public static void main(String args[])throws Exception{  
@@ -56,7 +56,7 @@ Deserialization is the process of reconstructing the object from the serialized 
 An ObjectInputStream deserializes objects and primitive data written using an ObjectOutputStream.
 
 **Constructor :**
-```
+```java
 public ObjectInputStream(InputStream in) throws IOException {}
 ```
 Above constructor creates an ObjectInputStream that reads from the specified InputStream.
@@ -70,7 +70,7 @@ Above constructor creates an ObjectInputStream that reads from the specified Inp
 
 ## Example of Java Deserialization
 Example to deserialize the object of Student class.
-```
+```java
 import java.io.*;  
 class Depersist{  
  public static void main(String args[])throws Exception{  
@@ -110,6 +110,6 @@ The Externalizable interface provides two methods:
 ## Java Transient Keyword
 If you don't want to serialize any data member of a class, you can mark it as transient.
 **Example :**
-```
+```java
 transient int age; //It will not be serialized  
 ```

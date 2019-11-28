@@ -87,112 +87,40 @@ The client in socket programming must know two information:
 1.	IP Address of Server
 2.	Port number.
 
-**Socket Class :**
+### Socket Class :
 
 A socket is simply an endpoint for communications between the machines. The Socket class can be used to create a socket.
 
-Important methods :
+![socket-programming](https://user-images.githubusercontent.com/2780145/68625991-64f2e400-0500-11ea-9616-3702cb213cdd.png)
 
-
-
-
-
-
-```
-public ObjectOutputStream(OutputStream out) throws IOException {}
-```
-Above constructor creates an ObjectOutputStream that writes to the specified OutputStream.
-
-**Important Methods :**
+**Important methods :**
 <table class="alt">
 <tbody><tr><th>Method</th><th>Description</th></tr>
-<tr><td>1) public final void writeObject(Object obj) throws IOException {}</td><td>writes the specified object to the ObjectOutputStream. </td></tr>
-<tr><td>2) public void flush() throws IOException {}</td><td>flushes the current output stream. </td></tr>
-<tr><td>3) public void close() throws IOException {}</td><td>closes the current output stream. </td></tr>
+<tr><td>1) public InputStream getInputStream()</td><td>returns the InputStream attached with this socket.</td></tr>
+<tr><td>2) public OutputStream getOutputStream()</td><td>returns the OutputStream attached with this socket.</td></tr>
+<tr><td>3) public synchronized void close()</td><td>closes this socket</td></tr>
 </tbody></table>
 
-## Example of Java Serialization
-Example to serialize the object of Student class.
-```
-import java.io.*;  
-class Persist{  
- public static void main(String args[])throws Exception{  
-  Student s1 =new Student(211,"John");  
-  
-  FileOutputStream fout=new FileOutputStream("f.txt");  
-  ObjectOutputStream out=new ObjectOutputStream(fout);  
-  
-  out.writeObject(s1);  
-  out.flush();  
-  System.out.println("success");  
- }  
-}  
-```
+### ServerSocket Class :
 
-## Deserialization in java
-Deserialization is the process of reconstructing the object from the serialized state.It is the reverse operation of serialization.
+The ServerSocket class can be used to create a server socket. This object is used to establish communication with the clients.
 
-## ObjectInputStream class
-An ObjectInputStream deserializes objects and primitive data written using an ObjectOutputStream.
-
-![serialization-deserialization](https://user-images.githubusercontent.com/2780145/34921451-530414b8-f9a8-11e7-9201-0ed1b395906e.JPG)
-
-
-**Constructor :**
-```
-public ObjectInputStream(InputStream in) throws IOException {}
-```
-Above constructor creates an ObjectInputStream that reads from the specified InputStream.
-
-**Important Methods :**
+**Important methods :**
 <table class="alt">
 <tbody><tr><th>Method</th><th>Description</th></tr>
-<tr><td>1) public final Object readObject() throws IOException, ClassNotFoundException{}</td><td>reads an object from the input stream. </td></tr>
-<tr><td>2) public void close() throws IOException {}</td><td>closes ObjectInputStream.</td></tr>
+<tr><td>1) public Socket accept()</td><td>returns the socket and establish a connection between server and client.</td></tr>
+<tr><td>2) public synchronized void close()</td><td>closes the server socket.</td></tr>
 </tbody></table>
 
-## Example of Java Deserialization
-Example to deserialize the object of Student class.
-```
-import java.io.*;  
-class Depersist{  
- public static void main(String args[])throws Exception{  
-    
-  ObjectInputStream in=new ObjectInputStream(new FileInputStream("f.txt"));  
-  Student s=(Student)in.readObject();  
-  System.out.println(s.id+" "+s.name);  
-  
-  in.close();  
- }  
-}  
+## Example of Java Socket Programming
+
+### Creating Server :
+```java
+ServerSocket ss = new ServerSocket(6666);  
+Socket s = ss.accept(); //establishes connection and waits for the client   
 ```
 
-## Serialization Rules
-
-**Serialization with Inheritance (IS-A Relationship) :**
-If a class implements serializable then all its sub classes will also be serializable. Parent class properties are inherited to subclasses so if parent class is Serializable, subclass would also be.
-
-**Serialization with Aggregation (HAS-A Relationship) :**
-If a class has a reference of another class, all the references must be Serializable otherwise serialization process will not be performed. In such case, NotSerializableException is thrown at runtime. 
-
-All the objects within an object must be Serializable.
-
-**Serialization with static data member :**
-If there is any static data member in a class, it will not be serialized because static is the part of class not object.
-
-**Serialization with array or collection :**
-In case of array or collection, all the objects of array or collection must be serializable. If any object is not serialiizable, serialization will be failed.
-
-## Externalizable in Java
-The Externalizable interface provides the facility of writing the state of an object into a byte stream in compress format. It is not a marker interface.
-
-The Externalizable interface provides two methods:
-- public void writeExternal(ObjectOutput out) throws IOException
-- public void readExternal(ObjectInput in) throws IOException
-
-## Java Transient Keyword
-If you don't want to serialize any data member of a class, you can mark it as transient.
-**Example :**
-```
-transient int age; //It will not be serialized  
+### Creating Client :
+```java
+Socket s = new Socket("localhost",6666);  
 ```

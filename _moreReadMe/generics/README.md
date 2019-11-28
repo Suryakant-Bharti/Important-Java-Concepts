@@ -7,7 +7,7 @@ A generic class declaration looks like a non-generic class declaration, except t
 The type parameter section of a generic class can have one or more type parameters separated by commas. These classes are known as parameterized classes or parameterized types because they accept one or more parameters.
 
 **Syntax:**
-```
+```java
 public class Box<T> {
    private T t;
 }
@@ -39,7 +39,7 @@ Type inference represents the Java compiler's ability to look at a method invoca
 Compiler generates unchecked conversion warning in-case type inference is not used.
 
 **Syntax:**
-```
+```java
 Box<Integer> integerBox = new Box<>();
 ```
 
@@ -61,7 +61,7 @@ You can write a single generic method declaration that can be called with argume
 <li><p>A generic method's body is declared like that of any other method. Note that type parameters can represent only reference types, not primitive types (like int, double and char).</p></li>
 </ul>
 
-```
+```java
 public static <E> void printArray( E[] inputArray ) {
       // Display array elements
       for(E element : inputArray) {
@@ -75,7 +75,7 @@ public static <E> void printArray( E[] inputArray ) {
 
 A Generic class can have muliple type parameters. Following example will showcase above mentioned concept.
 
-```
+```java
 public class Box<S,T> {
    private T t;
    private S s;
@@ -87,7 +87,7 @@ public class Box<S,T> {
 A Generic class can have parameterized types where a type parameter can be substituted with a parameterized type. 
 Parameterized Types are types that take other types as parameters. Eg - Collection<String>, ArrayList<String>, etc.
   
-```
+```java
 public class Box<S,T> {
    ...
 }
@@ -100,7 +100,7 @@ Box<Integer, List<String>> box = new Box<Integer, List<String>>(); //Parameteriz
 
 A raw type is an object of a generic class or interface if its type arguments are not passed during its creation.
 
-```
+```java
 Box rawBox = new Box();
 ```
 
@@ -111,12 +111,12 @@ There may be times when you'll want to restrict the kinds of types that are allo
 To declare a bounded type parameter, list the type parameter's name, followed by the extends keyword, followed by its upper bound.
 
 **Single Bound:**
-```
+```java
 public static <T extends Comparable<T>> T maximum(T x, T y, T z)
 ```
 
 **Multiple Bounds:**
-```
+```java
 public static <T extends Number & Comparable<T>> T maximum(T x, T y, T z)
 ```
 <ul class="list">
@@ -127,7 +127,7 @@ public static <T extends Number & Comparable<T>> T maximum(T x, T y, T z)
 The T is a type parameter passed to the generic class Box and should be subtype of Number class and must implments Comparable interface. In case a class is passed as bound, it should be passed first before interface otherwise compile time error will occur.
 
 **Calling eg.:**
-```
+```java
 maximum( 6.6, 8.8, 7.7 )
 ```
 
@@ -137,7 +137,7 @@ Java has provided generic support in Collections Framework Interfaces like List,
 
 ### List
 
-```
+```java
 List<T> list = new ArrayList<T>();
 ```
 <ul class="list">
@@ -148,7 +148,7 @@ The T is a type parameter passed to the generic interface List and its implemena
 
 ### Set
 
-```
+```java
 Set<T> set = new HashSet<T>();
 ```
 <ul class="list">
@@ -158,7 +158,7 @@ Set<T> set = new HashSet<T>();
 The T is a type parameter passed to the generic interface Set and its implemenation class HashSet.
 
 ### Map
-```
+```java
 Map<T> set = new HashMap<T>();
 ```
 <ul class="list">
@@ -176,7 +176,7 @@ The question mark (?), represents the wildcard, stands for unknown type in gener
 There may be times when you'll want to restrict the kinds of types that are allowed to be passed to a type parameter. For example, a method that operates on numbers might only want to accept instances of Number or its subclasses.
 
 To declare a upper bounded Wildcard parameter, list the ?, followed by the extends keyword, followed by its upper bound.
-```
+```java
 public static double sum(List<? extends Number> numberlist) {
       ...
    }
@@ -187,7 +187,7 @@ public static double sum(List<? extends Number> numberlist) {
 There may be times when any object can be used when a method can be implemented using functionality provided in the Object class or When the code is independent of the type parameter.
 
 To declare a Unbounded Wildcard parameter, list the ? only.
-```
+```java
 public static void printAll(List<?> list) {
     ...
    }
@@ -198,7 +198,7 @@ public static void printAll(List<?> list) {
 There may be times when you'll want to restrict the kinds of types that are allowed to be passed to a type parameter. For example, a method that operates on numbers might only want to accept instances of Integer or its superclasses like Number.
 
 To declare a lower bounded Wildcard parameter, list the ?, followed by the super keyword, followed by its lower bound.
-```
+```java
 public static void addCat(List<? super Cat> catList) {
       ...
    }
@@ -223,19 +223,19 @@ Generics are used for tighter type checks at compile time and to provide a gener
 ## Restrictions on Generics
 
 **No Primitive Types** - Using generics, primitive types can not be passed as type parameters.
-```
+```java
 Box<int> intBox = new Box<int>() //Error
 ```   
 NOTE: Use Wrappers like Integar instead.
 
 **No Instance** - A type parameter cannot be used to instantiate its object inside a method.
-```
+```java
 public static <T> void add(Box<T> box) //Error
 ```   
 NOTE: To achieve such functionality, reflection can be used.
 
 **No Static field** - Using generics, type parameters are not allowed to be static. As static variable is shared among object so compiler can not determine which type to used.
-```
+```java
 class Box<T> {   
    private static T t; //Error
 }
@@ -243,7 +243,7 @@ class Box<T> {
 
 **No Cast** - Casting to a parameterized type is not allowed unless it is parameterized by unbounded wildcards.
 
-```
+```java
 Box<Integer> integerBox = new Box<Integer>();
 Box<Number> numberBox = new Box<Number>();
 integerBox = (Box<Integer>)numberBox; //Error: Cannot cast from Box<Number> to Box<Integer>
@@ -252,28 +252,30 @@ NOTE: To achive the same, unbounded wildcards can be used.
 
 **No instanceOf** - Because compiler uses type erasure, the runtime does not keep track of type parameters, so at runtime difference between Box<Integer> and Box<String> cannot be verified using instanceOf operator.
 
-```
+```java
 ... integerBox instanceof Box<Integer> ... 
 ```
 
 **No Array** - Arrays of parameterized types are not allowed. Because compiler uses type erasure, the type parameter is replaced with Object and user can add any type of object to the array. And at runtime, code will not able to throw ArrayStoreException.
 
-```
+```java
 Object[] stringBoxes = new Box<String>[]; //Error
 ```
 
 **No Exceptionn** - A generic class is not allowed to extend the Throwable class directly or indirectly. 
 
-```
+```java
 //The generic class Box<T> may not subclass java.lang.Throwable
 class Box<T> extends Exception {}
 class Box1<T> extends Throwable {}
 ```
 A method is not allowed to catch an instance of a type parameter. 
-```... catch (T e) ...```
+```java
+... catch (T e) ...
+```
 
 **No Overload** - A class is not allowed to have two overloaded methods that can have the same signature after type erasure.
-```
+```java
 ...
 public void print(List<String> stringList) { }  // Error
 public void print(List<Integer> integerList) { }
