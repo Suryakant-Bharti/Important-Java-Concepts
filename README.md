@@ -105,6 +105,8 @@
 
 #### [Thread Synchronization](java_concurrency/synchronization)
 
+#### [Classic Concurrency Problems](java_concurrency/classic_problems)
+
 #### Operating Systems (CPU Scheduling, Memory Management)
 
 #### Background Processing
