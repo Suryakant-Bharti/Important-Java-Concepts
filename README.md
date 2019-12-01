@@ -142,7 +142,20 @@
 
 .
 
-## [6] Java - Other Advanced Topics [WIP]
+## [6] Java - Database Concepts [WIP]
+### NOTES [Useful Info] :
+
+#### Java Database Connectivity (JDBC)
+
+#### SQL Examples
+
+#### MySQL
+
+#### MongoDB
+
+.
+
+## [7] Java - Other Advanced Topics [WIP]
 ### NOTES [Useful Info] :
 
 *[-> Java Testing Basics](_moreReadMe/testing)*
@@ -166,7 +179,7 @@
 
 .
 
-## [7] Data Structures & Algorithms [WIP]
+## [8] Data Structures & Algorithms [WIP]
 ### NOTES [Useful Info] :
 *[-> Common Data Structures](_moreReadMe/ds)*
 
