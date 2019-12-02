@@ -157,7 +157,7 @@
 
 #### ORM (Object-Relational Mapping)
 
-#### Hibernate (ORM Library)
+#### Hibernate 5 (ORM Library)
 
 .
 
