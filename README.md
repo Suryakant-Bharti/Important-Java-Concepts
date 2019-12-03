@@ -143,7 +143,24 @@
 .
 
 ## [6] Java - Database Concepts [WIP]
-### NOTES [Useful Info] :
+
+#### JDBC (Java Database Connectivity)
+
+#### SQL Basics (DDL,DML,DQL)
+
+#### MySQL (SQL Database)
+
+#### MongoDB (NoSQL Database)
+
+#### SQL Intermediate (DCL,TCL)
+
+#### ORM (Object-Relational Mapping)
+
+#### Hibernate 5 (ORM Library)
+
+.
+
+## [6] Java - Developer-Side Testing [WIP]
 
 #### JDBC (Java Database Connectivity)
 
