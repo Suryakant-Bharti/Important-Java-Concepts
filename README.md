@@ -162,19 +162,13 @@
 
 ## [6] Java - Developer-Side Testing [WIP]
 
-#### JDBC (Java Database Connectivity)
+#### Basics of Testing in Java
 
-#### SQL Basics (DDL,DML,DQL)
+#### JUnit 5 (Unit Testing Library)
 
-#### MySQL (SQL Database)
+#### Mockito 2 (Test Doubling Library)
 
-#### MongoDB (NoSQL Database)
-
-#### SQL Intermediate (DCL,TCL)
-
-#### ORM (Object-Relational Mapping)
-
-#### Hibernate 5 (ORM Library)
+#### Understanding Test Driven Development
 
 .
 
@@ -195,8 +189,6 @@
 #### BigDecimal & BigIntegar
 
 #### Advanced Data Types (Flatbuffer)
-
-#### Unit Testing - JUnit 4 (Library)
 
 #### Class Relationships (Design Basics)
 
