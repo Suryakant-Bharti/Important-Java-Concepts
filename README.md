@@ -160,7 +160,7 @@
 
 .
 
-## [6] Java - Developer-Side Testing [WIP]
+## [7] Java - Developer-Side Testing [WIP]
 
 #### Basics of Testing in Java
 
@@ -172,7 +172,7 @@
 
 .
 
-## [7] Java - Other Advanced Topics [WIP]
+## [8] Java - Other Advanced Topics [WIP]
 ### NOTES [Useful Info] :
 
 *[-> Java Testing Basics](_moreReadMe/testing)*
@@ -194,7 +194,7 @@
 
 .
 
-## [8] Data Structures & Algorithms [WIP]
+## [9] Data Structures & Algorithms [WIP]
 ### NOTES [Useful Info] :
 *[-> Common Data Structures](_moreReadMe/ds)*
 
