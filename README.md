@@ -232,6 +232,10 @@
 
 #### Database Schema
 
+#### Entity-Relationship Diagram (ERD)
+
+#### Unified Modeling Language (UML)
+
 .
 
 ## Relation of Java and Others Languages
