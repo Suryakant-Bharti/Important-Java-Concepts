@@ -228,6 +228,12 @@
 
 .
 
+## [9] Technical Diagrams for Developers [WIP]
+
+#### Database Schema
+
+.
+
 ## Relation of Java and Others Languages
 ### NOTES [Useful Info] :
 *[-> Comparisons between C, C++, C# and Java Language](_moreReadMe/cplusplus)*
