@@ -228,7 +228,7 @@
 
 .
 
-## [9] Technical Diagrams for Developers [WIP]
+## [10] Technical Diagrams for Developers [WIP]
 
 #### Database Schema
 
