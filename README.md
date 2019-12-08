@@ -236,6 +236,10 @@
 
 #### Unified Modeling Language (UML)
 
+#### Control-Flow Diagram (CFD)
+
+#### Data-Flow Diagram (DFD)
+
 .
 
 ## Relation of Java and Others Languages
