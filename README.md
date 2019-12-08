@@ -162,7 +162,7 @@
 
 ## [7] Java - Developer-Side Testing [WIP]
 
-#### Basics of Testing in Java
+#### [Basics of Testing in Java](_moreReadMe/testing)
 
 #### JUnit 5 (Unit Testing Library)
 
@@ -174,8 +174,6 @@
 
 ## [8] Java - Other Advanced Topics [WIP]
 ### NOTES [Useful Info] :
-
-*[-> Java Testing Basics](_moreReadMe/testing)*
 
 *[-> Java Class Design Basic](_moreReadMe/class_relations)*
 
