@@ -172,6 +172,20 @@
 
 .
 
+## [7] Java - Software Development [WIP]
+
+#### Java Best Practices
+
+#### SE Funadamentals
+
+#### OOAD Funadamentals
+
+#### Refactoring & Regression
+
+#### Behaviour Driven Development
+
+.
+
 ## [8] Java - Other Advanced Topics [WIP]
 ### NOTES [Useful Info] :
 
