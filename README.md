@@ -172,7 +172,7 @@
 
 .
 
-## [7] Java - Software Development [WIP]
+## [8] Java - Software Development [WIP]
 
 #### Java Best Practices
 
@@ -186,7 +186,7 @@
 
 .
 
-## [8] Java - Other Advanced Topics [WIP]
+## [9] Java - Other Advanced Topics [WIP]
 ### NOTES [Useful Info] :
 
 *[-> Java Class Design Basic](_moreReadMe/class_relations)*
@@ -206,7 +206,7 @@
 
 .
 
-## [9] Data Structures & Algorithms [WIP]
+## [10] Data Structures & Algorithms [WIP]
 ### NOTES [Useful Info] :
 *[-> Common Data Structures](_moreReadMe/ds)*
 
@@ -240,7 +240,7 @@
 
 .
 
-## [10] Technical Diagrams for Developers [WIP]
+## [11] Technical Diagrams for Developers [WIP]
 
 #### Database Schema
 
