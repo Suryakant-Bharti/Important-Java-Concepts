@@ -260,6 +260,8 @@
 
 *[-> CheatSheet | C# for Java Developers](_moreReadMe/csharp)*
 
+*[-> CheatSheet | Kotlin for Java Developers](_moreReadMe/kotlin)*
+
 *[-> Java and Python](_moreReadMe/python)*
 
 ## Learn Android App Development
