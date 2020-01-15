@@ -94,7 +94,7 @@
 
 .
 
-## [4] Java - Concurrency & Background Process [WIP]
+## [4] Java - Threads & Concurrency [WIP]
 ### NOTES [Useful Info] :
 *[-> Java Multithreading & Garbage Collection](_moreReadMe/multithreading)*
 
