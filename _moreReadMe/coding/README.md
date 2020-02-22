@@ -6,3 +6,5 @@
 <div align="left"><p><div>
 <img src="https://user-images.githubusercontent.com/2780145/71409274-fbb9d100-2666-11ea-9812-dce7aea14636.png" width="180"  alt="LeetCode">
 </div></a>
+<sub><i>LeetCode is the best platform to help you enhance your skills.</i></sub></p>
+</div>
