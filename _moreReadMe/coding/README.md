@@ -16,3 +16,4 @@
 - [*Hash Table*](#hash-table))
 - *Linked Lists**
 - *Stacks*
+- *Queues*
