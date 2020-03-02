@@ -17,3 +17,4 @@
 - *Linked Lists**
 - *Stacks*
 - *Queues*
+- *Two Pointers*
