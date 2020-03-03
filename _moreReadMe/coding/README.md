@@ -18,3 +18,4 @@
 - *Stacks*
 - *Queues*
 - *Two Pointers*
+- *Binary Search*
