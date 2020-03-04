@@ -19,3 +19,4 @@
 - *Queues*
 - *Two Pointers*
 - *Binary Search*
+- *Tree*
