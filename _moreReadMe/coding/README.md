@@ -20,3 +20,4 @@
 - *Two Pointers*
 - *Binary Search*
 - *Tree*
+- *Depth-first Search*
