@@ -23,4 +23,5 @@
 - *Depth-first Search*
 - *Breadth-first Search*
 - *Bit Manipulation*
-- *Math*
+- *Math**
+- *Others*
