@@ -41,4 +41,5 @@
 
 ---
 
-## 1D-Arrays (55/60 Questions)
+## 1D-Arrays (55/60 Questions))
+- [X] 	Two Sum
