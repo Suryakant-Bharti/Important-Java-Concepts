@@ -43,3 +43,4 @@
 
 ## 1D-Arrays (55/60 Questions))
 - [X] 	Two Sum
+- [X] 	Remove Duplicates from Sorted Array
