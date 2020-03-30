@@ -46,3 +46,4 @@
 - [X] 	Remove Duplicates from Sorted Array
 - [X] 	Remove Element
 - [X] 	Search Insert Position
+- [X] 	Maximum Subarray
