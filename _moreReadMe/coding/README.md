@@ -47,3 +47,43 @@
 - [X] 	Remove Element
 - [X] 	Search Insert Position
 - [X] 	Maximum Subarray
+- [X] 	Plus One
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
