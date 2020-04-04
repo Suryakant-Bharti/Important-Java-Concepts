@@ -48,6 +48,7 @@
 - [X] 	Search Insert Position
 - [X] 	Maximum Subarray
 - [X] 	Plus One
+- [X] 	Merge Sorted Array [2pointers]
 
 
 
