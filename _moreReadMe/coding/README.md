@@ -52,6 +52,7 @@
 - [X] 	Best Time to Buy and Sell Stock
 - [X] 	Best Time to Buy and Sell Stock II
 - [X] 	Two Sum II - Input array is sorted [2pointers]
+- [X] 	Majority Element
 
 
 
