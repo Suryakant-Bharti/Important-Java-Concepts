@@ -54,6 +54,7 @@
 - [X] 	Two Sum II - Input array is sorted [2pointers]
 - [X] 	Majority Element
 - [X] 	Rotate Array
+- [X] 	Contains Duplicate
 
 
 
