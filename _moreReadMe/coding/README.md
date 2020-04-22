@@ -55,6 +55,7 @@
 - [X] 	Majority Element
 - [X] 	Rotate Array
 - [X] 	Contains Duplicate
+- [X] 	Contains Duplicate II
 
 
 
