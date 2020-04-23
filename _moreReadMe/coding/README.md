@@ -56,6 +56,7 @@
 - [X] 	Rotate Array
 - [X] 	Contains Duplicate
 - [X] 	Contains Duplicate II
+- [X] 	Missing Number
 
 
 
