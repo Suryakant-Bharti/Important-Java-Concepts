@@ -57,6 +57,7 @@
 - [X] 	Contains Duplicate
 - [X] 	Contains Duplicate II
 - [X] 	Missing Number
+- [X] 	Move Zeroes
 
 
 
