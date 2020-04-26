@@ -58,6 +58,7 @@
 - [X] 	Contains Duplicate II
 - [X] 	Missing Number
 - [X] 	Move Zeroes
+- [X] 	Third Maximum Number
 
 
 
