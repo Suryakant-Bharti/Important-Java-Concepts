@@ -59,6 +59,7 @@
 - [X] 	Missing Number
 - [X] 	Move Zeroes
 - [X] 	Third Maximum Number
+- [X] 	Find All Numbers Disappeared in an Array
 
 
 
