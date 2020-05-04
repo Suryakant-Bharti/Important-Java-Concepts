@@ -61,6 +61,7 @@
 - [X] 	Third Maximum Number
 - [X] 	Find All Numbers Disappeared in an Array
 - [X] 	Max Consecutive Ones
+- [X] 	Fibonacci Number
 
 
 
