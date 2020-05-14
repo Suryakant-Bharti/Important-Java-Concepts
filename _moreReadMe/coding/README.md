@@ -62,6 +62,7 @@
 - [X] 	Find All Numbers Disappeared in an Array
 - [X] 	Max Consecutive Ones
 - [X] 	Fibonacci Number
+- [X] 	K-diff Pairs in an Array [2pointers]
 
 
 
