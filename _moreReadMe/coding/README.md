@@ -64,6 +64,7 @@
 - [X] 	Fibonacci Number
 - [X] 	K-diff Pairs in an Array [2pointers]]
 - [X] 	Array Partition I
+- [X] 	Shortest Unsorted Continuous Subarray
 
 
 
