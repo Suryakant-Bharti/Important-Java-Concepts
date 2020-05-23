@@ -66,6 +66,7 @@
 - [X] 	Array Partition I
 - [X] 	Shortest Unsorted Continuous Subarray
 - [X] 	Can Place Flowers
+- [X] 	Maximum Product of Three Numbers
 
 
 
