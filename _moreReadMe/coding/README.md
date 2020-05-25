@@ -67,6 +67,7 @@
 - [X] 	Shortest Unsorted Continuous Subarray
 - [X] 	Can Place Flowers
 - [X] 	Maximum Product of Three Numbers
+- [X] 	Maximum Average Subarray I
 
 
 
