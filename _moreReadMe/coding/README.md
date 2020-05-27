@@ -68,6 +68,8 @@
 - [X] 	Can Place Flowers
 - [X] 	Maximum Product of Three Numbers
 - [X] 	Maximum Average Subarray I
+- [X] 	Non-decreasing Array
+- [X] 	Longest Continuous Increasing Subsequence
 
 
 
