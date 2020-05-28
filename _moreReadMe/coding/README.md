@@ -70,6 +70,7 @@
 - [X] 	Maximum Average Subarray I
 - [X] 	Non-decreasing Array
 - [X] 	Longest Continuous Increasing Subsequence
+- [X] 	Degree of an Array
 
 
 
