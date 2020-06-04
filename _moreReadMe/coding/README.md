@@ -73,6 +73,7 @@
 - [X] 	Degree of an Array
 - [X] 	1-bit and 2-bit Characters
 - [X] 	Find Pivot Index
+- [X] 	Min Cost Climbing Stairs [dp]
 
 
 
