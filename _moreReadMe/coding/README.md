@@ -74,6 +74,7 @@
 - [X] 	1-bit and 2-bit Characters
 - [X] 	Find Pivot Index
 - [X] 	Min Cost Climbing Stairs [dp]
+- [X] 	Largest Number At Least Twice of Others
 
 
 
