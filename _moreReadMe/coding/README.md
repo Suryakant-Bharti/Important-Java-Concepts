@@ -76,6 +76,7 @@
 - [X] 	Min Cost Climbing Stairs [dp]
 - [X] 	Largest Number At Least Twice of Others
 - [X] 	Maximize Distance to Closest Person
+- [X] 	Fair Candy Swap [math]
 
 
 
