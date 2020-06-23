@@ -78,6 +78,8 @@
 - [X] 	Maximize Distance to Closest Person
 - [X] 	Fair Candy Swap [math]
 - [X] 	Monotonic Array
+- [X] 	Sort Array By Parity
+- [X] 	X of a Kind in a Deck of Cards [math]
 
 
 
