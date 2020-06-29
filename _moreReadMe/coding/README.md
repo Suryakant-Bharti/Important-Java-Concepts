@@ -82,6 +82,7 @@
 - [X] 	X of a Kind in a Deck of Cards [math]
 - [X] 	Sort Array By Parity II
 - [X] 	Valid Mountain Array
+- [X] 	Squares of a Sorted Array
 
 
 
