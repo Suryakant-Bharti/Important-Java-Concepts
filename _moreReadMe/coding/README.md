@@ -83,6 +83,7 @@
 - [X] 	Sort Array By Parity II
 - [X] 	Valid Mountain Array
 - [X] 	Squares of a Sorted Array
+- [X] 	Add to Array-Form of Integer
 
 
 
