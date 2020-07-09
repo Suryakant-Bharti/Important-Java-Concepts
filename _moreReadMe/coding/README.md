@@ -84,6 +84,8 @@
 - [X] 	Valid Mountain Array
 - [X] 	Squares of a Sorted Array
 - [X] 	Add to Array-Form of Integer
+- [ ] 	Find Common Characters [string]
+- [X] 	Pairs of Songs With Total Durations Divisible by 60
 
 
 
