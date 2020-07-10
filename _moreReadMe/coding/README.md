@@ -86,6 +86,7 @@
 - [X] 	Add to Array-Form of Integer
 - [ ] 	Find Common Characters [string]
 - [X] 	Pairs of Songs With Total Durations Divisible by 60
+- [X] 	Partition Array Into Three Parts With Equal Sum
 
 
 
