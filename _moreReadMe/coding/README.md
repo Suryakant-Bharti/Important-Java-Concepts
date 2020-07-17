@@ -89,6 +89,7 @@
 - [X] 	Partition Array Into Three Parts With Equal Sum
 - [X] 	Binary Prefix Divisible By 5 [bit]
 - [X] 	Height Checker
+- [X] 	Duplicate Zeros
 
 
 
