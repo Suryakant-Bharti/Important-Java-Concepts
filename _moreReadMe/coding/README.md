@@ -90,6 +90,7 @@
 - [X] 	Binary Prefix Divisible By 5 [bit]
 - [X] 	Height Checker
 - [X] 	Duplicate Zeros
+- [X] 	Relative Sort Array
 
 
 
