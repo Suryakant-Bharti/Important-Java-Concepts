@@ -92,6 +92,8 @@
 - [X] 	Duplicate Zeros
 - [X] 	Relative Sort Array
 - [ ] 	Find Words That Can Be Formed by Characters [string]
+- [ ] 	Compare Strings by Frequency of the Smallest Character [string]
+- [X] 	Distance Between Bus Stops
 
 
 
