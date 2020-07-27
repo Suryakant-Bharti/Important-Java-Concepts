@@ -95,6 +95,7 @@
 - [ ] 	Compare Strings by Frequency of the Smallest Character [string]
 - [X] 	Distance Between Bus Stops
 - [ ] 	Day of the Week [date][worthless_ques][10x_down]
+- [X] 	Play with Chips
 
 
 
