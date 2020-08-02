@@ -96,6 +96,7 @@
 - [X] 	Distance Between Bus Stops
 - [ ] 	Day of the Week [date][worthless_ques][10x_down]
 - [X] 	Play with Chips
+- [X] 	Element Appearing More Than 25% In Sorted Array
 
 
 
