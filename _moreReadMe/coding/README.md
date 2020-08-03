@@ -97,6 +97,7 @@
 - [ ] 	Day of the Week [date][worthless_ques][10x_down]
 - [X] 	Play with Chips
 - [X] 	Element Appearing More Than 25% In Sorted Array
+- [X] 	Find Numbers with Even Number of Digits
 
 
 
