@@ -99,6 +99,8 @@
 - [X] 	Element Appearing More Than 25% In Sorted Array
 - [X] 	Find Numbers with Even Number of Digits
 - [X] 	Replace Elements with Greatest Element on Right Side
+- [X] 	Find N Unique Integers Sum up to Zero
+- [X] 	Decompress Run-Length Encoded List
 
 
 
