@@ -101,6 +101,7 @@
 - [X] 	Replace Elements with Greatest Element on Right Side
 - [X] 	Find N Unique Integers Sum up to Zero
 - [X] 	Decompress Run-Length Encoded List
+- [X] 	Rank Transform of an Array
 
 
 
