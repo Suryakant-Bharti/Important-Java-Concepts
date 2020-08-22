@@ -102,6 +102,7 @@
 - [X] 	Find N Unique Integers Sum up to Zero
 - [X] 	Decompress Run-Length Encoded List
 - [X] 	Rank Transform of an Array
+- [X] 	Check If N and Its Double Exist
 
 
 
