@@ -108,6 +108,7 @@
 - [X] 	Pascal's Triangle [dp]
 - [X] 	Pascal's Triangle II
 - [X] 	Reshape the Matrix
+- [X] 	Image Smoother
 
 
 
