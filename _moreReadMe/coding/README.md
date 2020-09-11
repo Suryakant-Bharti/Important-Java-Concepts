@@ -107,6 +107,7 @@
 ## 2D-Arrays (8/18 Questions)
 - [X] 	Pascal's Triangle [dp]
 - [X] 	Pascal's Triangle II
+- [X] 	Reshape the Matrix
 
 
 
