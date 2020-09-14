@@ -109,6 +109,7 @@
 - [X] 	Pascal's Triangle II
 - [X] 	Reshape the Matrix
 - [X] 	Image Smoother
+- [X] 	Toeplitz Matrix
 
 
 
