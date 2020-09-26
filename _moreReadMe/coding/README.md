@@ -110,6 +110,7 @@
 - [X] 	Reshape the Matrix
 - [X] 	Image Smoother
 - [X] 	Toeplitz Matrix
+- [ ] 	Positions of Large Groups [string]
 
 
 
