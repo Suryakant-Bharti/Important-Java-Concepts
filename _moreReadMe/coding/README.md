@@ -111,6 +111,7 @@
 - [X] 	Image Smoother
 - [X] 	Toeplitz Matrix
 - [ ] 	Positions of Large Groups [string]
+- [X] 	Flipping an Image
 
 
 
