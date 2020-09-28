@@ -112,6 +112,7 @@
 - [X] 	Toeplitz Matrix
 - [ ] 	Positions of Large Groups [string]
 - [X] 	Flipping an Image
+- [X] 	Magic Squares In Grid [regex]
 
 
 
