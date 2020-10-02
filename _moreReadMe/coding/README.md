@@ -115,6 +115,7 @@
 - [X] 	Magic Squares In Grid [regex]
 - [X] 	Transpose Matrix
 - [ ] 	Sum of Even Numbers After Queries
+- [ ] 	Available Captures for Rook
 
 
 
