@@ -116,6 +116,7 @@
 - [X] 	Transpose Matrix
 - [ ] 	Sum of Even Numbers After Queries
 - [ ] 	Available Captures for Rook
+- [ ] 	Number of Equivalent Domino Pairs
 
 
 
