@@ -118,6 +118,7 @@
 - [ ] 	Available Captures for Rook
 - [ ] 	Number of Equivalent Domino Pairs
 - [ ] 	Minimum Absolute Difference
+- [ ] 	Check If It Is a Straight Line
 
 
 
