@@ -119,6 +119,7 @@
 - [ ] 	Number of Equivalent Domino Pairs
 - [ ] 	Minimum Absolute Difference
 - [ ] 	Check If It Is a Straight Line
+- [ ] 	Cells with Odd Values in a Matrix
 
 
 
