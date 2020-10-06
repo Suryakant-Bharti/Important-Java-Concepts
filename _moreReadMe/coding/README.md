@@ -120,6 +120,7 @@
 - [ ] 	Minimum Absolute Difference
 - [ ] 	Check If It Is a Straight Line
 - [ ] 	Cells with Odd Values in a Matrix
+- [ ] 	Shift 2D Grid
 
 
 
