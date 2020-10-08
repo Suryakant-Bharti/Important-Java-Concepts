@@ -124,6 +124,8 @@
 - [ ] 	Minimum Time Visiting All Points
 - [ ] 	Find Winner on a Tic Tac Toe Game
 
+## Arrays [10 Paid Questions]
+
 
 
 
