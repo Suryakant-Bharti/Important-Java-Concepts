@@ -126,6 +126,7 @@
 
 ## Arrays [10 Paid Questions]
 - [ ] 	Shortest Word Distance [Paid]
+- [ ] 	Maximum Distance in Arrays [Paid]
 
 
 
