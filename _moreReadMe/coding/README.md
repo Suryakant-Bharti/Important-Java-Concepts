@@ -129,6 +129,7 @@
 - [ ] 	Maximum Distance in Arrays [Paid]
 - [ ] 	Fixed Point [Paid]
 - [ ] 	Sum of Digits in the Minimum Number [Paid]
+- [ ] 	High Five [Paid]
 
 
 
