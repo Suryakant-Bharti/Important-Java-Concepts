@@ -131,6 +131,7 @@
 - [ ] 	Sum of Digits in the Minimum Number [Paid]
 - [ ] 	High Five [Paid]
 - [ ] 	Two Sum Less Than K [Paid]
+- [ ] 	Largest Unique Number [Paid]
 
 
 
