@@ -132,6 +132,7 @@
 - [ ] 	High Five [Paid]
 - [ ] 	Two Sum Less Than K [Paid]
 - [ ] 	Largest Unique Number [Paid]
+- [ ] 	Check If a Number Is Majority Element in a Sorted Array [Paid]
 
 
 
