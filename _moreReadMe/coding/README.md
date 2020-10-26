@@ -137,6 +137,7 @@
 - [ ] 	Array Transformation [Paid]
 
 ## Strings (52 Questions)
+- [ ] 	Roman to Integer
 
 
 
