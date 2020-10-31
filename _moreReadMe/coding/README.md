@@ -139,6 +139,7 @@
 ## Strings (52 Questions)
 - [ ] 	Roman to Integer
 - [ ] 	Longest Common Prefix
+- [ ] 	Valid Parentheses
 
 
 
