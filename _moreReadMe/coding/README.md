@@ -140,6 +140,7 @@
 - [ ] 	Roman to Integer
 - [ ] 	Longest Common Prefix
 - [ ] 	Valid Parentheses
+- [ ] 	Implement strStr()
 
 
 
