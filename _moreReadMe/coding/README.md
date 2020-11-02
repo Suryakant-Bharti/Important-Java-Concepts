@@ -141,6 +141,7 @@
 - [ ] 	Longest Common Prefix
 - [ ] 	Valid Parentheses
 - [ ] 	Implement strStr()
+- [ ] 	Count and Say
 
 
 
