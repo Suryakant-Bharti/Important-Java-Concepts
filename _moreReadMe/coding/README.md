@@ -142,6 +142,7 @@
 - [ ] 	Valid Parentheses
 - [ ] 	Implement strStr()
 - [ ] 	Count and Say
+- [ ] 	Length of Last Word
 
 
 
