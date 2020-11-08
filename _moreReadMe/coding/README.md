@@ -147,6 +147,7 @@
 - [ ] 	Valid Palindrome
 - [ ] 	Read N Characters Given Read4
 - [ ] 	Flip Game
+- [ ] 	Reverse String
 
 
 
