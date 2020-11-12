@@ -153,6 +153,7 @@
 - [ ] 	First Unique Character in a String
 - [ ] 	Valid Word Abbreviation
 - [ ] 	Add Strings
+- [ ] 	Number of Segments in a String
 
 
 
