@@ -154,6 +154,7 @@
 - [ ] 	Valid Word Abbreviation
 - [ ] 	Add Strings
 - [ ] 	Number of Segments in a String
+- [ ] 	String Compression
 
 
 
