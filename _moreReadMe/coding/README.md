@@ -155,6 +155,7 @@
 - [ ] 	Add Strings
 - [ ] 	Number of Segments in a String
 - [ ] 	String Compression
+- [ ] 	Repeated Substring Pattern
 
 
 
