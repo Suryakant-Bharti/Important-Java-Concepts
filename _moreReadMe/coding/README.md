@@ -157,6 +157,7 @@
 - [ ] 	String Compression
 - [ ] 	Repeated Substring Pattern
 - [ ] 	Detect Capital
+- [ ] 	Longest Uncommon Subsequence I
 
 
 
