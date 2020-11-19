@@ -158,6 +158,7 @@
 - [ ] 	Repeated Substring Pattern
 - [ ] 	Detect Capital
 - [ ] 	Longest Uncommon Subsequence I
+- [ ] 	Reverse String II
 
 
 
