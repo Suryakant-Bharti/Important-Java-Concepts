@@ -159,6 +159,7 @@
 - [ ] 	Detect Capital
 - [ ] 	Longest Uncommon Subsequence I
 - [ ] 	Reverse String II
+- [ ] 	Student Attendance Record I
 
 
 
