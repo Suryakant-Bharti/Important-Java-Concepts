@@ -161,6 +161,7 @@
 - [ ] 	Reverse String II
 - [ ] 	Student Attendance Record I
 - [ ] 	Reverse Words in a String III
+- [ ] 	Construct String from Binary Tree
 
 
 
