@@ -166,6 +166,7 @@
 - [ ] 	Valid Palindrome II
 - [ ] 	Repeated String Match
 - [ ] 	Count Binary Substrings
+- [ ] 	To Lower Case
 
 
 
