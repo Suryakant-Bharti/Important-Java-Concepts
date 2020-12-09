@@ -168,6 +168,7 @@
 - [ ] 	Count Binary Substrings
 - [ ] 	To Lower Case
 - [ ] 	Bold Words in String
+- [ ] 	Rotated Digits
 
 
 
