@@ -169,6 +169,7 @@
 - [ ] 	To Lower Case
 - [ ] 	Bold Words in String
 - [ ] 	Rotated Digits
+- [ ] 	Similar RGB Color
 
 
 
