@@ -170,6 +170,7 @@
 - [ ] 	Bold Words in String
 - [ ] 	Rotated Digits
 - [ ] 	Similar RGB Color
+- [ ] 	Unique Morse Code Words
 
 
 
