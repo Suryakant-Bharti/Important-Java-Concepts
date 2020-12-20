@@ -172,6 +172,7 @@
 - [ ] 	Similar RGB Color
 - [ ] 	Unique Morse Code Words
 - [ ] 	Most Common Word
+- [ ] 	Goat Latin
 
 
 
