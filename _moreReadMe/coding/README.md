@@ -173,6 +173,7 @@
 - [ ] 	Unique Morse Code Words
 - [ ] 	Most Common Word
 - [ ] 	Goat Latin
+- [ ] 	Buddy Strings
 
 
 
