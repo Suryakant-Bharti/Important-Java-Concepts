@@ -174,6 +174,7 @@
 - [ ] 	Most Common Word
 - [ ] 	Goat Latin
 - [ ] 	Buddy Strings
+- [ ] 	Groups of Special-Equivalent Strings
 
 
 
