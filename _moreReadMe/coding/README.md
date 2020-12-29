@@ -175,6 +175,7 @@
 - [ ] 	Goat Latin
 - [ ] 	Buddy Strings
 - [ ] 	Groups of Special-Equivalent Strings
+- [ ] 	Reverse Only Letters
 
 
 
