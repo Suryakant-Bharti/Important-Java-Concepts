@@ -177,6 +177,7 @@
 - [ ] 	Groups of Special-Equivalent Strings
 - [ ] 	Reverse Only Letters
 - [ ] 	Long Pressed Name
+- [ ] 	Unique Email Addresses
 
 
 
