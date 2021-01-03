@@ -182,6 +182,7 @@
 - [ ] 	Index Pairs of a String
 - [ ] 	Greatest Common Divisor of Strings
 - [ ] 	Defanging an IP Address
+- [ ] 	Remove Vowels from a String
 
 
 
