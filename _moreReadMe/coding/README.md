@@ -181,6 +181,7 @@
 - [ ] 	Reorder Data in Log Files
 - [ ] 	Index Pairs of a String
 - [ ] 	Greatest Common Divisor of Strings
+- [ ] 	Defanging an IP Address
 
 
 
