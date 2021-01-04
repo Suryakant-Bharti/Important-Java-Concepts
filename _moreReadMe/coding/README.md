@@ -183,6 +183,7 @@
 - [ ] 	Greatest Common Divisor of Strings
 - [ ] 	Defanging an IP Address
 - [ ] 	Remove Vowels from a String
+- [ ] 	Single-Row Keyboard
 
 
 
