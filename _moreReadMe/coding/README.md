@@ -184,6 +184,7 @@
 - [ ] 	Defanging an IP Address
 - [ ] 	Remove Vowels from a String
 - [ ] 	Single-Row Keyboard
+- [ ] 	Compare Strings by Frequency of the Smallest Character
 
 
 
