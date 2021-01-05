@@ -185,6 +185,7 @@
 - [ ] 	Remove Vowels from a String
 - [ ] 	Single-Row Keyboard
 - [ ] 	Compare Strings by Frequency of the Smallest Character
+- [ ] 	Count Substrings with Only One Distinct Letter
 
 
 
