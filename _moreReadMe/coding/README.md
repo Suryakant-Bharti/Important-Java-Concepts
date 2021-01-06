@@ -187,6 +187,7 @@
 - [ ] 	Compare Strings by Frequency of the Smallest Character
 - [ ] 	Count Substrings with Only One Distinct Letter
 - [ ] 	Maximum Number of Balloons
+- [ ] 	Split a String in Balanced Strings
 
 
 
