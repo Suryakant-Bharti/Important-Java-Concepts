@@ -188,6 +188,7 @@
 - [ ] 	Count Substrings with Only One Distinct Letter
 - [ ] 	Maximum Number of Balloons
 - [ ] 	Split a String in Balanced Strings
+- [ ] 	Hexspeak
 
 
 
