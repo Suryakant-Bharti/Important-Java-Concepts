@@ -190,6 +190,8 @@
 - [ ] 	Split a String in Balanced Strings
 - [ ] 	Hexspeak
 
+### Hash Table
+
 
 
 
