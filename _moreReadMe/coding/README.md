@@ -194,6 +194,8 @@
 
 ### Linked Lists
 
+### Stack
+
 
 
 
