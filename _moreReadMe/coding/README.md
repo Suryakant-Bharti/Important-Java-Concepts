@@ -198,6 +198,8 @@
 
 ### Two Pointers
 
+### Binary Search
+
 
 
 
