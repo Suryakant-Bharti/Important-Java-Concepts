@@ -229,6 +229,7 @@ Arrays, Strings, Linked Lists, Stack & Queue, Tree, Heap, Recursion, Hashing, Gr
 - https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/
 - https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/
 - https://www.geeksforgeeks.org/top-25-interview-questions/
+- https://www.geeksforgeeks.org/10-important-interview-questions/
 
 
 
