@@ -214,10 +214,10 @@
 
 ---
 
+#### HackerEarth
+
 #### GeeksForGeeks:
 Arrays, Strings, Linked Lists, Stack & Queue, Tree, Heap, Recursion, Hashing, Graph, Greedy, Dynamic Programming, Divide and Conquer, Backtracking, Bit Magic
-
-#### HackerEarth
 
 #### HackerRank
 
