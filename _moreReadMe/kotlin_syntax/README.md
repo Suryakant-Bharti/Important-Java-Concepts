@@ -1,4 +1,4 @@
-#Intro
+### Intro
 
 Kotlin is a new programming language for the JVM. It produces Java bytecode, supports Android and generates JavaScript. The latest version of the language is [Kotlin M5.3]("http://blog.jetbrains.com/kotlin/2013/06/kotlin-m5-3-idea-13-delegated-properties-and-more/")
 
@@ -8,7 +8,7 @@ All the codes here can be copied and run on [Kotlin online editor](http://kotlin
 
 Let's get started.
 
-#Basics
+### Basics
 - You do not need `;` to break statements.
 - Comments are similar to Java or C#, `/* This is comment */` for multi line comments and `// for single line comment`.
 - Unlike Java, you do not need to match your file name to your class name.
@@ -17,7 +17,7 @@ Let's get started.
 - It has no tuple although Kotlin's data classes is an option to use in place of tuple.
 
 
-##Variables
+### Variables
 - There are two keywords for variable declaration, **var** and **val**.
 - Use **var** when the variable value is to be modified and **val** where the variable value will not change after first assigned.
 - This **val** is similar to **readonly** keyword in C# or **final** keyword in Java.
@@ -28,7 +28,7 @@ Let's get started.
 - All variable declarations in Kotlin must be initialized.
 - The keyword `void` common in Java or C# is called `Unit` in Kotlin.
 
-###Null
+### Null
 
 In Kotlin you have to decide whether a variable can be assigned null or not. This applies to both primitives or class types. A nullable variable is marked by assigning ? after the type, e.g. `var firstName: String?`
 
@@ -50,9 +50,9 @@ fun main(args : Array<String>) {
     val firstName : String = name!! 
     print("$firstName") 
 }
-```    					
+```
 					
-###Type inference
+### Type inference
 
 Kotlin is pretty smart about inferring what type a variable is, whether it is primitives or class. This is similar to the var keyword in C#.
 
@@ -64,11 +64,32 @@ fun main(args : Array<String>) {
     val age = 15 
     println("$firstName $middle $lastNameis $age") 
 }
-```							
+```
+
+### Control Structures
+
+#### If statement
+
+Kotlin **if** statement is similar to other languages
+
+```kotlin
+fun main(args : Array<String>) {
+  val total = 10
+  
+  if (total > 5){
+      println("$total is greater than 5") 
+  }else if (total > 10){
+      println("$total is greater than 10")
+  }else{
+      println("$total is less than 6")
+  }
+}
+
+```
                             
 You will encounter in further examples of more capabilities of Kotlin's type inference.                            
 
-#Functions
+### Functions
 We are going to spend a considerable time in discussing function because it has many different forms and subtleties. Here is a list of facilities that Kotlin provides for functions
 
 - Single expression function.
@@ -103,7 +124,7 @@ fun englishGreeting() : String = "Hello world"
 fun italianGreeting() : String{ 
     return "bon giorno" 
 }
-```					
+```
 
 - Functions can exists on their own.
 - It is marked by **fun** keyword.
@@ -113,7 +134,7 @@ fun italianGreeting() : String{
 - All parameters in a Kotlin function are read only. You are actually not allowed to mark it with either `val` or `var` keyword.
 
 
-##Single expression function
+#### Single expression function
 
 This is a shorthand form in defining a function when you only have a single expression to be executed.
 
@@ -142,7 +163,7 @@ fun show(msg : String) : Unit = println("$msg")
 ```
 
 
-##Optional parameters
+#### Optional parameters
 
 Kotlin allows you to assign default values for your parameters, making them optional. 
 
@@ -160,7 +181,7 @@ fun show (msg : String = "Hello World"){
 
 If you are mixing mandatory parameter and optional parameter, the mandatory parameters must be listed first.
 
-##Arguments
+#### Arguments
 
 ```kotlin
 fun main(args : Array<String>) { 
@@ -213,7 +234,8 @@ fun names(vararg  names : String, age : Int){
 ```
 
 
-###vararg produces array of argument
+#### vararg produces array of argument
+
 ```kotlin
 fun main(args : Array<String>) {
   names("John", "Adam", "Joy")
@@ -227,7 +249,8 @@ fun names(vararg  names : String){
 }
 ```
 
-###Using array to supply variable arguments
+#### Using array to supply variable arguments
+
 Use the * operator in front of the array variable
 
 ```kotlin
@@ -244,7 +267,8 @@ fun names(vararg  names : String){
 }
 ``` 
 
-###Passing one varargs argument to another
+#### Passing one varargs argument to another
+
 ```kotlin
 fun main(args : Array<String>) {
   val n = array("John", "Adam", "Joy")
@@ -264,7 +288,7 @@ fun names(vararg  names : String){
 ```
 Since **vararg** creates an array, you simply use the * operator to pass one **vararg** to another.
 
-##Function Types and Function Literals
+#### Function Types and Function Literals
 
 A function type is a type consisted of a function signature and function return type that are separated by -> operator. In its simplest form, it looks as follows: 
 
@@ -286,7 +310,7 @@ Above is a type for a function that takes two parameters (String and Float) and 
 
 Because a function type is just a type, it means that you can assign it to a variable, you can pass it as a function argument and you can return it from a function.
 
-###Different ways to write function literals
+#### Different ways to write function literals
 
 ```kotlin
 val m = { (x : String) -> println("$x") } 
@@ -330,7 +354,7 @@ fun say(greet : () -> String){
 }
 ```
 
-##Callable references
+#### Callable references
 
 How about if you already have a function that you want to pass as a parameter? You prefix the function name with '::'
 
@@ -351,7 +375,7 @@ fun multiply (a : Int, b : Int) : Int = a * b
 ```
 
 
-##Function expansion
+#### Function expansion
 
 When you call a function which has a function type as the last argument, you can expand it by { }
 
@@ -368,7 +392,7 @@ fun calculate(a : Int,  calc : (Int) -> Int) : Int{
 }
 ```
 
-##Closure
+#### Closure
 
 Kotlin support Closure as highlighted by the example below
 
@@ -383,7 +407,7 @@ fun add(a : Int) : (Int) -> Int{
 }
 ```
 
-##Local function
+#### Local function
 
 You can declare a function inside a function. It will have access to the local variable at the parent function.
 ```kotlin
@@ -409,7 +433,7 @@ fun accumulate(){
 ```
 
 
-##Extension function
+#### Extension function
 
 Extension function enables a function to be accessed from the type function. It works in the form of __type.function__
 Inside the function, the keyword `this` refers to the instance. 
@@ -448,7 +472,7 @@ fun main(args : Array<String>){
 ```
 
     
-### Extension function expressed in function literals
+#### Extension function expressed in function literals
 
 ```kotlin
 val show = { Int.() -> println("This is number $this") }
@@ -465,7 +489,7 @@ fun main(args : Array<String>){
 Both `show` and `add` extension functions are expressed in literal format. Please notice that `add` function returns an `Int`.
 
     
-### Extension function in infix form
+#### Extension function in infix form
 ```kotlin
 fun main(args : Array<String>) {
    val res = 1 add 2
@@ -477,7 +501,7 @@ fun Int.add (one : Int) : Int = this + one
 
 If the extension function only takes one argument, you can call them in infix form (you drop the . between the type and the function). So instead of `1.add(2)`, you can call it in the form of `1 add 2`. This makes certain constructs looks natural (more like an operator than a function call) and especially useful in construction DSL in Kotlin.
 
-##Variable arguments and function type argument
+#### Variable arguments and function type argument
 
 `vararg` parameter can also be naturally combined with a function type parameter.
 
@@ -510,31 +534,7 @@ fun names(vararg  names : String, print : (String) -> Unit){
 
 ```
 
-#Control Structures
-
-
-##If statement
-
-Kotlin **if** statement should look familiar with other language
-
-```kotlin
-fun main(args : Array<String>) {
-  val total = 10
-  
-  if (total > 5){
-      println("$total is greater than 5") 
-  }else if (total > 10){
-      println("$total is greater than 10")
-  }else{
-      println("$total is less than 6")
-  }
-}
-
-```
-
-This is a quick guide to Kotlin programming language. The previous part of this guide is [here](https://gist.github.com/dodyg/f5a22af732a2a4e95287)
-
-#Object Oriented
+## Object Oriented
 
 ```kotlin
 fun main(args : Array<String>) {
@@ -545,7 +545,7 @@ fun main(args : Array<String>) {
 }
 ```
 
-Above code is a sample of __Local Class__, one of many support that Kotlin has for OO programming. 
+Above code is a sample of __Local Class__, one of many support that Kotlin has for Object Oriented Programming. 
 
 - Abstract classes
 - Primary constructor
@@ -560,14 +560,14 @@ Above code is a sample of __Local Class__, one of many support that Kotlin has f
 - Anonymous Analyzer
 - Anonymous Objects
 
-##Kotlin classes
+**Kotlin classes**
 
 Kotlin classes does not have:
 - Static member (methods or properties)
 - Secondary constructors
 - No fields, just properties
 
-###Simplest Kotlin class definition
+### Simplest Kotlin class definition
 ```Kotlin
 class Person
 
@@ -647,7 +647,7 @@ Rule
 - a var property means it can be modified
 - a val property is a constant
 
-##Primary constructor##
+### Primary constructor
 Unlike many other OO language, Kotlin only allows one single constructor 
 
 ```kotlin
