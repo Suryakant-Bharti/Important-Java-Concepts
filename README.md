@@ -115,7 +115,7 @@
 
 .
 
-## [5] Software Design [WIP]
+## [5] Java - Software Design [WIP]
 
 ### NOTES [Useful Info] :
 *[-> Introduction to Design Patterns](_moreReadMe/design_patterns_intro)*
@@ -139,6 +139,24 @@
 #### SOLID Design Principles 
 
 #### Design Interview Questions
+
+.
+
+## [2021 Bonus] Koltin - Modern JVM Language [WIP]
+- *Fastest growing language in Guthub & among the most loved acc. to StackOverflow survey*
+- *Cross-platform, General-purpose, Concise, Safe & fully interoperable with Java*
+- *Primary Offiial language for Native Android Development since 2017*
+- *Supported by Spring Framework, JetBrains Ktor, Eclipse Vert.x (server-side development)*
+
+#### Basic Syntax
+
+#### Collections
+
+#### Coroutines
+
+#### Java to Kotlin CheatSheets
+
+#### Kotlin for Android
 
 .
 
@@ -280,7 +298,7 @@
 
 **NOTE :**
 
-    I will keep adding more important codes to this Repo throughout 2020. 
+    I will keep adding more important codes to this Repo throughout 2021. 
 Happy Learning! :smiley:
 
 .
