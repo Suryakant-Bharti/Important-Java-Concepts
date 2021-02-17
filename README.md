@@ -142,89 +142,7 @@
 
 .
 
-## [2021 Bonus] Koltin - Modern JVM Language [WIP]
-- *Fastest growing language in Guthub & among the most loved acc. to StackOverflow survey*
-- *Cross-platform, General-purpose, Concise, Safe & fully interoperable with Java*
-- *Primary Offiial language for Native Android Development since 2017*
-- *Supported by Spring Framework, JetBrains Ktor, Eclipse Vert.x (server-side development)*
-
-#### Basic Syntax
-
-#### Collections
-
-#### Coroutines
-
-#### Java to Kotlin CheatSheets
-
-#### Kotlin for Android
-
-.
-
-## [6] Java - Database Concepts [WIP]
-
-#### JDBC (Java Database Connectivity)
-
-#### SQL Basics (DDL,DML,DQL)
-
-#### MySQL (SQL Database)
-
-#### MongoDB (NoSQL Database)
-
-#### SQL Intermediate (DCL,TCL)
-
-#### ORM (Object-Relational Mapping)
-
-#### Hibernate 5 (ORM Library)
-
-.
-
-## [7] Java - Developer-Side Testing [WIP]
-
-#### [Basics of Testing in Java](_moreReadMe/testing)
-
-#### JUnit 5 (Unit Testing Library)
-
-#### Mockito 2 (Test Doubling Library)
-
-#### Understanding Test Driven Development
-
-.
-
-## [8] Java - Software Development [WIP]
-
-#### Java Best Practices
-
-#### SE Funadamentals
-
-#### OOAD Funadamentals
-
-#### Refactoring & Regression
-
-#### Behaviour Driven Development
-
-.
-
-## [9] Java - Other Advanced Topics [WIP]
-### NOTES [Useful Info] :
-
-*[-> Java Class Design Basic](_moreReadMe/class_relations)*
-
-*[-> Java RegEx & Lambda Expressions](_moreReadMe/regex_and_lambda)*
-
-### PROGRAMS :
-#### [Regular Expressions](java_misc_advanced_concepts/regex)
-
-#### [Lambda Expressions](java_misc_advanced_concepts/lambda)
-
-#### BigDecimal & BigIntegar
-
-#### Advanced Data Types (Flatbuffer)
-
-#### Class Relationships (Design Basics)
-
-.
-
-## [10] Data Structures & Algorithms [WIP]
+## [6] Data Structures & Algorithms [WIP]
 ### NOTES [Useful Info] :
 *[-> Common Data Structures](_moreReadMe/ds)*
 
@@ -253,8 +171,97 @@
 
 #### [Dynamic Programming](java_datastructures_algorithms/dynamic_programming)
 
-### EXTERNAL LINKS :
-[Dedicated Repo For More DS-ALGO Programs - CODING INTERVIEW QUESTIONS](https://github.com/Suryakant-Bharti/coding-interview-questions)
+#### [Coding Interview Problems](java_coding)
+
+.
+
+## [2021 Bonus] Koltin - Modern JVM Language [WIP]
+- *Fastest growing language in Guthub & among the most loved acc. to StackOverflow survey*
+- *Cross-platform, General-purpose, Concise, Safe & fully interoperable with Java*
+- *Primary Offiial language for Native Android Development since 2017*
+- *Supported by Spring Framework, JetBrains Ktor, Eclipse Vert.x (server-side development)*
+
+### NOTES [Useful Info] :
+*[-> Kotlin Overview & Multiplatform Support](_moreReadMe/kotlinOverview)*
+
+*[-> Java to Kotlin CheatSheets](_moreReadMe/kotlinJavaCheatSheet)*
+
+### PROGRAMS :
+#### Basic Syntax
+
+#### Collections
+
+#### Coroutines
+
+#### Serialization
+
+#### Standard Library
+
+#### Kotlin for Android
+
+.
+
+## [7] Java - Database Concepts [WIP]
+
+#### JDBC (Java Database Connectivity)
+
+#### SQL Basics (DDL,DML,DQL)
+
+#### MySQL (SQL Database)
+
+#### MongoDB (NoSQL Database)
+
+#### SQL Intermediate (DCL,TCL)
+
+#### ORM (Object-Relational Mapping)
+
+#### Hibernate 5 (ORM Library)
+
+.
+
+## [8] Java - Developer-Side Testing [WIP]
+
+#### [Basics of Testing in Java](_moreReadMe/testing)
+
+#### JUnit 5 (Unit Testing Library)
+
+#### Mockito 2 (Test Doubling Library)
+
+#### Understanding Test Driven Development
+
+.
+
+## [9] Java - Software Development [WIP]
+
+#### Java Best Practices
+
+#### SE Funadamentals
+
+#### OOAD Funadamentals
+
+#### Refactoring & Regression
+
+#### Behaviour Driven Development
+
+.
+
+## [10] Java - Other Advanced Topics [WIP]
+### NOTES [Useful Info] :
+
+*[-> Java Class Design Basic](_moreReadMe/class_relations)*
+
+*[-> Java RegEx & Lambda Expressions](_moreReadMe/regex_and_lambda)*
+
+### PROGRAMS :
+#### [Regular Expressions](java_misc_advanced_concepts/regex)
+
+#### [Lambda Expressions](java_misc_advanced_concepts/lambda)
+
+#### BigDecimal & BigIntegar
+
+#### Advanced Data Types (Flatbuffer)
+
+#### Class Relationships (Design Basics)
 
 .
 
@@ -277,8 +284,6 @@
 *[-> Comparisons between C, C++, C# and Java Language](_moreReadMe/cplusplus)*
 
 *[-> CheatSheet | C# for Java Developers](_moreReadMe/csharp)*
-
-*[-> CheatSheet | Kotlin for Java Developers](_moreReadMe/kotlin)*
 
 *[-> Java and Python](_moreReadMe/python)*
 
