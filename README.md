@@ -182,12 +182,14 @@
 - *Supported by Spring Framework, JetBrains Ktor, Eclipse Vert.x (server-side development)*
 
 ### NOTES [Useful Info] :
-*[-> Kotlin Overview & Multiplatform Support](_moreReadMe/kotlinOverview)*
+*[-> Kotlin Basic Syntax](_moreReadMe/kotlin_syntax)*
 
-*[-> Java to Kotlin CheatSheets](_moreReadMe/kotlinJavaCheatSheet)*
+*[-> Kotlin Overview, Features & Multi-platform Support](_moreReadMe/kotlin_overview)*
+
+*[-> Java to Kotlin CheatSheets](_moreReadMe/kotlin_java_cheatsheets)*
 
 ### PROGRAMS :
-#### Basic Syntax
+#### Basic Syntax Programs
 
 #### Collections
 
