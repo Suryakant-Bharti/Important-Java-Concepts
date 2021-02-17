@@ -1,12 +1,18 @@
 ### Intro
 
-Kotlin is a new programming language for the JVM. It produces Java bytecode, supports Android and generates JavaScript. The latest version of the language is [Kotlin M5.3]("http://blog.jetbrains.com/kotlin/2013/06/kotlin-m5-3-idea-13-delegated-properties-and-more/")
+Kotlin is a Modern language which is fully interoperable with Java (and JavaScript). It targets the JVM, Android, JavaScript and Native.
 
-Kotlin project website is at [kotlin.jetbrains.org](http://kotlin.jetbrains.org).
+**Features:**
+- Cross-platform
+- General-purpose
+- Concise
+- Safe
+- Interoperable
+- Statically typed
 
-All the codes here can be copied and run on [Kotlin online editor](http://kotlin-demo.jetbrains.com/).
+Official website : [kotlinlang.org](https://kotlinlang.org/)
 
-Let's get started.
+Try Kotlin codes : [play.kotlinlang.org](https://play.kotlinlang.org/)
 
 ### Basics
 - You do not need `;` to break statements.
