@@ -175,14 +175,14 @@
 
 .
 
-## [2021 Bonus] Koltin - Modern JVM Language [WIP]
+## [2021 Bonus] Kotlin - Modern JVM Language [WIP]
 - *Fastest growing language in Guthub & among the most loved acc. to StackOverflow survey*
 - *Cross-platform, General-purpose, Concise, Safe & fully interoperable with Java*
-- *Primary Offiial language for Native Android Development since 2017*
-- *Supported by Spring Framework, JetBrains Ktor, Eclipse Vert.x (server-side development)*
+- *Primary Official language for Native Android Development since 2019*
+- *Officially supported by Spring Framework, JetBrains Ktor, Eclipse Vert.x (server-side dev)*
 
 ### NOTES [Useful Info] :
-*[-> Kotlin Basic Syntax](_moreReadMe/kotlin_syntax)*
+*[-> Get Started with Kotlin](_moreReadMe/kotlin_syntax)*
 
 *[-> Kotlin Overview, Features & Multi-platform Support](_moreReadMe/kotlin_overview)*
 
