@@ -1,871 +1,669 @@
-# All 50 Java Keywords with Examples
+#Intro
 
-Table below lists 48 Keywords in Java; excluding the keywords goto and const because they are not used.
+Kotlin is a new programming language for the JVM. It produces Java bytecode, supports Android and generates JavaScript. The latest version of the language is [Kotlin M5.3]("http://blog.jetbrains.com/kotlin/2013/06/kotlin-m5-3-idea-13-delegated-properties-and-more/")
 
-![keywords-in-java](https://user-images.githubusercontent.com/2780145/34911899-785e9aa8-f8f9-11e7-8970-87ebd9e02574.jpg)
+Kotlin project website is at [kotlin.jetbrains.org](http://kotlin.jetbrains.org).
 
-## 1) abstract
+All the codes here can be copied and run on [Kotlin online editor](http://kotlin-demo.jetbrains.com/).
 
-abstract keyword is used to implement the abstraction in java. A method which doesn’t have method definition must be declared as abstract and the class containing it must be declared as abstract. You can’t instantiate abstract classes. Abstract methods must be implemented in the sub classes. You can’t use abstract keyword with variables and constructors.
+Let's get started.
 
-```java
-abstract class AbstractClass
-{
-    abstract void abstractMethod();
+#Basics
+- You do not need `;` to break statements.
+- Comments are similar to Java or C#, `/* This is comment */` for multi line comments and `// for single line comment`.
+- Unlike Java, you do not need to match your file name to your class name.
+- Like JavaScript, you can create functions outside classes. So there is no need to stuff your functions as static members of classes like what you do in C# or Java.
+- Kotlin has string templates, which is awesome. e.g. `"$firstName $lastName"` for simple variable name or `"${person.name} is ${1 * 2}"` for any expressions. You can still do the string concatenation if you like e.g. `"hello " + "world"`, but that means being stupid.
+- It has no tuple although Kotlin's data classes is an option to use in place of tuple.
+
+
+##Variables
+- There are two keywords for variable declaration, **var** and **val**.
+- Use **var** when the variable value is to be modified and **val** where the variable value will not change after first assigned.
+- This **val** is similar to **readonly** keyword in C# or **final** keyword in Java.
+- **val** variable must be initialized at declaration.
+- Unlike Java or C#, you declare the type of a variable after the name, e.g. `var firstName : String`
+- Number primitive types are as follows: Double, Float, Long, Int, Short, Byte. There is no automatic conversion between types. You have to explicitly convert them.
+- More primitive types: Char, String, Boolean.
+- All variable declarations in Kotlin must be initialized.
+- The keyword `void` common in Java or C# is called `Unit` in Kotlin.
+
+###Null
+
+In Kotlin you have to decide whether a variable can be assigned null or not. This applies to both primitives or class types. A nullable variable is marked by assigning ? after the type, e.g. `var firstName: String?`
+
+You can assign a value from not-nullable to nullable type without any problem.
+
+```kotlin
+fun main(args : Array<String>) { 
+    val firstName : String = "Adam"
+    val name : String? = firstName 
+    print("$name") 
 }
 ```
 
-## 2) assert
+The other way around though requires that you declare that this nullable variable does not contain null at the point of assignment with !! operator (which pretty much declares : "I am sure this nullable variable is not null at this point")
 
-assert keyword is used in the assertion statements. These statements will enable you to test your assumptions about a program. Assertion statements provide the best way to detect and correct the programming errors. Assertion statements take one boolean expression as input and assumes that this will be always true. If the boolean expression returns false, AssertionError will be thrown.
+```kotlin
+fun main(args : Array<String>) { 
+    val name : String? = "Adam" 
+    val firstName : String = name!! 
+    print("$firstName") 
+}
+```    					
+					
+###Type inference
 
-```java
-public class MainClass
-{
-    public static void main(String[] args) 
-    {
-        System.out.println("Enter your marks");
-         
-        Scanner sc = new Scanner(System.in);
-         
-        int marks = sc.nextInt();
-         
-        assert marks > 35 : "FAIL";
-    }
+Kotlin is pretty smart about inferring what type a variable is, whether it is primitives or class. This is similar to the var keyword in C#.
+
+```kotlin
+fun main(args : Array<String>) { 
+    val firstName = "Adam" 
+    val middle = 'c' 
+    val lastName = "Brown" 
+    val age = 15 
+    println("$firstName $middle $lastNameis $age") 
+}
+```							
+                            
+You will encounter in further examples of more capabilities of Kotlin's type inference.                            
+
+#Functions
+We are going to spend a considerable time in discussing function because it has many different forms and subtleties. Here is a list of facilities that Kotlin provides for functions
+
+- Single expression function.
+- Optional parameter.
+- Positional argument and named argument.
+- Variable argument.
+- Single expression function.
+- Function type.
+- Function literals.
+- Callable references.
+- Extension functions.
+- Infix function call.
+- Local function.
+- Closure.
+- Generic function.
+- Operator overloading.
+
+Below is an example of functions
+
+```kotlin
+fun main(args : Array<String>) { 
+    greet(englishGreeting()) 
+    greet(italianGreeting())
+} 
+
+fun greet(msg : String){ 
+    println(msg) 
+} 
+    
+fun englishGreeting() : String = "Hello world" 
+    
+fun italianGreeting() : String{ 
+    return "bon giorno" 
+}
+```					
+
+- Functions can exists on their own.
+- It is marked by **fun** keyword.
+- If a function returns value, you declare it after the function name.
+- `englishGreeting()` is a *single expression function*.
+- A void function such as `greet()` returns Unit type but you are not required to declare it.
+- All parameters in a Kotlin function are read only. You are actually not allowed to mark it with either `val` or `var` keyword.
+
+
+##Single expression function
+
+This is a shorthand form in defining a function when you only have a single expression to be executed.
+
+```kotlin
+fun main(args : Array<String>) {
+   val res = add(1,1)
+   show("$res")
+}
+
+
+fun add(a : Int, b : Int) = a + b
+fun show(msg : String) = println("$msg")
+```
+
+As you can see above, in a single expression function, the function return type is inferred. You can declare the return type if you want to such as below. 
+
+```kotlin
+fun main(args : Array<String>) {
+   val res = add(1,1)
+   show("$res")
+}
+
+
+fun add(a : Int, b : Int) : Int = a + b
+fun show(msg : String) : Unit = println("$msg")
+```
+
+
+##Optional parameters
+
+Kotlin allows you to assign default values for your parameters, making them optional. 
+
+```kotlin 
+fun main(args : Array<String>) {
+  show()
+  show("Good morning")
+}
+
+
+fun show (msg : String = "Hello World"){
+    println("$msg") 
 }
 ```
 
-## 3) boolean
+If you are mixing mandatory parameter and optional parameter, the mandatory parameters must be listed first.
 
-boolean keyword is used to define boolean type variables. boolean type variables can hold only two values – either true or false.
+##Arguments
 
-```java
-boolean isActive = true;
-```
+```kotlin
+fun main(args : Array<String>) { 
+    greet(firstName = "Frasensco", lastName = "Merini") 
+    greet(lastName = "John", firstName = "Stamos") 
+    greet("Borat", "Ismail") 
+    greet("Crystal", lastName = "Stamos") 
+    call("Xavier", age = 20, location = "Portugal") 
+} 
+    
+fun greet(firstName : String, lastName : String){
+    println("Good morning $firstName $lastName") 
+} 
+    
+fun call(name : String, location : String, age : Int){ 
+    println("Call $name who lives at $location and he is $age old") 
+}
+```					
+				
+Kotlin allows positional argument, named argument and the mix between the two. When you mix named and positional argument, you must start with positional argument.
 
-## 4) break
+###Variable arguments
 
-The break keyword is used to stop the execution of a loop(for, while, switch-case) based on some condition.
+Use the keyword **vararg**.
 
+```kotlin
+fun main(args : Array<String>) {
+  names("John", "Adam", "Joy")
+}
 
-```java
-public class MainClass
-{
-    public static void main(String[] args) 
-    {
-        for (int i = 0; i < 100; i++)
-        {
-            System.out.println(i);
-             
-            if(i == 50)
-            {
-                break;
-            }
-        }
-    }
+fun names(vararg  names : String){
+  for(n in names){
+    println("$n")
+  }
 }
 ```
 
-## 5) byte
+If **vararg** parameter is not the last parameter, named argument must be used to supply the function argument.
 
-byte keyword is used to declare byte type of variables. A byte variable can hold a numeric value in the range from -128 to 127.
+```kotlin
+fun main(args : Array<String>) {
+  names("John", "Adam", "Joy", age = 20)
+}
 
-
-```java
-byte b = 50;
-```
-
-## 6) switch       7) case
-
-Both switch and case keywords are used in the switch-case statement.
-
-
-```java
-public class MainClass
-{
-    public static void main(String[] args) 
-    {
-        Scanner sc = new Scanner(System.in);
-         
-        System.out.println("Enter Day :");
-         
-        int day = sc.nextInt();
-         
-        switch (day)
-        {
-            case 1 : System.out.println("SUNDAY");
-            break;
-             
-            case 2 : System.out.println("MONDAY");
-            break;
- 
-            case 3 : System.out.println("TUESDAY");
-            break;
-             
-            case 4 : System.out.println("WEDNESDAY");
-            break;
-             
-            case 5 : System.out.println("THURSDAY");
-            break;
-             
-            case 6 : System.out.println("FRIDAY");
-            break;
-             
-            case 7 : System.out.println("SATURDAY");
-            break;
-             
-            default: System.out.println("Invalid");
-            break;
-        }
-    }
+fun names(vararg  names : String, age : Int){
+  for(n in names){
+    println("$n is $age old")
+  }
 }
 ```
 
-## 8) try     9) catch     10) finally
 
-try, catch and finally keywords are used to handle the exceptions in java. The statements which are to be monitored for exceptions are kept in the try block. The exceptions thrown by the try block are caught in the catch block. finally block is always executed.
+###vararg produces array of argument
+```kotlin
+fun main(args : Array<String>) {
+  names("John", "Adam", "Joy")
+}
 
-
-```java
-public class MainClass
-{
-    public static void main(String[] args) 
-    {
-        try
-        {
-            int i = Integer.parseInt("abc");
-        }
-        catch(NumberFormatException ex)
-        {
-            System.out.println(ex);
-        }
-        finally
-        {
-            System.out.println("This will be always executed");
-        }
-    }
+fun names(vararg  names : String){
+  println("Argument length is ${names.size}")
+  println("${names[0]}")
+  val nns : Array<String> = names
+  println("${nns[1]}")
 }
 ```
 
-## 11) char
+###Using array to supply variable arguments
+Use the * operator in front of the array variable
 
-char keyword is used to declare primitive char type variables. char represents the characters in java.
+```kotlin
+fun main(args : Array<String>) {
+  val n = array("John", "Adam", "Joy")
+  names(*n)
+}
 
+fun names(vararg  names : String){
+  println("Argument length is ${names.size}")
+  println("${names[0]}")
+  val nns : Array<String> = names
+  println("${nns[1]}")
+}
+``` 
 
-```java
-char a = 'A';
-         
-char b = 'B';
-         
-char c = 'C';
-```
+###Passing one varargs argument to another
+```kotlin
+fun main(args : Array<String>) {
+  val n = array("John", "Adam", "Joy")
+  fugitives(*n)
+}
+,  
+fun fugitives(vararg escapees: String){
+  names(*escapees) 
+}
 
-## 12) class
-
-class keyword is used to define the classes in java.
-
-
-```java
-class MyClass
-{
-    class MyInnerClass
-    {
-        //Inner Class
-    }
+fun names(vararg  names : String){
+  println("Argument length is ${names.size}")
+  println("${names[0]}")
+  val nns : Array<String> = names
+  println("${nns[1]}")
 }
 ```
+Since **vararg** creates an array, you simply use the * operator to pass one **vararg** to another.
 
-## 13) continue
+##Function Types and Function Literals
 
-continue keyword is used to stop the execution of current iteration and start the execution of next iteration in a loop.
+A function type is a type consisted of a function signature and function return type that are separated by -> operator. In its simplest form, it looks as follows: 
 
+`() -> Unit`
 
-```java
-public class MainClass
-{
-    public static void main(String[] args) 
-    {
-        for (int i = 0; i <= 100; i++)
-        {
-            if(i % 5 != 0)
-            {
-                continue;
-            }
-             
-            System.out.println(i);
-        }
-    }
-}
-```
+Above is a type for a function that takes no parameter and returns a Unit (void in other language parlance)
 
-## 14) default
+`() -> String`
 
-default keyword is used to define the default methods in an interface (From Java 8). default keyword is also used in the switch-case statements.
+Above is a type for a function that takes no parameter and return a String
 
+`(String) -> Unit`
 
-```java
-interface MyInterface 
-{
-    public default void myDefaultMethod() 
-    {
-        System.out.println("Default Method");
-    }
-}
-```
+Above is a type for a function that takes a string and returns nothing.
 
-## 15) do
+`(String, Float) -> Unit`
 
-do keyword is used in a do–while loop. do-while loop is used to execute one or more statements repetitively until a condition returns false.
+Above is a type for a function that takes two parameters (String and Float) and returns nothing.
 
+Because a function type is just a type, it means that you can assign it to a variable, you can pass it as a function argument and you can return it from a function.
 
-```java
-public class MainClass
-{
-    public static void main(String[] args) 
-    {
-        int a = 10;
-         
-        int b = 20;
-         
-        do
-        {
-            a = a + b;
-             
-            b = b + 10;
-             
-            System.out.println("a = "+a);
-             
-            System.out.println("b = "+b);
-             
-        } while (a <= 100);
-    }
+###Different ways to write function literals
+
+```kotlin
+val m = { (x : String) -> println("$x") } 
+val n : (String) -> Unit = { x -> println("$x") } 
+val o : (String) -> Unit = { (x : String) -> println("$x") } 
+
+fun main(args : Array<String>) { 
+    m("good morning")
+    n("good morning") 
+    o("good morning") 
 }
 ```
 
-## 16) double
+Above code is an example of function literals. All `m`, `n` and `o` represent the same function.
+            		
+Below is a function that returns a function type
 
-double keyword is used to declare primitive double type of variables.
+```kotlin
+fun main(args : Array<String>) { 
+    val greet = greetingFrom("Cairo, Egypt") 
+    greet("Brown") 
+} 
 
+fun greetingFrom(location : String) : (String) -> Unit{ 
+    return { name -> println ("Hello $name from $location")}
+}
+```				
+	
+Below shows that you can specify a function type as an argument and supply it with function literal with corresponding function signature and return type.
 
-```java
-public class MainClass
-{
-    public static void main(String[] args) 
-    {
-        double d1 = 23.56;
-         
-        double d2 = 56.23;
-         
-        double d3 = d1 + d2;
-         
-        System.out.println(d3);
-    }
+```kotlin
+fun evening(): String = "Good Evening" 
+fun main(args : Array<String>){ 
+    say({ "good morning"}) 
+    say { val msg = "good afternoon" msg } 
+    say({evening()})
+} 
+
+fun say(greet : () -> String){ 
+    println("${greet()}") 
 }
 ```
 
-## 17) if         18) else
+##Callable references
 
-if and else keywords are used in if-else block.
+How about if you already have a function that you want to pass as a parameter? You prefix the function name with '::'
+
+```kotlin
+fun main(args : Array<String>) {
+ calcAndShow(10,10, ::add) //20
+ calcAndShow(10,10, ::multiply) /100
+ calcAndShow(10,19, { x, y -> x - y }) //-9
+}
+
+fun calcAndShow(a : Int, b : Int,  func : (a : Int, b : Int) -> Int){
+ val result = func (a, b)
+ println("$result")
+}
+
+fun add(a : Int, b : Int) : Int = a + b
+fun multiply (a : Int, b : Int) : Int = a * b
+```
 
 
-```java
-public class MainClass
-{
-    public static void main(String[] args) 
-    {
-        Scanner sc = new Scanner(System.in);
-         
-        System.out.println("Enter a string :");
-         
-        String input = sc.next();
-         
-        if(input.equalsIgnoreCase("JAVA"))
-        {
-            System.out.println("It's JAVA");
-        }
-        else
-        {
-            System.out.println("It's not JAVA");
-        }
-    }
+##Function expansion
+
+When you call a function which has a function type as the last argument, you can expand it by { }
+
+```kotlin
+fun main(args : Array<String>) {
+    val a =  calculate(1) { x -> 10 + x } //11
+    val b = calculate(2) { x -> 20 * x } //40
+
+    println("a = $a, b = $b")
+}
+
+fun calculate(a : Int,  calc : (Int) -> Int) : Int{
+    return calc(a)
 }
 ```
 
-## 19) enum
+##Closure
 
-enum keyword is used to define enum types.
+Kotlin support Closure as highlighted by the example below
 
+```kotlin
+fun main(args : Array<String>) {
+    val total = add(1)(2)
+    println("Total value is $total")
+}
 
-```java
-enum MyEnums
-{
-    A, B, C, D;
+fun add(a : Int) : (Int) -> Int{
+    return { x -> a + x }
 }
 ```
 
-## 20) extends
+##Local function
 
-extends keyword is used in inheritance. It is used when a class extends another class.
+You can declare a function inside a function. It will have access to the local variable at the parent function.
+```kotlin
+fun main(args : Array<String>){ 
+    accumulate() 
+} 
 
+fun accumulate(){
+    var i = 0 
 
-```java
-class SuperClass
-{
-    //Super Class
+    fun add(){ 
+        i++ 
+    } 
+
+    for (i in 1..10){
+        add() 
+    } 
+
+    println("i is now $i") 
 }
- 
-class SubClass extends SuperClass
-{
-    //Sub Class
+
+//It prints "i is now 10"
+```
+
+
+##Extension function
+
+Extension function enables a function to be accessed from the type function. It works in the form of __type.function__
+Inside the function, the keyword `this` refers to the instance. 
+
+For example
+```kotlin   
+fun Int.show(){
+    println("This number is $this")
+}
+    
+fun main(args : Array<String>){
+    3.show()
 }
 ```
 
-## 21) final
-
-final keyword is used when a class or a method or a field doesn’t need further modifications. final class can’t be extended, final method can’t be overridden and the value of a final field can’t be changed.
+Above example shows how the `Int` built in type has been enriched by `show` extension function. Notice the use of `this` keyword that refers to the `3` number.
 
 
-```java
-final class FinalClass
-{
-    final int finalVariable = 10;
-     
-    final void finalMethod()
-    {
-        //final method
-    }
-}
-```
+**Notice** You can extend a function on a nullable type and it will be accessible for both nullable and non nullable type. The reverse though does not apply.
 
-## 22) float
-
-float keyword indicates primitive float type of variables.
-
-
-```java
-public class MainClass
-{
-    public static void main(String[] args) 
-    {
-        float f1 = 45.26f;
-         
-        float f2 = 84.25f;
-         
-        float f3 = f2 - f1;
-         
-        System.out.println(f3);
-    }
-}
-```
-
-## 23) for
-
-for loop is used to execute the set of statements until a condition is true.
-
-
-```java
-public class MainClass
-{
-    public static void main(String[] args) 
-    {
-        for (int i = 0; i <= 10; i++)
-        {
-            System.out.println(i);
-        }
-    }
-}
-```
-
-## 24) implements
-
-implements keyword is used while implementing an interface.
-
-
-```java
-interface MyInterface
-{
-    void myMethod();
-}
- 
-class MyClass implements MyInterface
-{
-    public void myMethod()
-    {
-        System.out.println("My Method");
-    }
-}
-```
-
-## 25) import
-
-import keyword is used to import the members of a particular package into current java file.
-
-
-```java
-import java.sql.*;
-import java.util.Arrays;
-import java.util.Scanner;
-```
-
-## 26) instanceOf
-
-instanceOf is used to check whether an object is of specified type. The syntax for using instanceOf keyword is “Object_Reference instanceOf Type“.
-
-
-```java
-class A
-{
-     
-}
- 
-public class MainClass
-{
-    public static void main(String[] args) 
-    {
-        A a = new A();
-         
-        if(a instanceof A)
-        {
-            System.out.println("a is of type A");
-        }
-    }
-}
-```
-
-## 27) int
-
-int keyword is used to declare primitive integer type of variables.
-
-
-```java
-public class MainClass
-{
-    public static void main(String[] args) 
-    {
-        int i1 = 10;
-         
-        int i2 = 20;
-         
-        int i3 = i1 *  i2;
-         
-        System.out.println(i3);
-    }
-}
-```
-
-## 28) interface
-
-interface keyword is used to define the interfaces in java.
-
-
-```java
-interface MyInterface
-{
-    void myMethod();
-}
-```
-
-## 29) long
-
-long is used to define the primitive long type variables.
-
-
-```java
-public class MainClass
-{
-    public static void main(String[] args) 
-    {
-        long l1 = 101;
-         
-        long l2 = 202;
-         
-        long l3 = l1 +  l2;
-         
-        System.out.println(l3);
-    }
-}
-```
-
-## 30) native
-
-native keyword is used with a method to indicate that a particular method is implemented in native code using Java Native Interfaces(JNI).
-
-
-```java
-class AnyClass
-{
-    public native void anyMethod(int i, double d);
-}
-```
-
-## 31) new
-
-new keyword is used while creating the instances of a class.
-
-
-```java
-class A
-{
-     
+```kotlin
+fun Int?.show(){
+    println("This number is $this")
 }
  
-public class MainClass
-{
-    public static void main(String[] args) 
-    {
-        A a = new A();
-    }
+fun Int.show2(){
+    println("This number is $this")
+}
+
+fun main(args : Array<String>){
+    var number : Int? = null
+    number.show()
+    5.show()
+    //number.show2() will not compile
 }
 ```
 
-## 32) package
+    
+### Extension function expressed in function literals
 
-package keyword is used to specify a package to which the current file belongs to.
+```kotlin
+val show = { Int.() -> println("This is number $this") }
+val add = { Int.(number : Int) : Int -> 
+    val now = this + number
+    now
+}
 
-
-```java
-package pack1;
- 
-class A
-{
-     
+fun main(args : Array<String>){
+    5.add(10).show()
 }
 ```
 
-## 33) private
+Both `show` and `add` extension functions are expressed in literal format. Please notice that `add` function returns an `Int`.
 
-private keyword is used to declare a member of a class as private. private methods and fields are visible within the class in which they are defined.
+    
+### Extension function in infix form
+```kotlin
+fun main(args : Array<String>) {
+   val res = 1 add 2
+   println("$res")
+}
 
+fun Int.add (one : Int) : Int = this + one
+```
 
-```java
-class A
-{
-    private int i = 111;   //private field
-     
-    private void method()
-    {
-        //private method
-    }
+If the extension function only takes one argument, you can call them in infix form (you drop the . between the type and the function). So instead of `1.add(2)`, you can call it in the form of `1 add 2`. This makes certain constructs looks natural (more like an operator than a function call) and especially useful in construction DSL in Kotlin.
+
+##Variable arguments and function type argument
+
+`vararg` parameter can also be naturally combined with a function type parameter.
+
+```kotlin
+fun main(args : Array<String>) {
+  names("John", "Adam", "Joy"){ 
+    name  -> println ("$name")
+  }
+}
+
+fun names(vararg  names : String, print : (String) -> Unit){
+  for(n in names){
+   print(n)
+  }
 }
 ```
 
-## 34) protected
+above code can also be expressed in this matter (using named argument)
+```kotlin
 
-protected keyword is used to declare a member of a class as protected. protected members of a class are visible within the package only, but they can be inherited to any sub classes.
-
-
-```java
-class A
-{
-    protected int i = 111;   //protected field
-     
-    protected void method()
-    {
-        //protected method
-    }
+fun main(args : Array<String>) {
+  names("John", "Adam", "Joy", print = {name  -> println ("$name")})
 }
+
+fun names(vararg  names : String, print : (String) -> Unit){
+  for(n in names){
+   print(n)
+  }
+}
+
 ```
 
-## 35) public
-
-public keyword is used to declare the members of a class or class itself as public. public members of a class are visible from anywhere and they can be inherited to any sub classes.
+#Control Structures
 
 
-```java
-public class A
-{
-    public int i = 222;   //public field
-     
-    public A()
-    {
-        //public constructor
-    }
-     
-    public void method()
-    {
-        //public method
-    }
-}
-```
+##If statement
 
-## 36) return
+Kotlin **if** statement should look familiar with other language
 
-return keyword is used to return the control back to the caller from the method.
-
-
-```java
-class A
-{
-    int method(int i)
-    {
-        return i*i;     //method returning a value
-    }
-}
-```
-
-## 37) short
-
-short keyword is used to declare primitive short type variables.
-
-
-```java
-short s1 = 11;
-         
-short s2 = 22;
-```
-
-## 38) static
-
-static keyword is used to define the class level members of a class. static members of a class are stored in the class memory and you can access them directly through class name. No need to instantiate a class.
-
-
-```java
-class A
-{
-    static int staticField = 555;    //Static Field
-     
-    static void staticMethod()
-    {
-        //Static method
-    }
-}
- 
-public class MainClass
-{
-    public static void main(String[] args) 
-    {
-        System.out.println(A.staticField);    //Accessing staticField via class name
-         
-        A.staticMethod();     //Accessing staticMethod via class name
-    }
-}
-```
-
-## 39) strictfp
-
-strictfp keyword is used to implement the strict precision of floating point calculations on different platforms. strictfp can be used with classes, interfaces and methods.
-
-
-```java
-strictfp interface I
-{
-    //strictfp applied on interface
-}
- 
-strictfp class C
-{
-    //strictfp applied on class
-}
- 
-class A
-{
-    strictfp void method()
-    {
-        //strictfp applied on method
-    }
-}
-```
-
-## 40) super
-
-super keyword is used to access super class members inside a sub class.
-
-
-```java
-class A
-{
-    int i;
-     
-    public A(int i) 
-    {
-        this.i = i;
-    }
-     
-    void methodA()
-    {
-        System.out.println(i);
-    }
-}
- 
-class B extends A
-{
-    public B()
-    {
-        super(10);    //Calling super class constructor
-    }
-     
-    void methodB()
-    {
-        System.out.println(super.i);    //accessing super class field
-         
-        super.methodA();    //Calling super class method
-    }
-}
-```
-
-## 41) synchronized
-
-synchronized keyword is used to implement the synchronization in java. only one thread can enter into a method or a block which is declared as synchronized. Any thread which wants to enter synchronized method or block must acquire object lock of those methods or blocks.
-
-
-```java
-class AnyClass
-{
-    synchronized void synchronizedMethod()
-    {
-        //Synchronized method
-    }
-     
-    void anyMethod()
-    {
-        synchronized (this) 
-        {
-            //Synchronized block
-        }
-    }
-}
-```
-
-## 42) this
-
-this keyword is used to access other members of the same class.
-
-
-```java
-class AnyClass
-{
-    int i;
+```kotlin
+fun main(args : Array<String>) {
+  val total = 10
   
-    AnyClass()
-    {
-        System.out.println("First Constructor");
-    }
+  if (total > 5){
+      println("$total is greater than 5") 
+  }else if (total > 10){
+      println("$total is greater than 10")
+  }else{
+      println("$total is less than 6")
+  }
+}
+
+```
+
+This is a quick guide to Kotlin programming language. The previous part of this guide is [here](https://gist.github.com/dodyg/f5a22af732a2a4e95287)
+
+#Object Oriented
+
+```kotlin
+fun main(args : Array<String>) {
+  class local (val x : Int)
   
-    AnyClass(int j)
-    {
-        this();    //calling statement to First Constructor
-        System.out.println("Second Constructor");
-    }
+  val y = local(10)
+  println("${y.x}")
+}
+```
+
+Above code is a sample of __Local Class__, one of many support that Kotlin has for OO programming. 
+
+- Abstract classes
+- Primary constructor
+- Delegation
+- Generic classes
+- Class objects
+- Nested classes
+- Local classes
+- Object expressions
+- Traits
+- Data classes
+- Anonymous Analyzer
+- Anonymous Objects
+
+##Kotlin classes
+
+Kotlin classes does not have:
+- Static member (methods or properties)
+- Secondary constructors
+- No fields, just properties
+
+###Simplest Kotlin class definition
+```Kotlin
+class Person
+
+
+fun main(args : Array<String>) {
+  val p = Person()
+  val name = javaClass<Person>().getSimpleName()
+  println("$name")
+}
+```
+
+The class Person is as simple as you can get to declare a class
+
+
+by default, a Kotlin class is final. So to make a class inheritable, you must you the keyword open in front of it
+
+
+```kotlin
+open class Person
+class Hero : Person()
+
+
+fun main(args : Array<String>) {
+  val name = javaClass<Person>().getSimpleName()
+  println("$name")
   
-    void methodOne()
-    {
-        System.out.println("From method one");
-    }
+  val name2 = javaClass<Hero>().getSimpleName()
+  println("$name2")
+}
+```
+
+### Visibilities
+Kotlin has four visibilities:
+- private
+- protected
+- internal
+- public
+
+If you do not declare a visibility modifier, it is assumed to be `internal` visibility.
+
+```kotlin
+fun main(args : Array<String>) {
+    val x = Visibility()
+}
+
+class Visibility{
+ public var name : String = ""
+ private var age : Int = 0
+ protected var address : String = ""
+ internal var friends : String = ""  
+ var status : String = "Single"
+}
+```
+
+An empty class is off course useless. Let's add some properties to it so it can hold data
+
+```kotlin
+open class Person
   
-    void methodTwo()
-    {
-        System.out.println(this.i);  //Accessing same class field
-        this.methodOne();      //Accessing same class method
-    }
+class Hero : Person(){
+  public var name : String = ""
+  public var age : Int = 30
+  }
+
+
+fun main(args : Array<String>) {
+  val h = Hero()
+  h.name = "Superman"
+  h.age = 30
+  
+  println("${h.name} is ${h.age} years old")
 }
 ```
 
-## 43) throw
+Rule
+- Every declared property must be initialized, without exception.
+- a var property means it can be modified
+- a val property is a constant
 
-throw keyword is used to throw the exceptions manually.
+##Primary constructor##
+Unlike many other OO language, Kotlin only allows one single constructor 
+
+```kotlin
+open class Person
+  
+class Hero (n: String, a : Int) : Person(){
+  public var name : String = n
+  public var age : Int = a
+  }
 
 
-```java
-public class MainClass
-{
-    public static void main(String[] args) 
-    {
-        try
-        {
-            //throwing NumberFormatException manually 
-             
-            throw new NumberFormatException();
-        }
-        catch(Exception ex)
-        {
-            System.out.println(ex);
-        }
-    }
+fun main(args : Array<String>) {
+  val h = Hero("Superman", 30)
+  println("${h.name} is ${h.age} years old")
 }
 ```
 
-## 44) throws
+As you can see, the constructor parameter n and a are being used to initialized their respective properties.
 
-throws keyword is used to specify the exceptions which the current method may throw.
-
-
-```java
-class A
-{
-    void method() throws NumberFormatException
-    {
-        int i = Integer.parseInt("abc");
-    }
-}
-```
-
-## 45) transient
-
-transient keyword is used in serialization. A variable which is declared as transient will not be eligible for serialization.
-
-
-```java
-class MyClass implements Serializable
-{
-    int a;
-     
-    transient String s;   //This will not be serialized
-     
-    double d;
-}
-```
-
-## 46) void
-
-void keyword is used to indicate that method returns nothing.
-
-
-```java
-class A
-{
-    void methodReturnsNothing()
-    {
-        //Method returns no value
-    }
-}
-```
-
-## 47) volatile
-
-volatile keyword is used in the concurrent programming. The value of a variable which is declared as volatile will be written into or read from the main memory.
-
-
-```java
-class A
-{
-    public volatile int counter = 0;
-}
-```
-
-## 48) while
-
-while keyword is used in the while loop.
-
-
-```java
-public class MainClass
-{
-    public static void main(String[] args) 
-    {
-        int i = 10;
-         
-        while (i <= 100)
-        {
-            System.out.println(i);
-             
-            i = i + 10;
-        }
-    }
-}
-```
-
-## 49) goto        50) const
-
-Both goto and const are reserved words in java but they are currently not used.
-
-**Note :** true, false and null are not the keywords. They are literals in java.
