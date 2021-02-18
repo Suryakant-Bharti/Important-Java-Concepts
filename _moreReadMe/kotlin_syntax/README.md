@@ -1,4 +1,4 @@
-### Intro
+# Intro
 
 Kotlin is a Modern language which is fully interoperable with Java (and JavaScript). It targets the JVM, Android, JavaScript and Native.
 
@@ -12,7 +12,7 @@ Kotlin is a Modern language which is fully interoperable with Java (and JavaScri
 
 Official website : [kotlinlang.org](https://kotlinlang.org/)
 
-Try Kotlin codes : [play.kotlinlang.org](https://play.kotlinlang.org/)
+Try Kotlin here : [play.kotlinlang.org](https://play.kotlinlang.org/)
 
 ### Basics (compared to Java)
 - No need of `;` to break statements (unlike Java).
@@ -28,6 +28,9 @@ Try Kotlin codes : [play.kotlinlang.org](https://play.kotlinlang.org/)
 - Kotlin has immutable (only read functions) collections like `listOf()`, `setOf()`, `mapOf()`
 - Mutable (read & write) collections like `mutableListOf()`/`arrayListOf()`, `mutableSetOf()`/`hashSetOf()`, `mutableMapOf()`/`hashMapOf()`
 - We have similar convieniene function for arrays called `arrayOf()`
+- `Unit` type is absense of any type (corresponds to the `void` type in Java)
+- `==` for data comparison (objects with same data) and `===` for reference comparison (exact same object)
+
 
 ### Kotlin Keywords
 
@@ -107,7 +110,7 @@ fun main(args : Array<String>) {
                             
 You will encounter in further examples of more capabilities of Kotlin's type inference.                            
 
-### Functions
+# Functions
 We are going to spend a considerable time in discussing function because it has many different forms and subtleties. Here is a list of facilities that Kotlin provides for functions
 
 - Single expression function.
@@ -552,7 +555,7 @@ fun names(vararg  names : String, print : (String) -> Unit){
 
 ```
 
-## Object Oriented
+# Object Oriented Programming
 
 - In a class, property must be initialized or abstract
 - An init block is a code that is run anytime an instance of this class is run
@@ -635,6 +638,10 @@ fun main(args : Array<String>) {
   println("$name2")
 }
 ```
+
+
+
+
 
 ### Visibilities
 Kotlin has four visibilities:
