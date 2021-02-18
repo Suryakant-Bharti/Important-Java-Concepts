@@ -3,30 +3,32 @@
 Kotlin is a Modern language which is fully interoperable with Java (and JavaScript). It targets the JVM, Android, JavaScript and Native.
 
 **Features:**
+- Statically typed
 - Cross-platform
 - General-purpose
 - Concise
 - Safe
 - Interoperable
-- Statically typed
 
 Official website : [kotlinlang.org](https://kotlinlang.org/)
 
 Try Kotlin codes : [play.kotlinlang.org](https://play.kotlinlang.org/)
 
-### Basics
-- You do not need `;` to break statements.
-- Comments are similar to Java or C#, `/* This is comment */` for multi line comments and `// for single line comment`.
-- Unlike Java, you do not need to match your file name to your class name.
-- Like JavaScript, you can create functions outside classes. So there is no need to stuff your functions as static members of classes like what you do in C# or Java.
-- Kotlin has string templates, which is awesome. e.g. `"$firstName $lastName"` for simple variable name or `"${person.name} is ${1 * 2}"` for any expressions. You can still do the string concatenation if you like e.g. `"hello " + "world"`, but that means being stupid.
-- It has no tuple although Kotlin's data classes is an option to use in place of tuple.
+### Basics (compared to Java)
+- No need of `;` to break statements (unlike Java).
+- Types are non-null by default (unlike Java).
+- Two types of variable - `var` (mutable) and `val` (immutable - like final in java).
+- Kotlin has type inferences (unlike Java). Inference is also supported by functions.
+- Kotlin `when` is similar to switch in Java.
+- Comments are `// single line comment` and `/* multi line comment */` (similar to Java).
+- You do not need to match your file name to your class name (unlike Java).
+- Functions can be created outside classes (unlike Java). So, no need to put functions as static members of classes like done in Java.
+- Kotlin supports string templates (unlike Java). `"My name is $firstName $lastName"` for variables firstName & lastName.
 
-
-### Variables
-- There are two keywords for variable declaration, **var** and **val**.
+### Types & Variables
+- Two keywords for variable declaration - **var** and **val**.
 - Use **var** when the variable value is to be modified and **val** where the variable value will not change after first assigned.
-- This **val** is similar to **readonly** keyword in C# or **final** keyword in Java.
+- This **val** is similar to **final** keyword in Java.
 - **val** variable must be initialized at declaration.
 - Unlike Java or C#, you declare the type of a variable after the name, e.g. `var firstName : String`
 - Number primitive types are as follows: Double, Float, Long, Int, Short, Byte. There is no automatic conversion between types. You have to explicitly convert them.
