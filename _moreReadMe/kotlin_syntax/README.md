@@ -16,7 +16,7 @@ Try Kotlin here : [play.kotlinlang.org](https://play.kotlinlang.org/)
 
 ### Basics (compared to Java)
 - No need of `;` to break statements (unlike Java).
-- Types are non-null by default (unlike Java).
+- Types are non-null by default (unlike Java). ? marks a type as nullable. String? (nullable string)
 - Two types of variable - `var` (mutable) and `val` (immutable - like final in java).
 - Kotlin has type inferences (unlike Java). Inference is also supported by functions.
 - Kotlin `when` is similar to switch in Java.
@@ -24,12 +24,12 @@ Try Kotlin here : [play.kotlinlang.org](https://play.kotlinlang.org/)
 - You do not need to match your file name to your class name (unlike Java).
 - One file may have multiple classes or interfaces
 - Functions can be created outside classes (unlike Java). So, no need to put functions as static members of classes like done in Java.
-- Kotlin supports string templates (unlike Java). `"My name is $firstName $lastName"` for variables firstName & lastName.
+- Kotlin supports string templates (unlike Java). `"My name is $firstName $lastName"` for variables and `"${person.age} is ${10 * 4}"` for expressions.
 - Kotlin has immutable (only read functions) collections like `listOf()`, `setOf()`, `mapOf()`
 - Mutable (read & write) collections like `mutableListOf()`/`arrayListOf()`, `mutableSetOf()`/`hashSetOf()`, `mutableMapOf()`/`hashMapOf()`
 - We have similar convieniene function for arrays called `arrayOf()`
 - `Unit` type is absense of any type (corresponds to the `void` type in Java)
-- `==` for data comparison (objects with same data) and `===` for reference comparison (exact same object)
+- `==` for data comparison (objects with same data)   and   `===` for reference comparison (exact same object)
 
 
 ### Kotlin Keywords
@@ -89,7 +89,7 @@ fun main(args : Array<String>) {
 
 ### Control Structures
 
-#### If statement
+#### if statement
 
 Kotlin **if** statement is similar to other languages
 
@@ -107,26 +107,51 @@ fun main(args : Array<String>) {
 }
 
 ```
-                            
-You will encounter in further examples of more capabilities of Kotlin's type inference.                            
+
+#### when statement
+
+
+#### forEach statement
+
+forEach is a more functional/lambda approach
+
+
+
+
+if, when and forEach can also be used as expression
+
+
+### Arrays and Collections
+
+By default, a collection in kt is immutable, i.e., new values cannot be added or subtrated once it is created
+
+there is nothing wrong in including a collection param in your func
+however, functions in kt provide an additional funtionality that can satisfy this usecase & provide lil additional flexibility
+
+we have spread operator which is `*`
+for eg -> *things 
+
+map forEach returns both key & value
+`to` (used for a pair of key & value) for map
+
 
 # Functions
 We are going to spend a considerable time in discussing function because it has many different forms and subtleties. Here is a list of facilities that Kotlin provides for functions
 
-- Single expression function.
-- Optional parameter.
-- Positional argument and named argument.
-- Variable argument.
-- Single expression function.
-- Function type.
-- Function literals.
-- Callable references.
-- Extension functions.
-- Infix function call.
-- Local function.
-- Closure.
-- Generic function.
-- Operator overloading.
+- Single expression function
+- Optional parameter
+- Positional argument and named argument
+- Variable argument
+- Single expression function
+- Function type
+- Function literals
+- Callable references
+- Extension functions
+- Infix function call
+- Local function
+- Closure
+- Generic function
+- Operator overloading
 
 Below is an example of functions
 
@@ -711,3 +736,4 @@ fun main(args : Array<String>) {
 
 As you can see, the constructor parameter n and a are being used to initialized their respective properties.
 
+**Data classes** are kotlins way  of providing concise immutable data types... it is going to generate equals hashcoded to string... they will be considered equal if data they contain is equal... also, they give us effective copy construcors... x.copy()
