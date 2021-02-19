@@ -29,7 +29,7 @@ Try Kotlin here : [play.kotlinlang.org](https://play.kotlinlang.org/)
 - Mutable (read & write) collections like `mutableListOf()`/`arrayListOf()`, `mutableSetOf()`/`hashSetOf()`, `mutableMapOf()`/`hashMapOf()`
 - We have similar convieniene function for arrays called `arrayOf()`
 - `Unit` type is absense of any type (corresponds to the `void` type in Java)
-- `==` for data comparison (objects with same data)   and   `===` for reference comparison (exact same object)
+- `==` for data comparison (objects with same data)   |   `===` for reference comparison (exact same object)
 
 
 ### Kotlin Keywords
@@ -111,19 +111,54 @@ fun main(args : Array<String>) {
 #### when statement
 
 
+
+
 #### forEach statement
 
-forEach is a more functional/lambda approach
+```kotlin
+val things = arrayOf("Kotlin", "Coding", "Instagram")
 
+println(things.size + ", " + things[0] + ", " + things.get(0))
 
+for(thing in things) { println(thing) }   // normal for loop
 
+things.forEach { println(it) }   // forEach is a more functional/lambda approach  
+```
+
+`it` is the default name for each element of the array that is passed in this lambda function. 
+We can rename `it` to anything, for eg. thing
+
+```kotlin
+things.forEach { thing -> println(thing) }   // we lose index by this method
+
+things.forEachIndexed { index, thing ->	println("$thing is at index #index") }   // way to use index
+```
 
 if, when and forEach can also be used as expression
 
 
-### Arrays and Collections
+### Collections
 
-By default, a collection in kt is immutable, i.e., new values cannot be added or subtrated once it is created
+By default, a collection is immutable, i.e., new values cannot be added or subtrated once it is created
+
+#### Lists
+
+List syntax is similar to arrays (shown above), but lists have more functions (after dot)
+
+```kotlin
+val things = listOf("Kotlin", "Coding", "Instagram")   // listOf is used to create a immutable list
+
+println(things.size + ", " + things[0] + ", " + things.get(0))
+
+things.forEach { thing -> println(thing) }
+```
+```kotlin
+val things = mutableListOf("Kotlin", "Coding", "Instagram")   // mutableListOf is used to create a mutable list
+
+things.add("Youtube");   // we have more functions like add in a mutable list
+```
+
+#### Maps
 
 there is nothing wrong in including a collection param in your func
 however, functions in kt provide an additional funtionality that can satisfy this usecase & provide lil additional flexibility
