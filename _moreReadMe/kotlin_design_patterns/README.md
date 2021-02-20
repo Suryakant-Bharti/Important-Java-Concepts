@@ -1,13 +1,5 @@
 # Design Patterns In Kotlin
 
-#### :warning: New article about testing: [Unit Testing with Mockito 2](https://github.com/dbacinski/Android-Testing-With-Kotlin/blob/master/docs/Unit-Testing-Mockito.md)
-
-Project maintained by [@dbacinski](http://twitter.com/dbacinski) (Dariusz Baciński)
-
-Inspired by [Design-Patterns-In-Swift](https://github.com/ochococo/Design-Patterns-In-Swift) by [@nsmeme](http://twitter.com/nsmeme) (Oktawian Chojnacki)
-
-## Table of Contents
-
 * [Behavioral Patterns](#behavioral)
 	* [Observer / Listener](#observer--listener)
 	* [Strategy](#strategy)
@@ -1091,10 +1083,3 @@ println(cabbinet.getPrice())
 ```
 600
 ```
-
-
-
-Info
-====
-
-Descriptions from: [Gang of Four Design Patterns Reference Sheet](http://www.blackwasp.co.uk/GangOfFour.aspx)
