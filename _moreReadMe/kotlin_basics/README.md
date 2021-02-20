@@ -105,12 +105,26 @@ fun main(args : Array<String>) {
       println("$total is less than 6")
   }
 }
-
 ```
 
 #### when statement
 
+```kotlin
+val a = 12
+val b = 5
 
+println("Enter operator either +, -, * or /")
+val operator = readLine()	// used for input
+
+when (operator) {
+	"+" -> println("$a + $b = ${a + b}")
+	"-" -> println("$a - $b = ${a - b}")
+	"*" -> println("$a * $b = ${a * b}")
+	"/" -> println("$a / $b = ${a / b}")
+	else -> println("$operator is invalid")
+	}
+```
+    
 
 
 #### forEach statement
@@ -159,15 +173,20 @@ things.add("Youtube");   // we have more functions like add in a mutable list
 ```
 
 #### Maps
+```kotlin
+val map  = mapOf(1  to "a", 2 to "b", 3 to "c")    // mapOf - immutable map | "to" used to create pair of key & value for map
+
+map.forEach { key, value -> println("$key -> $value") }   // map forEach returns both key & value
+
+val map2  = mutableMapOf(1  to "a", 2 to "b", 3 to "c")   // mutableMapOf is used to create a mutable map
+map2.put(4, "d")
+```
 
 there is nothing wrong in including a collection param in your func
 however, functions in kt provide an additional funtionality that can satisfy this usecase & provide lil additional flexibility
 
 we have spread operator which is `*`
 for eg -> *things 
-
-map forEach returns both key & value
-`to` (used for a pair of key & value) for map
 
 
 # Functions
