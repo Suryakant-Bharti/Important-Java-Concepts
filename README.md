@@ -182,7 +182,7 @@
 - *Officially supported by Spring Framework, JetBrains Ktor, Eclipse Vert.x (server-side dev)*
 
 ### NOTES [Useful Info] :
-*[-> Kotlin Funadamentals and OOP](_moreReadMe/kotlin_syntax)*
+*[-> Kotlin Funadamentals and OOP](_moreReadMe/kotlin_basics)*
 
 *[-> Data Structures in Kotlin](_moreReadMe/kotlin_data_structures)*
 
