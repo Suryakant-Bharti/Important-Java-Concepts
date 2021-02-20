@@ -1,6 +1,6 @@
 # Data Structures & Algorithms in Kotlin
 
-##### Sorting
+#### Sorting
 
 - Insertion Sort
 - Selection Sort
@@ -10,7 +10,7 @@
 - Shell Sort
 - Heap Sort
 
-##### Data Structures
+#### Data Structures
 
 - Queue
 - Stack
@@ -23,12 +23,12 @@
 - Binary Search Tree
 - Immutable Set (based on binary search)
 
-##### Search
+#### Search
 
 - Linear Search
 - Binary Search
 
-##### Graphs
+#### Graphs
 
 - Breadth First Search
 - Depth First Search
@@ -37,13 +37,13 @@
 - Boruvka's minimum spanning tree
 - Dijkstra's shortest paths
 
-##### Math
+#### Math
 
 - GCD / LCM
 - Newton Method
 - Binomial
 
-##### Geometry
+#### Geometry
 
 - Gift wrapping (Jarvis)
 - Graham Scan
@@ -51,9 +51,11 @@
 - Voronoi Diagram (Naïve implementation)
 - Sierpinski triangle
 
-##### Substring search
+#### Substring search
 
 - Knuth–Morris–Pratt (KMP)
+
+
 
 
 ## Codes
