@@ -125,12 +125,13 @@ when (operator) {
 }
 ```
 ```kotlin
-var greetings: String? = null
+var greeting: String? = null
 
 val greetingToPrint = when(greeting) {
 	null -> "Hi"
 	else -> greeting
 }   
+println(greetingToPrint)
 ```
 
 #### forEach statement
@@ -188,11 +189,7 @@ val map2  = mutableMapOf(1  to "a", 2 to "b", 3 to "c")   // mutableMapOf is use
 map2.put(4, "d")
 ```
 
-there is nothing wrong in including a collection param in your func
-however, functions in kt provide an additional funtionality that can satisfy this usecase & provide lil additional flexibility
 
-we have spread operator which is `*`
-for eg -> *things 
 
 
 # Functions
@@ -231,6 +228,34 @@ fun italianGreeting() : String{
     return "bon giorno" 
 }
 ```
+
+Idea behind **Lambda** syntax is that if you have a function and its only param is another param then you can omit the pranthesis altogether and you can pass that function in by specifying this open & clos parenthesis
+
+
+**Higher order Functions** are fun that either return a fun or take fun as param
+
+
+**Varargs & Spread Operator**
+```kotlin
+fun sayHello5(greeting:String, vararg itemsToGreet:String) {
+	itemsToGreet.forEach { itemToGreet ->
+		println("$greeting $itemToGreet")
+	}
+}
+
+sayHello5("Hi")
+sayHello5("Hi", "Kot", "Lin", "Code")
+sayHello5("Hi", *things)  // spread out the array
+```
+
+There is nothing wrong in including a collection param in your func
+however, functions in kt provide an additional funtionality that can satisfy this usecase & provide lil additional flexibility
+
+we have spread operator which is `*`
+for eg -> *things 
+
+
+
 
 - Functions can exists on their own.
 - It is marked by **fun** keyword.
