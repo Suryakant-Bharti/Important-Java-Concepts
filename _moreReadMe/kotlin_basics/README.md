@@ -122,10 +122,16 @@ when (operator) {
 	"*" -> println("$a * $b = ${a * b}")
 	"/" -> println("$a / $b = ${a / b}")
 	else -> println("$operator is invalid")
-	}
+}
 ```
-    
+```kotlin
+var greetings: String? = null
 
+val greetingToPrint = when(greeting) {
+	null -> "Hi"
+	else -> greeting
+}   
+```
 
 #### forEach statement
 
