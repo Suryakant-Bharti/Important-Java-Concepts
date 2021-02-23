@@ -56,6 +56,26 @@ In Kotlin you have to decide whether a variable can be assigned null or not. Thi
 You can assign a value from not-nullable to nullable type without any problem.
 
 ```kotlin
+fun main() {
+	val firstname: String = "Tom"
+	var firstname1: String = "John"
+	var firstname2 = "Harry"
+	var lastname1: String = ""
+
+	var lastname2: String? = "Thomson"
+	var greetings: String? = null
+
+	firstname1 = "Hardy"
+	greetings = "Hello"
+
+	println(firstname1)
+	println("Hi $firstname2")
+	println(greetings + " " + firstname + " " + lastname2)
+	println("$greetings $firstname $lastname2")
+}
+```
+
+```kotlin
 fun main(args : Array<String>) { 
     val firstName : String = "Adam"
     val name : String? = firstName 
