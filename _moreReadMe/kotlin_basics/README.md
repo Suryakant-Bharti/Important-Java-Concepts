@@ -115,6 +115,9 @@ Kotlin **if** statement is similar to other languages
 
 ```kotlin
 if(surname != null) { println(surnamename) } else {}
+
+val greetinToPrint = if(greeting != null) greeting else "Hi"
+println(greetinToPrint)
 ```
 
 ```kotlin
