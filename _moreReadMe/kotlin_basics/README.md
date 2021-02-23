@@ -114,6 +114,10 @@ fun main(args : Array<String>) {
 Kotlin **if** statement is similar to other languages
 
 ```kotlin
+if(surname != null) { println(surnamename) } else {}
+```
+
+```kotlin
 fun main(args : Array<String>) {
   val total = 10
   
