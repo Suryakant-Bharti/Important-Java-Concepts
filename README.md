@@ -214,25 +214,25 @@
 - *Native apps tends to have less bugs, gets latest features first and run smoother*
 
 ### NOTES [Useful Info] :
-*-> XML (UI Basics - layouts and views)*
+*-> UI Basics - XML layouts, views, event handlers*
 
-*-> Recycler View (display scrolling list data using adapter pattern)*
+*-> Recycler View - display scrolling list data using adapter pattern*
 
-*[-> Retrofit (type-safe HTTP client for Java & Android)](_moreReadMe/android_glide)*
+*[-> Retrofit](_moreReadMe/android_glide) - type-safe HTTP client for Java & Android*
 
-*[-> Glide (efficient image loading lib with media decoding, memory & disk caching)](_moreReadMe/android_retrofit)*
+*[-> Glide](_moreReadMe/android_retrofit) - efficient image loading lib with media decoding, memory & disk caching*
 
-*[-> RoomDB (ORM based SQLite wrapper for fluent db access)](_moreReadMe/android_roomdb)*
+*[-> RoomDB](_moreReadMe/android_roomdb) - ORM based SQLite wrapper for fluent db access*
 
-*[-> WorkManager (schedule deferrable, asynchronous tasks)](_moreReadMe/android_workmanager)*
+*[-> WorkManager](_moreReadMe/android_workmanager) - schedule deferrable, asynchronous tasks*
 
-*-> ViewModel (store & and manage UI-related data in lifecycle-aware way)*
+*-> ViewModel - store & and manage UI-related data in lifecycle-aware way*
 
-*-> LiveData (lifecycle-aware observable data holder, ootb data binding support)*
+*-> LiveData - lifecycle-aware observable data holder, ootb data binding support*
 
-*-> DataBinding (bind UI components to data sources in declarative way)*
+*-> DataBinding - bind UI components to data sources in declarative way*
 
-*-> RxJava (asynchronous, event-based programs using observable sequences)*
+*-> RxJava - asynchronous, event-based programs using observable sequences*
 
 ### PROGRAMS :
 #### Dummy
