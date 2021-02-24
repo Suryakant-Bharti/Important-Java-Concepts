@@ -240,6 +240,15 @@ We are going to spend a considerable time in discussing function because it has 
 Below is an example of functions
 
 ```kotlin
+fun getGreeting(): String { return "Hello Kotlin"}
+
+fun main()  {
+	println(getGreeting())
+}
+```
+
+
+```kotlin
 fun main(args : Array<String>) { 
     greet(englishGreeting()) 
     greet(italianGreeting())
