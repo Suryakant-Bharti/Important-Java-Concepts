@@ -207,24 +207,24 @@
 
 .
 
-## [2020 Bonus] Android Development (through Java) [WIP]
+## [2020 Bonus] Android Development (Java & Android Libraries) [WIP]
 - *There are 2.5 billion+ monthly active Android devices*
 - *In 2020, Google Play users worldwide downloaded 108.5 billion mobile apps*
 - *Native Apps have better performance, security, access to device hardware and software*
 - *Native apps tends to have less bugs, gets latest features first and run smoother*
 
 ### NOTES [Useful Info] :
-*-> XML (UI Basics - Layouts and Views)*
+*-> XML (UI Basics - layouts and views)*
 
-*-> Recycler View (scrolling list using adapter pattern)*
+*-> Recycler View (display scrolling list data using adapter pattern)*
 
-*-> Retrofit (type-safe HTTP client)*
+*[-> Retrofit (type-safe HTTP client for Java & Android)](_moreReadMe/android_glide)*
 
-*-> Glide (efficient image loading library)*
+*[-> Glide (efficient image loading lib with media decoding, memory & disk caching)](_moreReadMe/android_retrofit)*
 
-*-> RoomDB (ORM based SQLite wrapper for fluent db access)*
+*[-> RoomDB (ORM based SQLite wrapper for fluent db access)](_moreReadMe/android_roomdb)*
 
-*-> WorkManager (schedule deferrable, asynchronous tasks)*
+*[-> WorkManager (schedule deferrable, asynchronous tasks)](_moreReadMe/android_workmanager)*
 
 *-> ViewModel (store & and manage UI-related data in lifecycle-aware way)*
 
