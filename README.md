@@ -1,4 +1,4 @@
-![java](https://user-images.githubusercontent.com/2780145/109138468-67725f00-7780-11eb-8c31-baeac59ef6bc.png)
+![java](https://user-images.githubusercontent.com/2780145/109146168-78739e00-7789-11eb-8c16-597a403e0442.png)
 
 <img src = "https://user-images.githubusercontent.com/2780145/34364478-7f0ef056-eaac-11e7-912a-c03fc4ab4743.png" align = "left" width = "50">
 
@@ -144,7 +144,7 @@
 
 .
 
-## [6] Data Structures & Algorithms [WIP]
+## [6] Java - Data Structures & Algorithms [WIP]
 ### NOTES [Useful Info] :
 *[-> Common Data Structures](_moreReadMe/ds)*
 
@@ -243,7 +243,7 @@
 
 .
 
-## [2021 Bonus 3] Java - Intro to Databases & Spring boot Develpment [WIP]
+## [2021 Bonus 3] Intro to Databases & Spring boot Develpment (Java & Kotlin) [WIP]
 ![Springboot](https://user-images.githubusercontent.com/2780145/109139875-051a5e00-7782-11eb-9d56-65bad2dcf23c.png)
 #### JDBC (Java Database Connectivity)
 
@@ -261,7 +261,8 @@
 
 .
 
-## [8] Java - Developer-Side Testing [WIP]
+## [2021 Bonus 4] Intro to Developer-Side Testing (JUnit) [WIP]
+![Junit5](https://user-images.githubusercontent.com/2780145/109143901-8c69d080-7786-11eb-8d8c-e16b74a03996.png)
 
 #### [Basics of Testing in Java](_moreReadMe/testing)
 
@@ -272,8 +273,10 @@
 #### Understanding Test Driven Development
 
 .
+---
+---
 
-## [9] Java - Software Development [WIP]
+## Java - Software Development [WIP]
 
 #### Java Best Practices
 
@@ -287,7 +290,7 @@
 
 .
 
-## [10] Java - Other Advanced Topics [WIP]
+## Java - Other Advanced Topics [WIP]
 ### NOTES [Useful Info] :
 
 *[-> Java Class Design Basic](_moreReadMe/class_relations)*
@@ -307,7 +310,7 @@
 
 .
 
-## [11] Technical Diagrams for Developers [WIP]
+## Technical Diagrams for Developers [WIP]
 
 #### Database Schema
 
