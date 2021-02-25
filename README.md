@@ -1,5 +1,4 @@
-![java programming banner](https://user-images.githubusercontent.com/2780145/34820295-16f0a172-f6e6-11e7-880b-729faf8c6613.png)
-![why java banner](https://user-images.githubusercontent.com/2780145/34820316-1f274436-f6e6-11e7-8c5f-269b08b3c08c.png)
+![java](https://user-images.githubusercontent.com/2780145/109126298-1740d000-7773-11eb-9cb4-0b26dd5c15c8.png)
 
 <img src = "https://user-images.githubusercontent.com/2780145/34364478-7f0ef056-eaac-11e7-912a-c03fc4ab4743.png" align = "left" width = "50">
 
