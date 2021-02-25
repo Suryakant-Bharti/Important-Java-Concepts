@@ -179,7 +179,7 @@
 .
 
 ## [2021 Bonus] Kotlin - Modern JVM Language [WIP]
-![kotlin](https://user-images.githubusercontent.com/2780145/109118419-4fdbac00-7769-11eb-9d5b-a403f53fc0ce.png)
+![kotlin](https://user-images.githubusercontent.com/2780145/109118724-b06ae900-7769-11eb-8693-58862cb69ac5.png)
 - *Fastest growing language in Guthub & among the most loved acc. to StackOverflow survey*
 - *Cross-platform, General-purpose, Concise, Safe & fully interoperable with Java*
 - *Primary Official language for Native Android Development since 2019*
@@ -211,7 +211,8 @@
 
 .
 
-## [2020 Bonus] Android Development (Java & Android Libraries) [WIP]
+## [2021 Bonus] Android Development (Java & Android Libraries) [WIP]
+![android](https://user-images.githubusercontent.com/2780145/109120489-05a7fa00-776c-11eb-912e-f539d25a5c56.png)
 - *There are 2.5 billion+ monthly active Android devices*
 - *In 2020, Google Play users worldwide downloaded 108.5 billion mobile apps*
 - *Native Apps have better performance, security, access to device hardware and software*
