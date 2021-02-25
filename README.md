@@ -2,7 +2,7 @@
 
 <img src = "https://user-images.githubusercontent.com/2780145/34364478-7f0ef056-eaac-11e7-912a-c03fc4ab4743.png" align = "left" width = "50">
 
-# Learn Java Programming
+# Learn Java and related Concepts
 
 **This Repo contains Java Programs related to Concepts of :**
 - *Java Fundamentals*
