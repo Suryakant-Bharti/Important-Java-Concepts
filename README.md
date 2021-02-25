@@ -19,7 +19,7 @@
 - *Android Development (Java & Kotlin)*
 - *Spring Boot REST API (Java & Kotlin)*
 
-![quote banner](https://user-images.githubusercontent.com/2780145/34341843-fa43f72c-e9c5-11e7-88e8-f3b863448262.png)
+![quote](https://user-images.githubusercontent.com/2780145/109134272-df8a5600-777b-11eb-8258-11a8a8111eb5.png)
 ## [1] Java - Fundamentals & OOPS [Done]
 ### NOTES [Useful Info] :
 
