@@ -1,4 +1,4 @@
-![java](https://user-images.githubusercontent.com/2780145/109126298-1740d000-7773-11eb-9cb4-0b26dd5c15c8.png)
+![java](https://user-images.githubusercontent.com/2780145/109137757-989e5f80-777f-11eb-8915-1df2b45c1c58.png)
 
 <img src = "https://user-images.githubusercontent.com/2780145/34364478-7f0ef056-eaac-11e7-912a-c03fc4ab4743.png" align = "left" width = "50">
 
@@ -19,7 +19,7 @@
 - *Android Development (Java & Kotlin)*
 - *Spring Boot REST API (Java & Kotlin)*
 
-![quote](https://user-images.githubusercontent.com/2780145/109134272-df8a5600-777b-11eb-8258-11a8a8111eb5.png)
+![quote](https://user-images.githubusercontent.com/2780145/109137885-c2578680-777f-11eb-9ee3-d8f4c5cf8482.png)
 ## [1] Java - Fundamentals & OOPS [Done]
 ### NOTES [Useful Info] :
 
