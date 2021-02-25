@@ -179,6 +179,7 @@
 .
 
 ## [2021 Bonus] Kotlin - Modern JVM Language [WIP]
+![kotlin](https://user-images.githubusercontent.com/2780145/109118419-4fdbac00-7769-11eb-9d5b-a403f53fc0ce.png)
 - *Fastest growing language in Guthub & among the most loved acc. to StackOverflow survey*
 - *Cross-platform, General-purpose, Concise, Safe & fully interoperable with Java*
 - *Primary Official language for Native Android Development since 2019*
