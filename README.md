@@ -1,4 +1,4 @@
-![java](https://user-images.githubusercontent.com/2780145/109137757-989e5f80-777f-11eb-8915-1df2b45c1c58.png)
+![java](https://user-images.githubusercontent.com/2780145/109138468-67725f00-7780-11eb-8c31-baeac59ef6bc.png)
 
 <img src = "https://user-images.githubusercontent.com/2780145/34364478-7f0ef056-eaac-11e7-912a-c03fc4ab4743.png" align = "left" width = "50">
 
