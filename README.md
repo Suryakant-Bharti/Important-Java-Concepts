@@ -359,7 +359,9 @@ Happy Learning! :smiley:
     References are listed in the above link for Books & Websites.
 Thanks to those authors! :thumbsup:
 
-<br>
+.
+
+
 
 <img src = "https://user-images.githubusercontent.com/2780145/34364478-7f0ef056-eaac-11e7-912a-c03fc4ab4743.png" align = "left" width = "32">
 <img src = "https://user-images.githubusercontent.com/2780145/34364478-7f0ef056-eaac-11e7-912a-c03fc4ab4743.png" align = "left" width = "32">
