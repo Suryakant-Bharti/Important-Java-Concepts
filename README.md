@@ -1,4 +1,4 @@
-# Java and related Concepts
+# Java - Kotlin - Android
 ![java banner](https://user-images.githubusercontent.com/2780145/109359092-dcda4e80-78aa-11eb-894b-935336d29af1.png)
 
 **This Repo contains Notes and Programs on following topics :**
@@ -94,6 +94,7 @@
 .
 
 ## [4] Java - Threads & Concurrency [WIP]
+![threads](https://user-images.githubusercontent.com/2780145/109363422-8cff8580-78b2-11eb-83c3-77151011e4d1.png)
 ### NOTES [Useful Info] :
 *[-> Java Multithreading & Garbage Collection](_moreReadMe/multithreading)*
 
