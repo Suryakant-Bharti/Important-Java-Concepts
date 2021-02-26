@@ -1,5 +1,4 @@
 <img src = "https://user-images.githubusercontent.com/2780145/34364478-7f0ef056-eaac-11e7-912a-c03fc4ab4743.png" align = "left" width = "50">
-
 # Learn Java and related Concepts
 ![java](https://user-images.githubusercontent.com/2780145/109352120-57ea3780-78a0-11eb-99bd-da2f3bdabab1.png)
 
