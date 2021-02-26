@@ -1,4 +1,4 @@
-# Java - Kotlin - Android
+# Java - Coding - Kotlin - Android
 ![java banner](https://user-images.githubusercontent.com/2780145/109359092-dcda4e80-78aa-11eb-894b-935336d29af1.png)
 
 **This Repo contains Notes and Programs on following topics :**
@@ -16,7 +16,7 @@
 - *Android Development (Java & Kotlin)*
 - *Spring Boot REST API (Java & Kotlin)*
 
-![quote](https://user-images.githubusercontent.com/2780145/109137885-c2578680-777f-11eb-9ee3-d8f4c5cf8482.png)
+![quote2](https://user-images.githubusercontent.com/2780145/109364626-334c8a80-78b5-11eb-9d20-70d056b66377.png)
 ## [1] Java - Fundamentals & OOPS [Done]
 ### NOTES [Useful Info] :
 
@@ -143,7 +143,7 @@
 .
 
 ## [6] Java - Data Structures & Algorithms [WIP]
-![coding](https://user-images.githubusercontent.com/2780145/109349563-2a9b8a80-789c-11eb-9f41-f9b0af31a4d2.png)
+![algo coding](https://user-images.githubusercontent.com/2780145/109364614-2f206d00-78b5-11eb-8752-e28a8cf67f16.png)
 
 ### NOTES [Useful Info] :
 *[-> Common Data Structures](_moreReadMe/ds)*
