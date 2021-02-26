@@ -1,4 +1,4 @@
-![java-final](https://user-images.githubusercontent.com/2780145/109170480-d2369100-77a6-11eb-843d-3813d755ad02.png)
+![java](https://user-images.githubusercontent.com/2780145/109352120-57ea3780-78a0-11eb-99bd-da2f3bdabab1.png)
 
 <img src = "https://user-images.githubusercontent.com/2780145/34364478-7f0ef056-eaac-11e7-912a-c03fc4ab4743.png" align = "left" width = "50">
 
@@ -264,7 +264,7 @@
 .
 
 ## [2021 Bonus 4] Intro to Developer-Side Testing (JUnit) [WIP]
-![Junit5](https://user-images.githubusercontent.com/2780145/109143901-8c69d080-7786-11eb-8d8c-e16b74a03996.png)
+![Junit5](https://user-images.githubusercontent.com/2780145/109352486-eced3080-78a0-11eb-98ca-e10ae5edb116.png)
 
 #### [Basics of Testing in Java](_moreReadMe/testing)
 
