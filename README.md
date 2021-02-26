@@ -1,5 +1,5 @@
-# Learn Java and related Concepts
-![java](https://user-images.githubusercontent.com/2780145/109352120-57ea3780-78a0-11eb-99bd-da2f3bdabab1.png)
+# Java and related Concepts
+![java banner](https://user-images.githubusercontent.com/2780145/109359092-dcda4e80-78aa-11eb-894b-935336d29af1.png)
 
 **This Repo contains Notes and Programs on following topics :**
 - *Java Fundamentals*
@@ -115,7 +115,7 @@
 .
 
 ## [5] Java - Software Design [WIP]
-![sd](https://user-images.githubusercontent.com/2780145/109354726-4440d000-78a4-11eb-89a6-cec60d0d3e92.png)
+![software design](https://user-images.githubusercontent.com/2780145/109359203-0c895680-78ab-11eb-8347-f5efb39f086c.png)
 ### NOTES [Useful Info] :
 *[-> Introduction to Design Patterns](_moreReadMe/design_patterns_intro)*
 
@@ -360,7 +360,6 @@ Happy Learning! :smiley:
 Thanks to those authors! :thumbsup:
 
 .
-
 
 
 <img src = "https://user-images.githubusercontent.com/2780145/34364478-7f0ef056-eaac-11e7-912a-c03fc4ab4743.png" align = "left" width = "32">
