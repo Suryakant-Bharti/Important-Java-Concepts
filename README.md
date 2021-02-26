@@ -145,6 +145,8 @@
 .
 
 ## [6] Java - Data Structures & Algorithms [WIP]
+![coding](https://user-images.githubusercontent.com/2780145/109349563-2a9b8a80-789c-11eb-9f41-f9b0af31a4d2.png)
+
 ### NOTES [Useful Info] :
 *[-> Common Data Structures](_moreReadMe/ds)*
 
