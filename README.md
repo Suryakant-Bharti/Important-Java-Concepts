@@ -326,10 +326,6 @@
 
 *[-> Java and Python](_moreReadMe/python)*
 
-## Learn Android App Development
-### EXTERNAL LINKS :
-[My Repository for Learning Android App Development Concepts](https://github.com/Suryakant-Bharti/some-android-information)
-
 .
 
 ## Extras
