@@ -70,13 +70,17 @@
 
 .
 
-## [3] Java - Files, I/O, Serialization & Networking [Done]
+## [3] Java - Files, I/O, Serialization, Networking, Others [Done]
 ### NOTES [Useful Info] :
 *[-> Java Files and I/O](_moreReadMe/input_output)*
 
 *[-> Java Serialization](_moreReadMe/serialization)*
 
 *[-> Java Networking](_moreReadMe/networking)*
+
+*[-> Java Class Design Basic](_moreReadMe/class_relations)*
+
+*[-> Java RegEx & Lambda Expressions](_moreReadMe/regex_and_lambda)*
 
 ### PROGRAMS :
 #### [Files and I/O](java_io_networking/input_output)
@@ -85,7 +89,15 @@
 
 #### [Networking (Socket,URL,HTTP,Datagram)](java_io_networking/networking)
 
+#### [Regular Expressions](java_misc_advanced_concepts/regex)
+
+#### [Lambda Expressions](java_misc_advanced_concepts/lambda)
+
+#### BigDecimal & BigIntegar
+
 #### Data Parsing (CSV, JSON & XML)
+
+#### Advanced Data Types (Flatbuffer)
 
 #### Streaming in Detail
 
@@ -93,7 +105,7 @@
 
 .
 
-## [4] Java - Threads & Concurrency [WIP]
+## [4] Java - Threads, Concurrency & Concurrent Collections [WIP]
 ![threads](https://user-images.githubusercontent.com/2780145/109363422-8cff8580-78b2-11eb-83c3-77151011e4d1.png)
 ### NOTES [Useful Info] :
 *[-> Java Multithreading & Garbage Collection](_moreReadMe/multithreading)*
@@ -280,6 +292,8 @@
 
 #### Java Best Practices
 
+#### Class Relationships (Design Basics)
+
 #### SE Funadamentals
 
 #### OOAD Funadamentals
@@ -287,26 +301,6 @@
 #### Refactoring & Regression
 
 #### Behaviour Driven Development
-
-.
-
-## Java - Other Advanced Topics [WIP]
-### NOTES [Useful Info] :
-
-*[-> Java Class Design Basic](_moreReadMe/class_relations)*
-
-*[-> Java RegEx & Lambda Expressions](_moreReadMe/regex_and_lambda)*
-
-### PROGRAMS :
-#### [Regular Expressions](java_misc_advanced_concepts/regex)
-
-#### [Lambda Expressions](java_misc_advanced_concepts/lambda)
-
-#### BigDecimal & BigIntegar
-
-#### Advanced Data Types (Flatbuffer)
-
-#### Class Relationships (Design Basics)
 
 .
 
