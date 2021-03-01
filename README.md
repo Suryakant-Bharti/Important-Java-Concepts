@@ -201,7 +201,7 @@
 
 *[-> Data Structures in Kotlin](_moreReadMe/kotlin_data_structures)*
 
-*[-> Design Patterns in Kotlin](_moreReadMe/kotlin_design_patterns)*
+*[-> Design Patterns in Kotlin](kotlin_designpatterns/patterns/src/test/kotlin)*
 
 *[-> Kotlin Overview, Features & Multi-platform Support](_moreReadMe/kotlin_overview)*
 
