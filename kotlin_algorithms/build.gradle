@@ -1,0 +1,39 @@
+apply plugin: 'idea'
+apply plugin: 'java'
+apply plugin: 'kotlin'
+apply plugin: 'jacoco'
+
+buildscript {
+    ext.kotlin_version = '1.3.21'
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled true
+        html.enabled false
+    }
+}
+
+test.finalizedBy jacocoTestReport
+
+sourceSets {
+    main.kotlin.srcDirs += 'src/main'
+    test.kotlin.srcDirs += 'src/test'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+}
