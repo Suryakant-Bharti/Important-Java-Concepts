@@ -199,7 +199,7 @@
 ### NOTES [Useful Info] :
 *[-> Kotlin Funadamentals and OOP](_moreReadMe/kotlin_basics)*
 
-*[-> Data Structures in Kotlin](_moreReadMe/kotlin_data_structures)*
+*[-> Data Structures in Kotlin](kotlin_algorithms/src/main/algo)*
 
 *[-> Design Patterns in Kotlin](kotlin_designpatterns/patterns/src/test/kotlin)*
 
