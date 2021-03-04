@@ -11,10 +11,10 @@
 - *Design Patterns in Java*
 - *Data Structures in Java*
 - *Algorithms in Java*
-- *Unit Testing in Java*
 - *Kotlin - Modern JVM Language*
 - *Android Development (Java & Kotlin)*
 - *Spring Boot REST API (Java & Kotlin)*
+- *Unit Testing in Java*
 
 ![quote2](https://user-images.githubusercontent.com/2780145/109364626-334c8a80-78b5-11eb-9d20-70d056b66377.png)
 ## [1] Java - Fundamentals & OOPS [Done]
