@@ -1,4 +1,4 @@
-# Java - Kotlin - Android - Coding
+# Notes and Codes on Java & Related Concepts 
 ![java banner](https://user-images.githubusercontent.com/2780145/109359092-dcda4e80-78aa-11eb-894b-935336d29af1.png)
 
 **This Repo contains Notes and Programs on following topics :**
