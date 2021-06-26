@@ -189,7 +189,7 @@
 
 .
 
-## [2021 Bonus 1] Kotlin - Modern JVM Language [WIP]
+## [2021] Kotlin - Modern JVM Language [WIP]
 ![kotlin](https://user-images.githubusercontent.com/2780145/109118724-b06ae900-7769-11eb-8693-58862cb69ac5.png)
 - *Fastest growing language in Guthub & among the most loved acc. to StackOverflow survey*
 - *Cross-platform, General-purpose, Concise, Safe & fully interoperable with Java*
@@ -222,7 +222,7 @@
 
 .
 
-## [2021 Bonus 2] Android Development (Java & Android Libraries) [WIP]
+## [2021] Android Development (Java & Android Libraries) [WIP]
 ![android](https://user-images.githubusercontent.com/2780145/109120489-05a7fa00-776c-11eb-912e-f539d25a5c56.png)
 - *There are 2.5 billion+ monthly active Android devices*
 - *In 2020, Google Play users worldwide downloaded 108.5 billion mobile apps*
@@ -255,7 +255,11 @@
 
 .
 
-## [2021 Bonus 3] Intro to Databases & Spring boot Develpment (Java & Kotlin) [WIP]
+## Intro to Databases & Spring boot Develpment (Java & Kotlin)
+
+<details>
+    <summary><b>To be done later</b></summary>
+
 ![Springboot](https://user-images.githubusercontent.com/2780145/109139875-051a5e00-7782-11eb-9d56-65bad2dcf23c.png)
 #### JDBC (Java Database Connectivity)
 
@@ -270,10 +274,16 @@
 #### ORM (Object-Relational Mapping)
 
 #### Hibernate 5 (ORM Library)
+        
+</details>
 
 .
 
-## [2021 Bonus 4] Intro to Developer-Side Testing (JUnit) [WIP]
+## Intro to Developer-Side Testing (JUnit)
+
+<details>
+    <summary><b>To be done later</b></summary>
+
 ![Junit5](https://user-images.githubusercontent.com/2780145/109352486-eced3080-78a0-11eb-98ca-e10ae5edb116.png)
 
 #### [Basics of Testing in Java](_moreReadMe/testing)
@@ -283,13 +293,16 @@
 #### Mockito 2 (Test Doubling Library)
 
 #### Understanding Test Driven Development
+    
+</details>
 
 .
----
----
 
-## Java - Software Development [WIP]
+## Java - Software Development
 
+<details>
+    <summary><b>To be done later</b></summary>
+    
 #### Java Best Practices
 
 #### Class Relationships (Design Basics)
@@ -301,10 +314,15 @@
 #### Refactoring & Regression
 
 #### Behaviour Driven Development
+    
+</details>
 
 .
 
-## Technical Diagrams for Developers [WIP]
+## Technical Diagrams for Developers
+    
+<details>
+    <summary><b>To be done later</b></summary>
 
 #### Database Schema
 
@@ -315,6 +333,8 @@
 #### Control-Flow Diagram (CFD)
 
 #### Data-Flow Diagram (DFD)
+    
+</details>
 
 .
 
