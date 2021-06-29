@@ -1,6 +1,6 @@
 # Language Comparisons
 
-## C vs Java :
+## C vs C++ :
 
 <table class="alt">
     <tbody><tr>
