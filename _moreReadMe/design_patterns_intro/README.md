@@ -38,9 +38,14 @@ In these design patterns,the interaction between the objects should be in such a
 That means the implementation and the client should be loosely coupled in order to avoid hard coding and dependencies.
 
 - Observer
--
--
--
--
--
--
+- State
+- Strategy
+- Chain of Responsibiliy
+- Command
+- Interpreter
+- Iterator
+- Mediator
+- Memento
+- Template
+- Visitor
+- Null Object
