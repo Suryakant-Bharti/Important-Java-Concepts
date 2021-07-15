@@ -132,11 +132,11 @@
 ### NOTES [Useful Info] :
 *[-> Introduction to Design Patterns](_moreReadMe/design_patterns_intro)*
 
-*[-> Creational Design Patterns](java_design_patterns/gof_creational)*
+*-> Creational Patterns: [Singleton](https://medium.com/geekculture/design-patterns-in-android-singleton-918194310419), [Builder](https://medium.com/geekculture/builder-design-pattern-in-java-examples-from-java-android-libraries-9c85f65696e5), Factory Method, Prototype*
 
-*[-> Structural Design Patterns](java_design_patterns/gof_structural)*
+*-> Structural Patterns*
 
-*[-> Behavioral Design Patterns](java_design_patterns/gof_behavioral)*
+*-> Behavioral Patterns*
 
 *[-> Design Patterns Cheat Sheet](_moreReadMe/design_patterns_cheatsheet)*
 
