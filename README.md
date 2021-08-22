@@ -374,10 +374,8 @@ Thanks to those authors! :thumbsup:
 .
 
 
-<img src = "https://user-images.githubusercontent.com/2780145/34364478-7f0ef056-eaac-11e7-912a-c03fc4ab4743.png" align = "left" width = "26">
-<img src = "https://user-images.githubusercontent.com/2780145/34364478-7f0ef056-eaac-11e7-912a-c03fc4ab4743.png" align = "left" width = "26">
-<img src = "https://user-images.githubusercontent.com/2780145/34364478-7f0ef056-eaac-11e7-912a-c03fc4ab4743.png" align = "left" width = "26">
-<img src = "https://user-images.githubusercontent.com/2780145/34364478-7f0ef056-eaac-11e7-912a-c03fc4ab4743.png" align = "right" width = "26">
-<img src = "https://user-images.githubusercontent.com/2780145/34364478-7f0ef056-eaac-11e7-912a-c03fc4ab4743.png" align = "right" width = "26">
-<img src = "https://user-images.githubusercontent.com/2780145/34364478-7f0ef056-eaac-11e7-912a-c03fc4ab4743.png" align = "right" width = "26">
+<img src = "https://user-images.githubusercontent.com/2780145/34364478-7f0ef056-eaac-11e7-912a-c03fc4ab4743.png" align = "left" width = "28">
+<img src = "https://user-images.githubusercontent.com/2780145/34364478-7f0ef056-eaac-11e7-912a-c03fc4ab4743.png" align = "left" width = "28">
+<img src = "https://user-images.githubusercontent.com/2780145/34364478-7f0ef056-eaac-11e7-912a-c03fc4ab4743.png" align = "right" width = "28">
+<img src = "https://user-images.githubusercontent.com/2780145/34364478-7f0ef056-eaac-11e7-912a-c03fc4ab4743.png" align = "right" width = "28">
 <div align="center"><b>...THE END...</b></div>
