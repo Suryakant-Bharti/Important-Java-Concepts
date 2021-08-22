@@ -234,9 +234,9 @@
 
 *-> Recycler View - display scrolling list data using adapter pattern*
 
-*[-> Retrofit](_moreReadMe/android_glide) - type-safe HTTP client for Java & Android*
+*[-> Retrofit](_moreReadMe/android_retrofit) - type-safe HTTP client for Java & Android*
 
-*[-> Glide](_moreReadMe/android_retrofit) - efficient image loading lib with media decoding, memory & disk caching*
+*[-> Glide](_moreReadMe/android_glide) - efficient image loading lib with media decoding, memory & disk caching*
 
 *[-> RoomDB](_moreReadMe/android_roomdb) - ORM based SQLite wrapper for fluent db access*
 
