@@ -250,8 +250,14 @@
 
 *-> RxJava - asynchronous, event-based programs using observable sequences*
 
+*-> Dagger - static, compile-time dependency injection framework*
+
+*-> JUnit - developer-side testing on the JVM (unit testing framework)*
+
+*-> Mockito - mocking objects in unit tests (test doubling framework)
+
 ### PROGRAMS :
-#### Dummy
+#### ...
 
 .
 
