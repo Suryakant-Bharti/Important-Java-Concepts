@@ -854,3 +854,378 @@ fun main(args : Array<String>) {
 As you can see, the constructor parameter n and a are being used to initialized their respective properties.
 
 **Data classes** are kotlins way  of providing concise immutable data types... it is going to generate equals hashcoded to string... they will be considered equal if data they contain is equal... also, they give us effective copy construcors... x.copy()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+```kotlin
+	sayHello1()
+	sayHello2()
+
+fun sayHello1(): Unit {	println("Hello")}
+
+fun sayHello2() { println("Hello")}
+
+fun getGreeting(): String = "Hello Kotlin" //single expression function
+fun getGreeting() = "Hello Kotlin" //also, single expression function
+
+fun sayHello3(itemToGreet: String) {
+	val msg = "Hello " + itemToGreet // or 	val msg = "Hello $itemToGreet"
+	println(msg )
+}
+
+fun sayHello3(itemToGreet: String) { println("Hello $itemToGreet")}
+
+fun sayHello3(itemToGreet: String) = println("Hello $itemToGreet")
+
+fun sayHello3(greeting:String, itemToGreet: String) = println("$greeting $itemToGreet")
+
+
+
+
+
+fun sayHello4(greeting:String, itemsToGreet: List<String>) {
+	itemsToGreet.forEach { itemToGreet ->
+		println("$greeting $itemToGreet")
+	}
+}
+
+sayHello4("Hi", things2)
+
+// varargs, named arguments, default param values
+
+sayHello4("Hi", listOf())
+
+
+
+fun greetPerson(greeting:String, name: String) = println("$greeting $name")
+greetPerson(greeting:"hi", name:"John")   
+greetPerson(greeting = "hi", name = "John")    // named arguments syntax
+greetPerson(name = "John", greeting = "hi") // any order possible, but must take both arguments; can also be used forr varargs
+
+fun greetPerson2(greeting:String = "Hello", name: String = "Kotlin") = println("$greeting $name")  // default param values
+greetPerson2(name = "John")
+
+//This  helps us replicate builder pattern without writing getters, seetings, private coonstructors, etc
+
+class Person  // constructor not required
+class Person constructor()   // empty primary construtor
+class Person()  // empty primary construtor
+---
+val person = Person()  // new keyword not required
+
+class Person2(firstName:String, lastName:String)
+---
+val person = Person("John", "Thomson")
+
+class Person2(_firstName:String, _lastName:String) { // primary contrutor
+	val firstName: String                            // properties
+	val lastName: String
+
+	init {
+		firstName = _firstName
+		lastName = _lastName
+	}
+}
+or 
+class Person2(_firstName:String, _lastName:String) { // primary contrutor
+	val firstName: String = _firstName
+	val lastName: String = _lastName
+}
+or
+class Person2(val firstName:String, val lastName:String) // primary contrutor
+
+val person = Person2("John", "Thomson")
+println(person.lastName)
+
+class Person2(val firstName:String, val lastName:String) {
+	
+	init { println("init 1") }
+
+	construtor(): this("Peter", "Parker") {   // secondary constructor with calling primary constructor
+		println("seconndary constructor")
+	}
+
+	init { println("init 2") }
+}
+or
+class Person2(val firstName:String = "Peter", val lastName:String = "Parker")
+
+val person = Person2()   // output init1 init2 seconndary constructor
+
+class Person2(val firstName:String = "Peter", val lastName:String = "Parker") {
+	var nickName: String? = null
+}
+
+person.nickName = "Shades"
+
+class Person2(val firstName:String = "Peter", val lastName:String = "Parker") {
+	var nickName: String? = null
+	set(value) {				// overriding setter
+		field = value;
+	}
+	get() {						// overriding getter
+		println("returned value is $field")
+		return field;
+	}
+	
+	fun printInfo() {
+		val nick = if(nikName != null) nickName else "no nickname" 
+		val nick = nickName ?: "no nickname" // same as above using elvis operator
+	}
+}
+
+person.printInfo()
+
+
+interface PersonInfoProvider
+class BasicInfoProvider: PersonInfoProvider
+
+interface PersonInfoProvider {
+	fun printInfo(person: Person)
+}
+
+abstract class BasicInfoProvider: PersonInfoProvider
+
+class BasicInfoProvider2: PersonInfoProvider {
+	override fun printInfo(person: Person) {
+		// super.printInfo()     // not compulsory in this case
+	}
+}
+
+val provider = BasicInfoProvider2()
+
+class D: interface A, interface B, interface C
+
+if(infoProvider is SessionInfoProvider) ...
+else ...
+
+if(infoProvider !is SessionInfoProvider) ...
+else ...
+
+if(infoProvider is SessionInfoProvider) {
+	(infoProvider as SessionInfoProvider).getSessionId	// manual type casting
+	infoProvider.getSessionId				// smart casting
+}
+else ...
+
+class Fancy: BasicInfoProvider()   // inheritance
+
+val provider = object : PersonInfoProvider {	// object express anonymous inner class; for eg. can be used for click listener
+	...
+	new fun
+}
+
+suppose we want to create factory to create entity - we can use companion object
+a companion object is scoped to an instance of another class
+
+class Entity private construtor(val id: String) {
+	companion object {				// can be rename like "comapanion object Factory"
+		fun create() = Entity("id")
+	}
+}
+
+val entity = Entity.Companion.create()		// same as Entity.create(), writing COmpanion is not required
+val entity = Entity.Factory.create()		// suppose we have named it Factory
+
+companion objects are like any other class, an implement interface or inherit or have properties or methods
+
+object declaration is a convenient way of creating threaad safe singletons within kt
+
+object EntityFacctory {
+	fun create() = Entity("id")
+}
+class Entity (val id: String) {
+}
+
+enum class EntityType {
+	EASY, MEDIUM, HARD
+}
+
+val id = UUID.randomID().toString()
+
+sealed classes allow us too define related class hierarhies... for eg. can be used where result is "success or failure" or "easy, medium or hard"
+with sealed classes we can have different propeerties (key diff bw enum & sealed)... compiler will use smart casting
+
+
+sealed class Entity() {
+	data class Easy(val id: String, val name: String): Entity()		// data classes
+	data class Medium(val id: String, val name: String): Entity()
+	data class Hard(val id: String, val name: String, val multiplier: Float): Entity()
+}
+
+fun Entity.Medium.printInfo() {		// extension function
+	...
+}
+
+fun printFilteredStrings(list: List<String>, predicate: (String) -> Boolean) {		// higher order funstion
+	list.forEach {
+		if(predicate(it)) {
+			println(it)
+		}
+	}
+}
+
+val list = listOf("Kotlin", "Java", "C++", "Javascript")
+printFilteredStrings(list, {it.startsWith("K")})		// we have passed our lambda withing parenthesis
+
+printFilteredStrings(list) {	// we can take use of lambda syntax, same as above
+	it.startsWith("K")
+}
+
+val list = listOf("Kotlin", "Java", "C++", "Javascript", null, null)
+list
+	.filterNotNull()
+	.take(3)			// or takeLast(3)    to take that many elements
+	.filter {
+		it.startsWith("J")
+	}
+	.map {
+		it.length
+	}
+	.forEach {
+		println(it)
+	}
+
+output: 4 or 10 (for last 3)
+
+list
+	.filterNotNull()
+	.associate {it t it.length}
+	.forEach {
+		println("${it.value}, ${it.key}")
+	}
+
+val map = list
+	.filterNotNull()
+	.associate {it t it.length}
+
+the kt standard lib also provides a variety of fun to help us pull out individual elements from a collection
+
+val language = list.first()    // or .last()
+
+val language = list.filterNotNull().find{it.startsWith("Java")}     // or .findLast {}
+
+strings in kt have a useful fun called orEmpty
+val language = list.filterNotNull().find{it.startsWith("foo")}.orEmpty()     // to default collection to empty instead of null 
+
+kt has 1st class supp for fun, inluding fun types and higher order fun... and kt standard lib builds upon those tools and provides a rich set of fun operator for us to use... this allows us to build powerful functional chains to transform our data and make complex workflows much simpler
+
+
+
+
+
+
+
+model data
+Kotlin proj default
+--
+
+top level variables and functions & var and fun associated with class
+--
+
+toString(), hashCode(), ...
+
+we have extension function or extension properties on existing class
+
+higher order funtions & functional data type
+
+invoke() method....
+
+functional types...
+
+these types of functions will be useful in click & event listeners etc
+
+kotlin standard library
+
+
+
+
+⭐️ Course Contents ⭐️
+⌨️ (0:00:50​) Create Your First Kotlin Project
+⌨️ (0:04:23​) Hello World
+⌨️ (0:06:33​) Working With Variables
+⌨️ (0:11:04​) Type System
+⌨️ (0:15:00​) Basic Control Flow
+⌨️ (0:21:31​) Basic Kotlin Functions
+⌨️ (0:27:12​) Function Parameters
+⌨️ (0:32:52​) Arrays
+⌨️ (0:35:28​) Iterating with forEach
+⌨️ (0:41:17​) Lists
+⌨️ (0:42:47​) Maps
+⌨️ (0:45:05​) Mutable vs Immutable Collections
+⌨️ (0:49:24​) Vararg Parameters
+⌨️ (0:54:21​) Named Arguments
+⌨️ (0:56:26​) Default Parameter Values
+⌨️ (1:00:27​) Create A Simple Class
+⌨️ (1:03:35​) Adding Class Properties
+⌨️ (1:05:15​) Class Init Block
+⌨️ (1:06:40​) Accessing Class Properties
+⌨️ (1:07:32​) Primary Constructor Properties
+⌨️ (1:08:17​) Secondary Constructors
+⌨️ (1:09:50​) Working With Multiple Init Blocks
+⌨️ (1:11:30​) Default Property Values
+⌨️ (1:11:59​) Properties With Custom Getters/Setters
+⌨️ (1:16:52​) Class Methods
+⌨️ (1:20:12​) Visibility Modifiers - Public/Private/Protected/Public
+⌨️ (1:22:30​) Interfaces
+⌨️ (1:24:21​) Abstract Classes
+⌨️ (1:26:13​) Implementing An Interface
+⌨️ (1:26:35​) Overriding Methods
+⌨️ (1:28:30​) Default Interface Methods
+⌨️ (1:29:30​) Interface Properties
+⌨️ (1:31:40​) Implementing Multiple Interfaces
+⌨️ (1:32:57​) Type Checking And Smart Casts
+⌨️ (1:36:18​) Inheritance
+⌨️ (1:43:07​) Object Expressions
+⌨️ (1:45:06​) Companion Objects
+⌨️ (1:49:51​) Object Declarations
+⌨️ (1:52:41​) Enum Classes
+⌨️ (1:58:16​) Sealed Classes
+⌨️ (2:00:07​) Data Classes
+⌨️ (2:12:25​) Extension Functions/Properties
+⌨️ (2:16:40​) Higher-Order Functions
+⌨️ (2:29:07​) Using The Kotlin Standard Library
+
+
+
+
+
+
+private lateinit var       // because late initialization, private so that it can be referenced
+viewholder provides access to all views of one elemenet of recycler view
+kotlin.math//
+companion object are singleton varible defined constant  //similar to static in java
+we an access its memebers directly through the ontaining class
+.shuffled()
+data class
+!!
+interface//
+delegate
+color shades
+setup recyclerview//
+let 
+```
