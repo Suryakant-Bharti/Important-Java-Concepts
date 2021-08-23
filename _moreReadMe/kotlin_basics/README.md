@@ -246,6 +246,12 @@ fun main()  {
 }
 ```
 
+- Functions can exists on their own.
+- It is marked by **fun** keyword.
+- If a function returns value, you declare it after the function name.
+- `englishGreeting()` is a *single expression function*.
+- A void function such as `greet()` returns Unit type but you are not required to declare it.
+- All parameters in a Kotlin function are read only. You are actually not allowed to mark it with either `val` or `var` keyword.
 
 ```kotlin
 fun main(args : Array<String>) { 
@@ -288,16 +294,6 @@ however, functions in kt provide an additional funtionality that can satisfy thi
 
 we have spread operator which is `*`
 for eg -> *things 
-
-
-
-
-- Functions can exists on their own.
-- It is marked by **fun** keyword.
-- If a function returns value, you declare it after the function name.
-- `englishGreeting()` is a *single expression function*.
-- A void function such as `greet()` returns Unit type but you are not required to declare it.
-- All parameters in a Kotlin function are read only. You are actually not allowed to mark it with either `val` or `var` keyword.
 
 
 #### Single expression function
@@ -365,11 +361,12 @@ fun greet(firstName : String, lastName : String){
 fun call(name : String, location : String, age : Int){ 
     println("Call $name who lives at $location and he is $age old") 
 }
-```					
+```
 				
 Kotlin allows positional argument, named argument and the mix between the two. When you mix named and positional argument, you must start with positional argument.
 
-###Variable arguments
+
+#### Variable arguments
 
 Use the keyword **vararg**.
 
