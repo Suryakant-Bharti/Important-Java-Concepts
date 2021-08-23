@@ -179,7 +179,7 @@ We can rename `it` to anything, for eg. thing
 ```kotlin
 things.forEach { thing -> println(thing) }   // we lose index by this method
 
-things.forEachIndexed { index, thing ->	println("$thing is at index #index") }   // way to use index
+things.forEachIndexed { index, thing ->	println("$thing is at index $index") }   // way to use index
 ```
 
 if, when and forEach can also be used as expression
