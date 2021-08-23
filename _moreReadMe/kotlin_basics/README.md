@@ -226,7 +226,6 @@ We are going to spend a considerable time in discussing function because it has 
 - Optional parameter
 - Positional argument and named argument
 - Variable argument
-- Single expression function
 - Function type
 - Function literals
 - Callable references
@@ -265,7 +264,7 @@ fun italianGreeting() : String{
 }
 ```
 
-Idea behind **Lambda** syntax is that if you have a function and its only param is another param then you can omit the pranthesis altogether and you can pass that function in by specifying this open & clos parenthesis
+Idea behind **Lambda** syntax is that if you have a function and its only param is another param then you can omit the pranthesis altogether and you can pass that function in by specifying this open & close parenthesis
 
 
 **Higher order Functions** are fun that either return a fun or take fun as param
