@@ -78,8 +78,6 @@
 
 *[-> Java Networking](_moreReadMe/networking)*
 
-*[-> Java Class Design Basic](_moreReadMe/class_relations)*
-
 *[-> Java RegEx & Lambda Expressions](_moreReadMe/regex_and_lambda)*
 
 ### PROGRAMS :
@@ -143,6 +141,8 @@
 #### [GOF Design Patterns - Behavioral](java_design_patterns/gof_behavioral)
 
 #### SOLID Design Principles 
+
+#### Object Oriented Design
 
 #### Design Interview Questions
 
