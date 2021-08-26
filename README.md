@@ -93,15 +93,9 @@
 
 #### [Lambda Expressions](java_misc_advanced_concepts/lambda)
 
-#### BigDecimal & BigIntegar
-
 #### Data Parsing (CSV, JSON & XML)
 
-#### Advanced Data Types (Flatbuffer)
-
-#### Streaming in Detail
-
-#### Advanced Networking (Email,etc)
+#### Advanced Data Types (Protobuf, Flatbuffer)
 
 .
 
