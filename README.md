@@ -122,7 +122,7 @@
 ## [5] Java - Software Design [WIP]
 ![software design](https://user-images.githubusercontent.com/2780145/109359203-0c895680-78ab-11eb-8347-f5efb39f086c.png)
 ### NOTES [Useful Info] :
-*[-> Introduction to Design Patterns](_moreReadMe/design_patterns_intro)*
+*[-> Design Patterns & Examples in JDK](_moreReadMe/design_patterns_intro)*
 
 *-> Creational Patterns: [Singleton](https://medium.com/geekculture/design-patterns-in-android-singleton-918194310419), [Builder](https://medium.com/geekculture/builder-design-pattern-in-java-examples-from-java-android-libraries-9c85f65696e5), Factory Method, Prototype*
 
