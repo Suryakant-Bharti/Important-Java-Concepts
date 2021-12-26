@@ -124,7 +124,7 @@
 ### NOTES [Useful Info] :
 *[-> Design Patterns & Examples in JDK](_moreReadMe/design_patterns_intro)*
 
-*-> Creational Patterns: [Singleton](https://medium.com/geekculture/design-patterns-in-android-singleton-918194310419), [Builder](https://medium.com/geekculture/builder-design-pattern-in-java-examples-from-java-android-libraries-9c85f65696e5), Factory Method, Prototype*
+*-> Creational Patterns: [Singleton](https://medium.com/geekculture/918194310419), [Builder](https://medium.com/geekculture/9c85f65696e5), [Factory Method](https://medium.com/geekculture/895f93cb4b43), [Prototype](https://medium.com/geekculture/cb4209342a2c)*
 
 *-> Structural Patterns*
 
