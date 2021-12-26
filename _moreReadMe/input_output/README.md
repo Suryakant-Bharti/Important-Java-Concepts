@@ -187,16 +187,16 @@ public class fileStreamTest {
 The Java Console class is be used to get input from console. It provides methods to read texts and passwords. If you read password using Console class, it will not be displayed to the user. The java.io.Console class is attached with system console internally.
 **Example :**
 ```java
-import java.io.Console;  
-class ReadPasswordTest{    
-public static void main(String args[]){    
-Console c=System.console();    
-System.out.println("Enter password: ");    
-char[] ch=c.readPassword();    
-String pass=String.valueOf(ch);//converting char array into string    
-System.out.println("Password is: "+pass);    
-}    
-}  
+import java.io.Console;
+class ReadPasswordTest {
+    public static void main(String args[]) {
+        Console c = System.console();
+        System.out.println("Enter password: ");
+        char[] ch = c.readPassword();
+        String pass = String.valueOf(ch); //converting char array into string    
+        System.out.println("Password is: " + pass);
+    }
+}
 ```
 
 
