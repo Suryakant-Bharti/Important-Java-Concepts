@@ -72,9 +72,9 @@ Thread class provide constructors and methods to create and perform operations o
 <li><strong>public Thread.State getState():  </strong>returns the state of the thread.</li>
 <li><strong>public boolean isAlive():  </strong>tests if the thread is alive.</li>
 <li><strong>public void yield():  </strong>causes the currently executing thread object to temporarily pause and allow other threads to execute.</li>
-<li><strong>public void suspend():  </strong>is used to suspend the thread(depricated).</li>
-<li><strong>public void resume():  </strong>is used to resume the suspended thread(depricated).</li>
-<li><strong>public void stop():  </strong>is used to stop the thread(depricated).</li>
+<li><strong>public void suspend():  </strong>is used to suspend the thread(deprecated).</li>
+<li><strong>public void resume():  </strong>is used to resume the suspended thread(deprecated).</li>
+<li><strong>public void stop():  </strong>is used to stop the thread(deprecated).</li>
 <li><strong>public boolean isDaemon():  </strong>tests if the thread is a daemon thread.</li>
 <li><strong>public void setDaemon(boolean b):  </strong>marks the thread as daemon or user thread.</li>
 <li><strong>public void interrupt():  </strong>interrupts the thread.</li>
@@ -95,36 +95,37 @@ The Runnable interface should be implemented by any class whose instances are in
 
 1. Thread Example by extending Thread class
 ```java
-class Multi extends Thread{  
-public void run(){  
-System.out.println("thread is running...");  
-}  
-public static void main(String args[]){  
-Multi t1=new Multi();  
-t1.start();  
- }  
-}  
+class Multi extends Thread {
+    public void run() {
+        System.out.println("thread is running...");
+    }
+    public static void main(String args[]) {
+        Multi t1 = new Multi();
+        t1.start();
+    }
+}
 ```
 
 2. Thread Example by implementing Runnable interface
 ```java
-class Multi3 implements Runnable{  
-public void run(){  
-System.out.println("thread is running...");  
-}  
-  
-public static void main(String args[]){  
-Multi3 m1=new Multi3();  
-Thread t1 =new Thread(m1);  
-t1.start();  
- }  
-} 
+class Multi3 implements Runnable {
+    public void run() {
+        System.out.println("thread is running...");
+    }
+
+    public static void main(String args[]) {
+        Multi3 m1 = new Multi3();
+        Thread t1 = new Thread(m1);
+        t1.start();
+    }
+}
 ```
 
 ## Thread Scheduler in Java
 Thread scheduler in java is the part of the JVM that decides which thread should run. There is no guarantee that which runnable thread will be chosen to run by the thread scheduler. Only one thread at a time can run in a single process. The thread scheduler mainly uses preemptive or time slicing scheduling to schedule the threads.
 
 **Difference between preemptive scheduling and time slicing**
+
 Under preemptive scheduling, the highest priority task executes until it enters the waiting or dead states or a higher priority task comes into existence. Under time slicing, a task executes for a predefined slice of time and then reenters the pool of ready tasks. The scheduler then determines which task should execute next, based on priority and other factors.
 
 **NOTE :**
@@ -139,30 +140,35 @@ The sleep() method of Thread class is used to sleep a thread for the specified a
 ```java
 Thread.sleep(500)
 ```
-At a time only one thread is executed. If you sleep a thread for the specified time,the thread shedular picks up another thread and so on.
+At a time only one thread is executed. If you sleep a thread for the specified time,the thread scheduler picks up another thread and so on.
 
 ## run() method in Java
 In Java, Each thread starts in a separate call stack. Invoking the run() method from main thread, the run() method goes onto the current call stack rather than at the beginning of a new call stack.
 
 **Problem if you use run() directly instead of start() "**
+
 There is no context-switching in the below program because here t1 and t2 will be treated as normal object not thread object.
 Output will be : 1 2 3 4 5 1 2 3 4 5         (One object will finish before starting next)
 ```java
-class TestCallRun extends Thread{  
- public void run(){  
-  for(int i=1;i<5;i++){  
-    try{Thread.sleep(500);}catch(InterruptedException e){System.out.println(e);}  
-    System.out.println(i);  
-  }  
- }  
- public static void main(String args[]){  
-  TestCallRun2 t1=new TestCallRun2();  
-  TestCallRun2 t2=new TestCallRun2();  
-   
-  t1.run();  
-  t2.run();  
- }  
-} } }  
+class TestCallRun extends Thread {
+    public void run() {
+        for (int i = 1; i < 5; i++) {
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+                System.out.println(e);
+            }
+            System.out.println(i);
+        }
+    }
+    public static void main(String args[]) {
+        TestCallRun2 t1 = new TestCallRun2();
+        TestCallRun2 t2 = new TestCallRun2();
+
+        t1.run();
+        t2.run();
+    }
+}
 ```
 
 ## join() method in Java
@@ -193,8 +199,8 @@ t1.setName("My sweet thread");
 ```
 
 Getting the Current Thread
-**public static Thread currentThread():**
-The currentThread() method returns a reference of currently executing thread.
+
+**public static Thread currentThread():** The currentThread() method returns a reference of currently executing thread.
 ```java
 public void run(){ 
  System.out.println(Thread.currentThread().getName());
@@ -323,16 +329,17 @@ Each thread run in a separate **callstack**.
 
 ![callstack](https://user-images.githubusercontent.com/2780145/35023526-11302878-fb61-11e7-942a-da830e4cd714.JPG)
 ```java
-class TestMultitasking1 extends Thread{  
- public void run(){  
-   System.out.println("task one");  
- }  
- public static void main(String args[]){  
-  TestMultitasking1 t1=new TestMultitasking1();  
-  TestMultitasking1 t2=new TestMultitasking1();    
-  t1.start();  
-  t2.start();    
- }  } 
+class TestMultitasking1 extends Thread {
+    public void run() {
+        System.out.println("task one");
+    }
+    public static void main(String args[]) {
+        TestMultitasking1 t1 = new TestMultitasking1();
+        TestMultitasking1 t2 = new TestMultitasking1();
+        t1.start();
+        t2.start();
+    }
+}
 ```
 
 ## Java Garbage Collection
@@ -354,7 +361,7 @@ Employee e1=new Employee();
 Employee e2=new Employee();  
 e1=e2;    //now, the first object referred by e1 is available for garbage collection
 ```
-- By annonymous object
+- By anonymous object
 ```java
 new Employee();  
 ```
@@ -367,7 +374,7 @@ protected void finalize(){}
 ```
 **NOTE :** The Garbage collector of JVM collects only those objects that are created by new keyword. So if you have created any object without new, you can use finalize method to perform cleanup processing (destroying remaining objects).
 
-**gc() method**
+**gc() method:**
 The gc() method is used to invoke the garbage collector to perform cleanup processing. The gc() is found in System and Runtime classes. This method is defined in System class as: 
 ```java
 public static void gc(){}  
