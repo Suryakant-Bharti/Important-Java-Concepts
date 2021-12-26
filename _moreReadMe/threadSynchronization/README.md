@@ -23,7 +23,7 @@ This can be done by three ways in java :
 **Concept of Lock in Java :**
 Synchronization is built around an internal entity known as the lock or monitor. Every object has an lock associated with it. By convention, a thread that needs consistent access to an object's fields has to acquire the object's lock before accessing them, and then release the lock when it's done with them. The package java.util.concurrent.locks contains several lock implementations.
 
-## Synchronized Method in Java :**
+## Synchronized Method in Java :
 If you declare any method as synchronized, it is known as synchronized method. Synchronized method is used to lock an object for any shared resource. When a thread invokes a synchronized method, it automatically acquires the lock for that object and releases it when the thread completes its task.
 ```java
 synchronized void printTable(int n){  //synchronized method  
@@ -37,13 +37,18 @@ synchronized void printTable(int n){  //synchronized method
 ## Synchronized Block in Java
 Synchronized block can be used to perform synchronization on any specific resource of the method. Suppose you have 50 lines of code in your method, but you want to synchronize only 5 lines, you can use synchronized block. Scope of synchronized block is smaller than the method. If you put all the codes of the method in the synchronized block, it will work same as the synchronized method. Syntax - synchronized (object reference expression) { ... }  
 ```java
-void printTable(int n){  
-   synchronized(this){      //synchronized block  
-     for(int i=1;i<=5;i++){  
-      System.out.println(n*i);  
-      try{  Thread.sleep(200);  
-      }catch(Exception e){System.out.println(e);}  
-     } } }
+void printTable(int n) {
+    synchronized(this) { //synchronized block  
+        for (int i = 1; i <= 5; i++) {
+            System.out.println(n * i);
+            try {
+                Thread.sleep(200);
+            } catch (Exception e) {
+                System.out.println(e);
+            }
+        }
+    }
+}
 ```
 
 ## Static Synchronization in Java
@@ -55,12 +60,16 @@ If you make any static method as synchronized, the lock will be on the class not
 
 Suppose there are two objects of a shared class(e.g. Table) named object1 and object2.In case of synchronized method and synchronized block there cannot be interference between t1 and t2 or t3 and t4 because t1 and t2 both refers to a common object that have a single lock.But there can be interference between t1 and t3 or t2 and t4 because t1 acquires another lock and t3 acquires another lock.I want no interference between t1 and t3 or t2 and t4.Static synchronization solves this problem.
 ```java
-synchronized static void printTable(int n){  
-   for(int i=1;i<=10;i++){  
-     System.out.println(n*i);  
-     try{  Thread.sleep(200);  
-     }catch(Exception e){System.out.println(e);}  
-   }  }  
+synchronized static void printTable(int n) {
+    for (int i = 1; i <= 10; i++) {
+        System.out.println(n * i);
+        try {
+            Thread.sleep(200);
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
+}
 ```
 
 ## Deadlock in Java
@@ -69,34 +78,45 @@ synchronized static void printTable(int n){
 
 Deadlock can occur in a situation when a thread is waiting for an object lock, that is acquired by another thread and second thread is waiting for an object lock that is acquired by first thread. Since, both threads are waiting for each other to release the lock, the condition is called deadlock.
 ```java
-public class TestDeadlockExample1 {  
-  public static void main(String[] args) {  
-    final String resource1 = "John";  
-    final String resource2 = "Tom";  
-    
-    // t1 tries to lock resource1 then resource2  
-    Thread t1 = new Thread() {  
-      public void run() {  
-          synchronized (resource1) {  
-           System.out.println("Thread 1: locked resource 1");  
-           try { Thread.sleep(100);} catch (Exception e) {}  
-           synchronized (resource2) {  
-            System.out.println("Thread 1: locked resource 2");  
-           } } } };  
-  
-    // t2 tries to lock resource2 then resource1  
-    Thread t2 = new Thread() {  
-      public void run() {  
-        synchronized (resource2) {  
-          System.out.println("Thread 2: locked resource 2");  
-          try { Thread.sleep(100);} catch (Exception e) {}  
-          synchronized (resource1) {  
-            System.out.println("Thread 2: locked resource 1");  
-          } } } };  
-      
-    t1.start();  
-    t2.start();  
-  } } 
+public class TestDeadlockExample1 {
+    public static void main(String[] args) {
+        final String resource1 = "John";
+        final String resource2 = "Tom";
+
+        // t1 tries to lock resource1 then resource2  
+        Thread t1 = new Thread() {
+            public void run() {
+                synchronized(resource1) {
+                    System.out.println("Thread 1: locked resource 1");
+                    try {
+                        Thread.sleep(100);
+                    } catch (Exception e) {}
+                    synchronized(resource2) {
+                        System.out.println("Thread 1: locked resource 2");
+                    }
+                }
+            }
+        };
+
+        // t2 tries to lock resource2 then resource1  
+        Thread t2 = new Thread() {
+            public void run() {
+                synchronized(resource2) {
+                    System.out.println("Thread 2: locked resource 2");
+                    try {
+                        Thread.sleep(100);
+                    } catch (Exception e) {}
+                    synchronized(resource1) {
+                        System.out.println("Thread 2: locked resource 1");
+                    }
+                }
+            }
+        };
+
+        t1.start();
+        t2.start();
+    }
+}
 ```
 **Output:** 
 ```
@@ -148,7 +168,7 @@ Wakes up all threads that are waiting on this object's monitor.
 <tr><td>should be notified by notify() or notifyAll() methods</td><td>after the specified amount of time, sleep is completed.</td></tr>
 </tbody></table>
 
-**Sinple Example :**
+**Simple Example :**
 ```java
 class Customer {
  int amount = 10000;
