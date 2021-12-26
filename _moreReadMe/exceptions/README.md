@@ -100,7 +100,7 @@ If you are calling a method that declares an exception, you must either caught o
 
 2. You declare the exception i.e. specifying throws with the method.
 - if exception does not occur, the code will be executed fine.
-- if exception occures, an exception will be thrown at runtime because throws does not handle the exception.
+- if exception occurs, an exception will be thrown at runtime because throws does not handle the exception.
 
 You can rethrow and exception by throwing same exception in catch block.
 
