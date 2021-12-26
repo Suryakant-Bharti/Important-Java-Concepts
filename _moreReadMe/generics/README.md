@@ -226,7 +226,7 @@ Generics are used for tighter type checks at compile time and to provide a gener
 ```java
 Box<int> intBox = new Box<int>() //Error
 ```   
-NOTE: Use Wrappers like Integar instead.
+NOTE: Use Wrappers like Integer instead.
 
 **No Instance** - A type parameter cannot be used to instantiate its object inside a method.
 ```java
