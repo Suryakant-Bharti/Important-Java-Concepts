@@ -34,7 +34,7 @@ By convention, type parameter names are named as single, uppercase letters so th
 
 ## Type Inference
 
-Type inference represents the Java compiler's ability to look at a method invocation and its corresponding declaration to check and determine the type argument(s). The inference algorithm checks the types of the arguments and, if available, assigned type is returned. Inference algorithms tries to find a specific type which can fullfill all type parameters.
+Type inference represents the Java compiler's ability to look at a method invocation and its corresponding declaration to check and determine the type argument(s). The inference algorithm checks the types of the arguments and, if available, assigned type is returned. Inference algorithms tries to find a specific type which can fullfil all type parameters.
 
 Compiler generates unchecked conversion warning in-case type inference is not used.
 
@@ -48,7 +48,7 @@ Box<Integer> integerBox = new Box<>();
 <li><p><b><></b> − The diamond operator denotes type inference.</p></li>
 </ul>
 
-Using diamond operator, compiler determines the type of the parameter. This operator is avalilable from Java SE 7 version onwards.
+Using diamond operator, compiler determines the type of the parameter. This operator is available from Java SE 7 version onwards.
 
 ## Generic Methods
 
@@ -73,7 +73,7 @@ public static <E> void printArray( E[] inputArray ) {
 
 ## Multiple Type Parameters
 
-A Generic class can have muliple type parameters. Following example will showcase above mentioned concept.
+A Generic class can have multiple type parameters. Following example will showcase above mentioned concept.
 
 ```java
 public class Box<S,T> {
@@ -124,7 +124,7 @@ public static <T extends Number & Comparable<T>> T maximum(T x, T y, T z)
 <li><p><b>T</b> − The generic type parameter passed to generic method. It can take any Object.</p></li>
 </ul>
 
-The T is a type parameter passed to the generic class Box and should be subtype of Number class and must implments Comparable interface. In case a class is passed as bound, it should be passed first before interface otherwise compile time error will occur.
+The T is a type parameter passed to the generic class Box and should be subtype of Number class and must implements Comparable interface. In case a class is passed as bound, it should be passed first before interface otherwise compile time error will occur.
 
 **Calling eg.:**
 ```java
@@ -144,7 +144,7 @@ List<T> list = new ArrayList<T>();
 <li><p><b>list</b> − object of List interface.</p></li>
 <li><p><b>T</b> − The generic type parameter passed during List declaration.</p></li>
 </ul>
-The T is a type parameter passed to the generic interface List and its implemenation class ArrayList.
+The T is a type parameter passed to the generic interface List and its implementation class ArrayList.
 
 ### Set
 
@@ -155,7 +155,7 @@ Set<T> set = new HashSet<T>();
 <li><p><b>set</b> − object of Set Interface.</p></li>
 <li><p><b>T</b> − The generic type parameter passed during Set declaration.</p></li>
 </ul>
-The T is a type parameter passed to the generic interface Set and its implemenation class HashSet.
+The T is a type parameter passed to the generic interface Set and its implementation class HashSet.
 
 ### Map
 ```java
@@ -165,7 +165,7 @@ Map<T> set = new HashMap<T>();
 <li><p><b>set</b> − object of Map Interface.</p></li>
 <li><p><b>T</b> − The generic type parameter passed during Map declaration.</p></li>
 </ul>
-The T is a type parameter passed to the generic interface Map and its implemenation class HashMap.
+The T is a type parameter passed to the generic interface Map and its implementation class HashMap.
 
 ## Generics Wild Cards
 
@@ -248,7 +248,7 @@ Box<Integer> integerBox = new Box<Integer>();
 Box<Number> numberBox = new Box<Number>();
 integerBox = (Box<Integer>)numberBox; //Error: Cannot cast from Box<Number> to Box<Integer>
 ```
-NOTE: To achive the same, unbounded wildcards can be used.
+NOTE: To achieve the same, unbounded wildcards can be used.
 
 **No instanceOf** - Because compiler uses type erasure, the runtime does not keep track of type parameters, so at runtime difference between Box<Integer> and Box<String> cannot be verified using instanceOf operator.
 
@@ -262,7 +262,7 @@ NOTE: To achive the same, unbounded wildcards can be used.
 Object[] stringBoxes = new Box<String>[]; //Error
 ```
 
-**No Exceptionn** - A generic class is not allowed to extend the Throwable class directly or indirectly. 
+**No Exception** - A generic class is not allowed to extend the Throwable class directly or indirectly. 
 
 ```java
 //The generic class Box<T> may not subclass java.lang.Throwable
