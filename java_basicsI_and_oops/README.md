@@ -172,7 +172,7 @@ NOTE : UTF-8 is the most popular unicode character encoding with 90% websites us
 
 ![multiple inheritance](https://user-images.githubusercontent.com/2780145/34364363-407486b8-eaab-11e7-94e2-5c1876f414d3.png)
 
-## Assciation vs Aggregation vs Composition
+## Association vs Aggregation vs Composition
 
 ![association-aggregation-composition](https://user-images.githubusercontent.com/2780145/34364371-5db00694-eaab-11e7-8ef2-bf56d3394f15.png)
 
