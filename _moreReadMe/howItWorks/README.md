@@ -14,8 +14,8 @@ Java is a **programming language** and a **platform**.
   - It has Rich set of APIs 
   - Removed confusing features - explicit pointers, operator overloading, multiple inheritance, etc
  
-- **Object-oriented:**
-  - In Java, we organize the software as a combination of different types of objects that incorporates both data and behaviour.
+- **Object-Oriented:**
+  - In Java, we organize the software as a combination of different types of objects that incorporates both data and behavior.
   - Based on the concept of Objects, Class, Inheritance, Polymorphism, Abstraction, Encapsulation
   
 - **Platform Independent:**
@@ -34,8 +34,8 @@ Java is a **programming language** and a **platform**.
   
 - **Robust:**
   - **Good memory management -** automatic garbage collection.
-  - **No pointers -** increses security. 
-  - **Exception handling -** increses robustness against errors.
+  - **No pointers -** increases security. 
+  - **Exception handling -** increases robustness against errors.
   - **Strongly typed -** every variable must be declared with a data type.
   - **Statically typed -** type checking of variables is performed at compile time.
   
@@ -45,7 +45,7 @@ Java is a **programming language** and a **platform**.
 - **Portable:**
   - Write Once and Run Anywhere.
    
-- **interpreted:**
+- **Interpreted:**
   - Java is compiled to bytecodes, which are interpreted by a Java run-time environment.
   - The interpreter reads bytecode stream then execute the instructions.
   
