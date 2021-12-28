@@ -20,19 +20,13 @@ abstract class AbstractClass
 assert keyword is used in the assertion statements. These statements will enable you to test your assumptions about a program. Assertion statements provide the best way to detect and correct the programming errors. Assertion statements take one boolean expression as input and assumes that this will be always true. If the boolean expression returns false, AssertionError will be thrown.
 
 ```java
-public class MainClass
-{
-    public static void main(String[] args) 
-    {
-        System.out.println("Enter your marks");
+System.out.println("Enter your marks");
          
-        Scanner sc = new Scanner(System.in);
+Scanner sc = new Scanner(System.in);
          
-        int marks = sc.nextInt();
+int marks = sc.nextInt();
          
-        assert marks > 35 : "FAIL";
-    }
-}
+assert marks > 35 : "FAIL";
 ```
 
 ## 3) boolean
@@ -49,20 +43,11 @@ The break keyword is used to stop the execution of a loop(for, while, switch-cas
 
 
 ```java
-public class MainClass
+for (int i = 0; i < 100; i++)
 {
-    public static void main(String[] args) 
-    {
-        for (int i = 0; i < 100; i++)
-        {
-            System.out.println(i);
+    System.out.println(i);
              
-            if(i == 50)
-            {
-                break;
-            }
-        }
-    }
+    if(i == 50) break;
 }
 ```
 
@@ -81,43 +66,31 @@ Both switch and case keywords are used in the switch-case statement.
 
 
 ```java
-public class MainClass
+Scanner sc = new Scanner(System.in);
+
+System.out.println("Enter Day :");
+
+int day = sc.nextInt();
+
+switch (day) 
 {
-    public static void main(String[] args) 
-    {
-        Scanner sc = new Scanner(System.in);
-         
-        System.out.println("Enter Day :");
-         
-        int day = sc.nextInt();
-         
-        switch (day)
-        {
-            case 1 : System.out.println("SUNDAY");
-            break;
-             
-            case 2 : System.out.println("MONDAY");
-            break;
- 
-            case 3 : System.out.println("TUESDAY");
-            break;
-             
-            case 4 : System.out.println("WEDNESDAY");
-            break;
-             
-            case 5 : System.out.println("THURSDAY");
-            break;
-             
-            case 6 : System.out.println("FRIDAY");
-            break;
-             
-            case 7 : System.out.println("SATURDAY");
-            break;
-             
-            default: System.out.println("Invalid");
-            break;
-        }
-    }
+    case 1:
+        System.out.println("SUNDAY");
+        break;
+
+    case 2:
+        System.out.println("MONDAY");
+        break;
+
+    //...
+
+    case 7:
+        System.out.println("SATURDAY");
+        break;
+
+    default:
+        System.out.println("Invalid");
+        break;
 }
 ```
 
@@ -127,23 +100,17 @@ try, catch and finally keywords are used to handle the exceptions in java. The s
 
 
 ```java
-public class MainClass
+try 
 {
-    public static void main(String[] args) 
-    {
-        try
-        {
-            int i = Integer.parseInt("abc");
-        }
-        catch(NumberFormatException ex)
-        {
-            System.out.println(ex);
-        }
-        finally
-        {
-            System.out.println("This will be always executed");
-        }
-    }
+    int i = Integer.parseInt("abc");
+} 
+catch (NumberFormatException ex) 
+{
+    System.out.println(ex);
+} 
+finally 
+{
+    System.out.println("This will be always executed");
 }
 ```
 
@@ -181,20 +148,11 @@ continue keyword is used to stop the execution of current iteration and start th
 
 
 ```java
-public class MainClass
+for (int i = 0; i <= 100; i++)
 {
-    public static void main(String[] args) 
-    {
-        for (int i = 0; i <= 100; i++)
-        {
-            if(i % 5 != 0)
-            {
-                continue;
-            }
+    if(i % 5 != 0)  continue;
              
-            System.out.println(i);
-        }
-    }
+    System.out.println(i);
 }
 ```
 
@@ -219,27 +177,20 @@ do keyword is used in a do–while loop. do-while loop is used to execute one or
 
 
 ```java
-public class MainClass
-{
-    public static void main(String[] args) 
-    {
-        int a = 10;
-         
-        int b = 20;
-         
-        do
-        {
-            a = a + b;
-             
-            b = b + 10;
-             
-            System.out.println("a = "+a);
-             
-            System.out.println("b = "+b);
-             
-        } while (a <= 100);
-    }
-}
+int a = 10;
+
+int b = 20;
+
+do {
+    a = a + b;
+
+    b = b + 10;
+
+    System.out.println("a = " + a);
+
+    System.out.println("b = " + b);
+
+} while (a <= 100);
 ```
 
 ## 16) double
@@ -248,19 +199,13 @@ double keyword is used to declare primitive double type of variables.
 
 
 ```java
-public class MainClass
-{
-    public static void main(String[] args) 
-    {
-        double d1 = 23.56;
+double d1 = 23.56;
          
-        double d2 = 56.23;
+double d2 = 56.23;
          
-        double d3 = d1 + d2;
+double d3 = d1 + d2;
          
-        System.out.println(d3);
-    }
-}
+System.out.println(d3);
 ```
 
 ## 17) if         18) else
@@ -269,25 +214,19 @@ if and else keywords are used in if-else block.
 
 
 ```java
-public class MainClass
+Scanner sc = new Scanner(System.in);
+         
+System.out.println("Enter a string :");
+         
+String input = sc.next();
+         
+if(input.equalsIgnoreCase("JAVA"))
 {
-    public static void main(String[] args) 
-    {
-        Scanner sc = new Scanner(System.in);
-         
-        System.out.println("Enter a string :");
-         
-        String input = sc.next();
-         
-        if(input.equalsIgnoreCase("JAVA"))
-        {
-            System.out.println("It's JAVA");
-        }
-        else
-        {
-            System.out.println("It's not JAVA");
-        }
-    }
+    System.out.println("It's JAVA");
+}
+else
+{
+    System.out.println("It's not JAVA");
 }
 ```
 
@@ -297,9 +236,18 @@ enum keyword is used to define enum types.
 
 
 ```java
-enum MyEnums
+enum Color
 {
-    A, B, C, D;
+    RED, GREEN, BLUE;
+}
+ 
+public class Test
+{
+    public static void main(String[] args)
+    {
+        Color c1 = Color.RED;
+        System.out.println(c1);
+    }
 }
 ```
 
@@ -343,19 +291,13 @@ float keyword indicates primitive float type of variables.
 
 
 ```java
-public class MainClass
-{
-    public static void main(String[] args) 
-    {
-        float f1 = 45.26f;
+float f1 = 45.26f;
          
-        float f2 = 84.25f;
+float f2 = 84.25f;
          
-        float f3 = f2 - f1;
+float f3 = f2 - f1;
          
-        System.out.println(f3);
-    }
-}
+System.out.println(f3);
 ```
 
 ## 23) for
@@ -364,15 +306,9 @@ for loop is used to execute the set of statements until a condition is true.
 
 
 ```java
-public class MainClass
+for (int i = 0; i <= 10; i++)
 {
-    public static void main(String[] args) 
-    {
-        for (int i = 0; i <= 10; i++)
-        {
-            System.out.println(i);
-        }
-    }
+    System.out.println(i);
 }
 ```
 
@@ -415,7 +351,7 @@ instanceOf is used to check whether an object is of specified type. The syntax f
 ```java
 class A
 {
-     
+     //...
 }
  
 public class MainClass
@@ -438,24 +374,18 @@ int keyword is used to declare primitive integer type of variables.
 
 
 ```java
-public class MainClass
-{
-    public static void main(String[] args) 
-    {
-        int i1 = 10;
+int i1 = 10;
          
-        int i2 = 20;
+int i2 = 20;
          
-        int i3 = i1 *  i2;
+int i3 = i1 *  i2;
          
-        System.out.println(i3);
-    }
-}
+System.out.println(i3);
 ```
 
 ## 28) interface
 
-interface keyword is used to define the interfaces in java.
+interface keyword is used to define the interfaces in java. It is a mechanism to achieve abstraction. There can be only abstract methods in the Java interface, not method body.
 
 
 ```java
@@ -471,19 +401,13 @@ long is used to define the primitive long type variables.
 
 
 ```java
-public class MainClass
-{
-    public static void main(String[] args) 
-    {
-        long l1 = 101;
+long l1 = 101;
          
-        long l2 = 202;
+long l2 = 202;
          
-        long l3 = l1 +  l2;
+long l3 = l1 +  l2;
          
-        System.out.println(l3);
-    }
-}
+System.out.println(l3);
 ```
 
 ## 30) native
@@ -506,7 +430,7 @@ new keyword is used while creating the instances of a class.
 ```java
 class A
 {
-     
+     //...
 }
  
 public class MainClass
@@ -528,7 +452,7 @@ package pack1;
  
 class A
 {
-     
+     //...
 }
 ```
 
@@ -848,19 +772,13 @@ while keyword is used in the while loop.
 
 
 ```java
-public class MainClass
-{
-    public static void main(String[] args) 
-    {
-        int i = 10;
+int i = 10;
          
-        while (i <= 100)
-        {
-            System.out.println(i);
+while (i <= 100)
+{
+    System.out.println(i);
              
-            i = i + 10;
-        }
-    }
+    i = i + 10;
 }
 ```
 
