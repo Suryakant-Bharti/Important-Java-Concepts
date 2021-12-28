@@ -8,13 +8,17 @@ Java Socket Programming provides facility to share data between different comput
 -	sharing resources
 -	centralized software management
 
+**The java.net Package Supports 2 Protocols:**
+- **TCP:** Transmission Control Protocol provides reliable communication between the sender and receiver. TCP is used along with the Internet Protocol referred as TCP/IP.
+- **UDP:** User Datagram Protocol provides a connection-less protocol service by allowing packet of data to be transferred along two or more nodes
+
+
 ## Java Networking Terminology :
 
 Some of the widely used java networking terminologies are as follows:
 
 1.	IP Address
-    - IP address is a unique number assigned to a node of a network e.g. 192.168.0.1. It is composed of octets that range from 0 to 255.
-It is a logical address that can be changed.
+    - IP address is a unique number assigned to a node of a network e.g. 192.168.0.1. It is composed of octets that range from 0 to 255. It is a logical address that can be changed.
 
 2.	Protocol
     - A protocol is a set of rules basically that is followed for communication. For example: TCP, FTP, Telnet, SMTP, POP, etc.
@@ -94,4 +98,74 @@ Socket s = ss.accept(); //establishes connection and waits for the client
 ### Creating Client :
 ```java
 Socket s = new Socket("localhost",6666);  
+```
+
+### Simple Socket example where client sends a text; the server receives and prints it.
+
+#### SERVER
+```java
+ServerSocket ss = new ServerSocket(6666);  
+Socket s=ss.accept(); //establishes connection   
+DataInputStream dis = new DataInputStream(s.getInputStream());  
+String  str = (String)dis.readUTF();  
+System.out.println("message= "+str);  
+ss.close();  
+```
+
+#### CLIENT
+```java
+Socket s = new Socket("localhost",6666);  
+DataOutputStream dout = new DataOutputStream(s.getOutputStream());  
+dout.writeUTF("Hello Server");  
+dout.flush();  
+dout.close();  
+s.close();  
+```
+
+Open two command prompts and execute each program
+After running the client application, a message will be displayed on the server console.
+
+### More complex Socket example where 
+- First, client will write to the server; server will receive and print.
+- Then, server will write to the client; client will receive and print.
+
+#### SERVER
+```java
+ServerSocket ss = new ServerSocket(3333);
+Socket s = ss.accept();
+DataInputStream din = new DataInputStream(s.getInputStream());
+DataOutputStream dout = new DataOutputStream(s.getOutputStream());
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+String str = "", str2 = "";
+while (!str.equals("stop")) {
+    str = din.readUTF();
+    System.out.println("client says: " + str);
+    str2 = br.readLine();
+    dout.writeUTF(str2);
+    dout.flush();
+}
+din.close();
+s.close();
+ss.close();
+```
+
+#### CLIENT
+```java
+Socket s = new Socket("localhost", 3333);
+DataInputStream din = new DataInputStream(s.getInputStream());
+DataOutputStream dout = new DataOutputStream(s.getOutputStream());
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+String str = "", str2 = "";
+while (!str.equals("stop")) {
+    str = br.readLine();
+    dout.writeUTF(str);
+    dout.flush();
+    str2 = din.readUTF();
+    System.out.println("Server says: " + str2);
+}
+
+dout.close();
+s.close();
 ```
