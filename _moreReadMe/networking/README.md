@@ -137,26 +137,30 @@ A socket is simply an endpoint for communications between the machines. The Sock
 ![socket-programming](https://user-images.githubusercontent.com/2780145/68625991-64f2e400-0500-11ea-9616-3702cb213cdd.png)
 
 **Important methods :**
-|g|g|
+|Method|Description|
 |-|-|
-|h|h|
-<table class="alt">
-<tbody><tr><th>Method</th><th>Description</th></tr>
-<tr><td>1) public InputStream getInputStream()</td><td>returns the InputStream attached with this socket.</td></tr>
-<tr><td>2) public OutputStream getOutputStream()</td><td>returns the OutputStream attached with this socket.</td></tr>
-<tr><td>3) public synchronized void close()</td><td>closes this socket</td></tr>
-</tbody></table>
+|void connect(SocketAddress host, int timeout)|connects the socket to the particularized host|
+|int getPort()|returns the port to which the socket is pinned on the remote machine|
+|InetAddress getInetAddress()|returns the location of the other computer to which the socket is connected|
+|int getLocalPort()|returns the port to which the socket is joined on the local machine|
+|SocketAddress getRemoteSocketAddress()|returns the location of the remote socket|
+|InputStream getInputStream()|returns the input stream of the socket|
+|OutputStream getOutputStream()|returns the output stream of the socket|
+|synchronized void close()|closes the socket|
 
 ### ServerSocket Class :
 
 The ServerSocket class can be used to create a server socket. This object is used to establish communication with the clients.
 
 **Important methods :**
-<table class="alt">
-<tbody><tr><th>Method</th><th>Description</th></tr>
-<tr><td>1) public Socket accept()</td><td>returns the socket and establish a connection between server and client.</td></tr>
-<tr><td>2) public synchronized void close()</td><td>closes the server socket.</td></tr>
-</tbody></table>
+|Method|Description|
+|-|-|
+|int getLocalPort()|returns the port that the server socket is monitoring on|
+|void setSoTimeout(int timeout)|sets the time-out in which the server socket pauses for a client during the accept() method|
+|Socket accept()|waits for an incoming client; returns the socket and establish a connection between server and client|
+|void bind(SocketAddress host, int backlog)|bind the socket to the particularized server and port in the object of SocketAddress|
+|synchronized void close()|closes the server socket|
+
 
 ## Example of Java Socket Programming
 
