@@ -37,45 +37,16 @@ It is a logical address that can be changed.
 ## java.net package
 The java.net package provides many classes to deal with networking applications in Java. A list of these classes is given below:
 
-- Authenticator
-- CacheRequest
-- CacheResponse
-- ContentHandler
-- CookieHandler
-- CookieManager
-- DatagramPacket
-- DatagramSocket
-- DatagramSocketImpl
-- InterfaceAddress
-- JarURLConnection
-- MulticastSocket
-- InetSocketAddress
-- InetAddress
-- Inet4Address
-- Inet6Address
-- IDN
-- HttpURLConnection
-- HttpCookie
-- NetPermission
-- NetworkInterface
-- PasswordAuthentication
-- Proxy
-- ProxySelector
-- ResponseCache
-- SecureCacheResponse
-- ServerSocket
-- Socket
-- SocketAddress
-- SocketImpl
-- SocketPermission
-- StandardSocketOptions
-- URI
-- URL
-- URLClassLoader
-- URLConnection
-- URLDecoder
-- URLEncoder
-- URLStreamHandler
+| <!-- -->    | <!-- -->    | <!-- -->    | <!-- -->    | <!-- -->    |
+|-------------|-------------|-------------|-------------|-------------|
+|Authenticator|CacheRequest|CacheResponse|ContentHandler|CookieHandler|
+|CookieManager|DatagramPacket|DatagramSocket|DatagramSocketImpl|InterfaceAddress|
+|JarURLConnection|MulticastSocket|InetSocketAddress|InetAddress|Inet4Address|
+|Inet6Address|IDN|HttpURLConnection|HttpCookie|NetPermission|
+|NetworkInterface|PasswordAuthentication|Proxy|ProxySelector|ResponseCache|
+|SecureCacheResponse|ServerSocket|Socket|SocketAddress|SocketImpl|
+|SocketPermission|StandardSocketOptions|URI|URL|URLClassLoader|
+|URLConnection|URLDecoder|URLEncoder|URLStreamHandler|-|
 
 ## Java Socket Programming
 
