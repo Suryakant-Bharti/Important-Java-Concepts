@@ -168,7 +168,7 @@ Wakes up all threads that are waiting on this object's monitor.
 <tr><td>should be notified by notify() or notifyAll() methods</td><td>after the specified amount of time, sleep is completed.</td></tr>
 </tbody></table>
 
-**Simple Example :**
+**Example of Inter Thread Communication :**
 ```java
 class Customer {
  int amount = 10000;
