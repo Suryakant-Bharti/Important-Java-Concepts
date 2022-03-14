@@ -26,6 +26,10 @@
 
 *[-> Java Fundamentals & OOPS Concepts](java_basicsI_and_oops)*
 
+*[-> Java Interview Questions - 2022](https://www.interviewbit.com/java-interview-questions/)*
+
+*[-> Java Cheat Sheet - 2022](https://www.interviewbit.com/java-cheat-sheet/)*
+
 *[-> Java OOPS - few points to remember](_moreReadMe/oopsRules)*
 
 *[-> Methods of Number, Char, String, Array Classes](_moreReadMe/importantMethods)*
