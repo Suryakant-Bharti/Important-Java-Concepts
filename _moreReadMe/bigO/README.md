@@ -1,58 +1,15 @@
-## Learn Java Programming
+# Big-O Cheatsheets
 
-**This Repo contains Java Programs related to Concepts of :**
-- *Software Engineering*
-- *StackOverflow Questions*
-- *Interview Questions*
+Big O, Big Theta and Big Omega notations express an algorithm’s time and space complexity. It helps us to quantify the efficiency of our code.
 
-.
+- **Big O:** Worst-case performance of an algorithm.
+- **Big Theta (Θ):** Average performance of an algorithm.
+- **Big Omega (Ω):** Best-case performance of an algorithm.
 
-### 1. Java - Few Important Concepts
+## Common Data Structures
 
-#### Callbacks
+![common datastructures](https://github.com/Suryakant-Bharti/Important-Java-Concepts/assets/2780145/fd776e01-1887-4c50-bc3f-6712d29eec0a)
 
-#### Functional Programming
+## Sorting Algorithms
 
-#### X vs Y | Performance Comparisons
-
-#### New Features - Till Java7 | Java8 | Java11 | Java17
-
-#### Java Libraries - lang | util | io/nio | math | others
-
-.
-
-### 2. Third Party Libraries & FrameWorks
-
-#### HTTP Client - Retrofit 2 (+Android)
-
-#### Reactive Programming - RxJava 2 (+Android)
-
-#### Dependency Injection - Dagger 2 (+Android)
-
-.
-
-### 3. Important Tools & Technologies (External Repos)
-
-#### Version Control (git & gitHub)
-
-#### Build Automation System (Gradle)
-
-#### Linux & Bash Shell
-
-#### Android App Development
-
-#### Android Game Development
-
-.
-
-### 6. Extras
-
-#### Glossary (java, ds, algo)
-
-#### Cheat Sheets (keywords, big-O, uml)
-
-#### StackOverflow Questions (java)
-
-#### Interview Questions (java)
-
-#### Puzzles & HR Questions
+![sorting_algorithms](https://github.com/Suryakant-Bharti/Important-Java-Concepts/assets/2780145/d8d54a3e-55de-4321-afc1-eda8f01aea60)
