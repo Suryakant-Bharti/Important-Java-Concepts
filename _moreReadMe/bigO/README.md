@@ -8,7 +8,11 @@ Big O, Big Theta and Big Omega notations express an algorithm’s time and space
 
 ## Common Data Structures
 
-![common datastructures](https://github.com/Suryakant-Bharti/Important-Java-Concepts/assets/2780145/fd776e01-1887-4c50-bc3f-6712d29eec0a)
+
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/2780145/296349334-fd776e01-1887-4c50-bc3f-6712d29eec0a.png" width="100%" height="100%">
+
+
+![common datastructures](https://github-production-user-asset-6210df.s3.amazonaws.com/2780145/296349334-fd776e01-1887-4c50-bc3f-6712d29eec0a.png)
 
 ## Sorting Algorithms
 
