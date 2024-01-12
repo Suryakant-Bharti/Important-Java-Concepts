@@ -22,13 +22,13 @@
 
 *[-> All 50 Java Keywords with definitions & examples](_moreReadMe/keywords)*
 
-*[-> Java Features, Execution Process & JVM Internals](_moreReadMe/howItWorks)*
+*[-> Java Features, Execution Process & JVM Internals](_moreReadMe/how_it_works)*
 
 *[-> Java Fundamentals & OOPS Concepts](java_basicsI_and_oops)*
 
-*[-> Java OOPS - few points to remember](_moreReadMe/oopsRules)*
+*[-> Java OOPS - few points to remember](_moreReadMe/oops_rules)*
 
-*[-> Methods of Number, Char, String, Array Classes](_moreReadMe/importantMethods)*
+*[-> Methods of Number, Char, String, Array Classes](_moreReadMe/important_methods)*
 
 ### PROGRAMS :
 #### [Variables & Operators](java_basicsI_and_oops/variables_and_operators) | [Control Flow](java_basicsI_and_oops/control_flow) 
@@ -102,7 +102,7 @@
 ### NOTES [Useful Info] :
 *[-> Java Multithreading & Garbage Collection](_moreReadMe/multithreading)*
 
-*[-> Java Thread Synchronization](_moreReadMe/threadSynchronization)*
+*[-> Java Thread Synchronization](_moreReadMe/thread_synchronization)*
 
 ### PROGRAMS :
 #### [Multithreading](java_concurrency/multithreading)
@@ -179,7 +179,7 @@
 
 #### [Dynamic Programming](java_datastructures_algorithms/dynamic_programming)
 
-#### [Coding Interview Problems](java_coding)
+#### [Coding Interview Problems](leetcode_java_coding)
 
 .
 
