@@ -193,15 +193,15 @@
 - *Officially supported by Spring Framework, JetBrains Ktor, Eclipse Vert.x (server-side dev)*
 
 ### NOTES [Useful Info] :
-*[-> Kotlin Funadamentals and OOP](_moreReadMe/kotlin_basics)*
+*[-> Kotlin Funadamentals and OOP](_notes_kotlin/kotlin_basics)*
 
-*[-> Data Structures in Kotlin](kotlin_algorithms/src/main/algo)*
+*[-> Data Structures in Kotlin](_programs_java/kotlin_algorithms/src/main/algo)*
 
-*[-> Design Patterns in Kotlin](kotlin_designpatterns/patterns/src/test/kotlin)*
+*[-> Design Patterns in Kotlin](_programs_java/kotlin_designpatterns/patterns/src/test/kotlin)*
 
-*[-> Kotlin Overview, Features & Multi-platform Support](_moreReadMe/kotlin_overview)*
+*[-> Kotlin Overview, Features & Multi-platform Support](_notes_kotlin/kotlin_overview)*
 
-*[-> Java to Kotlin CheatSheets](_moreReadMe/kotlin_java_cheatsheets)*
+*[-> Java to Kotlin CheatSheets](_notes_kotlin/kotlin_java_cheatsheets)*
 
 ### PROGRAMS :
 #### Basic Syntax Programs
