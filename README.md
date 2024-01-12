@@ -122,7 +122,7 @@
 ## [5] Java - Software Design [WIP]
 ![software design](https://user-images.githubusercontent.com/2780145/109359203-0c895680-78ab-11eb-8347-f5efb39f086c.png)
 ### NOTES [Useful Info] :
-*[-> Design Patterns & Examples in JDK](_moreReadMe/design_patterns_intro)*
+*[-> Design Patterns & Examples in JDK](_notes_others/design_patterns_intro)*
 
 *-> Creational Patterns: [Singleton](https://medium.com/geekculture/918194310419), [Builder](https://medium.com/geekculture/9c85f65696e5), [Factory Method](https://medium.com/geekculture/895f93cb4b43), [Prototype](https://medium.com/geekculture/cb4209342a2c)*
 
@@ -130,7 +130,7 @@
 
 *-> Behavioral Patterns*
 
-*[-> Design Patterns Cheat Sheet](_moreReadMe/design_patterns_cheatsheet)*
+*[-> Design Patterns Cheat Sheet](_notes_others/design_patterns_cheatsheet)*
 
 ### PROGRAMS :
 
@@ -152,17 +152,17 @@
 ![algo coding](https://user-images.githubusercontent.com/2780145/109364614-2f206d00-78b5-11eb-8752-e28a8cf67f16.png)
 
 ### NOTES [Useful Info] :
-*[-> Common Data Structures](_moreReadMe/ds)*
+*[-> Common Data Structures](_notes_others/ds)*
 
-*[-> Searching and Sorting Algorithms](_moreReadMe/search_sort)*
+*[-> Searching and Sorting Algorithms](_notes_others/search_sort)*
 
-*[-> Tree and Graph Algorithms](_moreReadMe/tree_graph)*
+*[-> Tree and Graph Algorithms](_notes_others/tree_graph)*
 
-*[-> Concepts of Dynamic Programming](_moreReadMe/dp)*
+*[-> Concepts of Dynamic Programming](_notes_others/dp)*
 
-*[-> Big O Cheat Sheet](_moreReadMe/bigO)*
+*[-> Big O Cheat Sheet](_notes_others/bigO)*
 
-*[-> LeetCode Data Structures & Algorithms Patterns](_moreReadMe/leetcode_dsa_patterns)*
+*[-> LeetCode Data Structures & Algorithms Patterns](_notes_others/leetcode_dsa_patterns)*
 
 ### PROGRAMS :
 #### [Basic Programs](_programs_java/java_datastructures_algorithms/basic_programs) | [Recursion Programs](_programs_java/java_datastructures_algorithms/recursion_programs)
@@ -247,13 +247,13 @@
 
 ### NOTES [Useful Info] :
 
-*[-> Retrofit](_moreReadMe/android_retrofit) - type-safe HTTP client for Java & Android*
+*[-> Retrofit](_notes_others/android_retrofit) - type-safe HTTP client for Java & Android*
 
-*[-> Glide](_moreReadMe/android_glide) - efficient image loading lib with media decoding, memory & disk caching*
+*[-> Glide](_notes_others/android_glide) - efficient image loading lib with media decoding, memory & disk caching*
 
-*[-> RoomDB](_moreReadMe/android_roomdb) - ORM based SQLite wrapper for fluent db access*
+*[-> RoomDB](_notes_others/android_roomdb) - ORM based SQLite wrapper for fluent db access*
 
-*[-> WorkManager](_moreReadMe/android_workmanager) - schedule deferrable, asynchronous tasks*
+*[-> WorkManager](_notes_others/android_workmanager) - schedule deferrable, asynchronous tasks*
 
 *-> ViewModel - store & and manage UI-related data in lifecycle-aware way*
 
@@ -303,7 +303,7 @@
 
 ![Junit5](https://user-images.githubusercontent.com/2780145/109352486-eced3080-78a0-11eb-98ca-e10ae5edb116.png)
 
-#### [Basics of Testing in Java](_moreReadMe/testing)
+#### [Basics of Testing in Java](_notes_others/testing)
 
 #### JUnit 5 (Unit Testing Library)
 
@@ -357,19 +357,19 @@
 -->
 ## Relation of Java and Others Languages
 ### NOTES [Useful Info] :
-*[-> Comparisons between C, C++, C# and Java Language](_moreReadMe/cplusplus)*
+*[-> Comparisons between C, C++, C# and Java Language](_notes_others/cplusplus)*
 
-*[-> CheatSheet | C# for Java Developers](_moreReadMe/csharp)*
+*[-> CheatSheet | C# for Java Developers](_notes_others/csharp)*
 
-*[-> Java and Python](_moreReadMe/python)*
+*[-> Java and Python](_notes_others/python)*
 
 .
 
 ## Extras
 ### NOTES :
-*[[USEFUL INFO - Good Java & Computer Science Books for Reference]](_moreReadMe/books)*
+*[[USEFUL INFO - Good Java & Computer Science Books for Reference]](_notes_others/books)*
 
-*[[USEFUL INFO - Great Websites for Learning Java & Computer Science]](_moreReadMe/websites)*
+*[[USEFUL INFO - Great Websites for Learning Java & Computer Science]](_notes_others/websites)*
 
 .
 
