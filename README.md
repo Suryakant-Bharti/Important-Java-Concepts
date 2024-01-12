@@ -162,6 +162,8 @@
 
 *[-> Big O Cheat Sheet](_moreReadMe/bigO)*
 
+*[-> LeetCode Data Structures & Algorithms Patterns](_moreReadMe/leetcode_dsa_patterns)*
+
 ### PROGRAMS :
 #### [Basic Programs](java_datastructures_algorithms/basic_programs) | [Recursion Programs](java_datastructures_algorithms/recursion_programs)
 
@@ -183,7 +185,7 @@
 
 .
 
-## [2022] Kotlin - Modern JVM Language [WIP]
+## [2023] Kotlin - Modern JVM Language [WIP]
 ![kotlin](https://user-images.githubusercontent.com/2780145/109118724-b06ae900-7769-11eb-8693-58862cb69ac5.png)
 - *Fastest growing language in Guthub & among the most loved acc. to StackOverflow survey*
 - *Cross-platform, General-purpose, Concise, Safe & fully interoperable with Java*
@@ -216,7 +218,7 @@
 
 .
 
-## [2022] Android Development (Core COmponents) [WIP]
+## [2023] Android Development (Core COmponents) [WIP]
 ![android](https://user-images.githubusercontent.com/2780145/109120489-05a7fa00-776c-11eb-912e-f539d25a5c56.png)
 - *There are 3.6 billion+ active Android devices across 190+ countries*
 - *Every year, Google Play users worldwide download more than 100 billion mobile apps*
@@ -240,7 +242,7 @@
 
 .
 
-## [2022] Android Development (Java & Android Libraries) [WIP]
+## [2023] Android Development (Java & Android Libraries) [WIP]
 ![android libraries](https://github.com/Suryakant-Bharti/Important-Java-Concepts/assets/2780145/da6e7738-1920-4fc0-b147-705c5c4b6c3e)
 
 ### NOTES [Useful Info] :
@@ -373,7 +375,7 @@
 
 **NOTE :**
 
-    I will keep adding more important codes to this Repo throughout 2022. 
+    I will keep adding more important codes to this Repo throughout 2023. 
 Happy Learning! :smiley:
 
 .
