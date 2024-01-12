@@ -183,7 +183,7 @@
 
 .
 
-## [2021] Kotlin - Modern JVM Language [WIP]
+## [2022] Kotlin - Modern JVM Language [WIP]
 ![kotlin](https://user-images.githubusercontent.com/2780145/109118724-b06ae900-7769-11eb-8693-58862cb69ac5.png)
 - *Fastest growing language in Guthub & among the most loved acc. to StackOverflow survey*
 - *Cross-platform, General-purpose, Concise, Safe & fully interoperable with Java*
@@ -216,17 +216,34 @@
 
 .
 
-## [2021] Android Development (Java & Android Libraries) [WIP]
+## [2022] Android Development (Core COmponents) [WIP]
 ![android](https://user-images.githubusercontent.com/2780145/109120489-05a7fa00-776c-11eb-912e-f539d25a5c56.png)
-- *There are 2.5 billion+ monthly active Android devices*
-- *In 2020, Google Play users worldwide downloaded 108.5 billion mobile apps*
+- *There are 3.6 billion+ active Android devices across 190+ countries*
+- *Every year, Google Play users worldwide download more than 100 billion mobile apps*
 - *Native Apps have better performance, security, access to device hardware and software*
 - *Native apps tends to have less bugs, gets latest features first and run smoother*
 
 ### NOTES [Useful Info] :
 *-> UI Basics - XML layouts, views, event handlers*
 
+*-> Activity*
+
+*-> Fragment*
+
 *-> Recycler View - display scrolling list data using adapter pattern*
+
+*-> Intent*
+
+*-> Broadcast Receiver*
+
+*-> Content Provider*
+
+.
+
+## [2022] Android Development (Java & Android Libraries) [WIP]
+![android libraries](https://github.com/Suryakant-Bharti/Important-Java-Concepts/assets/2780145/da6e7738-1920-4fc0-b147-705c5c4b6c3e)
+
+### NOTES [Useful Info] :
 
 *[-> Retrofit](_moreReadMe/android_retrofit) - type-safe HTTP client for Java & Android*
 
@@ -249,9 +266,6 @@
 *-> JUnit - developer-side testing on the JVM (unit testing framework)*
 
 *-> Mockito - mocking objects in unit tests (test doubling framework)
-
-### PROGRAMS :
-#### ...
 
 .
 
@@ -359,7 +373,7 @@
 
 **NOTE :**
 
-    I will keep adding more important codes to this Repo throughout 2021. 
+    I will keep adding more important codes to this Repo throughout 2022. 
 Happy Learning! :smiley:
 
 .
