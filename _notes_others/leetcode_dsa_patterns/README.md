@@ -1,8 +1,14 @@
-## Data Structures & Algorithms Patterns
+# Data Structures & Algorithms Patterns
 
-Code templetes for [Data Structures and Algorithms Crash Course](https://leetcode.com/explore/interview/card/leetcodes-interview-crash-course-data-structures-and-algorithms/) from LeetCode & some mine.
+Code templetes for [Data Structures and Algorithms Crash Course](https://leetcode.com/explore/interview/card/leetcodes-interview-crash-course-data-structures-and-algorithms/) from LeetCode (with some edits from me).
 
-## 1) Array - Two pointers: one input, opposite ends
+### Helper Flowchart
+
+NOTE: This is a helper flowchart, it covers majority of problems. But, it is not possible to cover all possible problems.
+
+![flowchart](https://github.com/Suryakant-Bharti/Important-Java-Concepts/assets/2780145/66a204d9-5e7d-484a-b04d-71ac2f1c2c86)
+
+### 1) Array - Two pointers: one input, opposite ends
 
 ```java
 public int fn(int[] arr) {
@@ -24,7 +30,7 @@ public int fn(int[] arr) {
 ```
 
 
-## 2) Array - Two pointers: two inputs, exhaust both
+### 2) Array - Two pointers: two inputs, exhaust both
 
 ```java
 public int fn(int[] arr1, int[] arr2) {
@@ -54,7 +60,7 @@ public int fn(int[] arr1, int[] arr2) {
 ```
 
 
-## 3) Array - Sliding window
+### 3) Array - Sliding window
 
 ```java
 public int fn(int[] arr) {
@@ -76,7 +82,7 @@ public int fn(int[] arr) {
 ```
 
 
-## 4) Array - Build a prefix sum
+### 4) Array - Build a prefix sum
 
 ```java
 public int[] fn(int[] arr) {
@@ -92,7 +98,7 @@ public int[] fn(int[] arr) {
 ```
 
 
-## 5) Efficient string building
+### 5) Efficient string building
 
 ```java
 public String fn(char[] arr) {
@@ -106,7 +112,7 @@ public String fn(char[] arr) {
 ```
 
 
-## 6) Linked list: fast and slow pointer
+### 6) Linked list: fast and slow pointer
 
 ```java
 public int fn(ListNode head) {
@@ -125,7 +131,7 @@ public int fn(ListNode head) {
 ```
 
 
-## 7) Reversing a linked list
+### 7) Reversing a linked list
 
 ```java
 public ListNode fn(ListNode head) {
@@ -143,7 +149,7 @@ public ListNode fn(ListNode head) {
 ```
 
 
-## 8) Find number of subarrays that fit an exact criteria
+### 8) Find number of subarrays that fit an exact criteria
 
 ```java
 public int fn(int[] arr, int k) {
@@ -162,7 +168,7 @@ public int fn(int[] arr, int k) {
 ```
 
 
-## 9) Monotonic increasing stack
+### 9) Monotonic increasing stack
 
 The same logic can be applied to maintain a monotonic queue.
 
@@ -186,7 +192,7 @@ public int fn(int[] arr) {
 ```
 
 
-## 10) Binary tree: DFS (recursive)
+### 10) Binary tree: DFS (recursive)
 
 ```java
 public int dfs(TreeNode root) {
@@ -203,7 +209,7 @@ public int dfs(TreeNode root) {
 ```
 
 
-## 11) Binary tree: DFS (recursive)
+### 11) Binary tree: DFS (recursive)
 
 ```java
 public int dfs(TreeNode root) {
@@ -227,7 +233,7 @@ public int dfs(TreeNode root) {
 ```
 
 
-## 12) Binary tree: BFS
+### 12) Binary tree: BFS
 
 ```java
 public int fn(TreeNode root) {
@@ -256,7 +262,7 @@ public int fn(TreeNode root) {
 ```
 
 
-## 13) Graph: DFS (recursive)
+### 13) Graph: DFS (recursive)
 
 For the graph templates, assume the nodes are numbered from 0 to n - 1 and the graph is given as an adjacency list. Depending on the problem, you may need to convert the input into an equivalent adjacency list before using the templates.
 
@@ -283,7 +289,7 @@ public int dfs(int node, int[][] graph) {
 ```
 
 
-## 14) Graph: DFS (iterative)
+### 14) Graph: DFS (iterative)
 
 ```java
 public int fn(int[][] graph) {
@@ -309,7 +315,7 @@ public int fn(int[][] graph) {
 ```
 
 
-## 15) Graph: BFS
+### 15) Graph: BFS
 
 ```java
 public int fn(int[][] graph) {
@@ -335,9 +341,7 @@ public int fn(int[][] graph) {
 ```
 
 
-## 16) Find top k elements with heap
-
-
+### 16) Find top k elements with heap
 
 ```java
 public int[] fn(int[] arr, int k) {
@@ -359,7 +363,7 @@ public int[] fn(int[] arr, int k) {
 ```
 
 
-## 17) Binary search
+### 17) Binary search
 
 ```java
 public int fn(int[] arr, int target) {
@@ -384,7 +388,7 @@ public int fn(int[] arr, int target) {
 ```
 
 
-## 18) Binary search: duplicate elements, left-most insertion point
+### 18) Binary search: duplicate elements, left-most insertion point
 
 ```java
 public int fn(int[] arr, int target) {
@@ -404,7 +408,7 @@ public int fn(int[] arr, int target) {
 ```
 
 
-## 19) Binary search: duplicate elements, right-most insertion point
+### 19) Binary search: duplicate elements, right-most insertion point
 
 ```java
 public int fn(int[] arr, int target) {
@@ -424,7 +428,7 @@ public int fn(int[] arr, int target) {
 ```
 
 
-## 20) Binary search: for greedy problems - looking for minimum
+### 20) Binary search: for greedy problems - looking for minimum
 
 ```java
 public int fn(int[] arr) {
@@ -449,7 +453,7 @@ public boolean check(int x) {
 ```
 
 
-## 21) Binary search: for greedy problems - looking for maximum
+### 21) Binary search: for greedy problems - looking for maximum
 
 ```java
 public int fn(int[] arr) {
@@ -474,7 +478,7 @@ public boolean check(int x) {
 ```
 
 
-## 22) Backtracking problems
+### 22) Backtracking problems
 
 ```java
 public int backtrack(STATE curr, OTHER_ARGUMENTS...) {
@@ -493,7 +497,7 @@ public int backtrack(STATE curr, OTHER_ARGUMENTS...) {
 ```
 
 
-## 23) Dynamic programming: top-down memoization
+### 23) Dynamic programming: top-down memoization
 
 ```java
 Map<STATE, Integer> memo = new HashMap<>();
@@ -518,7 +522,7 @@ public int dp(STATE, int[] arr) {
 ```
 
 
-## 24) Build a trie
+### 24) Build a trie
 
 ```java
 // note: using a class is only necessary if you want to store data at each node.
@@ -553,7 +557,7 @@ public TrieNode buildTrie(String[] words) {
 ```
 
 
-## 25) Dijkstra's algorithm
+### 25) Dijkstra's algorithm
 
 ```java
 int[] distances = new int[n];
