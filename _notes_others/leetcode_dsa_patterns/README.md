@@ -8,6 +8,49 @@ NOTE: This is a helper flowchart, it covers majority of problems. But, it is not
 
 ![flowchart](https://github.com/Suryakant-Bharti/Important-Java-Concepts/assets/2780145/66a204d9-5e7d-484a-b04d-71ac2f1c2c86)
 
+
+```java
+java.util.*
+
+**Types:** Boolean char-Character Byte Short int-Integer Long Float Double
+
+int[] ar = new int[5]; int ar[] = {3, 1, 9, 2};
+int c[][]=new int[2][3]; int a[][]={{1,3,4},{3,4,5}};
+**Array Class:** List<Integer> l1 = Arrays.asList(ar);
+Arrays.sort(ar); Arrays.binarySearch(ar,9);
+
+List<String> al = new ArrayList<String>();
+int size = al.size(); al.add("Ravi");  al.remove(0);   //index
+
+Set<String> hs = new HashSet<String>(); 
+hs.add("A");  hs.contains(str);  hs.remove("B"); 
+for (String val:hs) println(val);
+
+Map<Integer,String> map = new HashMap<Integer,String>();  
+map.put(100,"Amit");     map.remove(102);
+map.containsKey(5);     map.containsValue("World");
+for(Map.Entry m:map.entrySet());  println(m.getKey()+" "+m.getValue());   
+
+Collections.max(al);  Collections.min(al);   Collections.sort(al)
+
+length can be used for int[], double[], String[]
+
+**String Class:** i length(), ch charAt(i ind), bo contains(chSeq s), 
+bo equals(Obj another), sr replace(ch old, ch new), sr trim()
+sr[] split(sr regex), i indexOf(i ch), toLowerCase() 
+
+public class ListNode {
+int val; ListNode next;
+ListNode(int x) { val = x; }
+
+public ListNode reverseList(ListNode head) {
+     if(head == null || head.next == null)   return head;
+     -ListNode newHead=reverseList(head.next);
+     -head.next.next=head;  head.next=null;
+     return newHead;}
+```
+
+
 ### 1) Array - Two pointers: one input, opposite ends
 
 ```java
