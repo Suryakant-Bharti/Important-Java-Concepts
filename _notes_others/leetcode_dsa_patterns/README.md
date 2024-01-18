@@ -24,12 +24,12 @@ int size = al.size(); al.add("Ravi");  al.remove(0);   //index
 
 Set<String> hs = new HashSet<String>(); 
 hs.add("A");  hs.contains(str);  hs.remove("B"); 
-for (String val:hs) println(val);
+for (String val:hs) { println(val);}
 
 Map<Integer,String> map = new HashMap<Integer,String>();  
 map.put(100,"Amit");     map.remove(102);
 map.containsKey(5);     map.containsValue("World");
-for(Map.Entry m:map.entrySet());  println(m.getKey()+" "+m.getValue());   
+for(Map.Entry m:map.entrySet()){  println(m.getKey()+" "+m.getValue())}  
 
 Collections.max(al);  Collections.min(al);   Collections.sort(al)
 
