@@ -155,44 +155,7 @@ public String fn(char[] arr) {
 ```
 
 
-### 6) Linked list: fast and slow pointer
-
-```java
-public int fn(ListNode head) {
-    ListNode slow = head;
-    ListNode fast = head;
-    int ans = 0;
-
-    while (fast != null && fast.next != null) {
-        // do logic
-        slow = slow.next;
-        fast = fast.next.next;
-    }
-
-    return ans;
-}
-```
-
-
-### 7) Reversing a linked list
-
-```java
-public ListNode fn(ListNode head) {
-    ListNode curr = head;
-    ListNode prev = null;
-    while (curr != null) {
-        ListNode nextNode = curr.next;
-        curr.next = prev;
-        prev = curr;
-        curr = nextNode;
-    }
-
-    return prev;
-}
-```
-
-
-### 8) Find number of subarrays that fit an exact criteria
+### 6) Find number of subarrays that fit an exact criteria
 
 ```java
 public int fn(int[] arr, int k) {
@@ -211,7 +174,32 @@ public int fn(int[] arr, int k) {
 ```
 
 
-### 9) Monotonic increasing stack
+### 7) Binary search
+
+```java
+public int fn(int[] arr, int target) {
+    int left = 0;
+    int right = arr.length - 1;
+    while (left <= right) {
+        int mid = left + (right - left) / 2;
+        if (arr[mid] == target) {
+            // do something
+            return mid;
+        }
+        if (arr[mid] > target) {
+            right = mid - 1;
+        } else {
+            left = mid + 1;
+        }
+    }
+
+    // left is the insertion point
+    return left;
+}
+```
+
+
+### 8) Monotonic increasing stack
 
 The same logic can be applied to maintain a monotonic queue.
 
@@ -235,7 +223,66 @@ public int fn(int[] arr) {
 ```
 
 
-### 10) Binary tree: DFS (recursive)
+### 9) Find top k elements with heap
+
+```java
+public int[] fn(int[] arr, int k) {
+    PriorityQueue<Integer> heap = new PriorityQueue<>(CRITERIA);
+    for (int num: arr) {
+        heap.add(num);
+        if (heap.size() > k) {
+            heap.remove();
+        }
+    }
+
+    int[] ans = new int[k];
+    for (int i = 0; i < k; i++) {
+        ans[i] = heap.remove();
+    }
+
+    return ans;
+}
+```
+
+
+### 10) Linked list: fast and slow pointer
+
+```java
+public int fn(ListNode head) {
+    ListNode slow = head;
+    ListNode fast = head;
+    int ans = 0;
+
+    while (fast != null && fast.next != null) {
+        // do logic
+        slow = slow.next;
+        fast = fast.next.next;
+    }
+
+    return ans;
+}
+```
+
+
+### 11) Reversing a linked list
+
+```java
+public ListNode fn(ListNode head) {
+    ListNode curr = head;
+    ListNode prev = null;
+    while (curr != null) {
+        ListNode nextNode = curr.next;
+        curr.next = prev;
+        prev = curr;
+        curr = nextNode;
+    }
+
+    return prev;
+}
+```
+
+
+### 12) Binary tree: DFS (recursive)
 
 ```java
 public int dfs(TreeNode root) {
@@ -252,7 +299,7 @@ public int dfs(TreeNode root) {
 ```
 
 
-### 11) Binary tree: DFS (recursive)
+### 13) Binary tree: DFS (iterative)
 
 ```java
 public int dfs(TreeNode root) {
@@ -276,7 +323,7 @@ public int dfs(TreeNode root) {
 ```
 
 
-### 12) Binary tree: BFS
+### 14) Binary tree: BFS (iterative)
 
 ```java
 public int fn(TreeNode root) {
@@ -305,9 +352,11 @@ public int fn(TreeNode root) {
 ```
 
 
-### 13) Graph: DFS (recursive)
+### 15) Graph: DFS (recursive)
 
-For the graph templates, assume the nodes are numbered from 0 to n - 1 and the graph is given as an adjacency list. Depending on the problem, you may need to convert the input into an equivalent adjacency list before using the templates.
+For the graph templates, assume the nodes are numbered from 0 to n - 1 and the graph is given as an adjacency list. 
+
+Depending on the problem, you may need to convert the input into an equivalent adjacency list before using the templates.
 
 ```java
 Set<Integer> seen = new HashSet<>();
@@ -332,7 +381,7 @@ public int dfs(int node, int[][] graph) {
 ```
 
 
-### 14) Graph: DFS (iterative)
+### 16) Graph: DFS (iterative)
 
 ```java
 public int fn(int[][] graph) {
@@ -358,7 +407,7 @@ public int fn(int[][] graph) {
 ```
 
 
-### 15) Graph: BFS
+### 17) Graph: BFS (iterative)
 
 ```java
 public int fn(int[][] graph) {
@@ -380,53 +429,6 @@ public int fn(int[][] graph) {
     }
 
     return ans;
-}
-```
-
-
-### 16) Find top k elements with heap
-
-```java
-public int[] fn(int[] arr, int k) {
-    PriorityQueue<Integer> heap = new PriorityQueue<>(CRITERIA);
-    for (int num: arr) {
-        heap.add(num);
-        if (heap.size() > k) {
-            heap.remove();
-        }
-    }
-
-    int[] ans = new int[k];
-    for (int i = 0; i < k; i++) {
-        ans[i] = heap.remove();
-    }
-
-    return ans;
-}
-```
-
-
-### 17) Binary search
-
-```java
-public int fn(int[] arr, int target) {
-    int left = 0;
-    int right = arr.length - 1;
-    while (left <= right) {
-        int mid = left + (right - left) / 2;
-        if (arr[mid] == target) {
-            // do something
-            return mid;
-        }
-        if (arr[mid] > target) {
-            right = mid - 1;
-        } else {
-            left = mid + 1;
-        }
-    }
-
-    // left is the insertion point
-    return left;
 }
 ```
 
