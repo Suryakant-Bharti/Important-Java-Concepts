@@ -7,6 +7,32 @@
 
 .
 
+### Java - Threads
+
+#### Operating Systems (CPU Scheduling, Memory Management)
+
+#### Background Processing
+
+#### Inter-Process Communication
+
+.
+
+### Java - I/O
+
+#### Data Parsing (CSV, JSON & XML)
+
+#### Advanced Data Types (Protobuf, Flatbuffer)
+
+.
+
+### Java - Software Design
+
+#### Object Oriented Design
+
+#### Design Interview Questions
+
+.
+
 ### 1. Java - Few Important Concepts
 
 #### Callbacks
