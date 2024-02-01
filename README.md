@@ -91,10 +91,6 @@
 
 #### [Lambda Expressions](_programs_java/java_misc_advanced_concepts/lambda)
 
-#### Data Parsing (CSV, JSON & XML)
-
-#### Advanced Data Types (Protobuf, Flatbuffer)
-
 .
 
 ## [4] Java - Threads, Concurrency & Concurrent Collections [WIP]
@@ -110,12 +106,6 @@
 #### [Thread Synchronization](_programs_java/java_concurrency/synchronization)
 
 #### [Classic Concurrency Problems](_programs_java/java_concurrency/classic_problems)
-
-#### Operating Systems (CPU Scheduling, Memory Management)
-
-#### Background Processing
-
-#### Inter-Process Communication
 
 .
 
@@ -141,10 +131,6 @@
 #### [GOF Design Patterns - Behavioral](_programs_java/java_design_patterns/gof_behavioral)
 
 #### SOLID Design Principles 
-
-#### Object Oriented Design
-
-#### Design Interview Questions
 
 .
 
