@@ -4,7 +4,7 @@
 - *Software Engineering*
 - *StackOverflow Questions*
 - *Interview Questions*
-
+- *Spring Boot REST API (Java & Kotlin)*
 .
 
 ### Java - Threads
@@ -82,3 +82,93 @@
 #### Interview Questions (java)
 
 #### Puzzles & HR Questions
+
+
+
+
+
+
+<!--
+## Intro to Databases & Spring boot Develpment (Java & Kotlin)
+
+<details>
+    <summary><b>To be done later</b></summary>
+
+![Springboot](https://user-images.githubusercontent.com/2780145/109139875-051a5e00-7782-11eb-9d56-65bad2dcf23c.png)
+#### JDBC (Java Database Connectivity)
+
+#### SQL Basics (DDL,DML,DQL)
+
+#### MySQL (SQL Database)
+
+#### MongoDB (NoSQL Database)
+
+#### SQL Intermediate (DCL,TCL)
+
+#### ORM (Object-Relational Mapping)
+
+#### Hibernate 5 (ORM Library)
+        
+</details>
+
+.
+
+## Intro to Developer-Side Testing (JUnit)
+
+<details>
+    <summary><b>To be done later</b></summary>
+
+![Junit5](https://user-images.githubusercontent.com/2780145/109352486-eced3080-78a0-11eb-98ca-e10ae5edb116.png)
+
+#### [Basics of Testing in Java](_notes_others/testing)
+
+#### JUnit 5 (Unit Testing Library)
+
+#### Mockito 2 (Test Doubling Library)
+
+#### Understanding Test Driven Development
+    
+</details>
+
+.
+
+## Java - Software Development
+
+<details>
+    <summary><b>To be done later</b></summary>
+    
+#### Java Best Practices
+
+#### Class Relationships (Design Basics)
+
+#### SE Funadamentals
+
+#### OOAD Funadamentals
+
+#### Refactoring & Regression
+
+#### Behaviour Driven Development
+    
+</details>
+
+.
+
+## Technical Diagrams for Developers
+    
+<details>
+    <summary><b>To be done later</b></summary>
+
+#### Database Schema
+
+#### Entity-Relationship Diagram (ERD)
+
+#### Unified Modeling Language (UML)
+
+#### Control-Flow Diagram (CFD)
+
+#### Data-Flow Diagram (DFD)
+    
+</details>
+
+.
+-->
