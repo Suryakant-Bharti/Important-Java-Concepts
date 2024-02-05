@@ -12,9 +12,9 @@
 - *Data Structures in Java*
 - *Algorithms in Java*
 - *Kotlin - Modern JVM Language*
-- *Android Development (Java & Kotlin)*
-- *Spring Boot REST API (Java & Kotlin)*
-- *Unit Testing in Java*
+- *Android Development (Kotlin)*
+- *Android Libraries (Kotlin)*
+- *Unit Testing in Java/Kotlin*
 
 ![quote2](https://user-images.githubusercontent.com/2780145/109364626-334c8a80-78b5-11eb-9d20-70d056b66377.png)
 ## [1] Java - Fundamentals & OOPS [Done]
@@ -204,7 +204,7 @@
 
 .
 
-## [2023] Android Development (Core COmponents) [WIP]
+## [2023] Android Development (Core Components) [WIP]
 ![android](https://user-images.githubusercontent.com/2780145/109120489-05a7fa00-776c-11eb-912e-f539d25a5c56.png)
 - *There are 3.6 billion+ active Android devices across 190+ countries*
 - *Every year, Google Play users worldwide download more than 100 billion mobile apps*
@@ -257,90 +257,6 @@
 
 .
 
-<!--
-## Intro to Databases & Spring boot Develpment (Java & Kotlin)
-
-<details>
-    <summary><b>To be done later</b></summary>
-
-![Springboot](https://user-images.githubusercontent.com/2780145/109139875-051a5e00-7782-11eb-9d56-65bad2dcf23c.png)
-#### JDBC (Java Database Connectivity)
-
-#### SQL Basics (DDL,DML,DQL)
-
-#### MySQL (SQL Database)
-
-#### MongoDB (NoSQL Database)
-
-#### SQL Intermediate (DCL,TCL)
-
-#### ORM (Object-Relational Mapping)
-
-#### Hibernate 5 (ORM Library)
-        
-</details>
-
-.
-
-## Intro to Developer-Side Testing (JUnit)
-
-<details>
-    <summary><b>To be done later</b></summary>
-
-![Junit5](https://user-images.githubusercontent.com/2780145/109352486-eced3080-78a0-11eb-98ca-e10ae5edb116.png)
-
-#### [Basics of Testing in Java](_notes_others/testing)
-
-#### JUnit 5 (Unit Testing Library)
-
-#### Mockito 2 (Test Doubling Library)
-
-#### Understanding Test Driven Development
-    
-</details>
-
-.
-
-## Java - Software Development
-
-<details>
-    <summary><b>To be done later</b></summary>
-    
-#### Java Best Practices
-
-#### Class Relationships (Design Basics)
-
-#### SE Funadamentals
-
-#### OOAD Funadamentals
-
-#### Refactoring & Regression
-
-#### Behaviour Driven Development
-    
-</details>
-
-.
-
-## Technical Diagrams for Developers
-    
-<details>
-    <summary><b>To be done later</b></summary>
-
-#### Database Schema
-
-#### Entity-Relationship Diagram (ERD)
-
-#### Unified Modeling Language (UML)
-
-#### Control-Flow Diagram (CFD)
-
-#### Data-Flow Diagram (DFD)
-    
-</details>
-
-.
--->
 ## Relation of Java and Others Languages
 ### NOTES [Useful Info] :
 *[-> Comparisons between C, C++, C# and Java Language](_notes_others/cplusplus)*
