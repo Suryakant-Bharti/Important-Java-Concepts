@@ -9,6 +9,101 @@ NOTE: This is a helper flowchart, it covers majority of problems. But, it is not
 ![flowchart](https://github.com/Suryakant-Bharti/Important-Java-Concepts/assets/2780145/66a204d9-5e7d-484a-b04d-71ac2f1c2c86)
 
 
+
+```kotlin
+fun main() {
+    var myList = LinkedList()
+    myList.addAtHead(99)
+    myList.addAtHead("kkkk")
+    println(myList.get(1))
+}
+
+class LinkedList {
+    var head: Node? = null
+    var tail: Node? = null
+    var length: Int = 0
+    inner class Node(var value: Any?){
+        var next: Node? = null
+    }
+
+    fun addAtHead(value: Any?){
+        val h = this.head
+        val newNode = Node(value)
+        newNode.next = this.head
+        head = newNode
+        if (h == null) tail = newNode
+        this.length++
+    }
+
+    fun addAtTail(value: Any?){
+        var h = head
+        val newNode = Node(value)
+        newNode.next = null
+        while (h!!.next !=null) h = h.next
+        h.next = newNode
+        tail = newNode
+        this.length++
+    }
+
+    fun addAtIndex(index: Int, value: Any?){
+        var h = head
+        var newNode = Node(value)
+        var counter = 0
+        if (index < 0 || index > this.length) return
+        if (index == 0) {
+            addAtHead(value)
+            return
+        }
+        if (index == this.length) {
+            addAtTail(value)
+            return
+        }
+        while (counter != index-1){
+            h = h!!.next
+            counter++
+        }
+        newNode.next = h!!.next
+        h.next = newNode
+        this.length++
+    }
+
+    fun deleteAtIndex(index: Int) {
+        var curr = this.head
+        var prev:Node? = null
+        var counter = 0
+        if (index < 0 || index >= this.length) return
+        if (index == 0){
+            head = curr!!.next
+            this.length--
+            return
+        }
+        while (counter != index){
+            prev = curr
+            curr = prev!!.next
+            counter++
+        }
+        prev!!.next = curr!!.next
+        if (index == length-1) tail = prev
+        this.length--
+    }
+
+    fun get(index: Int): Any?{
+        var h = head
+        var counter = 0
+        if (index < 0 || index >= this.length) return -1
+        while (counter != index){
+            h = h!!.next
+            counter++
+        }
+        return h!!.value
+    }
+
+}
+```
+
+
+
+
 ```java
 java.util.*
 
