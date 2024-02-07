@@ -11,6 +11,34 @@ NOTE: This is a helper flowchart, it covers majority of problems. But, it is not
 
 
 ```kotlin
+var mutableList = mutableListOf("Mahipal","Nikhil","Rahul")
+mutableList[0] = "Praveen"
+mutableList.add("Abhi")
+for(item in mutableList){
+    println(item)
+}
+
+var mutableSet = mutableSetOf<Int>(6,10)
+mutableSet.add(2)
+mutableSet.add(5)
+for(item in mutableSet){
+    println(item)
+}
+
+var mutableMap = mutableMapOf<Int,String>(1 to "Mahipal",2 to "Nikhil",3 to "Rahul")
+mutableMap.put(1,"Praveen")
+mutableMap.put(4,"Abhi")
+for(value in mutableMap.values){
+    println(value)
+}
+for(key in immutableMap.keys){
+    println(immutableMap[key])
+}
+```
+
+
+
+```kotlin
 fun main() {
     var myList = LinkedList()
     myList.addAtHead(99)
