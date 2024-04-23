@@ -11,29 +11,32 @@ NOTE: This is a helper flowchart, it covers majority of problems. But, it is not
 
 
 ```kotlin
+for(i in 1..<10) { print("$i ") }
+
+val stack = Stack<Int>()  ;  stack.add(5)  ;  stack.removeAt(0)
+stack.push(8)  ;  = stack.pop()  ;  = stack.peek()
+
+val queue = ArrayDeque<Int>()  ;  queue.add(5)
+
 var mutableList = mutableListOf("Mahipal","Nikhil","Rahul")
 mutableList[0] = "Praveen"
 mutableList.add("Abhi")
-for(item in mutableList){
-    println(item)
-}
+for(item in mutableList) { println(item) }
 
 var mutableSet = mutableSetOf<Int>(6,10)
 mutableSet.add(2)
-mutableSet.add(5)
-for(item in mutableSet){
-    println(item)
-}
+for(item in mutableSet){ println(item) }
+mutableSet.contains(str);  mutableSet.remove("B"); 
 
-var mutableMap = mutableMapOf<Int,String>(1 to "Mahipal",2 to "Nikhil",3 to "Rahul")
-mutableMap.put(1,"Praveen")
+var mutableMap = mutableMapOf<Int,String>(1 to "Neha",2 to "Puja")
+mutableMap.put(1,"Rani")
 mutableMap.put(4,"Abhi")
-for(value in mutableMap.values){
-    println(value)
-}
-for(key in immutableMap.keys){
-    println(immutableMap[key])
-}
+
+for(value in mutableMap.values){ println(value) }
+for(key in immutableMap.keys){ println(immutableMap[key]) }
+
+map.put(100,"Amit");     map.remove(102);
+map.containsKey(5);     map.containsValue("World");
 ```
 
 
