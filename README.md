@@ -30,6 +30,8 @@
 
 *[-> Methods of Number, Char, String, Array Classes](_notes_java/java_important_methods)*
 
+*[-> Java Inheritance with Examples](https://boldcoder.blogspot.com/2024/08/inheritance-in-java-with-examples.html)*
+
 ### PROGRAMS :
 #### [Variables & Operators](_programs_java/java_basicsI_and_oops/variables_and_operators) | [Control Flow](_programs_java/java_basicsI_and_oops/control_flow) 
 
